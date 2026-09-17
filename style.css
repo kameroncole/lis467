@@ -1,0 +1,20 @@
+/* Styling for the text */
+.flashing-text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20%;
+    
+    /* Animation definition: name, duration, timing function, loop count */
+    animation: flash 1s infinite alternate;
+}
+
+/* Keyframes controlling the flashing effect */
+@keyframes flash {
+    0% {
+        opacity: 1; /* Fully visible */
+    }
+    100% {
+        opacity: 0; /* Completely hidden */
+    }
+}
