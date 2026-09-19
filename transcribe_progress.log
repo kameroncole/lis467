@@ -1,0 +1,174 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Duration: 1075s
+[    0.0s] By the time we finish this lecture, you should be able to distinguish between client and server
+[    4.6s] and get introduced to HTTP. And in the resources that you find in Moodle and the videos that you
+[   10.3s] have there, you should also be able to follow the key developments in the history of the internet
+[   14.8s] and the World Wide Web. Now in 2019, we finished 30 years, we completed 30 years of the World Wide Web.
+[   21.5s] So let us look at client and server and HTTP.
+[   24.6s] Now take a minute at this point to think of what you think is a client and what you think is a server.
+[   36.6s] And the acronym here stands for Hypertext Transfer Protocol.
+[   41.8s] Now whenever you think of anyone who's providing a service of some sort and there are lots of people
+[   47.4s] who are getting to that person for a service, you can think of that person who provides a service
+[   52.9s] as a server. In this case, it's not a person but it's a computer-based system that's providing a
+[   57.4s] service and lots of other computers are then connected to that server and those are the clients.
+[   64.3s] So for instance, if lots of people go to a reference desk in the library and all those people
+[   68.4s] could be considered as a client and the person who's sitting at the reference desk, the reference
+[   72.7s] library wouldn't be thought of as the server. And anyone like whenever you go to buy tickets for
+[   80.6s] instance in an airline now for eight tickets that you want to travel somewhere. So the
+[   86.6s] computers that are sitting beyond the cloud where you can buy multiple people can go and buy tickets
+[   93.9s] from the website, they would be a web server serving those people and then the individual
+[   98.9s] computers that are trying to connect to that server through mobiles and tablets and smart app
+[  104.5s] and through the laptops or desktops all those would be the clients. So this is an example figure
+[  113.3s] of a client server architecture and here you have these various kinds of servers that are connected
+[  122.2s] through a local area network where it could be in any internet connectivity of any size.
+[  129.2s] So some of the things that we want to think about are understanding the major components of computerized
+[  135.3s] information systems and what are some client side technologies like interfaces input output
+[  141.1s] and how data is sent from the client to the server and some server side technologies as well which
+[  146.9s] has input output and print server, data server, web server and other kinds of servers and being
+[  153.3s] able to follow through the flow of how data flows between the client and the server and then back.
+[  160.2s] Okay. So there are many ways of linking a computer to peripherals and to other computers
+[  168.2s] so it could be the standalone peer-to-peer and the addition of the cloud. So we can think of as
+[  176.9s] the architecture that you describe when computers are connected in this way is typically called a
+[  181.4s] two-tier architecture or a software architecture in which a presentation layer or interface
+[  187.5s] runs on a client and there is a data layer or data structure gets stored on a server. So whenever
+[  192.5s] you separate a client and the server together that is called a two-tier architecture or a client
+[  197.4s] server architecture. Now you could also have a multi-tier architecture where there are multiple
+[  203.5s] servers that one client is connected to. So it just means that the server at that point has divided
+[  210.2s] the work into different machines. So you could have one which takes care of application processes
+[  216.6s] saying our data management functions or like so. So the database servers will be different
+[  221.4s] web servers will be different, a print server could be different. So when various functions
+[  225.0s] are divided on the server and then you have one or more clients connecting to that server
+[  229.1s] that is known as a multi-tier architecture. So let's look at some examples here.
+[  236.1s] So the first one here there is a two-tier architecture simple client server architecture
+[  240.0s] where there is a client machine that says this computer is there and it's connected to a printer
+[  244.3s] and it's connected to a database server. So here you have a separation between the server
+[  248.2s] and the client. So that is a two-tier architecture and you could have a three-tier architecture whereby
+[  255.7s] you have no two machines on the on the server side an application server and a database server.
+[  260.0s] Now it is possible that all of these run on the same machine that physically they're not separated
+[  263.8s] but typically for larger organizations these are separated into larger machines and
+[  270.3s] that is known as a three-tier architecture and this symbol here with discs over here
+[  276.7s] typically represents a database system. And if you actually notice the oracle headquarters
+[  284.2s] it follows this kind of a design to look like database systems.
+[  301.7s] And oracle is one large company that that makes very well used databases.
+[  310.0s] And then you can have n-tier or multi-tier architecture whereby you have a client here
+[  316.4s] and then you have multiple server application server database management server,
+[  320.3s] a web server and so on and one very commonly known web server is Apache and you can also have
+[  327.9s] the elation of a cloud. Now cloud is whenever you use things like Dropbox or Google Drive
+[  334.5s] all these examples of cloud-based servers which sings their data
+[  339.9s] between the client and the server for you all the time. So here's an example of using the client
+[  347.5s] server architecture. Now the end user side is the client so end user would be you or me any person
+[  354.4s] who is sitting on the computer trying to get some service from a website. So every time we
+[  360.6s] you try and make a request to a server and that is a request. So even when you log on to let's see
+[  365.6s] a Gmail or a Google account then you are a client wherever you're entering a password and all that
+[  370.9s] or whenever you're trying to request for any web page that you search for on your
+[  375.6s] on using a browser then you are the client and so client saves the sensor data to the server
+[  381.3s] which is known as a request and this is done using web forms and typically the technologies are
+[  386.3s] associated are HTML and CSS and the server computer receives a request and returns a response.
+[  391.6s] So this response could be in the form of web pages some data from databases or some files or
+[  397.5s] it could take and pass on the request to another server. So here's an example of the end user
+[  403.6s] sending data to the server. Now you you could have the end user which is known as a client and there's
+[  408.5s] some web form which is there web form is basically whenever you go to www.gmail.com what you see
+[  414.6s] initially that is an example of a web form and you send a request to the server and the request
+[  419.5s] would take two forms it could be either a get or a post. Now get and post are examples of
+[  426.7s] of typical commands which are which are done which are sent using a protocol called
+[  432.5s] HTTP protocol, Hypertext Transfer Protocol and get is typically when you when a client is
+[  438.9s] requesting a resource on the web server so that is get and the post is when used when the client
+[  443.7s] is sending information or data to the server for example filling out an online form so it sends
+[  449.0s] out a large amount of complex data to the to the server so that is post. Apart from get and post
+[  453.9s] there are other commands as well like head and put delete trace options and so on but the most
+[  459.7s] commonly used are get and post which are there in in HTTP. So then the request goes via the cloud
+[  467.2s] and then it reaches the server where there's a database and then here the server generates
+[  473.0s] HTML, CSS, JavaScript and so on and so based on now on this on whatever is being requested
+[  482.8s] there'd be some sort of a response that would be sent to the end user so for instance since we
+[  487.0s] were using the example of Gmail when we log on to Gmail so the first time when you enter
+[  491.2s] your username and password that is sent using the post and what you're requesting to get is your
+[  496.8s] emails okay so that request goes and then then your email is accessed from the database
+[  503.0s] and the response you get is then the series of emails that you see in your Gmail account
+[  509.5s] so this is the the hypertext transfer protocol model that is typically used for communication
+[  515.2s] between the client and the server so here you would put some sort of request and get
+[  520.5s] get and then this is that we come on here and that server would respond with an okay
+[  524.9s] and then you could also do a post for a login and then maybe if your password is wrong or using
+[  529.8s] your password is wrong then it might say that your request is unauthorized so typically each
+[  534.5s] of these requests are sent using data packets so everything that you whenever you communicate
+[  539.9s] over the internet whenever you browse something the information is sent in it in the form of
+[  545.3s] packets whether it's a header and a body so mostly anybody in the when this is being transferred people
+[  553.6s] could be able to read read the messages over here and sometimes you can you can put together
+[  559.9s] the messages and and that's how data leaks happen so nowadays what is recommended and a lot of websites
+[  566.0s] are now adopting our HTTPS and which means that your packets that are being sent are encrypted
+[  572.0s] between the client and the server so even if someone gets it they will not be able to do anything
+[  576.2s] with it so HTTP yes is a secure HTTP protocol so let's look at an example so for instance if
+[  584.1s] we go to Simmons.edu so if we go here and let's say we we go to the this is the Chrome browser
+[  600.0s] so let me just click on anything like maybe graduate school or something and when we go to
+[  607.6s] more tools developer tools okay so here on the on the side of the of the console
+[  617.3s] you should be able to see a lot of things over here right now here you see cookies are listed
+[  623.9s] but you can also see some activity here that the time taken for various elements
+[  632.4s] to load and let's say let's say I go to the console here okay so here you see the
+[  644.7s] the get commands over here so get me get me this a lot message security this is some ad
+[  650.9s] ad that is being requested so there are lots of get commands there every time you and there
+[  655.1s] are some post commands as well so get in post or something that you typically see whenever
+[  659.5s] you go to an anywhere page okay so there again you see the the get commands there so
+[  667.2s] let's go back here so every device that typically that you want to connect using the network you
+[  677.9s] connect on a network or the internet internet is can be considered as the network of networks
+[  683.1s] which is the largest network in the world so here when you see you have a unique identifier
+[  688.8s] which is known as a physical interest or a MAC address so this is the this is typically in
+[  694.0s] the format called hexadecimal which has the digits from 0 to 9 and from a to f so that is
+[  699.9s] a 16 digit number system and this number system where where things are located using numbers
+[  706.9s] and separated by colons is what is sent is what is the unique address associated with any device
+[  713.2s] so for instance when you go to Simmons and you'll notice that the first time when you
+[  718.1s] are trying to log on to the Simmons Wi-Fi at that point in time you have login and next time onwards
+[  724.0s] you're not you're not required to log in you can automatically connect so what happens is that the
+[  728.0s] MAC address of your phone or your laptop gets stored on the Simmons server so next time when
+[  733.9s] you're trying to to connect again as long as they've authorized you want they'll be able to authorize
+[  738.0s] you based on your on the MAC address so you can see this MAC address when we come here
+[  744.1s] and let's say on windows when I do a command prompt and if there's a command called ipconfig
+[  752.9s] slash all okay so when I do this I will be able to see that it says the ethernet adapter or the
+[  762.9s] ethernet and there's a physical address the a0d3c171 ef85 so this is an example of your your
+[  771.3s] physical address or the MAC address okay now what happens is that every time you use the internet
+[  780.4s] a connection is created between our device and the internet service provider so which could be like
+[  784.3s] for instance a verizon or any other provider and the internet service provider or the rsp assigns
+[  790.4s] an IP address to us so that the server can can locate us okay so this address is something that
+[  796.3s] is typically generated in the fly and that's called dhcp or dynamically created addresses
+[  803.2s] and this is this provides you a unique a unique address when you're connecting to other computers
+[  809.2s] using the internet whereas this this is like a name which which it doesn't change it it remains
+[  814.0s] fixed for any computer okay and when you have this one right so this unique address is the is the one
+[  821.9s] which which typically helps distinguish various computers on the world where when they all connected
+[  829.2s] to the internet okay so when when we see that 134.140.12.61 this is actually the IP equivalent of
+[  842.7s] simmons.edu okay so so you can get we use names like google.com or simmons.edu and all that because
+[  850.9s] they're easier for us to remember as human beings but as far as the computer is concerned
+[  855.2s] it uses a physical IP address which is separated like this into four parts of four octets as they
+[  861.4s] call it and so this is an older version of IP address when when you when you look at the ipcon
+[  868.0s] figure you would see that there would be an IP address over here listed like it's it's known as
+[  872.8s] ipv4 address 192.168.0.10 and the ipv4 addresses are not enough actually now to take care of all
+[  882.5s] the computers and all the devices on the connected across the world so even though it could have
+[  888.5s] a very large a very large number but but it's still not enough it's like 2 to the power 32
+[  896.1s] is the number of devices that it could support and but that's not enough so here now you have
+[  902.5s] is like an ipv6 address which is a which is a newer kind of an address okay so ipv6 addresses
+[  909.3s] is is a much longer form it uses again a hexadecimal way of addressing and this can support almost unlimited
+[  917.6s] number of addresses to connect your your computers to the internet
+[  923.5s] say you're using your Simmons computer and you want to visit the Boston Public Library's website
+[  927.7s] so then the the Simmons server communicates with another server which is a domain name server to map
+[  933.4s] www.bpl.org to its IP IP address so then you don't need to remember that this IP address
+[  940.4s] in the domain name server will have a mapping between the English names which in this format
+[  944.4s] to the actual IP addresses okay so when you have let's say this kind of a format
+[  951.4s] where you http colon slash slash www.domain.com one two three four like this is the address
+[  958.3s] so first part is a protocol which is the http protocol you can have other protocols like
+[  963.5s] like a secure S HTTP or you could have FTP or secure FTP protocol you could have like
+[  972.8s] simple mail transfer protocol so there are different types of protocols that are there
+[  976.8s] by the most commonly used for internet for web exchange of web pages is HTTP and then you have
+[  983.2s] this is a host name which is the name address of the server and there could be specific ports
+[  988.4s] that are used to connect to a server and so this is the path for a port and if there are
+[  992.7s] directories that are used on the server that will help you get to a specific page and sometimes
+[  997.3s] there are specific queries that are sent to the server and those queries are listed in this manner
+[ 1001.1s] after a portion mark so client server architecture is the most common
+[ 1010.6s] and it's a useful model of understanding wherein any where all the technical components fit in
+[ 1016.4s] information systems so all devices have a unique MAC address and an IP and a name which is
+[ 1023.3s] which is stored in the domain name server and addresses on the net and clients are by
+[ 1027.4s] increasingly useful qualified names including the protocol like HTTP web dot sentence with EDU
+[ 1032.9s] slash index dot HTML and so on I guess so there so end user sent data to the service there are
+[ 1040.0s] many kinds of servers a data data sent using get or post and server response and sends back data
+[ 1049.0s] okay so that is all I wanted to cover about covering client server and an HTTP for the history
+[ 1055.8s] of the internet and the world web web you can go through the resources on Moodle and also look at
+[ 1062.9s] the videos that are there the recommended videos okay so thank you so for this week we've looked
+[ 1069.1s] at clients of architecture in HTTP and you can review the history of internet and the world web
+[ 1074.0s] thank you
+Done -> lecture_transcript.txt
