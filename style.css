@@ -8,6 +8,24 @@
     /* Animation definition: name, duration, timing function, loop count */
     animation: flash 1s infinite alternate;
 }
+.glowing-text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20%;
+    
+    /* Animation definition: name, duration, timing function, loop count */
+    animation: glow 1s infinite alternate;
+}
+/* Keyframes controlling the glowing effect */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff;
+    }
+    100% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #ff00ff, 0 0 60px #ff00ff, 0 0 80px #ff00ff, 0 0 100px #ff00ff, 0 0 120px #ff00ff;
+    }
+}   
 
 /* Keyframes controlling the flashing effect */
 @keyframes flash {
