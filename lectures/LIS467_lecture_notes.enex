@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
-<en-export export-date="20260928T045834Z" application="panopto_transcribe.py" version="1.0"><note><title>LIS 467 — Session 1 Review: Client-Server, HTTP &amp; History of the WWW</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<en-export export-date="20260928T050240Z" application="panopto_transcribe.py" version="1.0"><note><title>LIS 467 — Session 1 Review: Client-Server, HTTP &amp; History of the WWW</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
 <en-note><h1>LIS 467 — Session 1 Review: Client-Server, HTTP &amp; History of the WWW</h1>
 <p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
@@ -290,282 +290,7 @@
 <li>What happened to Internet startup companies around the year 2000?</li>
 <li>Name two 2004–2006 launches that defined the social media era.</li>
 <li>Roughly how many Internet users were there in 1990, 2000, 2010, and 2016?</li>
-</ol></en-note>]]></content><created>20260928T045834Z</created><updated>20260928T045834Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 2, Part 3: Project Management</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
-<en-note><h1>LIS 467 — Session 2, Part 3: Project Management</h1>
-<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
-<strong>Topic:</strong> Project Management for Web Design Projects — Requirements, Scope, the Triple Constraint, Management Areas, Life Cycle &amp; Tracking Tools
-<strong>Source:</strong> Panopto lecture transcript — "Session 2 Part 3 Project Management"</p>
-<hr />
-<h2>1. Context: Your Team as a Web Design Company</h2>
-<p>In this class, your team acts as a <strong>web design company</strong> taking on a client website: gathering the requirements, then following the entire process of designing and building the site. Understanding how a <strong>project manager</strong> works — and managing the effort <em>as a project</em> — is essential to delivering on time.</p>
-<hr />
-<h2>2. What Is a Project?</h2>
-<p>🔑 A <strong>project</strong> is both <strong>temporary</strong> and <strong>unique</strong>:</p>
-<table style="border-collapse:collapse;width:100%;">
-<thead>
-<tr>
-<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Property</th>
-<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Temporary</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">A definite <strong>beginning and end</strong> — not an ongoing operation</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Unique</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">A <strong>new, unfamiliar undertaking</strong> producing a distinct product or service</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2>3. Requirements Gathering — Getting on the Same Page</h2>
-<p>⚠️ <strong>Things can go horribly wrong</strong> when requirements aren't managed. The classic cartoon: how the <em>customer explained it</em>, how the <em>project leader understood it</em>, how the <em>analyst designed it</em>, how the <em>programmer wrote it</em>, how the <em>business consultant described it</em> — all wildly different; barely any documentation; installation fails; the customer is billed for a roller coaster when they wanted a simple swing.</p>
-<p>⭐ <strong>Lesson:</strong> Establish a <strong>common ground and a common language</strong> between you and the client so both of you understand what you're agreeing on. That is why it is critical to <strong>document requirements</strong>.</p>
-<hr />
-<h2>4. Project Success vs. Failure</h2>
-<h3>A project succeeds when:</h3>
-<ul>
-<li>✅ Customer requirements are <strong>satisfied or exceeded</strong> (exceeding is hard — customers often see the work and generate <em>new</em> requirements)</li>
-<li>✅ Completed within the <strong>allocated budget</strong></li>
-<li>✅ Delivered <strong>on time</strong></li>
-<li>✅ <strong>Accepted by the customer</strong></li>
-</ul>
-<h3>A project fails when there is:</h3>
-<ul>
-<li>⚠️ <strong>Scope creep</strong> (see below)</li>
-<li>⚠️ Unrealistic <strong>planning and scheduling</strong></li>
-<li>⚠️ Sloppy <strong>requirements gathering</strong></li>
-<li>⚠️ <strong>Lack of resources</strong> to complete the tasks</li>
-<li>⚠️ <strong>Lack of skills</strong> required for the task at hand</li>
-</ul>
-<h3>Scope creep</h3>
-<p>🔑 <strong>Scope creep</strong> = uncontrolled changes or continuous growth in the project's scope. It occurs when the scope is <strong>not fully defined, not documented, or not well controlled</strong>, and is generally considered harmful.</p>
-<p>✅ <strong>Managing it:</strong> Scope changes are acceptable <em>if</em> budget, resources, and schedule increase along with the scope.</p>
-<p>💡 <strong>CIO anecdote (from the instructor's PhD days in Singapore):</strong> when asked "can you add this to the project?", the CIO would always say <strong>yes — but this will cost extra and take additional time.</strong> Requirements can grow, as long as you have a mechanism to manage the growth: more people, more time, or more money.</p>
-<hr />
-<h2>5. What Is Project Management?</h2>
-<p>⭐ <strong>Project management</strong> is the application of <strong>skills, knowledge, tools, and techniques</strong> to meet the needs and expectations of the project's <strong>stakeholders</strong>.</p>
-<p>💡 Its purpose is <strong>prediction and prevention</strong>, not reaction — plan well enough to foresee problems and prevent them from happening.</p>
-<hr />
-<h2>6. The Triple Constraint</h2>
-<p>🔑 Project management balances three interlocking constraints. Together they determine the <strong>quality</strong> of the project result:</p>
-<table style="border-collapse:collapse;width:100%;">
-<thead>
-<tr>
-<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Constraint</th>
-<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Meaning</th>
-<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Class example</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Time</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Deliver within a given schedule</td>
-<td style="border:1px solid #ccc;padding:4px 8px;">The class project must be delivered before the last class of the semester</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Cost</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Money and resources available</td>
-<td style="border:1px solid #ccc;padding:4px 8px;">The budget the client provides</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Scope</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">How much you're required to produce</td>
-<td style="border:1px solid #ccc;padding:4px 8px;">e.g., a 5–8 page or 8–12 page website as agreed</td>
-</tr>
-</tbody>
-</table>
-<h3>Trade-offs — change one, adjust the others:</h3>
-<ul>
-<li>Scope ↑ → time ↑ and cost ↑</li>
-<li>Time ↓ (tight deadline) → cost ↑ (hire more people) and/or scope ↓ (agree to drop requirements)</li>
-<li>Cost ↓ (tight budget) → ask for more time and/or reduce scope</li>
-</ul>
-<hr />
-<h2>7. Areas of Project Management</h2>
-<table style="border-collapse:collapse;width:100%;">
-<thead>
-<tr>
-<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Area</th>
-<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">What it covers</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Scope management</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Ensuring <em>all</em> the work within scope — and <em>only</em> that work — is completed; defining how scope is set, who manages it, and how changes are vetted</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Issue management</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Handling issues (constraints to accomplishing project deliverables); issues that can't be easily resolved are <strong>escalated</strong>, logged, and <strong>tracked to resolution</strong></td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Cost management</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Controlling costs and how they are paid: <strong>resources</strong> (people, equipment, materials), full-time vs. contract staff, office space, estimated vs. actual costs, budget</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Quality management</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Quality assurance plan — testing (usability testing, other agreed testing) to ensure the project <strong>conforms to requirements</strong> and is suitable for use</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Communications management</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Agreeing how/when you report to the client: designated contact person, meeting schedule, email updates</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Risk management</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">All projects should begin with an agreement on how risks will be handled: identify risks, plan <strong>mitigation strategies</strong>, maintain and update a <strong>risk tracking log</strong></td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Change control</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Managing changes to scope, specifications, and schedule — documenting and tracking each change</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2>8. Project Life Cycle</h2>
-<table style="border-collapse:collapse;width:100%;">
-<thead>
-<tr>
-<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Phase</th>
-<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">What happens</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>1. Initiation / decision</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Deciding to undertake the project</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2. Definition</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Gathering requirements; defining what the project must deliver</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>3. Planning</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">How to proceed: hire people? learn skills? acquire resources?</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>4. Implementation</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">The actual work happens — with <strong>usability testing at various levels</strong> along the way</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>5. Verification</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Confirm requirements are satisfied and the user signs off that the website is ready</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>6. Closing</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Wrap up the project and move on</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2>9. Project Tracking Tools</h2>
-<table style="border-collapse:collapse;width:100%;">
-<thead>
-<tr>
-<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Tool</th>
-<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Simple activity table</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Rows = activities of the project; columns = time (weeks required per activity, current status)</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Gantt chart</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Larger activities broken into sub-activities, showing time required for each and completion status (many free tools online — search "project management tools")</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>PERT chart</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>P</strong>rogram <strong>E</strong>valuation <strong>R</strong>eview <strong>T</strong>echnique — designed to analyze and represent the tasks involved in completing a given project; e.g., a network chart for a 7-month project with 5 milestones (10, 20, 30, 40, 50) and 6 activities, showing the time required for each</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Project schedule</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">The documented timeline agreed with the client</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2>10. Key Terms Glossary</h2>
-<table style="border-collapse:collapse;width:100%;">
-<thead>
-<tr>
-<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Term</th>
-<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Project</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">A temporary undertaking (definite beginning and end) producing a unique product or service</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Project management</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Applying skills, knowledge, tools, and techniques to meet stakeholder needs and expectations</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Stakeholder</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Anyone with a need or expectation the project must satisfy (client, users, team)</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Scope</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">The agreed amount of work/deliverables in the project</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Scope creep</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Uncontrolled, continuous growth of project scope without matching increases in time/budget/resources</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Triple constraint</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Time, cost, and scope — the three interdependent limits that determine quality</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Issue management</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Logging, escalating, and tracking problems that block deliverables</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Risk management</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Identifying risks up front, agreeing on mitigation strategies, and tracking them</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Quality assurance</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Testing processes (incl. usability testing) that ensure conformance to requirements</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Change control</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Documented management of changes to scope, specification, or schedule</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Gantt chart</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Bar-chart timeline of activities, durations, and completion status</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>PERT chart</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Network diagram (Program Evaluation Review Technique) of project tasks and milestones</td>
-</tr>
-<tr>
-<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Project life cycle</strong></td>
-<td style="border:1px solid #ccc;padding:4px 8px;">Initiation → definition → planning → implementation → verification → closing</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2>11. Quick Review Questions</h2>
-<ol>
-<li>What two properties define a <em>project</em>, and what does each mean?</li>
-<li>Why is documenting requirements so important? (Think of the "how the customer explained it" cartoon.)</li>
-<li>List the four criteria for a successful project.</li>
-<li>Define scope creep. When is added scope acceptable?</li>
-<li>How did the Singapore CIO respond to new feature requests, and what principle does that illustrate?</li>
-<li>What is the purpose of project management — reaction, or something else?</li>
-<li>Name the three parts of the triple constraint and describe one trade-off scenario.</li>
-<li>What is the difference between issue management and risk management?</li>
-<li>What are the six phases of the project life cycle, and in which phase does usability testing occur?</li>
-<li>What do Gantt and PERT charts each show?</li>
-</ol></en-note>]]></content><created>20260928T045834Z</created><updated>20260928T045834Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 2, Part 1: Why Web Design? Gathering Requirements</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+</ol></en-note>]]></content><created>20260928T050240Z</created><updated>20260928T050240Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 2, Part 1: Why Web Design? Gathering Requirements</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
 <en-note><h1>LIS 467 — Session 2, Part 1: Why Web Design? Gathering Requirements</h1>
 <p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
@@ -943,4 +668,404 @@
 <li>Why should design start on paper, and what should the paper sketch capture?</li>
 <li>What is the classic mismatch on university homepages between designer content and user needs?</li>
 <li>Name three economic considerations in web design.</li>
-</ol></en-note>]]></content><created>20260928T045834Z</created><updated>20260928T045834Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note></en-export>
+</ol></en-note>]]></content><created>20260928T050240Z</created><updated>20260928T050240Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 2, Part 2: Responsive Web Design &amp; Mobile First</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 2, Part 2: Responsive Web Design &amp; Mobile First</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> Responsive Web Design, the Flexible Canvas, and Mobile-First vs. Desktop-First Design
+<strong>Source:</strong> Panopto lecture transcript — "Session 2 Part 2 Responsive Web Design; Mobile First"</p>
+<hr />
+<h2>1. Learning Objectives</h2>
+<ul>
+<li>Explain what <strong>responsive design</strong> means and why it exists</li>
+<li>Compare <strong>desktop-first (traditional)</strong> and <strong>mobile-first</strong> design approaches</li>
+<li>Identify the skills and tools needed to build responsive websites</li>
+</ul>
+<hr />
+<h2>2. The Canvas Analogy — Why Responsive Design?</h2>
+<p>💡 <strong>The old days (print):</strong> an artist painted on a <strong>fixed-size canvas</strong> or sheet of paper. Design was easy because you knew exactly the size of the surface you were working on.</p>
+<p>⚠️ <strong>The web today:</strong> the "canvas" <em>changes</em>. The screen you design on at home may differ from:</p>
+<ul>
+<li>Another user's laptop screen size</li>
+<li>A large desktop monitor</li>
+<li>A <strong>mobile phone</strong> or <strong>tablet</strong></li>
+</ul>
+<p>🔑 The core challenge of responsive design: <strong>How do you ensure your website looks good in different browsers and at different screen sizes?</strong> Your canvas changes with every device.</p>
+<p>⭐ <strong>Ethan Marcotte</strong> coined the term <strong>responsive design</strong>. His argument: the fixed-canvas control designers knew from the <strong>print medium</strong> was simply a function of the <em>limitations of the printed page</em>. The web doesn't have those constraints — so we should <strong>embrace flexibility and design for it</strong>.</p>
+<hr />
+<h2>3. Skills &amp; Tools for Responsive Design</h2>
+<p>💡 <strong>Exercise from lecture:</strong> do some web searching and discuss — how would you describe responsive design, and what skills are required to build a responsive website? Which skills do you need to learn?</p>
+<p>Key ingredients mentioned:</p>
+<ul>
+<li><strong>CSS</strong> — especially media queries / flexible layouts</li>
+<li><strong>Ready-made templates and frameworks</strong> — existing solutions that help you build responsive websites more easily</li>
+</ul>
+<hr />
+<h2>4. Desktop-First vs. Mobile-First</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Approach</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Process</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Consequence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Desktop-first (traditional)</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Design on/for a computer screen first, then try to cut content down to fit mobile</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">You start with maximum space and must trim afterward</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Mobile-first</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">⭐ Design for the small mobile screen first, then scale up to tablet, then desktop</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Very little space <strong>forces you to decide what is truly necessary</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>Why mobile-first is advocated</h3>
+<ul>
+<li>✅ With minimal space, you must <strong>focus on the key content</strong> first</li>
+<li>✅ Keeps the design aligned with the <strong>goals of the website</strong></li>
+<li>✅ Improves <strong>usability</strong> from the end user's point of view</li>
+</ul>
+<h3>Direction of design</h3>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Strategy</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Order</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Responsive (desktop-first)</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Laptop/desktop → tablet → mobile</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Mobile-first</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Mobile → tablet → desktop</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>5. Key Terms Glossary</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Term</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Responsive design</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Designing a website so it adapts and looks good across different browsers, devices, and screen sizes</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Ethan Marcotte</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Web designer who coined the term "responsive design"; argued the web should embrace flexibility rather than mimic print's fixed page</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Mobile-first</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Design strategy starting with the smallest screen, forcing prioritization of key content, then scaling up</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Desktop-first</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Traditional strategy: design for large screens first, then reduce for smaller devices</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Fixed canvas</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The print-era assumption of a known, unchanging design surface — no longer true on the web</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>CSS templates/frameworks</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Ready-made responsive solutions that simplify building adaptable layouts</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>6. Quick Review Questions</h2>
+<ol>
+<li>Explain the canvas analogy: how does web design differ from print design?</li>
+<li>Who coined the term "responsive design," and what was his core argument?</li>
+<li>What problem does responsive design solve for users browsing on different devices?</li>
+<li>Describe the difference between desktop-first and mobile-first design order.</li>
+<li>Why does designing mobile-first force better content decisions?</li>
+<li>What two benefits does mobile-first bring to a website's goals and usability?</li>
+</ol></en-note>]]></content><created>20260928T050240Z</created><updated>20260928T050240Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 2, Part 3: Project Management</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 2, Part 3: Project Management</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> Project Management for Web Design Projects — Requirements, Scope, the Triple Constraint, Management Areas, Life Cycle &amp; Tracking Tools
+<strong>Source:</strong> Panopto lecture transcript — "Session 2 Part 3 Project Management"</p>
+<hr />
+<h2>1. Context: Your Team as a Web Design Company</h2>
+<p>In this class, your team acts as a <strong>web design company</strong> taking on a client website: gathering the requirements, then following the entire process of designing and building the site. Understanding how a <strong>project manager</strong> works — and managing the effort <em>as a project</em> — is essential to delivering on time.</p>
+<hr />
+<h2>2. What Is a Project?</h2>
+<p>🔑 A <strong>project</strong> is both <strong>temporary</strong> and <strong>unique</strong>:</p>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Property</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Temporary</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">A definite <strong>beginning and end</strong> — not an ongoing operation</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Unique</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">A <strong>new, unfamiliar undertaking</strong> producing a distinct product or service</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>3. Requirements Gathering — Getting on the Same Page</h2>
+<p>⚠️ <strong>Things can go horribly wrong</strong> when requirements aren't managed. The classic cartoon: how the <em>customer explained it</em>, how the <em>project leader understood it</em>, how the <em>analyst designed it</em>, how the <em>programmer wrote it</em>, how the <em>business consultant described it</em> — all wildly different; barely any documentation; installation fails; the customer is billed for a roller coaster when they wanted a simple swing.</p>
+<p>⭐ <strong>Lesson:</strong> Establish a <strong>common ground and a common language</strong> between you and the client so both of you understand what you're agreeing on. That is why it is critical to <strong>document requirements</strong>.</p>
+<hr />
+<h2>4. Project Success vs. Failure</h2>
+<h3>A project succeeds when:</h3>
+<ul>
+<li>✅ Customer requirements are <strong>satisfied or exceeded</strong> (exceeding is hard — customers often see the work and generate <em>new</em> requirements)</li>
+<li>✅ Completed within the <strong>allocated budget</strong></li>
+<li>✅ Delivered <strong>on time</strong></li>
+<li>✅ <strong>Accepted by the customer</strong></li>
+</ul>
+<h3>A project fails when there is:</h3>
+<ul>
+<li>⚠️ <strong>Scope creep</strong> (see below)</li>
+<li>⚠️ Unrealistic <strong>planning and scheduling</strong></li>
+<li>⚠️ Sloppy <strong>requirements gathering</strong></li>
+<li>⚠️ <strong>Lack of resources</strong> to complete the tasks</li>
+<li>⚠️ <strong>Lack of skills</strong> required for the task at hand</li>
+</ul>
+<h3>Scope creep</h3>
+<p>🔑 <strong>Scope creep</strong> = uncontrolled changes or continuous growth in the project's scope. It occurs when the scope is <strong>not fully defined, not documented, or not well controlled</strong>, and is generally considered harmful.</p>
+<p>✅ <strong>Managing it:</strong> Scope changes are acceptable <em>if</em> budget, resources, and schedule increase along with the scope.</p>
+<p>💡 <strong>CIO anecdote (from the instructor's PhD days in Singapore):</strong> when asked "can you add this to the project?", the CIO would always say <strong>yes — but this will cost extra and take additional time.</strong> Requirements can grow, as long as you have a mechanism to manage the growth: more people, more time, or more money.</p>
+<hr />
+<h2>5. What Is Project Management?</h2>
+<p>⭐ <strong>Project management</strong> is the application of <strong>skills, knowledge, tools, and techniques</strong> to meet the needs and expectations of the project's <strong>stakeholders</strong>.</p>
+<p>💡 Its purpose is <strong>prediction and prevention</strong>, not reaction — plan well enough to foresee problems and prevent them from happening.</p>
+<hr />
+<h2>6. The Triple Constraint</h2>
+<p>🔑 Project management balances three interlocking constraints. Together they determine the <strong>quality</strong> of the project result:</p>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Constraint</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Meaning</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Class example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Time</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Deliver within a given schedule</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The class project must be delivered before the last class of the semester</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Cost</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Money and resources available</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The budget the client provides</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Scope</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">How much you're required to produce</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">e.g., a 5–8 page or 8–12 page website as agreed</td>
+</tr>
+</tbody>
+</table>
+<h3>Trade-offs — change one, adjust the others:</h3>
+<ul>
+<li>Scope ↑ → time ↑ and cost ↑</li>
+<li>Time ↓ (tight deadline) → cost ↑ (hire more people) and/or scope ↓ (agree to drop requirements)</li>
+<li>Cost ↓ (tight budget) → ask for more time and/or reduce scope</li>
+</ul>
+<hr />
+<h2>7. Areas of Project Management</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Area</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">What it covers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Scope management</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Ensuring <em>all</em> the work within scope — and <em>only</em> that work — is completed; defining how scope is set, who manages it, and how changes are vetted</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Issue management</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Handling issues (constraints to accomplishing project deliverables); issues that can't be easily resolved are <strong>escalated</strong>, logged, and <strong>tracked to resolution</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Cost management</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Controlling costs and how they are paid: <strong>resources</strong> (people, equipment, materials), full-time vs. contract staff, office space, estimated vs. actual costs, budget</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Quality management</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Quality assurance plan — testing (usability testing, other agreed testing) to ensure the project <strong>conforms to requirements</strong> and is suitable for use</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Communications management</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Agreeing how/when you report to the client: designated contact person, meeting schedule, email updates</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Risk management</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">All projects should begin with an agreement on how risks will be handled: identify risks, plan <strong>mitigation strategies</strong>, maintain and update a <strong>risk tracking log</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Change control</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Managing changes to scope, specifications, and schedule — documenting and tracking each change</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>8. Project Life Cycle</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Phase</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">What happens</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>1. Initiation / decision</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Deciding to undertake the project</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2. Definition</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Gathering requirements; defining what the project must deliver</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>3. Planning</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">How to proceed: hire people? learn skills? acquire resources?</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>4. Implementation</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The actual work happens — with <strong>usability testing at various levels</strong> along the way</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>5. Verification</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Confirm requirements are satisfied and the user signs off that the website is ready</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>6. Closing</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Wrap up the project and move on</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>9. Project Tracking Tools</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Tool</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Simple activity table</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Rows = activities of the project; columns = time (weeks required per activity, current status)</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Gantt chart</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Larger activities broken into sub-activities, showing time required for each and completion status (many free tools online — search "project management tools")</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>PERT chart</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>P</strong>rogram <strong>E</strong>valuation <strong>R</strong>eview <strong>T</strong>echnique — designed to analyze and represent the tasks involved in completing a given project; e.g., a network chart for a 7-month project with 5 milestones (10, 20, 30, 40, 50) and 6 activities, showing the time required for each</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Project schedule</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The documented timeline agreed with the client</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>10. Key Terms Glossary</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Term</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Project</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">A temporary undertaking (definite beginning and end) producing a unique product or service</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Project management</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Applying skills, knowledge, tools, and techniques to meet stakeholder needs and expectations</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Stakeholder</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Anyone with a need or expectation the project must satisfy (client, users, team)</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Scope</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The agreed amount of work/deliverables in the project</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Scope creep</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Uncontrolled, continuous growth of project scope without matching increases in time/budget/resources</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Triple constraint</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Time, cost, and scope — the three interdependent limits that determine quality</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Issue management</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Logging, escalating, and tracking problems that block deliverables</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Risk management</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Identifying risks up front, agreeing on mitigation strategies, and tracking them</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Quality assurance</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Testing processes (incl. usability testing) that ensure conformance to requirements</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Change control</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Documented management of changes to scope, specification, or schedule</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Gantt chart</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Bar-chart timeline of activities, durations, and completion status</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>PERT chart</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Network diagram (Program Evaluation Review Technique) of project tasks and milestones</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Project life cycle</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Initiation → definition → planning → implementation → verification → closing</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>11. Quick Review Questions</h2>
+<ol>
+<li>What two properties define a <em>project</em>, and what does each mean?</li>
+<li>Why is documenting requirements so important? (Think of the "how the customer explained it" cartoon.)</li>
+<li>List the four criteria for a successful project.</li>
+<li>Define scope creep. When is added scope acceptable?</li>
+<li>How did the Singapore CIO respond to new feature requests, and what principle does that illustrate?</li>
+<li>What is the purpose of project management — reaction, or something else?</li>
+<li>Name the three parts of the triple constraint and describe one trade-off scenario.</li>
+<li>What is the difference between issue management and risk management?</li>
+<li>What are the six phases of the project life cycle, and in which phase does usability testing occur?</li>
+<li>What do Gantt and PERT charts each show?</li>
+</ol></en-note>]]></content><created>20260928T050240Z</created><updated>20260928T050240Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note></en-export>

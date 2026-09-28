@@ -1,0 +1,245 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+now that we've looked at project management. let us look at one of the specific things that go into
+
+the web project management. so how it is a general project management to differ
+
+from the project management. so a project manager
+
+management could refer to any any project could be any sphere whether you're building up
+
+there doing construction or you at your building any piece of software. been think of the project
+
+management we're talking about building websites. so some of the things
+
+for you to consider is that why should a web design or develop to bother with that project management.
+
+and what do you think is involved in managing a web project and what sort of prior experience if any do you have
+
+with project management. supposed this with you at this
+
+point and think some of these of these questions when we think of
+
+web project right typically it it can be it can
+
+it can be pretty look pretty large and if you done whether the connection to you on your lot of money. I was
+
+involved in and I was a part of this is Paul and at the point in time you will. this is this is
+
+the is for information science and technology. so when you look at the if this website
+
+right.
+
+so if this has this is a new website and in in the
+
+past they had much about the website and in that website.
+
+what you saw happen is that type the blood decided to do. also sleep. the
+
+project management the web development or to somebody else or to a company and then we were inviting various
+
+bids so but but the money that was involved
+
+in that was that you know more than a hundred thousand dollars in terms of the money
+
+money to pay death and your website and the team that eventually about the project is for nine months
+
+trying to get the requirements try talking to be distasteful as as to what was working went to the website what are
+
+the kinds of things that would they'd want to see on the website. and. so it's uh it was a
+
+pretty large and diverse so when you would get a large company or an organization to give
+
+you an assignment to build a website which can be kinda pretty big.
+
+so in that project management within call us up stating that goes.
+
+simply audiences and this is done through interviews. typically thinking
+
+of one of the content requirements and thus I can you get for maybe a center with us to take what content is
+
+already there you know what website. one of the things that you need to be divested that you do no longer need
+
+and what I think we should need to be added and how do need to be structured and sequenced. I one of the technical requirements
+
+of the website like to see a technologist trinity was one of the visual requirements how should
+
+the logo looks like what's the color scheme be and what images you use when you need
+
+to deliberate about the structure of the site and what kind of stuff construction if they fail to deliver it
+
+with the timeline for the project. budget estimates.
+
+one important is is usability. so
+
+when you're thinking of a website right you're thinking also you have to make the people centric. so you have to design
+
+a website from the point of view of the end user know whenever we think of anything great
+
+evening. when you think us policy offending rate. whether if I need usable or not.
+
+that's eight eight right. it's right spell it right. so that the zinc in it. all
+
+of those basic requirements in the usability of a pen and for a for a piece of technology.
+
+let's see. phone or website again that would
+
+be that usability considerations and and you give us ideas and use it to you because of the US
+
+is a content useful as a navigable does it set aside the end user does it set
+
+aside various categories of use of the website and how many clicks do you have before you
+
+move from one piece of the next before you move to where you need to go over all of those kinds of things other
+
+ones which affects the usability of websites. so that I
+
+know generic people you have try to envision a real person is accessing you website and we'll
+
+be talking about something close personal and I was up in the in the next
+
+few sections very very talk about how this person could be a typical
+
+use of the website and you try to imagine to see this user and you know
+
+and all the details in terms of how are the person is that the person works
+
+what are the requirements of those side by Mister White this person to visit their website and so on.
+
+so we'll see this is a is updated visually and I do not not putting a lot of effort to remember
+
+things about how your site so one is that
+
+we have to make it a very simple in the past there is to be like help menu for the software
+
+and they're still there but in the in the in the past people expected to use those help my.
+
+and now the design sense of direction especially with the way the apples I was devices
+
+and the necklace and all have been used they have a hiring usability. so the design is
+
+is such that you do use that you not need to think to how to use them. they must they should be intuitive and that's
+
+where you find a lot of children also using iPads in the event of because they're very they're designed
+
+with the with the with the user in mind who may not even understand the language I mean it made
+
+know how to use it but just updating it on with things they need to do but you can learn to learn to use it.
+
+so provide redundant use these recognizable features for instance your menus typically
+
+on the top left you know in the mobile three and you have a hamburger menu which is on the top right.
+
+and so if you push the menu at the bottom it's it's counterintuitive to the user. there is
+
+there is contact information and some social media links in it for the address of the button
+
+sometime. so again if you put that in other places that may not be easiest and recognizable
+
+for the user. so generally have visited and of links in different
+
+colors. if make it easy for you to remember where they've been the links must not be
+
+must must not look the same last text which is not fixable. so when you look at a link you should be
+
+able to to even verify that you things that complex care.
+
+limit the number of items and groups of choices we have too many many items that at one face
+
+and response time is also important to some of time you that will be eight info. that proportion to the pale
+
+so this is weekend out in the foster people would wait for a long for a long time
+
+payment for minutes to see something on on filled with the Internet connection and
+
+when you when you really had a dial up modem but now even a few seconds
+
+that can seamlessly long. but if it's something really important that somebody's waiting to see they see
+
+see something see that sort of thing that you've been waiting for a long time that you'll wait for it. but what the people would
+
+not want to wait too long now.
+
+so once I kind of like there's no major potential fan trapped in the ten seconds of the user becomes void
+
+and monitor because that you may leave now. so a lot of progress for other
+
+brother feedback uses unity will go go about with the business and look at sites.
+
+another way to the top of the phone so they must be an indication as to how much longer than I thought I don't know it will take
+
+give us more than ten seconds usually whenever you're you're doing installation or a dollar you always get that over
+
+us back and providing those indicate indicators to the user is important.
+
+so again when you think of using the latest technologies in the cutting edge to some of the some of the poor
+
+reasons just to look cool and to prove that you can and so on but some good reasons again.
+
+what else could still beat to look cool and to draw attention
+
+to mention attention and renounce information so most of the most important
+
+reason for using cutting edge to this must be to inform educate to join you. tools just because you have
+
+them accessible. but to use technologies for instance a
+
+JavaScript for for certain behaviors that you want to show any website or
+
+animation and stuff one eight fifty an ounce of the experience of you
+
+and accessibility is is very very important you know going forward in the building of health
+
+website and he is trying to show that your roadside excuse me. meets the basic accessibility requirements.
+
+so section to five hundred eight nineteen eight six Federal rehab habitation act requires it.
+
+entities do business with the federal government must include solutions team. employees
+
+that solution same size with disabilities and avoiding contact proposals
+
+and the ninety ninety two Americans with disabilities act you some of the fifteen million placements provide reasonable accommodation
+
+since I've been submitted so these that these have been the universe is also need to adhere
+
+to show that to the accident requirements and so when
+
+you when you build websites again that a lot of the recommendations of making sure that your websites
+
+and the later part of the semester will be looking at accessibility requirements and then how you can
+
+show that and get this side.
+
+get feedback on any type of design some other web designers. subject matter experts
+
+and from different parties and [INAUDIBLE] that it is for Quentin for design 's one.
+
+again the pro free for grammar and validation for an estimate in compliance
+
+with with guidelines so maybe I'm taught or validated up. so all these
+
+websites lately have you check your website for the accident with you and and see believe me to
+
+set up on some tests is also a good website.
+
+so once the website is done it has to maintain. so the question is who will do
+
+the maintenance with you hand deliver it to the people in that I agree with you have a website for anybody anyone
+
+else was the end user or will be called for two dimensional website on a periodic basis
+
+and what you what to do a few major problems occur will be back up copies up on the side on the site
+
+but if there's no the virus attack of some sort and schedule
+
+accordingly review of the site. the content need updating the design working on the new tools that you should be
+
+using. so these are some links that you can go through their
+
+website okay. call home .com and that home pages
+
+and to some information and resources how to optimize website. looking at
+
+the statistics link if you. validator connection speed
+
+will be a consortium and a lot of tutorials and three schools. okay
+

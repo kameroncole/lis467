@@ -1,0 +1,345 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+need for version control and how it works. so in this case up.
+
+let's say that you're working in a team and you need to share your quote with other people
+
+of your team and this quote could be CSS JavaScript order to be any that
+
+program language that you might be working on. so I mean the possibilities
+
+you could think of e-mailing them. if has attachments to and sending them off to people
+
+or sneaker net is when you actually physically copy of it according to save Tom drives
+
+and like you had driving it your past amount of people in in hard disk or cd ROMs and all that.
+
+so. so that is one of you are physically transporting but what if there are two people
+
+who might I did the same file it up at the same time. so so what do you like there are other
+
+options in it. if you can take up maybe like cloud computing and foremost googled off a drop
+
+box of these also have have limitation so there's no merging feature of stuff different
+
+according drop off and again Google dot 's Department for court there's no option to highlight
+
+syntax and so on. so these these solutions are not really I did any of these.
+
+so when you think of who gets right. get to the version control system. and this is designed
+
+for code. so it it helps you to control your source and and different
+
+versions of the source code and tracks all the changes submitted and you can revert changes go back
+
+to previous version and you also have the option to create branches that even
+
+when you are working on something without really disturbing that you can create a branch and work on something
+
+separately and then if it works about it then then you're could you could come come at your code at that
+
+point. and also to tell you like if there are types of contracts and emerging.
+
+so the question then comes in as to why you get one is because it's
+
+it's the number one. version control system every almost everyone was was a programmer developer
+
+of some sort of use is good. and also if you're working
+
+the industry then you know that you know like you to to you with that. so the way
+
+it works is that there is just to get to the version control system and then
+
+remote server policy report the tree and every usaa maintains a local copy of
+
+the entire deposit rate. hmmm. that that does
+
+that looks of the remote server on your local computer is that you can maintain the local coffee
+
+for the for the tree and so so what you do that. if you do not have get on your computer
+
+you would need to install gets you can install the better come online versions which I use most
+
+for developers but you can also install versions for instance for windows and
+
+so let me show you a few things. so if one is that
+
+they get tab is not the only version control system there are lots of version control system the number number one of
+
+good health and there is get lab. bean stalk and
+
+the celebration by Apache then of course come at Microsoft foundation server Mercurio
+
+'s CVS revision control concurrent version system. but [INAUDIBLE] it and so on. so there are lots
+
+of version control systems and we're just talking about. get to because it's Heidi popular one.
+
+so if you things to think also the first day that could have been thinking Tabitha 's website. when
+
+you have you. this is the website gets .com and you can create an
+
+account in this website and you can you can. this is the sense
+
+of the remote remote repository for your code and you can also look at deposit freeze. by the people.
+
+and then you can now. you can create local copies of that and
+
+you can modify that and and then come today that I'm at your local repository
+
+again and then pushed to that. so the remote remote repository so there things like that that you can use
+
+where it is just a very very big deposit trio for all kinds of codes that there
+
+so get the type of in control system that makes it easier to track changes to files.
+
+so when you ready to file if you have determine exactly what change will change and why changed.
+
+so there are a few things here.
+
+so one is when you try to understand you can get help that are a few things out that I need
+
+to be concerned about. one is your your working directory off. also
+
+where you're working on so so that is your local file. and. so if you think of a bifurcation.
+
+this [INAUDIBLE] in the area here is is is that your local computer. and as much for
+
+the tree is a server that that is very much you know on your local computer
+
+whatever file they're working on right now. those files are there that's called
+
+your work space. okay. now from your workspace what you can do is that you
+
+you might want to do today and take this file and get them to get them ready for putting in the repository
+
+and this this place they've made it gets ready like so the idea of this ready
+
+for that. you what you're kind of me getting them getting ready to be
+
+to be put in a call in place. I can't answer every system is a call to get around
+
+to send but it but think of the service out here you can do anything you want and then once once you think that this is kind
+
+of nice and ready then you put it in the staging area and from the staging area then
+
+and then you could come at you look for the tree. and so this is this is where you have a
+
+local copy of your code and from the look for the tree. then you could actually
+
+push it to the remote for the tree and then you can pull it back. so it's it's kind of different stages over here and gets
+
+cleared has look at it. okay. so in this example here. what
+
+what is being being shown here is better case. here you have a working copy
+
+and from the smoking coffee. so so the connotation here is here
+
+is that we can think of this as being in the staging area and from the staging area you could
+
+then come at your code into your local repository and you could update
+
+back from from the deposit for you as well. to work on it and then
+
+from the support of the tree. you could push the code to the remote for the tree and and the full effect
+
+of the this is one person working on computer the son of the person looking out of the computer this is the third person working on
+
+it. so it all if you could then be sent simultaneously working on
+
+your own local rep of the trees and and working on then and then and then come at this is just look at it for the trees
+
+and then pushing it back to this and looked up straight. so I have a few other images
+
+to explain this a bit more. so sure you have your working your area.
+
+and then you have your your staging area. this is what does that as a staging
+
+area and then you have your your repository when it deposited yet in reference to look it up of the
+
+tree. so you think it adds come on to send your files on the working directories
+
+out to the staging area and then you once you're ready to come between the rear have you. you'll find it works
+
+well for you and then you're committed to that today your repository.
+
+so this is another example image here. so here what which is what it shows is that
+
+you have.
+
+this is what you're working file. okay. and what these parts if you're working working directory and working
+
+file. so initially nothing is tracked you are just working on it. then you could
+
+put it to your staging area. can you use the add come on for it.
+
+and then with them. once once you once you modify
+
+something. so it's looking at it what is on the sitting you could you can modify it and then you could add it back to the
+
+staging area as well. you could also remove something from the staging area if you if you think that that that's improper proper.
+
+and once you're ready to come it then you you take care of it up. do you think if I was a
+
+message in your area. and then you become attached to the local repository.
+
+okay. and then you could you could get it back from the local repository as well and and
+
+back to the staging area. so there are a few others here. again that the working directory staging
+
+area we just did you get it was also call it up. city is called the index so so if that's
+
+considered a chance to talk to him to five and then you have a local deposit
+
+us will you do the ads commando we had to push it to death from the working directory to staging and then you do
+
+a comment from the stage into that up on the tree and you can check out from you. deposited to your working directory
+
+every time you want to want to work. so when you want to work from you know you could do a check out.
+
+so this is the same age here shows the kids have .com which which is basically a remote repository
+
+and then you could have your phone. again because all you could have all the local deposit freeze on your different computers
+
+over here hi this is the such a complicated figure.
+
+so here. what do you have is is a look so so you have your local
+
+workspace are working directory have a staging area and then you have. uh-huh.
+
+your local repository and then anymore deposit rate at that is it accessible over the Internet.
+
+so initially doubt. you can initialize your workspace is this is college I
+
+get tonight this is that the first time initializing it and you could you could clone and create
+
+a copy of remote for the tree onto onto a local computer. when you do a good
+
+loan and then you can give you out of the remote composite or you get a copy over here
+
+and then you could pull from disappointed multiple of the tree. so so tell me
+
+you're getting deleted up. latest updates on the file and you put
+
+the fresh come on really good to get into that. look at wondering what to look at it for the tree and when
+
+you're ready to commit your changes to the deposit or you could use the gets come it become it when you're not ready to come it
+
+but you just want to stage if you could do that to get sad and from that ad is as well you can do a coming
+
+in from the local republican you could use a push come on deposit with a remote repository and
+
+you could check out from a local deposit creek using this command will be here all the all you could check out from
+
+a debt from the staging area as well. so these are various commands that over there and they will get
+
+it cleared up as you use them. and has a go through a few tutorials on this.
+
+so this is one of the figures showing the same thing you're working directory a staging area. you look at it for the
+
+Trinity but deposit receiving to get that and then you do get coming to make it fresh.
+
+I need to check out from your local repository like to play from the remark about the tree and this whole thing is a local
+
+deposits are just part of the market for that you were here.
+
+so when you when you think of how to get in gets the first you could download
+
+to catch using some come on an interface I could could get get help desktop for windows and mac
+
+and uh and there are lots of common come on to some of them like starting on
+
+your policy from scratch. so that they get in it. my rich is there. joining a reporter for
+
+the trees you do a good cloning when you get from from from a remote server and you can
+
+also check the status of a current project. there's also the concept of a branch. when you do hundred.
+
+gets branch and and specify a branch name and what happens is that you do not want
+
+to disturb the files that over there. just wanna try something else if you see if you do separate branch and then you
+
+you try things out on that a branch so you could have different branches to
+
+register as a look on your vehicle to check out up a particular branch and you could
+
+check differences between various checkpoints that are lots of commands and
+
+and get so you can get used to that. you can work on it
+
+and it. if you install a call my name then you then you get like a local interface like this. and if you do things
+
+like that and get and if you could give get in it so you could have your your local comments
+
+out over here. so it works just like I need Linux or
+
+UNIX commands see can do look here and if you just cancel it.
+
+so. so get is an example of a busy version control system. so
+
+let's see this is an error Jenny writes about just before a big release and that has a forward and
+
+control the customer seems about a customer that happy but with the proper version control Jenny
+
+pushes the changes that you know this is by the end of the changes coming up so this coming because it's not accepted
+
+in the neck of the customer and I received about. so so that so that is where a version control system
+
+is useful. so there's some get commands will tell some of these like that in a tad come
+
+at bush. so and then for the interest rates
+
+and you get your call between the current directory or you could create or refer the train
+
+get help and when he went to update the report of the tree you have the ads come on
+
+and just admit I decide to the staging area. then you
+
+could come up to the local directory or you could push to the remote
+
+directory here. so one of the changes are coming to your local directives and this can be updated
+
+to your reporter for that you know. so your rest of the team and you know cannot access the changes
+
+so whenever you are you're committing a message is typically you would add a message saying that
+
+that what is it that you're doing. so whenever you if you can do a message
+
+like okay. created I mean look at a time and control any of the config file whatever changes you make
+
+during committing time you add to that so that people can see other people in the team can see one of the changes that
+
+you're that you're making just let us come at all and that that your modified. if you would
+
+get so it'll become useful later on when you want to see what exactly was changing in every
+
+version that you committed. and when you once it once
+
+you want to connect or deposit or you can fill in and get a copy of the entire trip of the tree
+
+and you can connect to deposit for using the secure session has been issued if yes.
+
+and when you'd pull they basically have your putting the most up to date copy from the survey because every time you want to
+
+work on quote. you want to ensure you for the people have worked on it as well so when you put that
+
+idea is to pull off and because you want to see that any changes that that other people that have
+
+made you want to work on that changes first. I do not smoke in a separate copy after somebody has
+
+a Missus you so you wanna check in the version that you're working on now is the latest version.
+
+okay. this is again at some of the structure. and if you have with workspace.
+
+this is did you get your index look it up on the twenty motive was a tree coming to the local repository.
+
+yeah. okay at this using it in income at or you can push to the remote up on
+
+the tree and then you can please some very much for that for you and you can fish to the local repository here. what
+
+you could you could check out from the local republics please call you could check out from the devastation
+
+gave you. okay so. so that is all about that I wanted to cover
+
+and some of the few topics in this nation wide web design requirements gathering response web design
+
+immobile for us to project management and version control
+
