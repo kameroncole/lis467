@@ -1,0 +1,91 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+now let us look at the reason for designing response the site or one that
+
+looks good on the mobile and whether you choose to design a website first for a mobile or first for a for
+
+a laptop. so what do we mean by response of the design.
+
+what used to happen is that like in the politics. whenever you end up you had to draw something
+
+or an artist had to pay something that would be like a fixed size of canvas and then you could
+
+you could paint something on it. and so it's so that was easy because you
+
+you at least knew that to what the where you painting or drawing was on the specific specific
+
+piece of the specific size of canvas or a specific that piece of paper on
+
+which you were driving. but what happens if the canvas changes
+
+you can choose to change the size of the canvas or the size of the paper that is exactly what's happening with
+
+with with the web browsing right now because when you have when you had designing
+
+something on on your laptop at home. and that that screen
+
+might be different from from the laptop screen size of also another user or somebody might have a large
+
+desktop screen or the use it might choose to browse the website on the mobile
+
+or tablet. you know in that case. how do you ensure that you know
+
+your website. looks good in different browsers and in
+
+different other sizes. so. so that's what's happening you have all of these various sizes
+
+of us that your brother is changing with the devices. so
+
+it's in market who came up with this term response to design. wrote that the control which designers know the print medium
+
+and also designed of beginning it is simply a function of the limitation imitation of the printed page. we should
+
+embrace the fact that it it doesn't have the same constraints and we should be able to design for the six ability.
+
+so. so think also do some web search
+
+and and discuss how would you describe the response of the design and what
+
+skills you think are required to make a responsive website so think also one of the skills that you would need to
+
+learn you know to make a website responsive. 's and also it would be in
+
+the way in which you had many plates here. your CSS and I know there
+
+are ready ready made templates and solutions as well which help you with that.
+
+budget sponsor websites more easily. and one of the things out
+
+to think of is that do you think it's better to design for a desktop or that that is in
+
+the traditional design so whenever you build a website. you use a computer and find.
+
+but you know people say that and maybe it might it maybe
+
+better to design for for a mobile device out the first and that could be because
+
+when you when you verify far for a test for a mobile. you have a very little space.
+
+so you're going from my name many of the space. if you put
+
+in front of you like my name is face to work with and then you increasing as as go.
+
+so in which case this really forces you to think off letter is really necessary. but as when you're
+
+designing for that for that after the first and then you're trying to cut down as to what can stand on on the
+
+mobile side. so so that is that that is in the traditional way but so
+
+some people say that when you focus on mobile first. then then you actually should focus on the key content
+
+and it has make your website much for on the on the point of view
+
+of the goals of the website and the usability of the website from the for the end user.
+
+so so that's going mobile for us in response to the design you would go from here.
+
+you know laptop with they just to a tablet and then to mobile mobile
+
+for us to think of your mobile and then a tablet
+
+and then I just
+
