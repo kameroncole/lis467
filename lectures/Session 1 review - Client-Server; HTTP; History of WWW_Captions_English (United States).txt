@@ -1,0 +1,161 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+and this session via covering a few topics. why web design. how do you
+
+go about getting requirements for web design project. how they would talk about what is responsive
+
+designed by that you develop your website mobile for the stars just operating first.
+
+and we'll talk about project management and version control
+
+sends out. so before that we will review what we did in the last session. Davis.
+
+we talk to a distinguishing between client and server. we according to do stretching DP. I
+
+need to reading. we look at what are the key developments in history off the Internet and they would read back.
+
+so one of the things to think about right now those deposits with you and think about
+
+the difference between the client and server. and again one computer performs
+
+both rules so the answer to this question is that yes. one computer can
+
+perform the role for a client and the server and client is anything
+
+that request for services and does serve as a computer that provides services to one of things.
+
+idea. so you so you could install a server on your local computer as well
+
+so this is an example of a simple two tier architecture with the client and server. and then you could have a three
+
+tier architecture with that. where you have a database of it and if you can so separated and you could have
+
+it into you have a various applications on leave that. so aside are separated into into a service like
+
+with the pen so but if it's not even seven so and you could have an anti- air
+
+conditioner with Claudia Benton. so in a typical process you have the. the end
+
+user on the client and then you have a request which can be in the form if I did get something for something
+
+to us over and then it goes for that through the networking goes to the survey and in the form of
+
+pages they catch demos. CSS JavaScript and so on and there's a database
+
+attached to the server and then you get some response back to the to the client
+
+and and the connection between the client. so but anyways that should be
+
+to call daily connection. this is an example if I catch it. get request
+
+going in and then there is not going to call acknowledgment okay coming back and then you have your posting something.
+
+I for for like a possible or you can use the name when logging into something and then you
+
+then the seven checks against data base and see where it's on arthritis
+
+and we also talked about looking at the major developments in the history off the Internet and the worldwide web
+
+and to summarize. if you just show you an example here. so this
+
+is my third year time line from nineteen eighty nine to two thousand nineteen. on the
+
+history of the world wide web. so here in March nineteen eighty nine. English
+
+engineer and computer scientist Tim Bentley right information management proposal which outlines his vision
+
+for what would become the world wide web and then she the first version of a search engine is
+
+conceived and he seem interested in the nineteen ninety. the number of years of the nineteen ninety Internet users
+
+two point six million and then now. by nineteen ninety. abundantly creates
+
+an issue TV you are in this chamber of the very first browser and the world
+
+wide web web on and then suddenly this is all
+
+all the world wide web web software to the public domain and the yellow domain is registered by
+
+jury activity. silo service of the cessation unit was born in nineteen ninety four
+
+and a web crawl the full text search engine will last united ninety four and then you
+
+can. bye. talked about nine ninety for the very first band has set it up hearing the number of Internet
+
+users forty four million. by nineteen eighty four waiting for something to show that. two point six million
+
+and then Internet access and Microsoft Internet explorer lunch is almost
+
+a year after Netscape navigator. but it quickly becomes one of the most popular browsers of the times an escape was
+
+it was the idea pros and then those Internet and Internet explorer came in and then
+
+you have a pop up ads coming up in nineteen eighty seven and then life is induced
+
+to consumers in nineteen ninety eight. Napster was released in nineteen ninety nine. website.
+
+it became like a file sharing. 's. if you're flushing mechanism of people. what do you do this for
+
+sharing music and movies and all that and it was cracked on the part of the fall if piracy and
+
+blow it was launched in nineteen ninety nine. just to give us our phone for people to start writing the blogs
+
+I need to really empower the lot of people because we didn't really have to depend on on
+
+the news media and people could express themselves much for free and they did not even have to be computer experts.
+
+and by the year two thousand. the number of Internet users about forty one four and twelve million
+
+and then that was the bubble busted the Internet bubble the Dotcom bubble which was there every
+
+every one of the study companies on the online that bus by the year two thousand and then we keep
+
+videos option two thousand and one. and Firefox browser came about
+
+in two thousand and two as as an open source software and what pressure
+
+is released in two thousand and three and a number of interviews of this is one thing
+
+to bed and then before that in two thousand and three mice this is only solution on this is a kind
+
+of thirty eight rations of what will eventually lead to do the coming up off of Facebook
+
+then in February two thousand and five. about the Facebook is launched a three by three
+
+form of a fighting for yourself. also though so this is off the field books a day to no avail
+
+because in two thousand and four and these people then create you what you've been to
+
+two thousand and five eight three former employee himself up a path in the future was with a quite of a vehicle
+
+goes into it was founded in two thousand and six and Netflix Jerry
+
+with civilians DVD and begins to shift into it on to my video streaming before that it is actually physically sign DVDs
+
+of people and then # tech became common in two thousand and seven US after
+
+it came about a two thousand and eight and an android market distortion two thousand eight
+
+to twelve by two thousand and ten. the number of Internet users became the one point nine billion almost a billion
+
+by then and then. so in two thousand and ten. and surround
+
+sound or Kevin Forster the first four digits of us in July of two thousand ten. was
+
+released later that year. ' they they became
+
+that came about in two thousand and twelve. the number of things do you like to the twenty sixteen to three
+
+point four billion and then like two thousand eighteen fees because that to deal with any controversies over
+
+the years. bye-bye. but it became of it. a tough year with with the scandals and so on
+
+and in two thousand and nine now. world record was found.
+
+font phones with with with an egg. they can just a picture of Snape on Instagram and and they wanted to
+
+see what they could break you know the record of eighteen million. so very soon like the record is broken within ten
+
+days and nonsense and I like it might make twenty
+
+twenty eight was like to pay more than fifty four million users
+

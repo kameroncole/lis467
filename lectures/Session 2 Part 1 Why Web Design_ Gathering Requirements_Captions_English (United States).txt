@@ -1,0 +1,465 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+and just let you have a look at a few things so by the time you finish the lecture you should be able to identify the
+
+reasons for building a website. so we'll talk about why I've been to the website and white.
+
+talk about designing a website and you'll be able to destroy the need for you guys and requirements
+
+but also look at the reasons for going responsive or mobile first. and
+
+we look at the various components in favor of the project management. and we'll talk about version control.
+
+so let's look at the reasons for designing a website and the need for a gathering requirements and
+
+the spot with you. so why web design. now when you think of
+
+web design. various tones come to mind aesthetics interface hasty
+
+OCS Essex and those type of typography graphics company to develop a prose architecture.
+
+leave those on with the various terms that are there in the web design and development process
+
+so take a minute and think also why do you think the design and development
+
+are important and positive for a minute and then try to write it down
+
+before you move forward with watching the rest of the with you.
+
+soon to talk off for web design that are a few things no one is the fundamentals of web design.
+
+the making of. also a good design and typical website evolution the process
+
+of design. what happens the pre- design work but of the things that influence design technology content
+
+to call me how shoot by you should worry about accessibility and making sure that website
+
+follows the universal web design. and thank for maintenance and improvement issues these
+
+in in a nutshell all the various things and considerations that going to place when you think
+
+of web design and development. so spend some time browsing
+
+the Internet and look for examples of bad web design and
+
+examples of some good web design. okay so when you think of in this current
+
+here which websites do you think will qualify for for the bad one finished which ones
+
+do I think you qualify for Gwen why do you think those reasons exist.
+
+so if you're in example.
+
+so for instance if you look at examples of bad website this website. just have some examples
+
+of bad websites one to save your university school of thought. and when you
+
+think of bad website. it is basically difficult to navigate and the competence with their face
+
+to get that they're doing. make an aesthetic sense the functionality is is not
+
+easy to do it. it's not easy to use from the perspective of the end user and the functional
+
+it is not the best. so this is I'm calling books is on the example of a website which is
+
+not so good. high school sports in Mississippi so I was just a
+
+scroll down so that if you can see like a way to see examples of websites which don't look so good to get that their
+
+images missing on the safe side and like you'll find out so much as you
+
+have the deepest and have a Dodge. font here in the center line. so lots
+
+of websites which in there and they listed here for various reasons why they may not work. now
+
+the sun is an example of the through the website and there is an overdose of very bright colors
+
+which which sort of jarring to the eye and just one example
+
+of the website which is clean and simple and easy to use usable as the live .com.
+
+and here you have a very nice words used for that very
+
+simple words from the with the specific that I do buy a rental or sale. so that's another user comes you can
+
+see that. whether you want to buy or sell a renter house and then there's
+
+something on home zones and stage and find us leave that to somebody looking to buy or sell that house that these are the
+
+typical things that you would need and when you vote with you. you find a great day just in that
+
+show up and there is a signing option on the right. and you can add neighborhood
+
+right away. so. so that was other other menu items again
+
+in bigger sizes here. I need to feel it looks very clean even went out
+
+and seen from the perspective also. I saw that come up on mobile screen so
+
+when you get your mobile three again the name and will show up like this and you can do the same
+
+functionality here. and yeah so so it's nice and then
+
+Simpson and his little brother. so that's just one example that it lots of examples of good websites as well
+
+then lots of bad one. so I want you to take the time to look at and look and
+
+find some examples yourself
+
+so think of. look at examples of library websites and and discuss
+
+which ivory websites are good and which ones I do think are bad and why
+
+and if you look at the some of the video website. look at some of the some of the websites and then and
+
+to do so. if you think it's an example of a good website design or a bad web
+
+design and why do you think. thanks so so I think
+
+the fundamentals of web design. one of the first things that you'll think about is the purpose
+
+of that why is it that you want to design the website. so typically a website must have
+
+a purpose rather than just being a repository for information and what have you focus
+
+that should be tied to the goals of the organization. when it's an ivy or an archive or
+
+a person is building a personal website so if you build a website for yourself. then you
+
+must be did what do you want to achieve in the next two to five years. and I think of that is the purpose and you think of a
+
+library and its primary purpose being to provide services to patrons and that must be front and center
+
+in terms of the design the things that inform the design of the website.
+
+so the public could be to inform to educate you could be persuaded to
+
+buy something. or for for another date could be so sort of
+
+deposit someone to join a call as well. I don't think of instances up on the design.
+
+it can be the technology was able to the target audience and the designer. the content
+
+that you that you're there and how much money is is there to work on the design vehicle
+
+how much time do you have went with the scope of the skid of the project and the types of issues
+
+that are there on the on the website. whether you're using animation pictures
+
+or just text. our video mixed event and usability
+
+is one of the key terms in terms of making sure that your website is easy to use them out
+
+from a user 's perspective. so those objectives must be met. so anything
+
+else out. good website. when did you have the object
+
+is the purpose of the website and based on that purpose. you think of the content that needs to go into the content
+
+will insure that website is functional if it's place in the right manner and it's and have a cable but Continental
+
+will not make out their website work. so when you think of good design it must be understandable
+
+and interesting and easy to use in any form. and also done some
+
+of it says a point of view so that's what you see is actually what you get unique you should not need
+
+to think so one of the that famous usability books is because don't
+
+make me think. right. so when you think of.
+
+so this this book quite by Steve Kruger is it. it's talked talked about this is principle
+
+of not letting requiring the user to have to think when you're
+
+when you're on when you click on something I don't click on something so good website must be able to
+
+to follow those principles.
+
+so one of the things is that whenever you think of cruise rates. those only
+
+guidelines so one thing that I realize over the years is that anything that you say works
+
+for in terms of website file one of the rules used to be in the past. so that webpages were supposed
+
+to be a shot. so that you could they can see all the content on a laptop screen and click
+
+and go to the next three and now that's true no longer holes as much because a lot of people
+
+are are browsing looking webpages on mobile devices and where you have a touch base
+
+interface so you you scroll used for the lot when you when you when you're on
+
+on a mobile device. so then webpages tend to be long. so that's true. I was having sharp webpages
+
+of them for the closing all the situations now. so in that manner. there is no single
+
+right way to create a website there right away. depends on yesterday. to use depends on which year
+
+you are in as to as weapons. those are are being followed at that point. and depends on
+
+your end users and devices. the end users have
+
+conflict with technology that the type of device they have the type of browser that eight day using all of those payroll.
+
+remember like what you see is what you get so. so have you there's one central with all my material they want to
+
+seem the fifteenth of the information they need. so again and give them control
+
+doing get them to follow that one specific path. they should be able to arrive at something
+
+and in multiple ways and and you should be able to guide them in some manner so that
+
+they don't get to get lost but still have a semblance of control.
+
+so there have been a few generations of evolutions in terms of of the web design.
+
+so the first generation was that was replacing paper information
+
+and then in the second generation that would love the flashy elements used to find lots of things actually groaned
+
+when you went to any webpage that I me to that I can recall many of the points.
+
+and. generation three is leading edge. so those lots of style elements
+
+in CSS styling use. but the contents of in the case. and now
+
+when you think of. generation for continent and technology are integrated. so
+
+your content to take my name is all those become important element having a sense
+
+of whitespace and your design so when you think
+
+of web design we should I really try and skip the some of the problems that are there
+
+in the first three generations of website design.
+
+so when you think of general method for design one is called the ad hoc process or arm or
+
+seat of the pants. so here. so any single seat
+
+of the fence is basically based on you the intuition and experience rather than a plan
+
+or. so. so when it went
+
+something that is like electricity put together created on the site. so when someone says like I need a website right now within
+
+one hour today. that's when you have a very ad hoc way of creating a website
+
+and the other the other way is a methodical well process which includes planning quality assurance.
+
+so what you learn in this class is more methodical well thought out process and we're not
+
+not been looking at more. so much of the Internet how process and but even then
+
+there might be times when after you've gone for this class. that would be times when you might have to put together a website
+
+quickly especially those websites which do not have a very long shelf life and and see what you should
+
+have the tools to do that as well if you when you need to.
+
+so when you have an adult website that first of that one you and
+
+be able to get through all the contents of the might you might have also been it's about under construction site
+
+and some of the content might be annoyed because you haven't had the time to interview people and get the latest content
+
+and some of the techniques and design may not be the best in the they might be addressed
+
+Brooklyn spoken scripts because they're trying to put together something very quickly
+
+and so the site may not be the best in terms of usability because you haven't had the time to design tasks and carry out a
+
+usability testing for a website. and
+
+so again you you call me on me know if he would be very clear when you try to do two things quickly that it might be like
+
+a lot of quick fixes in the design and this might be difficult to update them and you know
+
+as well. some benefits of that that's a quick and dirty might be the best
+
+best case out in some situations and that's when. if websites a very short lifespan that's
+
+when you use that ad hoc design is good and for very small website sense
+
+size design for a single event a single class and so on.
+
+so when we think of taking the time to do design it and test a website before launching
+
+well thought out web design in the long run will save you a lot of problems it's more effective understandable
+
+easy to navigate and you know and that's something we should strive for because the planning process
+
+even though it takes a lot of time it really reflects in what the end you the overall
+
+site and stuff looking like and it's very easy to to maintain each one for the end user
+
+with the ways that there if ninth is for the website. so
+
+think also one of the top five skills you need to be to be a good web designer developer
+
+and which of these skills you already have and which ones do you plan or wish to acquire
+
+and then from these. if you have on one piece of technology right away. which one would that be. so
+
+it's just so it's something that set up for you to think through now. as as I think also
+
+think of your role in this representative assigned to process.
+
+so now there is some free design work. that's carried out. so consider the mission of your organization.
+
+and then to find out the target audience. this is a very important thoughts because
+
+websites may not be able to cater to all the people so I can. a lot of the mistakes
+
+give me to make and then you try to build a website which is one size fits all for everyone.
+
+so when you if you know who your target audiences. then you'll be able to to
+
+map the websites to that user base and then if it works a target audience is like
+
+you look for other people as well. but if you try to make a website for everyone. without
+
+really having an audience in mind and maybe and I see that it doesn't really work for anyone.
+
+so set some goals of the websites of things that you want to do like to quickly enter things that are more
+
+for long term. and and how should you go about gathering content
+
+and try to try to chunk them into some logical units to think of room side with financial
+
+and you have to organize it also it might. if you if you put in place for each
+
+other around then it may not look very nice but if you had logically is like a seating area and a dining area
+
+and maybe a desk and and this year so those kinds of you when you feel distressed as a
+
+way. looks on one eight so even in terms of the content everything through. how do you want to organize
+
+a junk your content into a single page of website any multiple pages as
+
+well so again like when you think of pre-
+
+design create an outline a plan for your content
+
+and create a website on paper first so the best design happens
+
+on paper. even before you started designing websites a lot of the times I find a certain schedule them
+
+so I think of a design project. but really for Saddam just with with a pencil and paper a pen
+
+and paper and start start looking. thinking through what how the menu structure
+
+looks like what pages you want the website should contain how should you label
+
+the parts of the website and then how do you want the user uses attention
+
+to flow for one part of the website to the other so the sequencing and the content
+
+all the status can can be taught you know in a paper permissive thank you know what many attention there and
+
+the components of your website. so then think about the
+
+actual esteem a PDF traffic one of the size needs of it the website. they will they replace how the
+
+businesses access them and organize the file you can be for the development team team
+
+can understand the hierarchy of the pages. so there are
+
+so then we should also taken through one of the instance of technology and on on design. so
+
+which which of the browser that that are used by the user whether it is
+
+chrome or Firefox or Internet explorer for different browsers are are
+
+used to have have have different market share and very
+
+very user base and which drugs are you this elected to use. and also think
+
+off the operating systems that that they might be using whether it has windows or mac or Linux or some of them up the system but there's just
+
+a list of mobile. what kind of connection speeds up there in different states of the US and in
+
+different parts of the wood and then very are you this might be deciding
+
+and also the sides of the screens that users might be using whether it's
+
+a it's a five inch mobile phone or is it larger distance for you know. our huge
+
+ship. seventy five inch television screen so so where where is the browsing
+
+happening for your user.
+
+so the content drives of how the website looks the size design the students of different
+
+insights and science and stuff and which may look different for type design for like potential faculty
+
+and also as far as for current sites for current clients out to current employees would be much more functional.
+
+you would did want to look for specific files and sites for potential clients my feet much
+
+more specific with where you are really trying to get to impress them so that for current
+
+employees they're more concerned with with finding things out that they need.
+
+and again when you. when you design sites to get people to purchase items for instance Amazon.com
+
+and this is my fifth different and sizes and provide information a lot of the sights which are the government website
+
+and sometimes that's that's what I was in archives also much more information now. but even then you
+
+could provide provide more action based items like like borrow borrow a book
+
+or look. I'll go into Internet radio and discuss the question to the library and stuff like that.
+
+and use quality content from subject matter expert so we'll seven was the
+
+most about what needs to go to the website you need to talk to them in designing a site
+
+and have different people. periodically review review the
+
+positive side. and again you know that if you Continental charity and have
+
+people feel free to the site for grandma and you get the people who are not this
+
+is it with your website to look at your site to see if there's anything that you might have missed.
+
+this is Dean this is an example of difficult problems that are there in in
+
+with website design. now these are the things that they're in the most up front page of those sites
+
+you might have a campus for too a slight slide show to nine the news from ocean 's press releases and
+
+let us in the President Bush which I don't know that and I did have any of the schools and
+
+things like that. a lot of people look for in the size might be left a faculty phone number the name of that as soon and
+
+you maybe looking for those are the address of the campus application Fong this is a potential student
+
+'s academic calendar [INAUDIBLE] information. our campus not that
+
+I can actually use stuff like that and listing of courses. so what you're finding the website
+
+and what you need to might be very different so one of the things you must think about is not designing
+
+a website from a designer point of view. not because you have all the condiments you want to showcase but I think also up
+
+front from the user point of view it what one of the kinds of things that you use might want to use the website
+
+for and they are also economic considerations seems to do with
+
+budget. that's the stuff time that you have for creation and
+
+stuff time for maintaining so an in house versus outsourcing.
+
+so all of these other various kind of consideration that you go and
+
+and how's this is also outsourcing. so all of these are the various kinds
+
+of considerations that you're going to thinking else that's design even
+
+before you actually actually calling about really mapping it and this is just
+
+a design consideration. that's true. why would you want to build design. how can you get the requirements from
+
+users and one of the considerations in the design process
+

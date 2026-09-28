@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260928T044611Z" application="panopto_transcribe.py" version="1.0"><note><title>LIS 467 — Session 1 Review: Client-Server, HTTP &amp; History of the WWW</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 1 Review: Client-Server, HTTP &amp; History of the WWW</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> Review of Session 1 — Client-Server Architecture, HTTP, and the History of the World Wide Web
+<strong>Source:</strong> Panopto lecture transcript — "Session 1 review - Client-Server; HTTP; History of WWW"</p>
+<hr />
+<h2>1. Session Overview</h2>
+<p>This session opens by previewing upcoming topics — why web design matters, gathering requirements for a web design project, responsive and mobile-first design, project management, and version control — and then reviews the core concepts from Session 1:</p>
+<ul>
+<li>Distinguishing between <strong>client</strong> and <strong>server</strong></li>
+<li>The <strong>HTTP</strong> request/response cycle</li>
+<li>Key developments in the <strong>history of the Internet and the World Wide Web</strong></li>
+</ul>
+<hr />
+<h2>2. Client vs. Server</h2>
+<p>🔑 <strong>Key question:</strong> Can one computer perform both roles?
+✅ <strong>Yes.</strong> One computer can act as both a client and a server — you can install server software on your local computer.</p>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Role</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Client</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Anything that <em>requests</em> services</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Server</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">A computer that <em>provides</em> services to clients</td>
+</tr>
+</tbody>
+</table>
+<h3>Architecture Tiers</h3>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Architecture</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Two-tier</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Client ↔ Server (simple)</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Three-tier</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Client ↔ Application server ↔ Database server (database separated from application logic)</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>N-tier</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Multiple separated layers — various applications and services each on their own tier</td>
+</tr>
+</tbody>
+</table>
+<p>💡 Separating the database and applications into their own tiers is what moves you from two-tier to three-tier (and beyond) architecture.</p>
+<hr />
+<h2>3. The HTTP Request/Response Cycle</h2>
+<p>The typical process:</p>
+<ol>
+<li>The <strong>end user</strong> acts on the <strong>client</strong> (browser).</li>
+<li>The client sends a <strong>request</strong> (e.g., an HTTP <code>GET</code> to fetch something) over the <strong>network</strong> to the <strong>server</strong>.</li>
+<li>The server — often with a <strong>database</strong> attached — processes the request.</li>
+<li>The server returns a <strong>response</strong> to the client: HTML pages, CSS, JavaScript, and so on.</li>
+</ol>
+<h3>GET vs. POST</h3>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Method</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Purpose</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>GET</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Request/retrieve a resource; server returns an acknowledgment (e.g., <code>200 OK</code>) and content</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Fetching a web page</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>POST</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Submit data to the server</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Logging in with a username/password — the server checks credentials against the database to see if you're authorized</td>
+</tr>
+</tbody>
+</table>
+<p>⚠️ Remember: the connection between client and server is a <em>stateless</em> request/acknowledgment exchange — each request gets its own response.</p>
+<hr />
+<h2>4. History of the World Wide Web (Timeline: 1989–2019)</h2>
+<h3>The Beginning</h3>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Year</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>1989 (March)</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">⭐ English engineer/computer scientist <strong>Tim Berners-Lee</strong> writes the <em>Information Management: A Proposal</em> — his vision for what would become the World Wide Web</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>1990</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">First version of a search engine conceived; Internet users reach ~2.6 million; Berners-Lee creates <strong>HTTP</strong>, <strong>URLs</strong>, and the <strong>very first browser</strong> (WorldWideWeb)</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>1993</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">World Wide Web software released into the <strong>public domain</strong>; early domains registered</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>1994</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Yahoo!</strong> directory service born; <strong>WebCrawler</strong>, the first full-text search engine, launches; first banner ads appear; Internet users reach ~44 million</td>
+</tr>
+</tbody>
+</table>
+<h3>The Browser Wars &amp; Web 1.0</h3>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Year</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>1995</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Microsoft Internet Explorer</strong> launches (~a year after <strong>Netscape Navigator</strong>) and quickly becomes one of the most popular browsers, displacing Netscape</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>1997</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Pop-up ads appear</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>1998</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Google</strong> search introduced to consumers</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>1999</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Napster</strong> released — peer-to-peer file sharing for music/movies, later shut down over piracy; <strong>Blogger</strong> launches, empowering ordinary people to publish without depending on news media or being computer experts</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2000</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Internet users ~412 million; the <strong>dot-com bubble bursts</strong>, wiping out many online startup companies</td>
+</tr>
+</tbody>
+</table>
+<h3>Web 2.0 and Social Media</h3>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Year</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2001</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Wikipedia</strong> launches</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2002</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Firefox</strong> browser emerges as open-source software</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2003</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>WordPress</strong> released; <strong>MySpace</strong> launches — a precursor whose ideas eventually lead to Facebook</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2004</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">⭐ <strong>Facebook</strong> founded (launched publicly Feb 2005 per timeline); <strong>Gmail</strong> era begins</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2005</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>YouTube</strong> created by three former PayPal employees</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2006</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Twitter</strong> founded; <strong>Netflix</strong> begins shifting from mailing physical DVDs to online video streaming</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2007</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The <strong>#hashtag</strong> becomes common; <strong>iPhone</strong> era begins</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2008</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>App Store</strong> and <strong>Android Market</strong> launch</td>
+</tr>
+</tbody>
+</table>
+<h3>The Mobile &amp; Billion-User Era</h3>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Year</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2010</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Internet users reach ~1.9 billion; <strong>Instagram</strong> founded (Kevin Systrom et al.); <strong>Pinterest</strong> released later that year</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2012</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Continued platform growth</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2016</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Internet users ~3.4 billion</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2018</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">A tough year for <strong>Facebook</strong> — data-privacy scandals and controversies</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2019</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The "world record egg" — a simple photo of an egg on Instagram breaks the world record (~18 million likes) within ten days; by 2019+ the photo passed 54 million likes</td>
+</tr>
+</tbody>
+</table>
+<p>💡 <strong>Big picture:</strong> In 30 years the web went from one engineer's proposal to billions of users, transforming publishing (blogs), commerce (dot-coms, Amazon), media (Netflix, YouTube), and social interaction (Facebook, Twitter, Instagram).</p>
+<hr />
+<h2>5. Key Terms Glossary</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Term</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Client</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Any computer/program that requests services from a server</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Server</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">A computer/program that provides services to clients</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Two-tier architecture</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Direct client ↔ server model</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Three-tier architecture</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Client ↔ application server ↔ database server</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>HTTP</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">HyperText Transfer Protocol — governs request/response between client and server</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>GET</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">HTTP method for requesting/retrieving resources</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>POST</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">HTTP method for submitting data (e.g., login credentials) to the server</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Tim Berners-Lee</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Inventor of the World Wide Web (1989 proposal; created HTTP, URLs, first browser)</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Dot-com bubble</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Speculative boom in Internet startups that collapsed around 2000</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Web 2.0</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Era of user-generated content and social platforms (blogs, wikis, social media)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>6. Quick Review Questions</h2>
+<ol>
+<li>Can a single computer act as both a client and a server? Explain.</li>
+<li>What is the difference between two-tier and three-tier architecture?</li>
+<li>Describe what happens between the client and server when a user logs into a website (which HTTP method is used, and what does the server check?).</li>
+<li>Who proposed the World Wide Web, in what year, and what three foundational technologies did he create?</li>
+<li>Which browser did Internet Explorer displace in the mid-1990s?</li>
+<li>What happened to Internet startup companies around the year 2000?</li>
+<li>Name two 2004–2006 launches that defined the social media era.</li>
+<li>Roughly how many Internet users were there in 1990, 2000, 2010, and 2016?</li>
+</ol></en-note>]]></content><created>20260928T044611Z</created><updated>20260928T044611Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 2, Part 1: Why Web Design? Gathering Requirements</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 2, Part 1: Why Web Design? Gathering Requirements</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> Why Web Design, Fundamentals of Good Design, Design Processes &amp; Pre-Design Requirements Gathering
+<strong>Source:</strong> Panopto lecture transcript — "Session 2 Part 1 Why Web Design? Gathering Requirements"</p>
+<hr />
+<h2>1. Learning Objectives</h2>
+<p>By the end of this lecture you should be able to:</p>
+<ul>
+<li>Identify the <strong>reasons for building a website</strong></li>
+<li>Discuss the need for <strong>user analysis and requirements gathering</strong></li>
+<li>Explain the reasons for going <strong>responsive / mobile-first</strong></li>
+<li>Describe the components of <strong>web project management</strong></li>
+<li>Understand the role of <strong>version control</strong></li>
+</ul>
+<hr />
+<h2>2. Why Web Design?</h2>
+<p>When you think of web design, many terms come to mind: <strong>aesthetics, interface, HTML/CSS, typography, graphics, content development, information architecture</strong>. Web design and development matter because a website is often the primary face of an organization and the primary channel of service delivery.</p>
+<p>Key areas of study for web design:</p>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Area</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">What it covers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Fundamentals of web design</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">What makes a design "good"</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Website evolution</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">How sites and design generations have changed</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">The design process</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Pre-design work through launch</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Influences on design</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Technology, content, economics</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Accessibility</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Universal web design principles</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Maintenance</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Planning for ongoing improvement</td>
+</tr>
+</tbody>
+</table>
+<p>💡 <strong>Exercise from lecture:</strong> Browse the web and collect examples of <em>bad</em> and <em>good</em> web design — and articulate <em>why</em> each qualifies. Apply the same analysis to <strong>library websites</strong>.</p>
+<hr />
+<h2>3. Bad vs. Good Web Design</h2>
+<h3>Characteristics of bad websites</h3>
+<ul>
+<li>⚠️ Difficult to <strong>navigate</strong></li>
+<li>⚠️ Components on the page interfere with each other; no aesthetic sense</li>
+<li>⚠️ Poor <strong>functionality</strong> — not easy to use from the end user's perspective</li>
+<li>⚠️ Missing images, jarring/overly bright color overdoses, cluttered layouts</li>
+</ul>
+<h3>Characteristics of good websites (example: Zillow.com)</h3>
+<ul>
+<li>✅ <strong>Clean and simple</strong> — easy to use and usable</li>
+<li>✅ Simple, specific wording matched to user goals (buy / rent / sell)</li>
+<li>✅ Search front and center; sign-in and key menu items clearly visible</li>
+<li>✅ Works equally well on <strong>mobile</strong> — same functionality, adapted layout</li>
+</ul>
+<hr />
+<h2>4. Fundamentals of Good Web Design</h2>
+<h3>4.1 Purpose</h3>
+<p>⭐ A website must have a <strong>purpose</strong> — not just be a repository for information. The purpose should be tied to the <strong>goals of the organization</strong> (library, archive, business, or a personal site: what do you want to achieve in the next 2–5 years?).</p>
+<p>For a library, the primary purpose — <strong>providing services to patrons</strong> — must be front and center in the design.</p>
+<p>Typical purposes: to <strong>inform</strong>, to <strong>educate</strong>, to <strong>persuade</strong> (e.g., buy something, join a cause).</p>
+<h3>4.2 Influences on design</h3>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Influence</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Technology</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Browsers, devices, connection speeds</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Target audience</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Who the site is for</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Designer &amp; content</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Skills available, material to present</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Money / budget</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Resources for design and maintenance</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Time &amp; scope</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Schedule and size of the project</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Media types</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Animation, images, text, video, mixed</td>
+</tr>
+</tbody>
+</table>
+<h3>4.3 Usability</h3>
+<p>🔑 <strong>Usability</strong> is a key requirement: the website must be easy to use from the user's perspective — understandable, interesting, and usable in any form. What you see should be what you get; users should not have to puzzle over what to click.</p>
+<p>⭐ Classic usability book: <strong>Steve Krug, <em>Don't Make Me Think</em></strong> — a good website never requires the user to stop and think about how to use it.</p>
+<h3>4.4 "Rules" are only guidelines</h3>
+<p>⚠️ Web design "rules" change over time. Example: pages used to be kept <strong>short</strong> so all content fit on a laptop screen; now, with touch-based <strong>mobile</strong> browsing, long scrolling pages are normal and accepted.</p>
+<p>💡 There is <strong>no single right way</strong> to create a website. The right way depends on:
+- The <strong>era/conventions</strong> current at the time
+- Your <strong>end users</strong> — their comfort with technology
+- Their <strong>devices and browsers</strong></p>
+<h3>4.5 Give users control (with guidance)</h3>
+<ul>
+<li>Keep material centered on what users want to see and the information they need.</li>
+<li>Don't force one specific path — users should be able to arrive at content in <strong>multiple ways</strong>.</li>
+<li>Guide attention so users don't get lost, while preserving a <strong>semblance of control</strong>.</li>
+</ul>
+<hr />
+<h2>5. Generations of Web Design</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Generation</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Character</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>1st</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Replacing paper — documents put online</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>2nd</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Flashy elements — spinning/animated gimmicks on every page</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>3rd</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Leading edge — heavy CSS styling, but content took a back seat</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>4th</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">⭐ Content and technology <strong>integrated</strong> — content is the driving element, with deliberate use of <strong>whitespace</strong> in the design</td>
+</tr>
+</tbody>
+</table>
+<p>💡 Modern design should consciously avoid the problems of the first three generations.</p>
+<hr />
+<h2>6. Design Methods: Ad Hoc vs. Methodical</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Method</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Description</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">When appropriate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Ad hoc ("seat of the pants")</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Based on intuition and experience rather than a plan; site thrown together quickly</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Sites with a <strong>short shelf life</strong>; very small sites (a single event, a single class); genuine time emergencies</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Methodical, well-planned</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Includes planning and <strong>quality assurance</strong> — what this course teaches</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Anything intended to last</td>
+</tr>
+</tbody>
+</table>
+<h3>Costs of ad hoc design</h3>
+<ul>
+<li>⚠️ Content gaps ("under construction" pages), outdated content (no time to interview stakeholders)</li>
+<li>⚠️ Borrowed/broken scripts and sub-par techniques</li>
+<li>⚠️ Poor usability — no time for <strong>task design</strong> or <strong>usability testing</strong></li>
+<li>⚠️ Quick fixes accumulate, making the site <strong>difficult to update and maintain</strong></li>
+</ul>
+<h3>Benefits of methodical design</h3>
+<p>✅ A well-thought-out design, tested before launch, saves problems in the long run: more effective, understandable, easy to navigate, and far easier to maintain.</p>
+<p>💡 <strong>Reflection prompts from lecture:</strong> What are the top five skills a good web designer/developer needs? Which do you already have? If you could master one technology right away, which would it be? What is your role in a representative design process?</p>
+<hr />
+<h2>7. Pre-Design Work (Requirements Gathering)</h2>
+<h3>7.1 Steps</h3>
+<ol>
+<li><strong>Consider the mission</strong> of your organization.</li>
+<li><strong>Define the target audience.</strong></li>
+<li>⚠️ A common mistake: building a one-size-fits-all website for everyone — it ends up working for no one.</li>
+<li>✅ Know your target audience and map the site to that user base; if it also works for others, that's a bonus.</li>
+<li><strong>Set goals</strong> — both quick wins and long-term objectives.</li>
+<li><strong>Gather content</strong> and <strong>chunk it into logical units.</strong></li>
+<li>💡 Analogy: a room full of randomly placed furniture vs. one organized into a seating area, dining area, and desk — logical grouping makes everything usable.</li>
+<li>Decide: single page or multiple pages?</li>
+<li><strong>Create an outline / plan for your content.</strong></li>
+</ol>
+<h3>7.2 Design on paper first</h3>
+<p>⭐ <strong>The best design happens on paper.</strong> Before touching software, sketch with pencil and paper:</p>
+<ul>
+<li>The <strong>menu structure</strong></li>
+<li>What <strong>pages</strong> the site should contain</li>
+<li>How to <strong>label</strong> the parts of the site</li>
+<li>How the user's <strong>attention should flow</strong> from one part to another (sequencing)</li>
+</ul>
+<p>Then produce the actual <strong>sitemap</strong> (PDF/graphic) showing the size and needs of the website and the <strong>hierarchy of pages</strong>, so the development team understands how users will access and how files are organized.</p>
+<hr />
+<h2>8. Influence of Technology on Design</h2>
+<p>Think through your users' technical context:</p>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Factor</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Browser</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Chrome, Firefox, IE/Edge — different market shares and user bases; which standards will you target?</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Operating system</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Windows, macOS, Linux, mobile OSes</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Connection speed</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Varies across US states and around the world</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Screen size</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">5-inch phone → laptop → 75-inch television — where is the browsing happening?</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>9. Content Drives Design</h2>
+<p>🔑 <strong>Content drives how the website looks.</strong> Different audiences need different site designs:</p>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Audience</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Design emphasis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Prospective</strong> clients/students</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Impressive, persuasive presentation</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Current</strong> clients/employees</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Functional — quickly finding what they need</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">E-commerce (e.g., Amazon)</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Action-oriented purchase flows</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Government / archives / libraries</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Information-rich, but can still add action items: <em>borrow a book, ask a librarian, listen to Internet radio</em></td>
+</tr>
+</tbody>
+</table>
+<h3>Content quality practices</h3>
+<ul>
+<li>✅ Use <strong>quality content from subject matter experts</strong> — they know best what belongs on the site; talk to them during design.</li>
+<li>✅ Have different people <strong>periodically review</strong> the site.</li>
+<li>✅ Proofread for <strong>grammar</strong>; have people <em>unfamiliar</em> with the site review it to catch what you missed.</li>
+</ul>
+<h3>Designer view vs. user view</h3>
+<p>⚠️ <strong>University website problem (classic example):</strong> what the institution puts on the homepage vs. what users actually look for:</p>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">What the front page shows</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">What users actually want</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Campus photos / slideshows</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Faculty phone numbers and names</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">News, press releases</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Campus address, application forms</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Letter from the president</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Academic calendar, maps, course listings</td>
+</tr>
+</tbody>
+</table>
+<p>⭐ <strong>Design from the user's point of view, not the designer's</strong> — not because you have content to showcase, but because users have tasks to accomplish.</p>
+<hr />
+<h2>10. Economic Considerations</h2>
+<ul>
+<li><strong>Budget</strong> for creation and for ongoing <strong>maintenance</strong></li>
+<li><strong>Staff time</strong> available (creation + upkeep)</li>
+<li><strong>In-house vs. outsourcing</strong> the design work</li>
+</ul>
+<p>All of these factor into design decisions <em>before</em> you actually begin mapping the site.</p>
+<hr />
+<h2>11. Key Terms Glossary</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Term</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Usability</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">How easy and pleasant a site is to use from the end user's perspective</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Target audience</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The specific user group a website is designed to serve</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Requirements gathering</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Pre-design work of identifying mission, audience, goals, and content needs</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Ad hoc design</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Quick, intuition-based site creation with no formal plan or QA</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Methodical design</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Planned design process including quality assurance and testing</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Sitemap</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">A diagram of a site's page hierarchy and organization for the development team</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Content chunking</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Organizing content into logical units/groups</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Whitespace</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Deliberate empty space in a design (hallmark of 4th-generation design)</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Responsive / mobile-first</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Designing so a site works on mobile devices first, then scales up</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong><em>Don't Make Me Think</em></strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Steve Krug's usability classic: users should never have to puzzle over an interface</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Subject matter expert (SME)</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The person who knows the content domain best; source of quality content</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>12. Quick Review Questions</h2>
+<ol>
+<li>Why must a website have a purpose beyond being an information repository, and what should that purpose be tied to?</li>
+<li>List four factors that influence web design decisions.</li>
+<li>What is the central principle of Steve Krug's <em>Don't Make Me Think</em>?</li>
+<li>Why is "webpages should be short" no longer a firm rule?</li>
+<li>Describe the four generations of web design. What distinguishes generation 4?</li>
+<li>When is ad hoc ("seat of the pants") design acceptable, and what are its risks?</li>
+<li>What are the five main pre-design steps?</li>
+<li>Why should design start on paper, and what should the paper sketch capture?</li>
+<li>What is the classic mismatch on university homepages between designer content and user needs?</li>
+<li>Name three economic considerations in web design.</li>
+</ol></en-note>]]></content><created>20260928T044611Z</created><updated>20260928T044611Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note></en-export>
