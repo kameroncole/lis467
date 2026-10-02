@@ -1,0 +1,249 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+so we're talking about audience and design considerations and stuff and starting to build a website. so
+
+that up. this is a good chart on different levels of web design.
+
+so here when you have the when you talk what do youse experience.
+
+you can look at a website or web. any any other way went web as a
+
+as a software interface. or you can look at it it is one from from a call from
+
+a content perspective as I have a system. so then
+
+immediately is to it. when you starting to build a website one of the first things to think about is
+
+is one of the object of the website. so is it a business subject you what if creative objective or they intended
+
+to do that for the site and then talk about usaa needs so usaa
+
+needs it could be need to come from outside and that you can do through you the research three interviews to
+
+through a photography and so on and beyond that
+
+there are there are two spots to depending on where you're looking looking from and it moves from last
+
+check more concrete as as they move up on the top. and also from work from concepts.
+
+and also from the time a project is conceived to the time that it is completed.
+
+so from a from a software perspective you you'll think of functional
+
+specifications are the future says that you need to on the website detailed description of the functionality that
+
+a site must include you know to to meet you the needs. but until you also have to
+
+talk about what content that needs to go so [INAUDIBLE] features based on
+
+the on the interview one of the part one of the things that are you this is really one to have on the website so
+
+that is a part which which kind of goes a little over here and you talk about
+
+information architecture how the site that the site will be structured you know how how many items
+
+will you please how they be named and labeled. and talk about the interaction how they used to
+
+interact with different parts of the website. whether we make the introductions like small animations
+
+that which are useful. nice to have this information design is
+
+designing the presentation of the information to facilitate an understanding and in that you
+
+can you also have the navigation but how we do however without the navigation
+
+work from one one fish or the other. that's part of the information sure as well. and then you talk about
+
+interface to feel design the design of interface elements of us to do the inspection functionality.
+
+and then once those those pieces come in then you have
+
+considered it. do you think about the look and feel on the treatment of different parts of the
+
+of the website. so in any design website design
+
+you do have to think of usaa needs subject to the site. what was the content of each side day.
+
+architecture and the structure and looking for. so these are all the different phases and and
+
+just talking to you than he tend to move up with as much progress into the further into
+
+it and the web design and then into it. development
+
+and then when you think of web design we have to think
+
+of a few adjectives site that you are designing must be must be useful.
+
+that usefulness. this is a very important for sure because even if something 's really nice looking into
+
+the great up and see if it's not a useful to you then chances are that you may not
+
+go to the roof that even if the purpose of entertainment that is also a purpose a test to be
+
+useful to you in some way and when you talk also think of usability down
+
+here. use a few this is a frame consent must be easy to use any mess to make intuitive sense
+
+when you use the website. have any say find a bill which means that you must be able to find the
+
+information on the website. easily. and it must be accessible six message
+
+and meet the needs of people with disabilities and
+
+and which is which you which can be more than minimum sentence of the population so
+
+you really wanna make sure that that site is is accessible
+
+to to all the audiences and when you when you meet the needs of of of
+
+people that have a different kinds of this of this is he also means I need to also a lot of other people as well.
+
+and you saw the one of the things that have been selected on now that the idea of
+
+of universal design seven eight. your business site for universal design websites will
+
+work for a lot of people and test site must be desired this is
+
+the content that that you that you have is is it something that you appreciate it must
+
+be valuable and likely to be looked at examples of of
+
+good websites recommended barely for teaching and learning that is a I think those examples of
+
+valuable content for for a lot of people and especially in any context and a size must
+
+be credible. so when you seek the credit rating means that whether the user will believe
+
+what's in there on the website or not. and there is this so this project called to Stanford
+
+web credibility research and they have been looking at a lot of these questions
+
+as to what causes people to believe is not a believer defined and developed what's trying to use the use of the employee
+
+and any of our incredible that you want and services and design factors and how they
+
+and assessment strategies and so so there is lot of these these questions
+
+and then you can look at these of safer for the resources if you're interested in looking at the credibility
+
+part of also been designing websites
+
+no I'm not one of the important topics out for today's lecture is
+
+this idea about building persona and what person gives
+
+you that it gives you some sort of a carry case you or any imagine
+
+person that you think is it is a typical audience rather than saying that
+
+my audience this a student or undergrad students of grad students in this case
+
+you can actually really does much deeper and and look at what this person
+
+might mean you so you you basically have
+
+rather than having one size with all you have till its contents to six segments of people in person
+
+that's I think your target audience and individual some people. so let's look at some websites
+
+here. so when you look at the Simmons website. here you have
+
+the stab on top information for the specified magenta graduates cutting student and asked the student veterans
+
+and so on. so that for you can you can go on to. so if you're
+
+a current student and then you you'll get a different look for the website.
+
+and this is the New York public library so here when you go to the same books music
+
+and movies. there you
+
+have a new arrival which is such a which I just calling to schedule children or young adults.
+
+so
+
+so your user group in this case could be different people it could be people who
+
+are male or female or transgender or single parents are looking graduate students
+
+a PhD candidate. my sisters and so on. so what's up
+
+soon as Joe is that they give you a detailed description. two one. representatives of person
+
+from each segment of site visitors and so you're into things like name demographics
+
+age and occupation so on and you think of what their needs might might be
+
+one of the biggest problem of the day trying to solve the need most. what information I didn't typically
+
+searching for and then you develop behavior based
+
+profiles based based on the personnel. so what do they do on line I was active
+
+on Twitter for you. bye-bye the social networks are kinda systems of the use. what kind of information to the sentencing
+
+online. what part of the name of the fat with the design the most time researching for the user.
+
+so this is our health personals looks like
+
+you will have typically you'll have a picture of a person sometimes they don't and then you'd have some description like
+
+a little bio if the person in your things like age and country for vision.
+
+I'm in the status language skills education and so on one of the services he was with those in a business
+
+person. what what kind of technology and experience a person might have
+
+some goals and task in relation to the website for this user user
+
+is in the beginning or intermediate or expert in using the face and then you can have other users.
+
+person of the father you as well see if it creates more than one person else goes. target audience.
+
+so here. this is from usable that you know to call you have some other description
+
+some more detailed description of the other person other person is has the creator lab and really see the
+
+presentations of killing segments. and Joe they express and focus
+
+on a major need the next petition the most important news groups and devoid of a clear picture of user expectations
+
+and they're not the benefits of using the person of it will really
+
+ensure that you understand the audience will because of spend some time trying to bed of some
+
+sort of in a major person out of your audience and in terms
+
+of how I mean best practice and develop a persona. so in that can kinda treat you the research answer
+
+the following questions. who are users and by the using the system. what behaviors of the ocean expectations for
+
+that if you have the system and then there are other things that you have to convince the recession obtaining
+
+some refine and try to make a person as realistic as possible. so there
+
+are examples of questions. defined up a reservation of the size initially what's up over there
+
+go to the website and then decide to use with the agent the change of high seven education
+
+profession experienced technical experience. motivation of the user so in a personality
+
+thing to do things like that. the group like for example a web manager or a student or faculty of
+
+seven so. professional name job title demographic wasn't physical
+
+social and technological environment. some quote that sums of what matters most most of the person in some cases
+
+pictures and they can be of any ads in different ways. they had some examples of person.
+
+giving kids and demographics those environments
+
+and apart from this. also some other technique send you the research submitted
+
+subsidy of those will look at some of these in the future we can talk about things like I'll talk
+
+to him anytime anything because some information architecture. so you can do focus groups here is a graduation
+
+individual interviews. these are all the different ways in which you signed to get to know more about
+
+your user name
+

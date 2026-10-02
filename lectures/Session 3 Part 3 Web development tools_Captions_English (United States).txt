@@ -1,0 +1,269 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+let us know look at web development tools because in an understanding of two this is really important
+
+as it starts moving to a sad ending esteem and see us as JavaScript and so on.
+
+so that there is like an entire list of tools but
+
+you need a few of them to pick for your project in first and foremost you need
+
+to understand what a stimulus. and what mockup damages are the
+
+current version is the stream is five and do you need to have a good process. shtml
+
+then later on we'll be talking about how do you separate your content and you're standing in presentation.
+
+so by the content is taken care of a steam CS this is which is cascading
+
+style sheets out. take care of the presentation as well I'll see positioning for
+
+them and so on your webpages. and then to add behavior in
+
+your pages and you have to have done to make components for example when you take the mouse over such
+
+an image send up you have some text that appears that they make changes. stuff like that. and
+
+any other behaviors of the committee. there is a whole lot of things with JavaScript can do. so
+
+that you need to learn JavaScript and then there are editors
+
+like out. like Dreamweaver Webster with someone and so on. we should give you like half
+
+an interface for what you see is what you get which looks like Microsoft word but in the other side it's
+
+easy. DAH the mercy of the quick version and then their extension
+
+that you have like four or five forth as a web developer toolbar and then the
+
+end of the schema validator five oh five a curriculum developer tools. so
+
+like right now for instance I'm using chrome here. and when you go to.
+
+you can go over here and you can click on more tools and developer tools
+
+and he should be if you can see that lots of things about that. let's see. for this particular feature of
+
+the time to get the speech and when you go to do more
+
+to develop tools. you can see how this page would would look
+
+on on a mobile screen. killed in the biggest console. and there are lots
+
+of other things that you can do you can look at here. your CSA self esteem I know
+
+for this code. so so that is that is
+
+one one way to look at it other things as well in chrome that when you go from
+
+extension.
+
+and you have any you when you say when you search for
+
+web development. and you have lots of these different kinds of extensions for web development tool
+
+bar mobile responses. 's eye tracker and then other things for web design
+
+so okay so so depending on the pros are you at your
+
+shoes and you'll be able to find developer tools to help you. so that will help
+
+you determine different site process of websites out quite easily and even when we look
+
+at the web development tool bar.
+
+idea to do it if it was here and as a select out certain parts of the websites
+
+you'll be able to to see that what is being selected
+
+so there is a whole lot of things you can see here that is what what
+
+are the things that is one of the different types of files which are which part of that how much
+
+is enough memory and if you use and and one of the different elements of the nearest aim
+
+of this is a different. just you know five six five nine six. when you when you select something.
+
+if you can see what what would be connected at that point. well fortified
+
+different elements and you can open and forth and and find out more over here
+
+and you're if you're you you also have the association CSS direction
+
+side
+
+and then you need to have a text editor does things for which they could do something to write your code
+
+on if you're using windows. the north west Chester 's the greatest teacher and then some active
+
+text at it and then another just because like sublime brackets that's in composer of ten and so on.
+
+so that if you look at
+
+it for test.
+
+whenever you you type any code rates are not fair test test will will will color code
+
+the code for you for example if you just because as
+
+of the three schools .com. and
+
+when we go to the digit haste image return here then you take any
+
+of any code and then you take it to you or not but plus plus like right now
+
+it doesn't know what kind of file as input and testing of the save it as
+
+as an additional five
+
+today she came up when you save that that automatically think the color coding is
+
+that is applied to the side to see that these these tax to get
+
+to turn into blue and then you can open and close and it's about
+
+and then you also need something for image editing like James is a good day image editor that fun of you for
+
+the shop. so it should have an example of chance.
+
+Jim is opening right now and we can see that it provides us some functionalities.
+
+you know the two traded images so it's quite a quite a show but it's but it's
+
+free and open source
+
+yes here you can open any image and
+
+if you can take any
+
+and then you can open here in the
+
+you can open the image and then you can apply various so it to it you can you can go
+
+here and then you can you can crop the image if they decide manner.
+
+and if it applies out various kinds of photos
+
+do it like you can do. can it. and so on. so since
+
+that's quite nice in terms of management information. so you do need to get
+
+to be familiar with with these various kinds of tools
+
+and now let's look at some languages and tools for web development that are out there.
+
+so that when you when you want to become a web developer that are a few things to learn
+
+this has made me not going to cover all of this and this course but it it just gives you know if
+
+you give a overview of one of the biggest kinds of things that are there any anything cup of development.
+
+so here you have an introduction so if you how to get started will be able to find a few
+
+concepts have any forth and you have languages that had a there. and then understand
+
+how to manage data and then you have various kinds of frameworks for web developers and utilities
+
+and managing your Ford through bush and control. how does how how do you deploy a quote
+
+and what tools will help you maximize the schedule. so you have a lot of bees and when you go to the
+
+introduction but here. so wanted to talk about
+
+core competencies like language the data some intermediate skills and some soft kids out there that you
+
+need. and so and it has a glossary
+
+of various ten zeros what what front-end you. means you know that's the one thing is that on
+
+the call for the stack when you say full stack supposed to do it for the developer who can program both in applications
+
+front-end and it's back and see when you're taking else up but that's the design and development so in
+
+this course we're talking about. front stack of the clients I develop and basically we don't
+
+talk so much about we don't go into the service I didn't discourse
+
+and it's also the SUVs with the EPA the east of the various terms that exchange over here
+
+and then their their website but it is just to let you that you have
+
+then next it goes into the two languages.
+
+JavaScript is is one language. there are other strips that I was like they picked must have
+
+been ordered his libraries like this is your inquiry which is a good chunk of debris will
+
+be covering that in the course as well and then pH fees will be
+
+in lots of other languages that with you there. so you can go through this it it has
+
+a good listing of all the various technologies. then their database
+
+options for web development and then SQL the SQL
+
+anyway standard data and then there that are frameworks
+
+which can you can should have been in the deployment and and development of large website
+
+which especially have a lot to be able to come point. so there is a front for front-end
+
+there is to react as a framework that you judge he is. thank you later.
+
+you know that I did send it back to us back and famous as well
+
+and that a different platform. so that there is a lots in this article then we would not
+
+be covering all the all the stuff in discourse but I just wanted you to know that
+
+that's it. if you said it's a one stop me hey miss if you wanted to learn more and more. you know that one of
+
+the things out there so that was that article is from twenty and eighteen this is from twenty nineteen. again this
+
+is also to choose if a friend and her back and and foreknowledge essential front-end and then there are other
+
+party. and then based on your path again it it lists you. various kinds
+
+of skills that would be helpful to know to know about what they should give you work hard to
+
+get help books and so on the front end again
+
+it talks about you for a shame that you need to learn the basics and
+
+then you need to learn the if the semantics of esteem you didn't talk about
+
+search engine optimization ability and then he talked about for CSS
+
+you need to learn the basics of CSS and then making layouts media queries us at
+
+making webpages responses and then for ways in which to position the
+
+elements and you know any webpages. so let's see if there's a great text books and so on and then
+
+now some basics of Java JavaScript test shows that is syntax and how to manipulate
+
+the document object model. so and this course actually will be covering this
+
+much we want to go into a lot of other things which in on this website.
+
+and then there is a twenty twenty web developer roadmap as well and and this is
+
+something selected to the previous link again. it has things that you need to need to learn
+
+for front and back and and so on. so that so the images he
+
+I just think of
+
+so that's the idea of of showing you these
+
+pages this is just to let you know that there is is a lot out there that you that
+
+you can learn and if you can take the next for for somebody to really muster a lot of of it. so that it's
+
+it's kind of a learning journey the mall website. your veggies a bit of it you get overtime. but from the
+
+point of view of the class. these are some of the some useful tools
+
+that you have and you tried any five one or two tools in each of these categories to help you end
+
+up in the front and web development and the design process
+

@@ -1,0 +1,113 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+so now that we have looked at web development tools so let us look at H two most five.
+
+they seem us I was a new standard job for a for a steam of recent hypertext markup
+
+language and the things that would send you a stable elements and attributes. but we'll see if the three
+
+things like video and audio and graphics and update has a local storage and SQL
+
+database so it has it is a big improvement over previous versions of esteem
+
+and there are lots of tutorials that that you can see for esteem a five cent
+
+tax. so early and there's a website called Linda .com Richardson.
+
+changed Arlington. learning now. so you could go to that site and you could have
+
+antihistamines e-mail and some of the user ID and password in the next prompt and you could find tutorials
+
+on a statement and the design over there. otherwise that the resources and have the three schools and lots
+
+of other resources as well and text books also on on this team.
+
+so let us look at some examples for instance up
+
+earlier we wrote some a little bit of code Texas and example code on
+
+it. on North at plus plus. so as soon as you save it as an HMO do you see the
+
+color coding that happens and maybe when you're close this file.
+
+when you to register then you get an estimate a document and then you can open
+
+to try to see if this is that it's a fun see anything any kind of over here.
+
+so that's the simple HMO that editing any or not but
+
+there's also a very nice cool tool called &quot; fender. are you. when you go there.
+
+'s right now I'm already logged into court fan but you can now. creation calling to over here.
+
+so what quit for now that I would does that it will give you like a screen
+
+like this. what you what I have on one side there is a shambles and then there is
+
+the CSS and then there is you have a script. so here
+
+when you see the other example code that we had earlier from
+
+on the but trust us so we can we can take this
+
+the same code here. okay. and
+
+then we we can go to your
+
+and can to go to a quote for that I just wanna be said you would
+
+and what movie is going to read.
+
+so so so when you do this right. you can you can add
+
+your via text e-mail you can add CSS on the on the on the one side. so so it is it is
+
+up. it's it's a nice little way to to play around with with code
+
+and you can go and try out any tutorials the unleashed of this week.
+
+this is know you have a thing introduction fish demos and then
+
+various elements of HMOs which is a paragraph heading one and three.
+
+and how you can nest one element. the other and their attributes
+
+where you define something at this year you have the anchor element for the info Link. this is
+
+an attribute where you have a traffic has a certain value here.
+
+image of the source this is an attribute for the image tag. and then you have the heading
+
+of various types of headings which should find is H one is two eight three so and then you
+
+have. paragraph tag you can go through all of these
+
+and you you have your image tag and then you have the source of the image. it's
+
+always a good idea to give all text because it helps next ability and you should also
+
+though you know specify an attribute for opening. you're at image major
+
+in a new tab.
+
+so this is the source here in the images link
+
+the direct sales contract. and then you have HD of blocks
+
+which is four Fire Defense. they will give you a block level element.
+
+and then you have in-line element. that's fine. so
+
+you can try out to you can fast finish. it's Jim to Charles either individual schools or any of the other resources
+
+that we have today
+
+so that's all. I went to college today. it looked at the importance of audience
+
+design considerations and video website some examples of good and bad website. web development
+
+tools. there's a there's a full stack development which includes back and so that we don't
+
+come back in in the status we are concerned about client side of the front end development and
+
+shamus life. thank you
+

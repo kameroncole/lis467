@@ -1,0 +1,147 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+and this session will talk about a few topics they talk about the importance of understanding
+
+and describing your audience and the persona we'll talk about design considerations
+
+and video website. and we'll also look at examples of some not so good and some good
+
+and every website and then we move on to the development ethics as well we'll look at out
+
+the entire suite of web development tools that you need to know. if web development. and this week you
+
+start learning. it's team of five. before that is review what we did in the last
+
+session. we identified the reasons for designing a website. we talked about the need for requirements
+
+and then we also. so how how you can design a website both from
+
+desktop photo store auto mobile for us where you have much the space to to work with
+
+and look at the different phases of the process project management and
+
+we look at looked at get a tab and version control.
+
+so that was some discussion questions last week well one of the top five skills you need
+
+to be a good web designer developer which of these that you have when you wish to acquire and what
+
+would be a piece of technology that you would want to learn right away. now
+
+talking with the influences of technology on on design. so that
+
+some browsers are again. really important in the sense that different
+
+users use different rather than you need to understand which which the user group in which closes
+
+undercurrent of using and we'll also looked at different types of property
+
+systems which have again been used a people weather 's PCR mac or Linux or
+
+the mobile base operative systems like how US or android and that people can
+
+have a different connection speeds depending on which state of the USA or in order in which country
+
+of the woods there and and also deaf people use different screen sizes so
+
+based on that. again different weights of mobile phones as there are some people have tablets
+
+I'm doing tenth people to might have different sizes of laptops and and the stuff
+
+we talked about. responsibilities I will this person in the first. just obvious
+
+design your first design for a large screen and then you decided what you want to cut.
+
+I know the other one in the mobile first. you do you decide based on
+
+the minimum first and then you decide what to add this is a different approach is one example
+
+to think of is in terms of detecting a house one one way to take it to thank us is
+
+like out what to throw in which case it can be hard to solicit in thing because he
+
+you might find yourself at the test a lot of things but another push to think of as as what
+
+to keep and what you think that almost everything is frustrating and then giving away
+
+and then you would you decide on on one of the things that you really want to keep so
+
+that we have a pro actually it's kind of similar to the mobile for us to push visually forced me to think really carefully
+
+about what is really necessary and and what are the things which are not some not so necessary.
+
+and. so the so it's a hard approach in that sense
+
+and some discussion questions again. how would you describe response to the design of the skills
+
+required to me because this one's website and why do you think it's better to design for a lot of
+
+things better to design for yourself for sort of a fruit stand by and
+
+we talked about four of project management and we talked about
+
+any any kind of how to ensure any good quality in in any project. you have these
+
+triple constraints by the time or call us to school and most of the time you're able to
+
+to many of these to these things to get to that hood so increased school. if the scope
+
+increases. so then then you need more time. and then you'd also might probably need to have
+
+more cost for that. and if the if the time. become shorter
+
+Easter time and space then your costs will increase and then the scope might need to review standpoint.
+
+and then if the budget is low. if there's a tight budget and you might need more time to do it because you may not be able
+
+to hire a lot of people to help you or the school might also be need to produce at that
+
+stage and some discussion questions here
+
+were questioned it is I know I do wealth of other project management and very thing is involved in managing
+
+the project was that was set up a experience but do you have a project management.
+
+so in that project management. there are a few steps
+
+to it. so the first is that anything else goes in and this is the audience
+
+thanking off what continues to go into a website one of the technical requirements. house looking for an individual
+
+because I'm going to be what do you need to tell you how the site structure looks like
+
+and what team do you have what experience do they need to come but well the tenants of the books
+
+for the project is it a few days a few months or one of the years and with the budget
+
+all of these considerations which need to be be taken into account when designing
+
+large websites. are you in a smaller one. but you may not have a lot of
+
+time for those steps in the small website but if you go to think a lot of these things
+
+and we talked about. good heavens well. now when we looked at. Ed
+
+to get to have again we saw that they will fall components like if you think of your local computer and the remote server.
+
+so get to have .com and it's very much for the tree and your local computer will have
+
+have two it is it like that. three things will have a looking directory and then we'll also have a staging
+
+area where you put that puts those files that that you know one to one
+
+to come into your local repository and the files from a local deposited then you can push creating
+
+looking for the tree and then you can pull from that. but this and shows that you and if you have
+
+different people looking on on the same website or on on the same software development
+
+then then you you can manage different versions of the code without really without affecting
+
+each other and without really affecting the integrity of the final points of one person. pushes
+
+over here and then the other person before deciding to make changes it always try to put it so that
+
+you get the latest version. want to make the changes and you then you push over here. so it's it's it's a
+
+good system and and lots of version control systems out there
+
