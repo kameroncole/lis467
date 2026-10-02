@@ -1,0 +1,98 @@
+[
+  {
+    "id": "doc-1",
+    "title": "Introduction to Machine Learning",
+    "category": "Computer Science",
+    "text": "An overview of supervised and unsupervised learning techniques, covering decision trees, neural networks, and how computers can learn patterns from data without being explicitly programmed."
+  },
+  {
+    "id": "doc-2",
+    "title": "The Art of French Pastry",
+    "category": "Cooking",
+    "text": "A guide to classic French desserts including croissants, macarons, and souffles, with tips on working with butter, sugar, and yeast dough."
+  },
+  {
+    "id": "doc-3",
+    "title": "Neural Networks and Deep Learning",
+    "category": "Computer Science",
+    "text": "Explores the architecture of artificial neural networks, backpropagation, and how layered models recognize images and speech using large training datasets."
+  },
+  {
+    "id": "doc-4",
+    "title": "A History of the Roman Empire",
+    "category": "History",
+    "text": "Traces the rise and fall of Rome, from the founding of the republic through the reigns of the emperors and the eventual collapse of the Western Empire."
+  },
+  {
+    "id": "doc-5",
+    "title": "Baking Bread at Home",
+    "category": "Cooking",
+    "text": "Step-by-step instructions for making sourdough and whole wheat loaves, discussing fermentation, kneading technique, and oven temperature."
+  },
+  {
+    "id": "doc-6",
+    "title": "Medieval Castles and Fortifications",
+    "category": "History",
+    "text": "Describes the design of stone keeps, moats, and defensive walls built by nobility during the Middle Ages to protect territory from invading armies."
+  },
+  {
+    "id": "doc-7",
+    "title": "Cataloging and Classification in Libraries",
+    "category": "Library Science",
+    "text": "Discusses how librarians organize collections using controlled vocabularies, call numbers, and metadata standards like MARC and Dublin Core."
+  },
+  {
+    "id": "doc-8",
+    "title": "Database Normalization Principles",
+    "category": "Computer Science",
+    "text": "Explains how relational database schemas are structured to reduce redundancy, covering first, second, and third normal form with practical examples."
+  },
+  {
+    "id": "doc-9",
+    "title": "The Rise of Artificial Intelligence",
+    "category": "Computer Science",
+    "text": "A look at how intelligent software systems are trained to make predictions, recognize speech, and automate decisions once reserved for humans."
+  },
+  {
+    "id": "doc-10",
+    "title": "Information Retrieval and Search Engines",
+    "category": "Library Science",
+    "text": "Examines how search systems index documents and rank results by relevance, including early Boolean retrieval and modern ranking algorithms."
+  },
+  {
+    "id": "doc-11",
+    "title": "Growing Vegetables in Small Gardens",
+    "category": "Gardening",
+    "text": "Practical advice for planting tomatoes, peppers, and herbs in raised beds or containers, with guidance on soil, sunlight, and watering schedules."
+  },
+  {
+    "id": "doc-12",
+    "title": "Ancient Greek Philosophy",
+    "category": "History",
+    "text": "Surveys the ideas of Socrates, Plato, and Aristotle, including their views on ethics, government, and the nature of knowledge."
+  },
+  {
+    "id": "doc-13",
+    "title": "Metadata Standards for Digital Collections",
+    "category": "Library Science",
+    "text": "Reviews metadata schemas such as Dublin Core and MODS used to describe digital objects so they can be discovered, cited, and preserved over time."
+  },
+  {
+    "id": "doc-14",
+    "title": "Composting for Beginners",
+    "category": "Gardening",
+    "text": "Explains how to turn kitchen scraps and yard waste into nutrient-rich soil amendment using simple backyard composting bins."
+  },
+  {
+    "id": "doc-15",
+    "title": "Natural Language Processing Basics",
+    "category": "Computer Science",
+    "text": "Introduces tokenization, embeddings, and language models that allow computers to understand and generate human text for tasks like translation and chatbots."
+  },
+  {
+    "id": "doc-16",
+    "title": "The Printing Press and the Spread of Knowledge",
+    "category": "History",
+    "text": "Describes how Gutenberg's invention of movable type transformed the production of books and accelerated the spread of literacy across Europe."
+  }
+]

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Semantic Search Demo — LIS 467</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Vector Search &amp; Semantic Indexing Demo</h1>
+    <p class="subtitle">
+      Query a small JSON document collection using cosine similarity over embeddings,
+      compared side-by-side with naive keyword matching.
+    </p>
+
+    <form id="search-form">
+      <input id="query" type="text" placeholder="Try: 'computers that learn from data'" autocomplete="off" />
+      <button type="submit">Search</button>
+    </form>
+
+    <div class="tip">
+      Tip: try a query with <em>no shared words</em> with the target document, e.g.
+      "computers that learn from data" instead of "machine learning" — semantic search
+      still finds it; keyword search won't.
+    </div>
+
+    <div class="columns">
+      <section>
+        <h2>Semantic (vector) search</h2>
+        <ol id="semantic-results" class="results"></ol>
+      </section>
+      <section>
+        <h2>Keyword (substring) search</h2>
+        <ol id="keyword-results" class="results"></ol>
+      </section>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
