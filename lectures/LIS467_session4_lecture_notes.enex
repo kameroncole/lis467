@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20261007T002209Z" application="panopto_transcribe.py" version="1.0"><note><title>LIS 467 — Session 4, Part 1: Use Cases and Scenarios</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 4, Part 1: Use Cases and Scenarios</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> Session 4 learning outcomes, use cases (actors, goals, triggers, flows), metadata, scenarios, and how both drive site design
+<strong>Source:</strong> Panopto lecture transcript — "Session 4 Part 1 Use Cases and Scenarios"</p>
+<hr />
+<h2>1. Session 4 Learning Outcomes</h2>
+<p>By the end of Session 4 you should be able to:</p>
+<ol>
+<li><strong>Describe use cases and scenarios</strong></li>
+<li><strong>Explain the importance of information architecture (IA)</strong></li>
+<li><strong>Outline the process of creating a site information architecture</strong></li>
+<li><strong>Explain what a wireframe is</strong> and how to create one</li>
+<li><strong>Distinguish test sites from production sites</strong></li>
+<li><strong>Begin learning CSS3</strong></li>
+</ol>
+<p>This first part covers outcome 1.</p>
+<hr />
+<h2>2. What Is a Use Case?</h2>
+<p>🔑 A <strong>use case</strong> describes <strong>why a person would use a website or system</strong> — a goal they want to accomplish — in a simple, structured way. It gives the team a simple means to <strong>decide on and discuss the purpose of a project</strong>.</p>
+<h3>Two core components</h3>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Component</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Meaning</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Actor</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The <strong>user</strong> — the person (e.g., a library <strong>patron</strong>) who uses the site</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">A library patron</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Goal</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">What the actor wants to <strong>achieve</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Check out a book</td>
+</tr>
+</tbody>
+</table>
+<p>⭐ Every use case must have a <strong>specific goal</strong> and an <strong>actor</strong> who performs tasks to reach that goal. Goals are often small and ordinary: reading a review, checking an account, placing a hold, checking out a book.</p>
+<h3>Example: a library OPAC</h3>
+<p>An <strong>OPAC (Online Public Access Catalog)</strong> is the public interface to library resources. A patron might use it to:</p>
+<ul>
+<li>Manage their account</li>
+<li>Search the catalog</li>
+<li>Find books and other resources</li>
+<li>Place a hold on a particular item</li>
+<li>Provide feedback</li>
+</ul>
+<p>✅ <strong>Each of these is a separate use case.</strong></p>
+<h3>What a use case is (and is not)</h3>
+<ul>
+<li>A <strong>written description</strong> of how users perform tasks on a website, told from the <strong>user's point of view</strong>, including how the <strong>system responds</strong> to each request.</li>
+<li>A <strong>sequence of simple steps</strong> that <strong>begins with a goal and ends when the goal is fulfilled</strong>.</li>
+<li>It describes <strong>what the user does and how the site should respond</strong> — it does <strong>not</strong> include implementation details, interface language, or screen layouts.</li>
+</ul>
+<hr />
+<h2>3. Anatomy of a Detailed Use Case</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Element</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Name / goal</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">What the actor is trying to accomplish</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Actor</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Who performs it</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Trigger</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">What <strong>causes the use case to be initiated</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Basic (main) flow</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The normal sequence of steps to success</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Alternate flows</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Variations that occur under certain conditions</td>
+</tr>
+</tbody>
+</table>
+<h3>Steps for writing use cases</h3>
+<ol>
+<li><strong>Identify the users</strong> of the site and decide <strong>what each wants to do</strong>.</li>
+<li>Treat <strong>each thing a user does on the site</strong> as a <strong>use case</strong>.</li>
+<li>Write the <strong>normal course of events</strong> (basic flow).</li>
+<li>Add <strong>alternate scenarios</strong> (variations and exceptions).</li>
+</ol>
+<hr />
+<h2>4. Worked Examples</h2>
+<h3>4.1 The housekeeper (a non-web illustration)</h3>
+<p><strong>Use case: Do Laundry</strong> — Actor: <strong>housekeeper</strong></p>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Part</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Trigger</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">It is Wednesday (laundry day)</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Basic flow</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Collect laundry → wash → dry → fold → put away</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Alternate flows</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">If an item is <strong>wrinkled</strong>, iron it and hang it on a hanger; if an item is <strong>still dirty</strong>, wash it again; if an item has <strong>shrunk</strong>, set it aside / handle it separately</td>
+</tr>
+</tbody>
+</table>
+<p>The main sequence is simple; the alternate flows capture the conditional branches.</p>
+<h3>4.2 The prospective student (a web example)</h3>
+<p>A <strong>prospective student</strong> visits the Simmons website:</p>
+<ol>
+<li>Looks over the site to see whether the university <strong>offers the degree</strong> she wants.</li>
+<li><strong>Alternate flow:</strong> notices a <strong>different degree</strong> that interests her and explores it.</li>
+<li><strong>Alternate flow:</strong> discovers the program she wanted is <strong>not offered</strong> (or not offered the way she wants) and <strong>leaves the site</strong>.</li>
+<li><strong>Success flow:</strong> finds the program, locates the <strong>Admissions</strong> link, and <strong>e-mails to inquire further</strong>.</li>
+</ol>
+<p>💡 The same user can follow <strong>different flows</strong> depending on what they find — good IA must support all of them.</p>
+<hr />
+<h2>5. Metadata: The Data That Makes Content Findable</h2>
+<p>🔑 <strong>Metadata</strong> is <strong>"information about information"</strong> — data that <strong>describes the content</strong> of a site. Content may be shown on paper, on a device, or on a larger screen, but metadata gives it <strong>structure, context, and meaning</strong>.</p>
+<ul>
+<li>Metadata is all the <strong>words and labels</strong> you use to describe a piece of information.</li>
+<li>It is what helps users <strong>find the content they are looking for</strong>.</li>
+<li>Example: you want to find a <strong>German artist</strong> on a library website. If the content exists but you <strong>cannot find it by browsing or searching</strong>, that signals <strong>bad metadata</strong>.</li>
+<li>Getting metadata right is <strong>an early step in site design</strong>: decide <strong>what information to store</strong> and <strong>how to label it</strong> so it can be found.</li>
+<li>⭐ People search with <strong>familiar terms and jargon of their own</strong>, so labels should <strong>use the terms users actually use</strong>.</li>
+</ul>
+<hr />
+<h2>6. Scenarios</h2>
+<p>🔑 A <strong>scenario</strong> is closely related to a use case but <strong>richer in narrative detail</strong>: <strong>a story about a specific person using your website to accomplish a specific goal</strong> — e.g., checking out a book, looking up interlibrary loan, or asking a reference question.</p>
+<ul>
+<li>Scenarios <strong>work together with use cases</strong>, adding the <strong>story and motivation</strong> behind why a particular person comes to the site.</li>
+<li>They focus on <strong>the user and the user's tasks</strong>, <strong>not on your site's organization or internal structure</strong>.</li>
+<li>They help you see <strong>what content the site must have</strong> and <strong>how it should be organized</strong>.</li>
+<li>⭐ They force you to design from the <strong>user's point of view</strong>, rather than the <strong>web designer/developer's point of view</strong>.</li>
+<li>Scenarios are <strong>critical for designing the interface and for usability testing</strong>.</li>
+</ul>
+<h3>Questions to ask when writing a scenario</h3>
+<ul>
+<li><strong>Who</strong> is the user? (Make them a realistic, specific person.)</li>
+<li><strong>What</strong> do they want to do on the site?</li>
+<li><strong>What motivations and questions</strong> do they bring?</li>
+<li><strong>What context</strong> are they in when they arrive?</li>
+</ul>
+<hr />
+<h2>7. Example Scenario: Ordering Flowers</h2>
+<p><strong>Fall</strong>, an <strong>online student</strong>, is ordering <strong>flowers for her mom's birthday</strong> from a flower-delivery website. Think of the scenario as a <strong>series of linked steps</strong>, each raising a design question and an idea.</p>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Step in the story</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Design question</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Design idea / implication</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">1. Fall arrives at the site (via a search engine, ad, or link)</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">How did she find us?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Make the site findable; optimize for search</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">2. She looks for a <strong>Birthday flowers</strong> option in the menu</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Is there a clear, expected menu label?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Provide a <strong>"Birthday" category</strong> in the main menu</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">3. She wants to see popular choices and delivery information</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">What should the home page show?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Show <strong>most popular items</strong> and <strong>delivery information</strong> on the home page</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">4. She can spend <strong>no more than 25</strong> (currency units)</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">How can she filter by price?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Add a <strong>"flower finder" / filter by price</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">5. She is shown results and must decide among them</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">What does she need to compare?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Show an <strong>image, title, price, and short description</strong> for each arrangement</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">6. She wants to choose a type of flower</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">How do we help someone who is not a florist?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Offer a <strong>quick guide to flower types</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">7. She checks details for one arrangement, including <strong>whether it can arrive before her mom's birthday</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">What information will she need?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Show <strong>delivery costs and availability</strong>, <strong>size information</strong>, and <strong>customer reviews</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">8. She is unsure of the right <strong>size</strong> for her mom</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">How do we reduce uncertainty?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Provide a <strong>size guide / sizing policy</strong></td>
+</tr>
+</tbody>
+</table>
+<p>✅ Notice that the steps are <strong>not isolated</strong> — each links to the previous and next. A scenario can therefore be thought of as <strong>a series of use cases</strong> strung together by one person's story.</p>
+<hr />
+<h2>8. More Scenario Examples (from usability.gov-style guidance)</h2>
+<p>Scenarios can be short or detailed. Examples cited in the lecture:</p>
+<ul>
+<li>A <strong>parent</strong> is worried that her <strong>ten-year-old refuses to drink milk</strong> and is getting very little calcium — what can the site tell her?</li>
+<li>A <strong>traveler</strong> is going to a <strong>job interview next week</strong> and wants to check <strong>whether meals and other expenses will be reimbursed</strong>.</li>
+<li><strong>Retired schoolteachers in their seventies</strong> for whom <strong>Social Security checks</strong> are an important part of income; they have just <strong>sold their large house</strong> — why would they come to a government site, and what do they need to know?</li>
+</ul>
+<p>⭐ A good scenario captures <strong>the story and context behind why a specific user group comes to your site</strong>, so the team knows the <strong>goals and questions</strong> to be addressed and how users can achieve them. More detailed scenarios give the design team a fuller picture of <strong>user characteristics and context</strong>, which also feeds into <strong>screen design</strong>.</p>
+<hr />
+<h2>9. Use Cases vs. Scenarios at a Glance</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;"></th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;"><strong>Use case</strong></th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;"><strong>Scenario</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Form</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Structured steps: actor, goal, trigger, flows</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">A narrative story about a specific person</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Focus</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">What the system must support</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Why and how a particular user comes to the site</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Detail</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Concise, generic</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Rich in context, motivation, and constraints</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Perspective</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">System behavior responding to the actor</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The user's point of view and situation</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Used for</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Defining project purpose and requirements</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Designing the interface and usability testing</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>10. Key Takeaways</h2>
+<ul>
+<li>🔑 A <strong>use case</strong> = <strong>actor + goal</strong>, with a trigger, a basic flow, and alternate flows.</li>
+<li>🔑 A <strong>scenario</strong> = a <strong>story</strong> about a specific person with a specific goal; it supplies the <strong>context</strong> use cases lack.</li>
+<li>⭐ <strong>Metadata and labels</strong> determine whether users can actually find content — use <strong>their</strong> vocabulary.</li>
+<li>✅ Design from the <strong>user's point of view</strong>, not the developer's.</li>
+<li>💡 Use cases and scenarios feed directly into <strong>information architecture</strong> (next part).</li>
+</ul>
+<hr />
+<h2>Review Questions</h2>
+<ol>
+<li>What are the two core components of a use case?</li>
+<li>What is the difference between a <strong>basic flow</strong> and an <strong>alternate flow</strong>? Give an example.</li>
+<li>Why does the lecture say a use case should <em>not</em> include screen or interface details?</li>
+<li>How does a scenario differ from a use case?</li>
+<li>For the flower-ordering scenario, name three design decisions that follow from the story.</li>
+<li>Why is bad metadata a sign the content may be effectively "lost" to users?</li>
+</ol></en-note>]]></content><created>20261007T002209Z</created><updated>20261007T002209Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 4, Part 2: Information Architecture</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 4, Part 2: Information Architecture</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> Definition and components of information architecture, organization/labeling/navigation/search systems, the three circles (users, content, context), the instructor's context research, and a case study of the Stanford Center for Internet and Society
+<strong>Source:</strong> Panopto lecture transcript — "Session 4 Part 2 Information Architecture"</p>
+<hr />
+<h2>1. Why Information Architecture Matters</h2>
+<p>🔑 <strong>Information architecture (IA)</strong> appears in the <strong>course title</strong> — <em>Web Development and Information Architecture</em> — and is a <strong>key concept</strong> of the course.</p>
+<p><strong>Definition:</strong> IA is <strong>the art and science of organizing and labeling websites, intranets, online communities, and software to support usability.</strong></p>
+<p>⭐ IA is <strong>not limited to websites</strong>; it applies to many kinds of information environments. At its core it answers: <strong>how do we organize the content we have, and how do we label it?</strong></p>
+<h3>IA work products</h3>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Deliverable</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Site maps / boxes-and-lines diagrams</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Show how the site is organized</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Wireframes</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Blueprints for the page designs that follow</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Taxonomy</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">A specified way of organizing and classifying content/products</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Prototypes</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Illustrate how information changes on screen as a user clicks</td>
+</tr>
+</tbody>
+</table>
+<p>The goal is to <strong>consciously organize the content flow</strong> of a website based on <strong>principles derived from evidence gathering</strong>, not guesswork.</p>
+<hr />
+<h2>2. The Four Systems of IA</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">System</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Question it answers</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Organization systems</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">How do we <strong>categorize</strong> information?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">By subject, task, audience, topic; hierarchies</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Labeling systems</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">What do we <strong>call</strong> things?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">"Maple" (common name) vs. <em>Acer</em> (scientific name)</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Navigation systems</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">How do users <strong>move through</strong> the information?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Menus, clicking through a hierarchy, breadcrumbs</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Searching systems</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">How do users <strong>look up</strong> information?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Search box / magnifying-glass icon, indexes</td>
+</tr>
+</tbody>
+</table>
+<p>💡 <strong>Search is often easier than navigation</strong>: if a user doesn't know where something lives in the hierarchy, a search box gets them there faster.</p>
+<h3>What IA accomplishes</h3>
+<ul>
+<li><strong>Connects people to the content</strong> they're looking for (text, images, video, documents).</li>
+<li>Makes it <strong>easier for the people who create and maintain content</strong> to do their jobs.</li>
+<li><strong>Links content to other content</strong> — and people to content, to other people, and even to conversations — making the site more usable and findable.</li>
+</ul>
+<hr />
+<h2>3. The Three Circles of Information Architecture</h2>
+<p><strong>Louis Rosenfeld and Peter Morville</strong> describe IA as the intersection of three concerns:</p>
+<pre><code>          ┌───────────┐
+          │   USERS   │
+          └─────┬─────┘
+        ┌───────┴───────┐
+   ┌────┴────┐      ┌───┴─────┐
+   │ CONTENT │──IA──│ CONTEXT │
+   └─────────┘      └─────────┘
+</code></pre>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Circle</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">What to consider</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Users</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Who they are; <strong>information-seeking behaviors</strong>; needs. Build <strong>personas</strong>; conduct <strong>usability testing</strong>, <strong>ethnographic studies</strong>; document <strong>user experience requirements</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Content</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Volume</strong>, <strong>formats</strong>, <strong>metadata</strong>, <strong>structure</strong>, <strong>organization</strong>; site architecture, <strong>content management</strong>, navigation, labeling</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Context</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Business goals, funding, politics, culture, technology, resources, constraints</strong>; <strong>project scope and definition</strong></td>
+</tr>
+</tbody>
+</table>
+<p>⭐ These concerns <strong>overlap</strong>, and good IA happens where all three are balanced. The site map <strong>makes or breaks</strong> a site's success, so IA must be worked out <strong>early</strong> in development.</p>
+<h3>Mapping the user flow</h3>
+<ul>
+<li>Map out <strong>which page links to which</strong>, thinking in terms of a <strong>use case or scenario</strong>: when the user tries to perform a task, which page do they land on, and where does each link take them?</li>
+<li>⭐ <strong>Each page must do two things:</strong> (1) <strong>help the user accomplish their goal</strong>, and (2) <strong>make the next page interesting</strong> so they continue.</li>
+</ul>
+<hr />
+<h2>4. Context in More Depth: The Instructor's Research</h2>
+<p>The instructor became interested in the term <strong>context</strong> during <strong>PhD research</strong>, and it became a major part of the dissertation and a <strong>2018 book</strong> on <strong>context and information behavior</strong> (seeker, situation, surroundings, and shared identities).</p>
+<p><strong>Simplified view:</strong> context is the <strong>whole story behind why a user comes to a website</strong> and navigates to particular content.</p>
+<p>From that research, context can be described through several attributes, as presented in the lecture:</p>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Attribute</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Meaning for a website user</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>The user (actor)</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Demographics, habits, abilities, disabilities, familiarity</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Environment</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The surroundings — physical, social, cultural, the <strong>information culture</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Problem situation</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The circumstances the user is engaged in (this is where <strong>use cases</strong> come from)</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Task</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">What they need to do</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Need for information</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">What information the user requires to complete the task</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Relationship</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The user's relationship with the <strong>website</strong> — familiar or first-time? Trusted?</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Time and space</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">When and where interaction happens; how complex or important the task is; how much the user already knows about the topic</td>
+</tr>
+</tbody>
+</table>
+<p>✅ Design takeaway: IA is concerned with <strong>users, content, and context together</strong>.</p>
+<hr />
+<h2>5. Examples: The Instructor's Personal Websites</h2>
+<h3>Version 1 (older site)</h3>
+<p>The instructor first brainstormed key categories to highlight:</p>
+<ul>
+<li><strong>Profile:</strong> teaching, research, service</li>
+<li><em>Teaching</em> — internal-facing (courses taught to students)</li>
+<li><em>Research and publications</em> — external-facing; lists interests, presentations, and collaborations; publications are important to <strong>reference and share</strong></li>
+<li><em>Service</em> — college and professional accomplishments</li>
+<li><strong>Timeline</strong> — growing up → school → university → industry work → PhD → later work</li>
+<li><strong>Identity/thoughts</strong> — more personal reflections</li>
+<li><strong>Creativity</strong> — painting and other media, writing, poems, cross-cultural work</li>
+<li><strong>Places</strong> — places visited or lived in; travel</li>
+<li>A <strong>site map</strong></li>
+</ul>
+<h3>Version 2 (rebuilt ~2017–2018, <strong>responsive</strong>)</h3>
+<p>The earlier version was <strong>not responsive</strong> (did not adapt to different screens). In the rebuild, the instructor:</p>
+<ul>
+<li>Kept a small set of top-level categories: <strong>About</strong> (description plus <strong>Contact</strong>), <strong>Research</strong> (with research interests as a <strong>subcategory</strong>), <strong>Publications</strong> (articles, conference proceedings, abstracts, with links to full text), <strong>Service</strong>, <strong>Teaching</strong></li>
+<li>Promoted <strong>a few favorite sections</strong> (e.g., painting) directly to links</li>
+<li>Still kept <strong>Timeline</strong> and <strong>Places</strong></li>
+<li><strong>Distilled</strong> many sections down to <strong>two or three categories that matter most</strong></li>
+</ul>
+<p>⭐ Lesson: there are <strong>multiple valid ways to organize the same content</strong> (by role, chronology, place, creativity), but you must <strong>think carefully</strong> about labels and grouping and about <strong>why</strong> it matters to the audience.</p>
+<hr />
+<h2>6. Case Study: Stanford Center for Internet and Society (CIS)</h2>
+<p>This (circa 2011) IA study shows a real proposed architecture.</p>
+<h3>Proposed navigation</h3>
+<p><strong>Primary ("family") navigation</strong> — the site's main sections:</p>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Section</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Focus areas</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Topics such as <strong>privacy, fair use and copyright, public policy, robotics</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Experts</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Organized by name, topic, or focus</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Events</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Project initiatives</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Publications</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>About</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Utility navigation</strong> — items needed right away: <strong>Blog, Multimedia, Contact Us, Get Involved, Press</strong>, plus <strong>Home</strong> and <strong>Contact</strong> along the top.</p>
+<h3>Labeling and structure questions raised</h3>
+<ul>
+<li>Where should items live in different parts of the site?</li>
+<li>It was recommended to <strong>rename "programs and initiatives"</strong> because the current use of the term "program" was confusing; <em>projects</em> and <em>initiatives</em> needed clearer organization.</li>
+<li><strong>Expert</strong> organization and the label <strong>"focus"</strong> might confuse visitors who don't understand the jargon.</li>
+<li>How should <strong>academics</strong>, <strong>multimedia</strong>, and <strong>news</strong> be labeled and positioned?</li>
+</ul>
+<p>⭐ These are exactly the kinds of <strong>label and placement questions</strong> an IA project must answer.</p>
+<h3>Research methods used</h3>
+<ul>
+<li><strong>Stakeholder interviews</strong> with the <strong>project lead, director, a fellow, and a student</strong>, covering the <strong>purpose and audience</strong> of the site.</li>
+<li><strong>Audiences identified:</strong> students, <strong>journalists</strong>, academics, <strong>lawyers</strong>, <strong>policymakers</strong>, and others.</li>
+<li><strong>Weaknesses and pain points</strong> of the current site: visually dated, lacking character, <strong>content scattered across different kinds of content</strong>, confusing and unintuitive navigation.</li>
+<li><strong>Strengths</strong> to retain: things that were already working well.</li>
+<li>Further notes on <strong>home page and navigation</strong>, <strong>look and feel</strong>, <strong>model sites</strong>, and <strong>how success is measured</strong>, ending in <strong>recommendations</strong>.</li>
+<li>The project also compared <strong>vendor proposals</strong>, which varied widely in cost and scope (the exact dollar figures are unclear in the transcript).</li>
+</ul>
+<hr />
+<h2>7. Key Takeaways</h2>
+<ul>
+<li>🔑 IA = <strong>organizing + labeling + navigation + search</strong> to support usability.</li>
+<li>🔑 The <strong>three circles</strong>: <strong>users, content, context</strong> (Rosenfeld &amp; Morville).</li>
+<li>⭐ Work out the <strong>site map early</strong>; it largely determines the user's success.</li>
+<li>✅ Each page should <strong>help the user reach their goal</strong> and <strong>lure them to the next page</strong>.</li>
+<li>💡 There is rarely one "correct" organization; <strong>test</strong> your choices with users (see <strong>card sorting</strong>, next part).</li>
+</ul>
+<hr />
+<h2>Review Questions</h2>
+<ol>
+<li>Define information architecture in one sentence.</li>
+<li>Name the four systems IA designs and give an example of each.</li>
+<li>What are the three circles of information architecture? What belongs in each?</li>
+<li>What two things should each page accomplish?</li>
+<li>Why might "focus areas" or "programs and initiatives" be poor labels for a site's audience?</li>
+<li>How did the instructor's second website differ from the first in how it organized content?</li>
+</ol></en-note>]]></content><created>20261007T002209Z</created><updated>20261007T002209Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 4, Part 3: Card Sorting</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 4, Part 3: Card Sorting</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> Card sorting (open and closed), tree testing, and first-click testing as methods for designing and evaluating information architecture
+<strong>Source:</strong> Panopto lecture transcript — "Session 4 Part 3 Card Sorting"</p>
+<hr />
+<h2>1. Why Test Your Information Architecture?</h2>
+<p>You have a draft IA — now how do you know it makes sense to <strong>real users</strong>? <strong>Card sorting</strong> is a powerful technique that can be used to <strong>both design and evaluate</strong> a website's information architecture. Related methods — <strong>tree testing</strong> and <strong>first-click testing</strong> — help validate it.</p>
+<hr />
+<h2>2. What Is Card Sorting?</h2>
+<p>🔑 <strong>Card sorting</strong> is a method for discovering the <strong>latent structure</strong> in a list of statements, ideas, or content items by asking people to <strong>group them</strong>.</p>
+<h3>Procedure</h3>
+<ol>
+<li>Write <strong>each content item or label</strong> from the site (every page, topic, or term) on its <strong>own index card</strong> (about <strong>3 × 5 inches</strong>; typical studies use roughly <strong>30 to 200 cards</strong>).</li>
+<li>Ask participants to <strong>sort the cards into groups</strong> that make sense to them.</li>
+<li>Have participants <strong>work on their own</strong>, then collect each person's results.</li>
+<li><strong>Analyze</strong> the results — informally, or <strong>statistically</strong> if needed — to find where participants agree.</li>
+</ol>
+<h3>Who should participate?</h3>
+<ul>
+<li>Ideally, <strong>representative members of your user population</strong> — people for whom you are designing.</li>
+<li>A small group can be useful: the lecture mentions roughly <strong>four to six</strong> participants, depending on who is available.</li>
+<li>⭐ If you cannot reach real users, even a <strong>friend, colleague, or family member</strong> can show whether your groupings and category names make sense to someone other than you.</li>
+</ul>
+<h3>What you learn</h3>
+<ul>
+<li>How <strong>other people group and label</strong> your content.</li>
+<li>Which <strong>categories make sense to them</strong>, and what <strong>names</strong> they would give those groups.</li>
+<li>It reflects <strong>the structure in which users expect ideas or concepts to be presented</strong> — rather than the structure that makes sense only to the site's creators.</li>
+</ul>
+<hr />
+<h2>3. Two Types of Card Sorting</h2>
+<h3>3.1 Open card sorting</h3>
+<ul>
+<li>Participants <strong>sort cards into groups they create themselves</strong> and <strong>write their own category names</strong>.</li>
+<li>Captures <strong>participants' mental models</strong> — how <em>they</em> structure information.</li>
+<li>✅ An <strong>exploratory</strong> technique: best used <strong>early</strong>, when you <strong>don't yet know</strong> how to structure the information.</li>
+</ul>
+<h3>3.2 Closed card sorting</h3>
+<ul>
+<li>Participants are <strong>given predefined categories</strong> and <strong>place cards</strong> where they think each belongs.</li>
+<li>Example: for a <strong>grocery store</strong>, print cards with items (cucumber, milk, bread…) and give categories ("Produce," "Dairy," "Bakery"); see where people put each item.</li>
+<li>✅ A <strong>validation</strong> technique: use it when you <strong>already have categories</strong> and want to test whether they work.</li>
+</ul>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;"></th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;"><strong>Open sort</strong></th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;"><strong>Closed sort</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Categories</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Created by participants</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Provided in advance</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Purpose</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Exploratory</strong> — discover how users group</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Validation</strong> — test a proposed structure</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>When</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Early design</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">After you have draft categories</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Output</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Groupings <strong>and</strong> labels</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Which category each card lands in</td>
+</tr>
+</tbody>
+</table>
+<p>⭐ The fundamental difference: <strong>open sorting captures participants' own models; closed sorting checks an existing one.</strong></p>
+<p>💡 In practice, some people use <strong>hybrid</strong> approaches — participants sort into provided categories but may also <strong>create new ones</strong> (the lecture notes that the continuum between open and closed is flexible).</p>
+<hr />
+<h2>4. Other Methods for Improving IA</h2>
+<p>The author the instructor cites argues that closed card sorting is not always the best validation tool — <strong>other techniques may be equally or more useful</strong>.</p>
+<h3>4.1 Tree testing (reverse card sorting)</h3>
+<p>🔑 <strong>Tree testing</strong> evaluates the <strong>findability</strong> of topics in a <strong>text-only version of the site hierarchy</strong>, stripped of navigation aids and design elements. It is sometimes called <strong>reverse card sorting</strong>, since it starts with the structure rather than the cards.</p>
+<ul>
+<li>Present participants with the <strong>tree</strong> (a nested hierarchy of headings; one branch can be expanded at a time).</li>
+<li>Give a <strong>task</strong>: e.g., <em>"You want to find your photos from your vacation in Greece."</em></li>
+<li>Observe the <strong>path</strong> they click through the folders/headings and whether they <strong>find the right place</strong>.</li>
+<li>Example analogy: finding a file on your computer by moving through nested <strong>folders</strong>.</li>
+</ul>
+<p><strong>Advantages:</strong> it yields <strong>navigation information</strong> (the path taken), not just final placement as in a closed sort.
+<strong>Disadvantage:</strong> it takes <strong>longer</strong> — more time to <strong>design the test</strong> and for the user to complete it.</p>
+<h3>4.2 First-click testing</h3>
+<p>🔑 <strong>First-click testing</strong> shows users a <strong>screenshot</strong> (a design or wireframe) and asks them to indicate <strong>where they would click first</strong> to complete a task.</p>
+<ul>
+<li>Example: show an <strong>online grocery store</strong> screenshot and ask, <em>"Find a cucumber."</em> If they click the menu heading <strong>"Produce,"</strong> the label works.</li>
+<li>Question it answers: <strong>"Where would you click to get where you need to go?"</strong> for a particular use case.</li>
+<li>✅ <strong>Fast and efficient</strong> — takes very little time and helps a team <strong>get unstuck on a design decision</strong>.</li>
+</ul>
+<hr />
+<h2>5. Choosing a Method</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Method</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Answers</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Stage</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Effort</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Open card sort</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">How do users group and name content?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Early / generating IA</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Moderate</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Closed card sort</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Do users put items where I expect?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Validating categories</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Moderate</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Tree test</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Can users <strong>find</strong> items in my hierarchy?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Validating a proposed structure</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Higher</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>First-click test</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Do users know where to start on this screen?</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Validating labels/layout</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Low</td>
+</tr>
+</tbody>
+</table>
+<p>Open card sorting helps <strong>create</strong> the architecture; closed sorting, tree testing, and first-click testing help <strong>validate</strong> the structure and labels you have come up with.</p>
+<hr />
+<h2>6. Key Takeaways</h2>
+<ul>
+<li>🔑 <strong>Card sorting</strong> shows how users <strong>group and label</strong> content; <strong>open</strong> = generate, <strong>closed</strong> = validate.</li>
+<li>🔑 <strong>Tree testing</strong> tests <strong>findability</strong> in the hierarchy and gives <strong>path information</strong>.</li>
+<li>🔑 <strong>First-click testing</strong> is a <strong>quick</strong> check of whether labels lead users the right way first.</li>
+<li>⭐ Test with <strong>representative users</strong> whenever possible; otherwise use <strong>colleagues or friends</strong> rather than guessing.</li>
+<li>✅ Combine methods: use <strong>open sorting</strong> to build, then <strong>tree/first-click tests</strong> to confirm.</li>
+</ul>
+<hr />
+<h2>Review Questions</h2>
+<ol>
+<li>How do you physically conduct a card sort?</li>
+<li>What is the main difference between open and closed card sorting, and when would you use each?</li>
+<li>Why is tree testing sometimes called "reverse card sorting"?</li>
+<li>What extra information does tree testing provide compared with a closed card sort? What is the cost?</li>
+<li>Describe a first-click test for a library website: what task would you give and what would you look for?</li>
+</ol></en-note>]]></content><created>20261007T002209Z</created><updated>20261007T002209Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 4, Part 4: Wireframes</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 4, Part 4: Wireframes</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> What wireframes are, what they include and exclude, tools for creating them, and a case study of the Stanford CIS wireframe
+<strong>Source:</strong> Panopto lecture transcript — "Session 4 Part 4 Wireframes"</p>
+<hr />
+<h2>1. From Information Architecture to Layout</h2>
+<p>Once your <strong>information architecture</strong> is in place — you know the <strong>structure</strong>, how content is organized into <strong>categories, sub-headings, and sub-sub-headings</strong> — the next step is deciding <strong>how to lay out the elements visually</strong>. That is where <strong>wireframes</strong> come in.</p>
+<hr />
+<h2>2. What Is a Wireframe?</h2>
+<p>🔑 A <strong>wireframe</strong> is a <strong>blueprint</strong> for a page design: a <strong>visual representation of one or more pages</strong> of a website that takes the IA you've developed (so far only in writing/diagrams) into a <strong>visual form</strong>.</p>
+<ul>
+<li>A <strong>two-dimensional illustration</strong> of a page or interface that focuses on <strong>space allocation</strong>, <strong>prioritization of content</strong>, <strong>functionalities available</strong>, and <strong>intended behaviors</strong> of different parts of the page.</li>
+<li>⭐ <strong>Purpose:</strong> communicate the <strong>layout</strong> of the page <strong>without getting caught up in colors, fonts, or other design details</strong>.</li>
+</ul>
+<h3>Why wireframes help</h3>
+<ul>
+<li>✅ <strong>Time saver</strong> — all parties can <strong>agree on where major items go</strong> (header, content areas, navigation menus, photos) <strong>before</strong> detailed design starts.</li>
+<li>✅ Get the <strong>layout nailed down</strong> so <strong>major layout changes don't happen</strong> once detailed design elements are in place.</li>
+<li>✅ Bridges the gap between the <strong>site map</strong> and the <strong>final visual design</strong>.</li>
+</ul>
+<h3>What wireframes typically include — and exclude</h3>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Included</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Typically <strong>not</strong> included</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Logo</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Typography/fonts</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Search field</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Color</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Breadcrumbs</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Graphics / final imagery</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Page titles, headings, sub-headings</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Detailed visual styling</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Global navigation</strong> and <strong>local navigation</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Body content areas</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Buttons</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Contact information, footer</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;">Placeholders for images (e.g., a big "hero" image)</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"></td>
+</tr>
+</tbody>
+</table>
+<h3>Breadcrumbs</h3>
+<p>🔑 <strong>Breadcrumbs</strong> show a user's <strong>location within the larger site hierarchy</strong> — for example, <em>Home › Products › Phones</em> — and let them step back to higher levels. A <strong>major category</strong> is shown with its <strong>sub-category</strong>.</p>
+<hr />
+<h2>3. Reading a Wireframe</h2>
+<p>In a typical wireframe you'll see <strong>placeholders</strong>: a box with an X for an image, a block for a <strong>hero image/banner</strong>, lines for <strong>text</strong>, and a <strong>footer</strong> area at the bottom.</p>
+<ul>
+<li>You can create wireframes for different <strong>form factors</strong>:</li>
+<li><strong>Desktop / laptop</strong> (landscape, wide)</li>
+<li><strong>Phone</strong> (portrait — iPhone, Android)</li>
+<li><strong>Tablet</strong></li>
+<li>A good set of wireframes shows both the <strong>desktop view</strong> and the <strong>mobile view</strong> of the site (ties back to <strong>mobile-first</strong> and <strong>responsive design</strong>).</li>
+<li>💡 Searching an image site such as <strong>Flickr</strong> (or the web) for <em>"wireframe"</em> — and specifically <em>"mobile wireframe"</em> — shows many examples at different levels of fidelity.</li>
+</ul>
+<hr />
+<h2>4. How to Create Wireframes</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Approach</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Pen/pencil and paper</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">No software required; sketch the boxes and label them</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Online wireframing tools</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Drag-and-drop elements to build a page layout quickly; log in and start immediately (the lecture demonstrates one such web tool, <strong>GoMockingbird</strong>)</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Design software</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Many drawing and prototyping tools offer wireframe kits</td>
+</tr>
+</tbody>
+</table>
+<p>⭐ You do <strong>not</strong> need special software — the thinking matters more than the tool.</p>
+<hr />
+<h2>5. Case Study: Stanford Center for Internet and Society (CIS) Wireframe</h2>
+<p>The IA from Part 2 (primary navigation + utility navigation) was turned into a wireframe:</p>
+<ul>
+<li><strong>Top of page:</strong> logo and Stanford Law School branding for the <strong>Center for Internet and Society</strong>, with <strong>two to three lines of description</strong> (a short tagline).</li>
+<li><strong>Utility navigation</strong> (top): blog, multimedia, contact us, get involved, press — with the <strong>search bar</strong> beside it.</li>
+<li><strong>Primary/major navigation</strong> (beneath the header): focus areas, experts, events, projects, publications, about.</li>
+<li><strong>Large image placeholder</strong> (hero area).</li>
+<li>Calls to action: <strong>getting involved</strong>, <strong>e-mail signup</strong>, <strong>social media</strong> links, <strong>attending events</strong>.</li>
+<li><strong>Recent events/news</strong> modules tied to the <strong>focus areas</strong>, a <strong>featured video</strong>, and <strong>upcoming events</strong>.</li>
+<li><strong>Annotations/notes</strong> on the wireframe, e.g.:</li>
+<li>The featured column will have an <strong>image with text</strong>; users can pick <strong>navigation options</strong> to see other items.</li>
+<li>Text at the top should <strong>describe "what we do"</strong> — but may need to be trimmed.</li>
+<li>A <strong>"recently" box</strong> could change/rotate; clicking could take users to a fuller feature.</li>
+</ul>
+<p>⭐ Annotations are a standard, valuable part of a wireframe: they record <strong>behavior and decisions</strong> that can't be drawn.</p>
+<h3>Why it matters</h3>
+<ul>
+<li>It shows the <strong>logical progression</strong>: <strong>IA → wireframe → page design</strong>.</li>
+<li>You can now <strong>imagine the actual page</strong>, even though <strong>colors and look-and-feel</strong> aren't decided yet.</li>
+<li>You're only deciding <strong>where service elements go</strong> on the site.</li>
+</ul>
+<hr />
+<h2>6. Key Takeaways</h2>
+<ul>
+<li>🔑 A <strong>wireframe</strong> is a <strong>layout blueprint</strong> — space, priority, functionality — <strong>without</strong> color, type, or graphics.</li>
+<li>✅ It lets everyone <strong>agree on layout early</strong> and prevents costly late layout changes.</li>
+<li>🔑 Common elements: <strong>logo, search, breadcrumbs, global/local navigation, headings, body content, buttons, footer</strong>.</li>
+<li>💡 Make <strong>both desktop and mobile</strong> wireframes; use <strong>paper or online tools</strong>.</li>
+<li>⭐ Follow the sequence <strong>use cases/scenarios → IA/site map → wireframes → visual design → HTML/CSS</strong>.</li>
+</ul>
+<hr />
+<h2>Review Questions</h2>
+<ol>
+<li>What is a wireframe, and what are its main purposes?</li>
+<li>What do wireframes deliberately leave out? Why?</li>
+<li>What is a breadcrumb trail, and how does it help users?</li>
+<li>What is the difference between global and local navigation?</li>
+<li>Why should you create both desktop and mobile wireframes?</li>
+<li>In the Stanford CIS example, how did the wireframe build on the information architecture?</li>
+</ol></en-note>]]></content><created>20261007T002209Z</created><updated>20261007T002209Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 4, Part 5: Test versus Production Sites</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 4, Part 5: Test versus Production Sites</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> Production, testing, and development web servers; why to separate them; and the typical workflow from local machine to live site
+<strong>Source:</strong> Panopto lecture transcript — "Session 4 Part 5 Test versus Production sites"</p>
+<hr />
+<h2>1. Terminology</h2>
+<p>Several terms are used for the <strong>servers</strong> involved in building a website: <strong>production web server</strong>, <strong>development web server</strong>, and <strong>testing web server</strong>. They are used somewhat differently across organizations, so it helps to define them clearly. Throughout, the <strong>designer/developer</strong> works on <strong>site pages and graphics files</strong> that are eventually stored on a server.</p>
+<hr />
+<h2>2. Types of Servers</h2>
+<h3>2.1 Production web server</h3>
+<p>🔑 A <strong>production web server</strong> hosts the <strong>webpages and content that are ready for the public</strong> — the <strong>live site</strong>.</p>
+<ul>
+<li>It is <strong>connected to the Internet</strong> and delivers content to real visitors.</li>
+<li>In a <strong>small company</strong> or simple setup, you may have <strong>only</strong> this server plus your <strong>local computer</strong>.</li>
+<li>Workflow in that simple case: design and test <strong>locally</strong> on your own machine, then use an <strong>FTP (file transfer) program</strong> to <strong>transfer files from your local computer to the production server</strong>.</li>
+</ul>
+<h3>2.2 Testing web server</h3>
+<p>🔑 A <strong>testing server</strong> lets you <strong>try new pages and designs on a web server that is not visible to customers/public visitors</strong>.</p>
+<p>⭐ <strong>Why it matters:</strong> the production server may have <strong>hundreds or thousands of users connected</strong> at once. You do <strong>not</strong> want to put <strong>untested pages</strong> there — <strong>if something goes wrong, live pages could be affected</strong>.</p>
+<ul>
+<li>Gives a safe place to check that things work <strong>on a real server environment</strong>, not just your laptop.</li>
+<li>Typically paired with <strong>version control</strong> so every change is <strong>recorded</strong>.</li>
+</ul>
+<h3>2.3 Development web server</h3>
+<p>🔑 A <strong>development server</strong> is similar, but is used when the site includes <strong>server-side logic and applications</strong> — <strong>scripts and programs</strong> written by <strong>developers</strong> (the <strong>back end</strong>, e.g., databases and server code).</p>
+<ul>
+<li><strong>Designers</strong> work on <strong>designs on their local machines</strong>.</li>
+<li><strong>Developers</strong> write scripts and programs on the <strong>development server</strong>.</li>
+<li>Multiple people collaborate using a <strong>version control system</strong>.</li>
+</ul>
+<p>💡 The <strong>back-end</strong> work is not a major focus of this course, but you should know the environments exist.</p>
+<hr />
+<h2>3. The Typical Workflow</h2>
+<pre><code> Local machine  ──►  Development server  ──►  Testing server  ──►  Production server
+ (design/edit)       (scripts, programs)      (QA / approval)       (live to the public)
+</code></pre>
+<ol>
+<li><strong>Design and edit locally</strong> on your own computer (as in the first labs).</li>
+<li><strong>Move to development</strong> (if the site has application code) and integrate with developers' work.</li>
+<li><strong>Move to the testing server</strong> for review and approval.</li>
+<li>Once <strong>approved and ready</strong>, <strong>deploy to the production server</strong> — the new addition <strong>goes live</strong>.</li>
+<li>Throughout, use <strong>version control</strong> (e.g., Git/GitHub) to track changes among team members.</li>
+</ol>
+<p>✅ <strong>Minimum setup:</strong> at least a <strong>test</strong> environment separate from <strong>production</strong>. A single server may serve both development and testing in smaller organizations, but you should always keep <strong>production</strong> separate.</p>
+<hr />
+<h2>4. Comparison Table</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;"></th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;"><strong>Local machine</strong></th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;"><strong>Development</strong></th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;"><strong>Testing</strong></th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;"><strong>Production</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Who uses it</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Individual designer</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Developers (and designers)</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">QA / team / client</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>The public</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Content</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Work in progress</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Code being written</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Candidate release</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Approved, live</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Visible to public?</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">No</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">No</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>No</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Risk if broken</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">None</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Low</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Low</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>High</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Version control</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Local repo</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Shared</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Shared</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Deployed from approved version</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>5. Key Takeaways</h2>
+<ul>
+<li>🔑 <strong>Production</strong> = the <strong>live site</strong> the public sees.</li>
+<li>🔑 <strong>Testing</strong> = a <strong>non-public copy</strong> for verifying changes before they go live.</li>
+<li>🔑 <strong>Development</strong> = where <strong>developers</strong> build and integrate <strong>server-side code</strong>.</li>
+<li>⭐ <strong>Never test on the production server</strong> — mistakes affect real users.</li>
+<li>✅ Use <strong>FTP</strong> (or deployment tools) to publish, and <strong>version control</strong> to track changes.</li>
+<li>💡 Keep <strong>production separate</strong> from the machine where you do most of your design work.</li>
+</ul>
+<hr />
+<h2>Review Questions</h2>
+<ol>
+<li>What is a production web server?</li>
+<li>Why is a separate testing server valuable?</li>
+<li>How does a development server differ from a testing server?</li>
+<li>Describe the path of a change from your local machine to the live site.</li>
+<li>In a small organization with only a local computer and a production server, how are files moved to the live site?</li>
+<li>What role does version control play in this workflow?</li>
+</ol></en-note>]]></content><created>20261007T002209Z</created><updated>20261007T002209Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 4, Part 6: CSS3</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 4, Part 6: CSS3</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> Separating content from design, what CSS is, selectors/properties/values, where CSS lives, CSS modules and standards maturity, learning resources, and media queries for responsive design
+<strong>Source:</strong> Panopto lecture transcript — "Session 4 Part 6 CSS3"</p>
+<hr />
+<h2>1. Design and Development Each Week</h2>
+<p>Each week the course covers <strong>some design elements</strong> and <strong>some development elements</strong>. This week's development focus: after learning HTML, begin <strong>CSS3</strong> — <strong>a lot to learn</strong>.</p>
+<hr />
+<h2>2. The Big Idea: Separate Content from Design</h2>
+<p>🔑 <strong>CSS (Cascading Style Sheets)</strong> separates <strong>content</strong> from <strong>presentation</strong>:</p>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Layer</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Technology</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Content / structure</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>HTML</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">What the page says</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Presentation / design</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>CSS</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">How it looks</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>⭐ In the old days, <strong>content and design were mixed together</strong>, making changes <strong>very difficult</strong>.</li>
+<li>With CSS, you can <strong>change the design on the fly</strong> without touching the content.</li>
+<li>Because styling lives in style sheets, it can be <strong>reused across multiple pages</strong> — efficient and consistent.</li>
+</ul>
+<h3>History and standards</h3>
+<ul>
+<li>CSS was proposed by <strong>Håkon Wium Lie</strong> in <strong>1994</strong>.</li>
+<li>It is a <strong>World Wide Web Consortium (W3C)</strong> standard for the <strong>visual presentation of webpages</strong>.</li>
+<li>Formal definition: a <strong>language for describing the rendering of structured documents</strong> (such as HTML and XML) <strong>on screen, on paper</strong>, and in other media.</li>
+<li>It can style <strong>other structured documents</strong> (e.g., XML where tags aren't predefined), not just HTML.</li>
+</ul>
+<h3>What CSS can do</h3>
+<ul>
+<li>Change <strong>colors</strong>, add <strong>backgrounds and borders</strong></li>
+<li>Style <strong>fonts, text, and links</strong></li>
+<li>Control the <strong>entire page layout</strong> and <strong>positioning</strong></li>
+<li>⭐ <strong>HTML gives structure; CSS gives beauty.</strong></li>
+</ul>
+<hr />
+<h2>3. Demonstration: CSS Zen Garden</h2>
+<p>The lecture demonstrates a site (the well-known <strong>CSS Zen Garden</strong>) where the <strong>same HTML content</strong> appears with <strong>completely different designs</strong> just by switching the <strong>style sheet</strong>. The content never changes — only the CSS. This is the clearest demonstration of the <strong>content/design separation</strong>.</p>
+<hr />
+<h2>4. Learning CSS</h2>
+<ul>
+<li>Go through the <strong>W3Schools CSS tutorial</strong> — you are expected to work through <strong>pretty much the entire tutorial</strong>; you must be <strong>well versed in CSS to succeed in web design and development</strong>.</li>
+<li>Topics in the tutorial, roughly in order of priority:</li>
+<li><strong>Styling basics</strong> — colors, backgrounds, borders, <strong>padding</strong>, <strong>margins</strong>, text, fonts</li>
+<li><strong>Positioning</strong> and the <strong>box model</strong> — an important concept</li>
+<li><strong>Advanced</strong> — animations (do these only if time allows)</li>
+<li><strong>Flexbox</strong> and <strong>CSS Grid</strong> layouts</li>
+<li><strong>Media queries</strong> — essential for <strong>responsive design</strong></li>
+<li>Other resources: <strong>LinkedIn Learning</strong> (formerly Lynda.com, free through Simmons login), textbooks, and online video courses.</li>
+</ul>
+<hr />
+<h2>5. CSS Syntax</h2>
+<p>🔑 A CSS rule has a <strong>selector</strong>, then a <strong>declaration block</strong> of <strong>property: value</strong> pairs:</p>
+<pre><code>selector {
+  property: value;
+  property: value;
+}
+</code></pre>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Part</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Meaning</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Selector</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The <strong>HTML element</strong> (or other target) you want to style</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><code>p</code>, <code>body</code>, <code>h1</code></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Property</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The <strong>aspect</strong> you want to change</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><code>color</code>, <code>text-align</code>, <code>background-color</code></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Value</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">The <strong>setting</strong> for that property</td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><code>red</code>, <code>center</code>, <code>lightblue</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Syntax rules:</strong></p>
+<ul>
+<li>Curly braces <code>{ }</code> enclose the declarations.</li>
+<li>A <strong>colon</strong> <code>:</code> separates property from value.</li>
+<li>A <strong>semicolon</strong> <code>;</code> ends each declaration.</li>
+</ul>
+<h3>Example 1: Style all paragraphs</h3>
+<pre><code>p {
+  text-align: center;
+  color: red;
+}
+</code></pre>
+<p>All <code>&lt;p&gt;</code> elements on the page become <strong>centered and red</strong>. Change <code>center</code> to <code>left</code> or <code>red</code> to <code>green</code> and the page updates <strong>immediately</strong>.</p>
+<h3>Example 2: Style the body</h3>
+<pre><code>body {
+  background-color: lightblue;
+}
+</code></pre>
+<p>Change <code>lightblue</code> to <code>red</code> and the <strong>entire page background</strong> changes.</p>
+<h3>Page structure you can style</h3>
+<p>Modern HTML5 pages include structural elements such as <code>header</code>, <code>nav</code>, <code>section</code>, <code>article</code>, <code>aside</code>, and <code>footer</code>. <strong>Each can have its own CSS rules</strong> controlling how it looks.</p>
+<hr />
+<h2>6. Where CSS Lives</h2>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Method</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Location</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Inline</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><code>style="…"</code> attribute on a single element</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Quick, but hard to maintain</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Internal</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><code>&lt;style&gt;</code> tag in the <code>&lt;head&gt;</code> of the HTML file</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Good for single pages / demos (the lecture's example uses this)</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>External</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">A <strong>separate <code>.css</code> file</strong> linked from the HTML</td>
+<td style="border:1px solid #ccc;padding:4px 8px;">✅ <strong>Best practice</strong> — one file styles many pages</td>
+</tr>
+</tbody>
+</table>
+<pre><code>&lt;head&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+</code></pre>
+<hr />
+<h2>7. CSS Modules and Standards Maturity</h2>
+<p>CSS is <strong>split into modules</strong> that progress through stages at different rates. The W3C maturity levels:</p>
+<table style="border-collapse:collapse;width:100%;">
+<thead>
+<tr>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Stage</th>
+<th style="border:1px solid #ccc;padding:4px 8px;background-color:#f0f0f0;text-align:left;">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Working Draft (WD)</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Earliest public stage — still being worked on</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Candidate Recommendation (CR)</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Almost ready</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Proposed Recommendation (PR)</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;">Close to final approval</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Recommendation (REC)</strong></td>
+<td style="border:1px solid #ccc;padding:4px 8px;"><strong>Approved — the standard</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Examples of modules that reached <strong>Recommendation</strong>: <strong>Media Queries</strong> (June 2012), <strong>Color Level 3</strong> and <strong>Basic User Interface Level 3</strong> (reached REC later, around June 2018).</li>
+<li><strong>CSS1</strong> covered fundamentals: <strong>fonts, colors, backgrounds, text properties, the cascade</strong>. <strong>CSS2</strong> added <strong>media types, positioning, tables</strong>, and more. <strong>CSS3</strong> is organized into <strong>many modules</strong> (selectors, media queries, color, backgrounds, flexbox, grid, etc.).</li>
+<li>⭐ Some parts are <strong>stable</strong>, while others are <strong>still changing</strong> — the W3C publishes a <strong>status page</strong> showing each module's current stage.</li>
+<li>Parts of <strong>CSS Grid</strong> and related layout features are newer and still evolving.</li>
+</ul>
+<hr />
+<h2>8. Media Queries and Responsive Design</h2>
+<p>🔑 <strong>Media queries</strong> are a CSS3 module that lets <strong>content rendering adapt to conditions</strong> such as <strong>screen size/resolution</strong> (smartphone vs. tablet vs. desktop). They are the <strong>core technology of responsive design</strong>.</p>
+<pre><code>body {
+  background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+}
+</code></pre>
+<ul>
+<li>You specify <code>@media screen</code> and a <strong>condition</strong> such as <code>min-width</code> / <code>max-width</code> in <strong>pixels</strong>.</li>
+<li>Rules inside apply <strong>only when the condition is met</strong> — for example on a phone or an iPad-sized screen.</li>
+<li>⭐ <strong>Nearly every modern, responsive CSS file contains media queries.</strong></li>
+<li>Connects to <strong>Session 2</strong> topics: <strong>responsive web design</strong> and <strong>mobile-first</strong> design.</li>
+</ul>
+<hr />
+<h2>9. Session 4 Wrap-Up</h2>
+<p>Today's session covered:</p>
+<ol>
+<li><strong>Use cases and scenarios</strong></li>
+<li><strong>Information architecture</strong></li>
+<li><strong>Card sorting</strong> (and tree testing, first-click testing)</li>
+<li><strong>Wireframes</strong></li>
+<li><strong>Test vs. production sites</strong></li>
+<li><strong>CSS3</strong></li>
+</ol>
+<hr />
+<h2>10. Key Takeaways</h2>
+<ul>
+<li>🔑 <strong>HTML = content/structure; CSS = presentation.</strong> Keep them separate.</li>
+<li>🔑 A CSS rule = <strong>selector { property: value; }</strong>.</li>
+<li>✅ Prefer <strong>external style sheets</strong> linked to all pages.</li>
+<li>⭐ <strong>Media queries</strong> make pages <strong>responsive</strong> to different screen sizes.</li>
+<li>💡 Work through the <strong>W3Schools CSS tutorial</strong> thoroughly — styling and positioning are the priority.</li>
+<li>💡 CSS modules mature at different speeds: <strong>WD → CR → PR → REC</strong>.</li>
+</ul>
+<hr />
+<h2>Review Questions</h2>
+<ol>
+<li>Why is separating content from design valuable?</li>
+<li>Identify the selector, property, and value in <code>p { color: red; }</code>.</li>
+<li>What are the three ways to include CSS in a page, and which is best practice?</li>
+<li>What does a media query do, and why is it essential for responsive design?</li>
+<li>List the W3C maturity stages for a CSS module in order.</li>
+<li>How does the CSS Zen Garden demonstrate the power of CSS?</li>
+</ol></en-note>]]></content><created>20261007T002209Z</created><updated>20261007T002209Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note></en-export>

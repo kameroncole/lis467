@@ -1,0 +1,269 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+so in this session we have a few learning outcomes by the time we finished to select you should be able to describe
+
+use cases and scenarios explain the importance of information architecture. outline
+
+the process of creating a site information architecture. talk about what your wire frame is
+
+and how you can go about creating one. learn the difference between test and production sites
+
+and also begin the process of learning CSS three.
+
+so let's look at the first out some describing the use cases and scenarios.
+
+so when you think of use case is right at the Honda use case
+
+is what we call the user which is the person or you know library could be
+
+a patron so anybody who was there to to use the website. so when
+
+you have your your your typical uses for your site and then you also have a sense person
+
+that you those we need to connect out these the view this is with
+
+with use cases which means that they're the reasons why this person would use a website
+
+with the typical toss the disbursement with the phone. so in this case out if you see that
+
+this user is trying to use a library or pack which is open public public access
+
+catalogs to access the library resources. so they could they could be a few things that the person good to using
+
+the system. the person could ask this is OPEC for managing one's account searching for a catalog fishing for
+
+books and resources in the library with having a particular item. when you having an item of providing feedback.
+
+so trying the patron to each of these stuff is the each of each one is a use case.
+
+so use case is to provide a simple means to decide and discuss the purpose of project
+
+and they have two components the active and the goals and sectors
+
+are your typical of most um and that uses and goes I walked up. one summer all of the
+
+person I was out that you're created would want to achieve seven use kids must have a specific
+
+goals and actors up. that'll perform tasks to achieve that goal and
+
+goes minor things like reading about four star checking it every account session for a book and checking
+
+out a book and so on. so use case is they define the goals and the purpose
+
+that is the problems that we are trying to solve
+
+is a written description of how uses to perform tasks on their website. it outlines from a user
+
+'s point of your system 's behavior as that response or request. please use case is a positive
+
+essence of a sequence of simple steps beginning with the with the golden ending with the goal is fulfilled.
+
+okay so you have when you think what do you ski this is nothing to do things like with using the website
+
+whether you want to do the user goes in the steps are you the truth takes a completion particular task
+
+how's the how the website should respond to an action. and it does not include intimidation sets of
+
+language details of user interface of the screen. so in more
+
+detail to use case and you also have triggers like what is it that causes that
+
+that action to happen that you can use case to be initiated. and and the basic flaw
+
+of the main things that are going that stuff and some alternate flows based upon the certain condition
+
+that is some variation. so when you want to start writing or use case I didn't if
+
+I was going to be using to us I think one of those uses defined what do you want to do on the site
+
+each thing to use it does in the sights then becomes a use case and then decide on a normal course of events and
+
+then. thank all some alternate scenarios as well so here
+
+there's an example here. there is a housekeeper though who does laundry on a Wednesday and she
+
+watches which load and she drives the solution for such an item shine some items and she throws us at night
+
+and so here you have a simple longer use case so so the use cases calls do laundry.
+
+yeah through the house keeper. the basic so is that on Wednesdays. I was given a possible laundry room she saw
+
+the laundry that there are situations that you know it drives issued for his items and he's folding.
+
+thank the items that are in because supposedly ended under that is that a shrunken so I just cost cost
+
+so if you had said that is up the floor of the stuff that she was doing is being described
+
+here. then you could have more details over here. so he's in the same place.
+
+just the middleweight laundry case here you go to do laundry housekeeper and then the status of the
+
+others knowledge and if so describe here so if you notice is that something 's wrinkled shines it and then hangs it on the anger
+
+and then if so is that if you notice is that something still do appreciate he watches it and if
+
+you notice that if something changes for that house and then you if you could then go into
+
+more details as well. so use case is basically for any anything that you want to see
+
+on your site think of the typical user. thank us by that person would come to your site
+
+I think also less your students coming to the sentence that's I suppose and maybe a prospective student
+
+and and once to see if someone's office a certain degree Celsius for the person
+
+goes looks over the side and sees if the university off of the degree that she was interested
+
+in and then now maybe maybe she notices another degree and then decides that
+
+that maybe she's interested in that any further further that's an alternate so and maybe
+
+she sees lessons is not also shoot shoot shoot. she like so then she decides to
+
+pull the website or then she sees she sees that sentence does offer the way to
+
+do that she was looking for then she looked for the admissions link and then since I mean I mean
+
+e-mail to inquire further or something. so they could have did it really flows based on on what the weather
+
+user. once in this instance. and then you have
+
+other things that are required and that is it the meta data and metadata
+
+I can be seen as something up that describes the detail describes the content
+
+of the sites with information about information. so the content here. they could be
+
+of any content which can the display done on paper on a device and on on a larger screen.
+
+so it's let's see that when when you think of data right. it
+
+is all the various kinds of words and labels that you would use to to
+
+discuss and piece of information on a site. so reach loving
+
+loving discretion that it has information about the content that provide structure context and meaning it's
+
+what helps you the signed account and they're looking for. let's see you want to search for a German artist and then go to the library website
+
+that you know should have the content. so if you browse around and can't find it.
+
+it's a sign of bad metadata. if you get a meditative right you've already. the first.
+
+also an insecticide design to determine what kind of information
+
+to start about stuff that if any of us care about how to label them in ways that you can find
+
+so simple things like this like describing thing that has the
+
+resources or content or information and then providing the details
+
+of it. will it will mean that whether you that information can be found or not because people
+
+are used to searching for things using particular terms and jargon that they care about
+
+other day that they're familiar with. they must include those terms that they use is that it typically uses.
+
+so I will take you to use to find information on a website and then
+
+there is a related term to use cases which is a view the scenario. it is similar to
+
+to use case is that it has more detail over here. so
+
+to design the most feeling experience for you this start thinking about scenarios feature to use up as
+
+soon as the scenario basically a story story about someone which is
+
+you the person I'm using your website to carry out a specific hospital goes.
+
+and just could be like checking out a book looking for into library loans. I was thinking reference at the Central
+
+scenarios work together with the first one of my serving of the story behind why the particular person I would
+
+come to your website. so should focus on the users and the talks rather than
+
+rather than on your site organization and internal structure. says that we'll get insight as to what content
+
+site must have and how it should be organized. so it's really trying to look at your website when you have a point of view
+
+rather than some of the web design is a web developer 's point of view. so here's let's look at an
+
+example so this is the fall is an online student who's ordering flowers for mom
+
+'s birthday. so there's a first steps of falling out a guest to this site flowers are
+
+S .com. now the question of the stage might be real fun though that you are
+
+or are you the search engine and then the next of the false Lexus about the birth your flaws option in the menu.
+
+again a comment him I'd be like really want to show season most popular thousand. on the fish. we want to show
+
+delivery information on the homepage for example. next delivery delivery costs and so on
+
+and then an idea could be later maybe they could provide for the flower find and I think it's find about for flaws
+
+in the next step after the side of the selected as possible to the flash and by the price to make right.
+
+and they can't afford more than twenty five pounds or dollars which of the currency is only
+
+saw the policy to be presented with and we'll decide on on one piece that's a question. if you ask
+
+for this particular step in the scenario. so you can think
+
+of scenario as having the series of use cases as well that interest in this case.
+
+these steps are not discrete but there are links to the previous of seven subjects the other.
+
+so we'll probably want to initially she'll solve the popularity dismiss it as far as the next step of the false
+
+flexible care of a particular type of flood of the things on the lake and we
+
+want. so then then the comment is that we want to show an image of price title and put it in for a special
+
+description for each set of laws and then maybe an idea of the quick guide two thousand kids or
+
+flowers showing that follows and shut it off and then assigned to serve as the politics to look at the information
+
+for the for the particular side of the lakes including whether delivery as possible before his mom 's birthday
+
+and the question then is what sort of information will fall meet you know for example how long size of
+
+a lost the comment is that we'll need to show delivery costs and available and available to review celery
+
+stalks at this point in one idea that she was in the reason kids policies designed to have
+
+the right size for his mom. so these are this an example of scenario if somebody.
+
+again so I was using a particular website and there is some more information that we have
+
+from usaa .com. you know they describe scenarios as the stories and contact behind why
+
+a specific user user groups come to your site. so they know what the goals and questions to be issued and sometimes
+
+to find a positive elder you can achieve them on the side. so the critically critical for designing
+
+an interface and also like for usability testing. so some questions are considered that who is the user
+
+and have the person is to develop students like the real major news of what's going to do a site wide as
+
+he was a come to your side one of the motivations and articles of the user have.
+
+so there are different types of scenarios going to talk to scenario what state
+
+what the user wants to do and then you know examples of things like a parent is worried about a ten
+
+year old refusing to drink but if you want you know it was really making a difference of the child is getting very little calcium
+
+calcium here. are you trying to settle for a job next week and you want to check on them out you can be reimbursed for meals
+
+and other expenses. there any more detailed scenarios to hear you please give them all you the details
+
+and they'll give the rep team defend us any of the use and use the characteristics. this you're
+
+just talking about another story that involves retired school teachers for now in the seventies and that social security
+
+checks an important part of the income of they just sold the big house and and it's about why they would then
+
+come to your to your site for us it's really getting the story of the context behind my person he is using
+
+your site and they put in more detail in for the screen. scenarios as well
+

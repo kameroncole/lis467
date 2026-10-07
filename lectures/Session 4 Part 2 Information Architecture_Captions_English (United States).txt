@@ -1,0 +1,397 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+so in this part of the lecture will talk about the importance of information architecture and what the process of creating
+
+your information architecture and what life free means. so I
+
+think of information architecture. this is a term that is there in the in the course of title
+
+as well. web development and information architecture so it is a key part of the key concept
+
+in the course. so we do find information architecture of the art and science of organizing and labeling
+
+websites and intranets online communities and software to support usability. so it's not just
+
+limited to websites you can apply it be apply to a lot of other things. but it's ideal of basically how to
+
+organize the content that you have and how to label it what tunes you want to use. so it
+
+includes up drawing boxes to demonstrate site organization and enabling
+
+and making wire frames your blueprints up for additional design. so it might also include
+
+producing a taxonomy hello we are specifying of organizing the content. Hope
+
+Condon products on the site should be classified or the prototype illustrating how the information
+
+should change in the screen at the usaa progress is for that hospital when the user clicks and one thing one side we
+
+should have and which feature they use and I'll reach it and so on. so it was going to
+
+consciously organized in the continent flew off the website. based on some principles that can
+
+be educated that have been derived through evidence gathering
+
+information architecture can be thought of as as if all kinds of systems systems for organizing
+
+your content and systems. when you think of organizing you were talking about
+
+how we categorize information for example life subject all back technology. let's
+
+look at some examples leave this on my personal website. so here.
+
+this was an older website of mine. this is posted in
+
+and they're sending us just teklab using this
+
+for choosing what press and I just modify the team over there so here
+
+I was thinking the most money of creating the architecture for his website
+
+I first thought of one of the key ones that I want to highlight so in the life of profit so you have
+
+a teaching recession service. so the teaching part of the more internal because you you have students
+
+that that she would take it for the vehicle that is used to teach from an external fantasy of
+
+thing. your research and publications moth confusing because you might collaborate with other people
+
+in your research. so here I listed my research interests and presentations and any transcribers
+
+as the bus and then your publications is important to reference to to put it up. again the
+
+side because you want other people to save your research. so I put text media. the first session
+
+of my publications and then you have a teaching area. plus you so you have a research publication
+
+the teaching the fun part in your service this is all the necessary this is cool college profession accomplishment.
+
+and so on and then I also thought that if the accountant could be of any recent time as us a
+
+call the time line. so from growing up to school and university industry
+
+working. give me a PhD and then working on some of the process is all that was organized
+
+as the timeline and then put other topics which I thought the more the more about my thoughts in terms of
+
+what happened seems to me how do I define identity myself my possums and other calls that I
+
+care about and then I also created a section called creativity in Michigan I thought with
+
+a separate thing in which includes things like painting different types of painting.
+
+so many other media mediums that have tried either about it but and so on. um some writing
+
+poems and other things that I've done the cross culture. blah blah and
+
+then I was just created a section on places that I visited or lived in and
+
+and the travel I travel I was in sitemap so. so this is one way of organizing I mean I think
+
+a timeline of any other way places organizing my creativity and then something this is based and they
+
+made the work that I do and later when I rebuilt a website
+
+so the sub sites before some of it was not responsive we do not adapt with the different screen so a different
+
+one. and this is the bill sometime in in twenty seventeen eighteen. and
+
+here. I wanted to have a few categories and the one that I have over here. so the basic categories
+
+here about which has some description about me and it has a contact page.
+
+some contact information. and then it has
+
+this one has I didn't have a great separate research one. this is your interest kind of thing over here so
+
+I didn't have a separate publications like I publications that I call it research. so
+
+so this is publications and then under that I had to research interests listed as a subcategory
+
+within that time. I called in refrigerator publications and articles and conference proceedings
+
+and X-rated abstract thank you with something like that that I could do for their opening with links to full text
+
+and then under more I put service and teaching and then I put some of my other
+
+other things are trying to creativity over here. so I put them directly as a link so.
+
+painting happens and creativity because I try to from from the sections that I had which is about from
+
+one end and then also. try to distill two or three categories that you really care about the most.
+
+so I put them here and then I still have time in in places. the two parts that
+
+I had here this time. and thank cases and then I had a section
+
+called. this is out. two different ways of trying to organize content which is similar but
+
+you just you still have to think carefully able with it. I called the three social with a college publications and so
+
+on and why and how that might be important.
+
+so. so when you think of information architecture of your systems for organizing information and then we have
+
+systems for labeling for instance and receive the sleeve. do we label it maple
+
+which is what what most people call it or do you use a scientific name so
+
+for instance when you say scientific name for maples and then we have the
+
+ten to do call at eight zero to the call. call. so that's one way of thinking about
+
+organizing your contents. and then also how do we need to create navigation
+
+systems the whole me browser. I'll moved through information for example clicking through the hierarchy
+
+and also searching system. so for instance and moved and you have a nice search which is often
+
+easier than navigating because if you do not know where very particular assignment the site so you can go to
+
+move then you can click on on a magnifying glass and it ` you know
+
+that you've you get the. the search functionality and you can get to any content easier. so
+
+for example again some of any such information. eggs getting in touch with you again soon. and index
+
+all of these can be considered as part of the information architecture that way we always a content and we
+
+label. different parts of the website and then now how to navigate from one part of the website
+
+or the other and how do you allow the user to search for for information. three website.
+
+so when we when we say without talking information out to Texas again you have the same time 's classification
+
+hierarchy that's amazing that's one thought here. I'm labeling and tagging content and navigation
+
+we are finding and searching. that's information architecture or which is the first for short.
+
+so it connects people to the content that they looking for. it also helps people who create and maintain content
+
+to do the job easier and provides and it links contact other content to make it more usable and easy to find
+
+slinking one patiently other for instance links to content out to other people
+
+and the people to other people and to even to the conversation and the content of people
+
+looking for could be text images video the whole documents. so here
+
+that there were people like have different information activation different refund.
+
+when the definition 's data. Louis Rosenfeld and Peter Morvillo who's assigned to have
+
+the three circles of information architecture as content context and users.
+
+and when you think off the intersection of these concerns that you can return
+
+does have information after picture. so the way society is organized
+
+name is nothing to show sitemap can make a break. 's success. it's important to work out an information I'd
+
+appreciate your time. early the development of the website. so we can set the flu also have information
+
+'s going to so and how the use of the navigator for the website. so it's for getting all the
+
+information architecture would require you to map out there you left off to individual pages whenever you use
+
+it as trying to perform a certain time in terms from a use case scenario which webpage does it link
+
+that each of the stars cling to and that is very that's how you can design the flow
+
+of the users flow through the website. so
+
+each page must do two things one is Heather you that accomplished. once to speak to us
+
+and also make the next page is interesting so that's one thing that you must think about it and when you're designing the flow of
+
+information. three website. so.
+
+information architecture has these areas affected you this context and content. so when
+
+you when you talk what do you as as you think about who they are what information seeking behaviors are what they needs are.
+
+so so that you'll developed person I was I just do stuff than that says usability testing into
+
+it. graphic studies and and have detail you can refuse any and you document the user and get
+
+that experience requirements. and again to think also the content
+
+you think of things like uh volume of the content of formats the metadata structure organization
+
+and you look at the this site architecture writing content management
+
+navigation labeling those are some of the consent the news all overlapping concerns or anything close out
+
+these uh do you mean I've been testing and things you know existing to all the time so they could
+
+any of these cruel overlap with each other like to be something 's over here if you can you use in contact with you that
+
+content between content and context to context is defined of the skills enroll.
+
+if any business needs project management project scope and definition doesn't not assist.
+
+so this is a simplistic definition of context contacts and basically the whole story
+
+of the reason reasons behind why you that would come to a website and navigate
+
+to all use a particular content in my case.
+
+when doing my PhD research. I started looking at this term context actually ended up that
+
+became a big part of my PhD and and in twenty seventeen actually wrote a book on
+
+it and this came out in in twenty eighteen. this is a context and information
+
+behavior seeker situation call surrounding and shared identities for the whole book is about
+
+talking about. calling what context really means and you have an
+
+research for let's say a figure on one of the elements of context.
+
+so here you you what it what I found through my research
+
+was that context could be defined in terms of seven unique attributes one is after all
+
+the user himself or herself. themselves. and then you have the
+
+environment. the user surrounded by sometimes correct with your problem situation
+
+to the user is engaged and that's the test that you come up with anything golf.
+
+when you come up with use cases. and then once the need for information that the actor requires
+
+for that and he advise that light is a person go to the septic to the thoughts information which is we should be
+
+the website you know if you what is the relationship of the user with that website is up. 's
+
+are you familiar with it as it is the use of the for the first time in with the time and space to self interaction
+
+between the user on the website. all of these would fall on the part of the context of the user interacting with
+
+interacting with the website so here that are more figures over here. explain these in greater detail.
+
+and the book was going into into more depth. talked about. take
+
+some other things about more details about what environment means various variables going to
+
+type of environment and census report of the information culture but different also means out
+
+whether to talk with complex difficult in certain is it important to the user detergent and
+
+how much of the user and what about the topic beforehand and was kind of at the moment
+
+like to get the need on what information required. and
+
+again things to do with the user that you were there three euros a graphical effects out habits
+
+disability will demean and so on and then the website itself there the quality of his
+
+State Farm for my daughter that in the relationship of fact of the website if you have concerts with a degree of similarity
+
+and in the time interaction so. so that would be the context.
+
+so also when you think of the accurate information architecture. we
+
+are basically concerned about the use of the context as well as the content.
+
+so there are some some studies which a lot of people have done when it when they tries
+
+to design information architecture websites. this is an old example from a twenty eleven I think.
+
+and let's take a look at IDs. so here you have
+
+some information architecture of these the center for for Internet and
+
+society at at Stanford so here. this is the proposed architecture
+
+so what was proposed was to navigation links at one of the family navigation
+
+is checking with the utility navigation so friendly navigation how things like focus. expose
+
+events. project initiators publications and about this before the thirtieth for the center of
+
+us are contacting public policy of fair use and copyright because of privacy and and robotics this is watch
+
+the center focused on and do it experts by the name topic or focus
+
+events and project initiated his publications about profile.
+
+this is one of these terms of the family navigation for the center 's website and then they
+
+also came up with something called utility navigation which had things like Richmond we should be useful for
+
+people to pick right away things like blog multimedia contact us get involved in press
+
+and this is an example that they gave what we has this is the main
+
+architecture we have the about topics projects publications people events
+
+and press and then you had your kitchen navigation on top home contact us at the media
+
+and stuff. so that's an example. they had right on top and outside some questions about
+
+non- places in the evening. living in different parts of the site. we recommended reliving programs and initiatives
+
+as they find a current use of the ten program somewhat confusing. we live this project
+
+and organization organization express again so by the request for proposal states
+
+an expert should be I mean I've been in my topic of the focus represent your health focus doesn't give us some topic.
+
+believe any business and they'll be confused by this name is this is the ten types of questions that you us when you're trying to design
+
+the architecture and I'll get how do you do return label. academics and how did wave your face. calling
+
+multimedia. I'll be posting different parts of the site and so those are the types
+
+of questions that they have there and there is some more links here one yesterday
+
+to this site 's map again else to your homepage and about. 's focus areas. experts
+
+out of work how do that. news organized and and now
+
+they also have a link one now. my project navigation
+
+so that. so here they have again how how to navigate
+
+different positive so when you click on something what what are the sub menus that that come up
+
+and this is about carrying a different interviews
+
+of people you know to try to decide and understand the user.
+
+so they talk with people interviewed the purpose and audience the site. so they interviewed for people over here.
+
+project lead to the director 's a fellow in a student and then they talk about what is the fourth
+
+of that any sites always fun inside of the central purposes I do see some people about what we what we do.
+
+I just stated that in different ways. you mentioned was sort of students journalism
+
+dress decadence lawyers policymakers and so on and they talk to weaknesses in pain
+
+points to it. number problems of the current website besides it and visually Clinton won't be as much character to hire
+
+an important content problems together funded with a different shooting kinds of content so
+
+double deck and it's confusing on intuitive and so on and strengthen items retain things
+
+that are working well and then talked long more comments about from page and navigation. look and feel
+
+and some competent as a model sites and how how they measure success in some recommendations
+
+and then they had they had multiple of those men which they came up with so they had a pleasant thing
+
+that case on another work that was there. they were charged twenty eight to twenty thousand dollars
+
+for a different path how much time did require some information sites which they'd worked an idea
+
+and how the customers interface where are they based in the proposal.
+
+select proposals a different. if the people that they receive some of that. anyway between the
+
+six to sixty thousand dollars a project estimates and then
+
+another company which had any of them from twenty seven to two two forty two thousand dollars
+
+and so on
+

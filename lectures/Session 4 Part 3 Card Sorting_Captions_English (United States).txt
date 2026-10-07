@@ -1,0 +1,181 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+so when you think of information architecture one powerful technique
+
+that comes to mind is card sorting which can be used both to design and to evaluate the
+
+information architecture 's website. so basically when you think of information architecture what we're talking about
+
+the deck of cards. this is three inches to five inches and maybe thirty two hundred cards and
+
+you think of all possible turns the labels that you have a dog
+
+and as a different content of the website so you put each one of them telling in one card each
+
+and then you can do it in two ways one is that you could ask people to put those into different categories
+
+and then come up with something different files different bunches and then come
+
+up with some category to describe them and that is not as open card sorting
+
+or you could have. give them categories beforehand and an awesome to put
+
+the cars which they think fit. think would fit into the respective categories and there is an undisclosed card sorting
+
+so these are two techniques to have anything to basically evaluate and
+
+to design the architecture information access your website. so it's a powerful technique to find out how
+
+other people in the group and label content of your website and then partisans on this topic in the categories
+
+that make sense to them and to me also help you label these groups. so either some recent method
+
+for discovering the latent structure in and on for a list of statements or ideas.
+
+and then once you get it right. stations in a small index card and requests oh six a month
+
+distance to sort these cards. so there are some people say six I'm at say four or you can get people
+
+depending on your on the people that you have available even if you would want to do people would be useful. you know to to
+
+get a pet friendly idea on how to organize the content honey website. so you
+
+group them into groups of groups a couple of semesters and these people. the person 's work on their own
+
+results of the individual source of income mind and if necessary analyzed statistically and the
+
+benefits of that. the informants. a representative of the user population for home that I think it's convenient.
+
+thing designs if that's the case and it is up to reflect the structure in which the use of expect ideas
+
+or concepts. we should be presented. but if I do possible that you may not get the up person
+
+or people from the. maybe I mean the operation all the time so even in those cases receiving useful
+
+to get a friend or a colleague or family member to do the
+
+consulting for you so that if you see what you have an idea of how anybody would be able to sort and
+
+the categories make sense. this people or not. so this
+
+is an example of close card. so in this case you have
+
+different labels given beforehand and then you had to to do things that you're printed out and you asked the people to put
+
+them into different categories it's what's up close custody
+
+of the categories given beforehand hope in card sorting is the new venues of the group them and then write the categories
+
+themselves. so there are other methods for improving information architecture.
+
+here you have those some people who are who are quote questioning that
+
+is close calls so I think you know and I'll do the technique and here
+
+they have some close card settings and parts of the provided with cards that I do something written on them or pictures
+
+of items for example if you're interested in how the grocery store is organized before a department with cards
+
+such that. so just keep coming back et cetera so
+
+then also but since it's on this call but if we determine categories you're fated so
+
+one thing to say is that in between hope and card sorting through scouts or you can impose
+
+open card sorting does not preach them in categories and participants are given cards and also watch them in a
+
+way that makes sense to them. so the fundamental difference between the two as it is that
+
+the open cuts or tries to capture them into the models of participants that is how they're structured information.
+
+so this is a form of an exploratory study. but as in Echo closing the close car thought us more
+
+for the type of validation research. so do you this message when you have an idea of how to use it was structured information.
+
+so. so it's a kind of stuff. so it it is more of a very fine something
+
+of validating the categories that have already come up with and what this author here is saying
+
+is that there could be other techniques which which are equally useful on more useful than a close cut
+
+first one of them is three two three testing the tree is like making navigation tree that you
+
+have the because when you have like this is this is a form of a tree so this is
+
+only we only see like one branch of it. so this is one of the else is taking the learning part
+
+and then you opening that into into these categories over over here. so
+
+when you have all of these out the things that are open up.
+
+send us an example off the trees so when the user is looking for some information for for why the tree
+
+structure then and then how would the user get to get to a
+
+particular particular part of the trees and look for the content sides of the tree makes sense for the user
+
+not so that is something that you look for him. entries testing. so if you somebody
+
+sent to navigate all the fall of the computer. so you have any in this message is so full of nested within a computer
+
+some that information architecture structure on a website. so then you see if I decide to find your photos from vacation
+
+in Greece. so as far since click on any foliage correct information about how they never get your foot structure.
+
+so in this case the tree test uses into an information operations today. and. residences
+
+as nested elements of the point is to see if I didn't expect to find us that information
+
+you know you expect extra structure. so this is dancing that's
+
+information the three three testing gives you more information because it also gives you navigation information
+
+rather than close concert where you're just putting information into various categories.
+
+the downside is that it is a longer process takes more time for to design the test and also for the user to
+
+look at that. go through that with the tree test. second technique is out.
+
+this is an an example of tree test usability technique for evaluating defined ability of topic you
+
+know website. so also known as reverse card sorting out a card based classification.
+
+that again help you better defined ability of topics on the website you may have. I just describe it is with card
+
+sorting the tree tested on a text based version of the websites without the influence of navigation aids or design
+
+elements that the site now. so treated basic the structure of your website it doesn't
+
+it doesn't list of of heading for example regarding website if you been dropped on flaws kids.
+
+so the second technique is called a three second technique
+
+is called first click testing. so here for slick is basically
+
+this involves uploading a major screenshots catch anything in between us and the fastest way they would flick first
+
+you know to to perform a toss in a grocery store example if it doesn't the possums
+
+and a screen shot of an online grocery store and asked them to find a cucumber most parts of the like give me a conflict
+
+click on a menu menu heading labeled produce. so it's like where would you click you know
+
+to to get to where you need they need to get to the base in about a particular use case for instance
+
+so where people are fixed first. so this technique also proves really useful if
+
+if this is helping team gets unstuck and promising design decision. select card sorting
+
+again this is a foster technique it takes very little time to do just like
+
+some wind and to see where where user would click first and it's also an an efficient
+
+technique so. so again the rent a different point of view about which which ones are good methods but thoughts
+
+of thing has been very rightly use over the years and then you have other techniques like like three
+
+test and and for the slick test. testing all of these up helping
+
+the open card so it helps in creating the architecture website. and
+
+if it was consulting and these of the other one's health and validating the definition that he'll come up with
+

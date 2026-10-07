@@ -1,0 +1,87 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+so we are now looking at the difference between test and production site. now there are various
+
+terms that are used for the solos are there. when you are looking at the website. so that is of
+
+a production Web server. the development Web server whether the testing web seventh of the terms that are used
+
+differently. and here you have the person was I was working on the designing
+
+and building the website and then there there site pages and any graphics files that
+
+are stored on the website. so let's look at the difference between these various kinds
+
+of service.
+
+so one is the production Web server so there's a type of Web server that most design is or something do it.
+
+so this is a server that hosts webpages and content that is ready for. hope for protection you know that was
+
+the content production. so. Web servers live on the Internet. what is ready to be delivered to the Internet
+
+so so that's mostly what do you have in a small company and the production of seven is what you have you worth a look at computer and
+
+then you use a hefty people. program next race exemplifies allowed to transfer your files from a local
+
+computer onto the website about the production Web server. look for something like this design
+
+a business I kinda look the machine designed to test the size of the local machine in the design of the sites.
+
+size two ahead in director and production server for more testing and then Apple designs and moved to Lebanon in eighty
+
+of those websites. so that's there. and then sometimes you introduce something called the testing
+
+server. that's a useful addition because they provide you with the way to test new pages and designs and the Web server
+
+that is not visible to cook to customize lender calm but it is also because when you when you are trying
+
+to test within the in the production so what that is they you might have thousands of uses a hundreds
+
+of euros that are connecting to this to the space so you don't want to introduce testing
+
+pages out on this to the solar because if something goes wrong then your life ages might get affected. so it is
+
+a good idea to have a separate machine for machine for testing at that stage so
+
+they would typically have some sort of version control set up as well. so any changes can be it can be recorded.
+
+so then what you would you do like the design a business eyes locally test locally just like what you did
+
+in the first case. and then the design the develop up those changes for the testing so to test any elements
+
+so this is the back which you're not talking about so much in this class that you have to reach me
+
+so I was faced with a and all that is part of the back and and so I feel designs and then
+
+moved to the production server. and then what you have is
+
+a third category is that what you might have of them do. developments over. so this is
+
+the same like the other the other service except that this is the use in the case of logic
+
+on the step size and and and that application. so what do you do in this case is that you
+
+designers work on the designs and the local machines and then you might have the developers writing some scripts and programs on
+
+to the developments of. and then once you again you would have some
+
+sort of version control system for different people to to work in the sober and then the call it in the design.
+
+they'll do the mood for testing on to the testing so and what is approved and is ready to go
+
+live now. the most of the production so and then decide that new addition to the side
+
+that goes. life so. so then that other kind of so it was calling in so stating so I know
+
+and so on but I just wanted to introduce to you without some basic services
+
+up there. so I do minimum you would have the testing so I mean I may not be there
+
+in a lot of cases that you would have some place for development and then it could be
+
+developments tax testing as well it could be one seven for that and then you would have us have a fall production
+
+so it's a good idea Tracy separate. this is Texas so it was as well as I was looking machine that you're doing
+
+most of your design work
+

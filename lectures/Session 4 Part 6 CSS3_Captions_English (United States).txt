@@ -1,0 +1,307 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+so each week we tried to cover some design elements and some development elements.
+
+so in terms of the development development. this week is that after having learnt it's GM
+
+of your knowledge to start learning CSS three and that's quite a bit to learn. and CSS three
+
+and the starts talking about that. so the very idea of CSS is to be able
+
+to separate the content from the design. so the content part is what is taking care of.
+
+bye H demo and you know in CSS the signing party separated in
+
+the olden days I wished him the confidence out of the mix and it was very difficult to make changes
+
+but now with the separation of CSS who can make changes to the design. pretty much
+
+on the fly. so when you think of cascading style sheets these are created
+
+by calling. we lie off and I see hey nineteen ninety four
+
+eight so worldwide web consortium standard forth and twenty visual presentation of webpages.
+
+so what I asked him to describe the content to see this is a schedule a lot it's used in many ways helps keep extremely
+
+simple and I was also very efficient because you can reuse of data processing multiple pages. so it allows
+
+you to change the color of any image in the page see if this up. let's add backgrounds and borders
+
+and you can use CSS to change the visual if he if it is very men's necklace and links
+
+as it is to customize the entire layout of your page. so faced him and give you a structure than CSS
+
+gives a peach beauty. so more formal definition of CSS. bye W three
+
+C is that it's a language for describing the rendering of structured documents such
+
+as that chamber and ask another on-screen on paper on paper et cetera. does not just a stay
+
+my documents you could even take other files that I like XML documents where that the tags are not
+
+predefined recognition came in and day you could use CSS to do that.
+
+style that those pages as well let's look at an example which is see it says. 's
+
+and garden Associates.
+
+for a while. so here you see that it doesn't particularly look and feel and and there is some text
+
+here which talks about littering the docking Grady Road later prospects about the specific tags and compatible
+
+document object models and so on. so when you go there and and you changed your CSS now.
+
+you find that looking for your changes that you still have the same content. dishing a docking very rude. and
+
+when I go to two governments over here. again you have the same content here.
+
+and then you have this is. again the you're looking for you to change but your content remains the same.
+
+and then you could just go ahead and click click on these different designs on
+
+the fly. so it is really showing you like. what are all these.
+
+how you can change the CSS to complete a change that look and feel of the page while still retaining
+
+them the same content. and that is the main duty of CSS. so
+
+when you. this is this is the end of tree schools are calling tutorials and CSS and
+
+you are expected to go through stuff pretty much the entire tutorial because you you have to be well versed and see
+
+us another to succeed in in web design and development. so here you have
+
+various things in terms of how you how you can you see your sister status. Dave
+
+to act a bit of the background to that colors and for padding and margins and so on. so all of this is about the study
+
+part of CSS. and as you go down it was also in the later part talked about
+
+the position how we can you see us as a position various elements in a webpage. and it it has the
+
+idea. also which is again an important concepts and and positioning. and
+
+as they move down there is that are more advanced CSS over here.
+
+you can do things like any any missions once of this point you can do it if you have time not something
+
+that you're focusing on on right away. but that the styling in the position that
+
+this part of it is really important. and then there are more advanced techniques
+
+out forcefully also like to see if the FedEx box so and then for
+
+this is also important when you when you talk about media queries this helps you make your pages responsive
+
+so that they they're able to to slow slow boat across the changes in device I was
+
+like when you move between the phone to laptop screen and so I
+
+need to have that and so on and so this is again examples of
+
+responses of design using CSS and see this is great it is a new addition and that's also important because
+
+it helps you. military medicine in it and reformat within within specific.
+
+grade on a page. so let us
+
+look further here. so in the basic rule in a CSS is that there is a select
+
+and then a property in value selected in reference to an HMO 's tag
+
+which is dead or you know if Jim is that document so it is. this is Irish team of elements of
+
+the pages that you that you want to modify so that you specify separately and you see
+
+if this file. and if you can also specify a date in line with him now or as
+
+a as in the beginning part of your estimate as well. and then you specified so that particular tag.
+
+how do you want to style it. so so what does the property let's say a call and then on what his elections
+
+at Columbia for example rate or any other exit is Mark with that you can specify for that.
+
+so this is an example of that. so the select here is the day which is also an element of the selected
+
+this is the property which is color and then use the thing is certain value for it and you see that
+
+there is this curly brackets and then there is a call and separating the property and the value and it
+
+off the value into the semicolon. so this is part of the syntax. I'll follow the
+
+rules of CSS
+
+so this is an example of nation the page where you have a head and
+
+event in the side and then you have a section header article and if it and so on so you could take these
+
+and you could take each of these as as head or section a four footer as
+
+the elements over here and you can you can set ad rules on how to style them differently.
+
+so let us look at one eight one example select
+
+it today. elements like to select HD millennium in space in the evening. so here all the elements
+
+on the page of the center line with DirectX call us here you have the DEP and then you are saying that
+
+up. this is the selected peak and then this is the property which is text line and you want it
+
+to the values center and the property which is color and then you're saying the value here is right.
+
+so when you try just feel so in this case this is your extreme of the page over here and
+
+it sure you have you're the head part of your shtml and then you have the body and
+
+then you have certain paragraph tags over here and then within the Patterson
+
+now when you when you. this is a serious as positive and added it can be a separate file and
+
+in some cases here in the news in this example it's put within the same
+
+file under the style tag. just putting this here stuff. so here you have
+
+the peace fee of the selected which is basically selecting just the settlement of the stack and
+
+then you're signing these ideas to this property for the text align with the centers of a P comes
+
+in which is every third and then you saying that you know you're giving it a certain value
+
+or you can change it to let to let us a left and then this is run that will change or you can change the color
+
+to green or something else. and and that will change as well. on the fly.
+
+and then there are other things that see if you have ideas for CSS background color
+
+that you could add. so in this case the barren color colors light blue and you can change
+
+the background color to red
+
+and this is for the for the body. and then so anybody
+
+that you could change that. and you can have your CSS file at for
+
+different kinds of blood is that a good day to specify margins out and
+
+so on so you see if joke goes for the tutorial and and catch get familiar with the vehicle so
+
+syntax elements of contact CSS
+
+CSS hasn't hasn't split into modules that are in various stages of development
+
+and some are called recommendation. some called candidate recommendation and
+
+some are working drafts of the lowest stages to be working draft and candidate recommendation
+
+is it's almost ready and recommended means that it's been approved and now it's the standard. so there are
+
+lots of sub models which upon the recommendation things on the media queries that became up on the standard in June
+
+twenty twelve. the color level three which became a Saturday June twenty eighteen. that is
+
+the basic user interface that will see which became a standard in in June twenty eighteen and so on so there are various
+
+levels of these. so this is how this is the dragon which is
+
+specifying how these deals are when you whenever wherever it is specified in
+
+light green color. so then those are those of the following recommendations like
+
+all the things which part of the CSS that one fun properties color backgrounds cascade
+
+these books published text properties all of these up on the first version of CSS and the second
+
+version of CSS media types of models active tables all of that came
+
+in to see you're supposed to bring one and and see us is three. you have selected level three media
+
+queries. namespaces all sides are at level three all of those uh part of follow the recommendations
+
+of CSS and then you have these outstanding recommendations that you almost
+
+ready and then they are turning into into recommendations as we speak with they they keep
+
+modifying them across month. and either read one shows the process he says that they're
+
+still working on a look at the current state of these.
+
+at CES is currently work and you can go over here on the stage and and you'll be able to see
+
+that the current status of different things and to tell you that to one of these I mean so.
+
+S V W D means like the first public working draft of the demons are working draft. see
+
+out here which it was for showing as as the license. this green colors like
+
+kinda fun up on them and colors as a candidate recommendation and then they have
+
+like a proposed recommendation which which is in the screen one
+
+and then they have a full recommendation it is and green. all of these are completed
+
+one. which are all recommendations color level three namespaces and see it's eleven to meet Aquarius
+
+had attributes font seven three others that are in recommendation and then
+
+you have an X box and all that which ever propose recommendations as
+
+they have so. so do you use a great. greatly out level one again is a proposed recommendation part
+
+of it. is upcoming and current is is here as a as a candidate
+
+recommendation so they keep updating this as they work on various parts of CSS
+
+so it is part of it is stable part of it is moving and changing as we as we go. so
+
+so that is that the way this team that's working on TSS so give
+
+us doing working on it.
+
+you could also use. quit academy and I'll send an student you have access to Linda .com
+
+which is now a call it and they continue learning and you could go there and taste
+
+his user ID and password into stores and see this is over there. or you could you know and see if the three.
+
+some text books and some of the resources and do you do videos of the schools as it is one
+
+good place to start and then you also have one type
+
+of CSS implementation is is the media queries
+
+now we do aquariums out is it just allows for race to see us as module
+
+and it allows content rendering to adapt to condition such a screen resolution for example a smart phone
+
+screen with the computer screen. and it's a constant technology response the design. so when you want
+
+to paste it up in different sizes. you do need to have major queries so here first
+
+thing that you do is that you you specify ass media screen and then you can specify minimum very
+
+tough set else a number of pixels and so on. so this is something that goes into your CSS.
+
+when you want to specify. you know it up. and you wanna make your pages is responsive so
+
+and in today's world almost every CS that you would have for the pieces design would have been differently
+
+in there if you would have the media screen. so this is an example for me to quit before
+
+I fax immediately. media on your screen and then you have a device that's why does my phone number ten.
+
+minimum wage device with an excellent device that and then within the body how your
+
+body heading influence video thing that far. when there is a iPad conditions and how would the body
+
+style heading one style and so on. so we'll talk more about
+
+we differ is but I just wanted to introduce them to you right now. so what
+
+you're seeing today is is use case is another day tell you the scenarios
+
+we've talked about information architecture. again we we looked at things like card sorting and then of afternoons
+
+and then that we talked about. test with the production side and we talked about. see if the three
+
+okay that's all. today
+
