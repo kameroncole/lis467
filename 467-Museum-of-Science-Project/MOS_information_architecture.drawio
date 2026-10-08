@@ -1,0 +1,229 @@
+<mxfile host="app.diagrams.net" modified="2026-10-08T00:00:00.000Z" agent="GitHub Copilot" version="21.0.0" type="device">
+  <diagram id="mos-ia-sitemap" name="MOS Education Portal - Information Architecture">
+    <mxGraphModel dx="2000" dy="1200" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- TITLE -->
+        <mxCell id="title" value="Museum of Science (MOS) Education Portal — Information Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=20;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="60" y="16" width="1780" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Agentic Curriculum Designers, Inc. — LIS 467 Assignment 1 (Choyce / Cole / Sobczyk-Moore)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="60" y="50" width="1780" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- HOME NODE -->
+        <mxCell id="home" value="index.html\nMOS Education Portal\n(Semantic Search + AI Chatbot + Primary Nav)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0b3d64;strokeColor=none;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="790" y="140" width="320" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- LEVEL 1: SECTION HEADERS -->
+        <mxCell id="col1-header" value="exhibits/\nMOS Exhibits (26 total)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a6aa8;strokeColor=none;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="65" y="280" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="col2-header" value="yes-activities/\nYES Curricula (6 categories)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a6aa8;strokeColor=none;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="425" y="280" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="col3-header" value="stem-documents/\nResearch Docs (7 categories, 100 docs)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a6aa8;strokeColor=none;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="785" y="280" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="col4-header" value="standards/\nMA STE Standards Framework" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a6aa8;strokeColor=none;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="280" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="col5-header" value="about/\nAbout, Team &amp; Persona" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a6aa8;strokeColor=none;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="280" width="330" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- COLUMN 1: EXHIBITS -->
+        <mxCell id="ex1" value="🖼 The Art of Illusion — MA MS-PS4-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="370" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ex2" value="🌍 Innovation: Earth — MA MS-ESS3-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="412" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ex3" value="🌐 Gaia Globe — MA MS-ESS3-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="454" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ex4" value="🤖 Exploring AI: Making the Invisible Visible — MA MS-CS-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="496" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ex5" value="🧬 Hall of Human Life — MA MS-LS1-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="538" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ex6" value="❄ Arctic Adventure: Exploring with Technology — MA MS-ESS3-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="580" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ex7" value="🔧 Engineering Design Workshop — MA MS-ETS1-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="622" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ex8" value="🦴 Colossal Fossil: Triceratops Cliff (Gap) — MA MS-ESS1-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#f0d98a;fontSize=11;arcSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="664" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ex9" value="🦕 Dinosaurs: Modeling the Mesozoic (Gap) — MA 4-ESS1-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#f0d98a;fontSize=11;arcSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="706" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ex10" value="🏞 Yawkey Gallery, Charles River — MA MS-ESS3-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="748" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ex11" value="⚡ Theater of Electricity — MA MS-PS2-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="790" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ex12" value="🔢 Mathematica: A World of Numbers — MA MS-CS-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="832" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ex13" value="+ 14 more exhibits  ›  View all (26 total)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef2ff;strokeColor=#3140a0;fontColor=#3140a0;fontSize=11;fontStyle=4;arcSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="874" width="330" height="34" as="geometry" />
+        </mxCell>
+
+        <!-- COLUMN 2: YES ACTIVITIES -->
+        <mxCell id="yes1" value="Preschool / Early Childhood\nWee Engineer: Noisemakers, Fans,\nWrecking Balls, Rafts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="425" y="370" width="330" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="yes2" value="YES Elementary (K–5)\nSun Hats, Trash Collectors, Drums, Nightlights,\nPumpkin Pollinators, Magnetic Dog Doors,\nPlastic Filters, Safety Vests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="425" y="466" width="330" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="yes3" value="YES Middle School (6–8)\nEarthquake-Resistant Buildings, Eco-friendly\nSlippers, Landing Pads, Medicine Coolers,\nVision Extenders, Wearable Alerts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="425" y="562" width="330" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="yes4" value="YES Enrichment (Out-of-School)\nAntivirals, Bandages, Bubble Wands, Parachutes,\nRescue Shuttles, Sails, Sock Assistive Devices,\nUpcycled Toy Vehicles, Avalanche Protection,\nVertical Farms" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="425" y="658" width="330" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="yes5" value="YES STEM Event Activities\nPark Cleanup, Seed Spreader, Toy Rescue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="425" y="754" width="330" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="yes6" value="Middle School CS Companion Modules\nAlert Simulations, Bounce Height Measurements,\nDelivery Notification Systems, Exoplanet\nDiscoveries, Photo Classification, Heatwave\nVisualizations, Light Sensors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="425" y="850" width="330" height="86" as="geometry" />
+        </mxCell>
+
+        <!-- COLUMN 3: STEM RESEARCH DOCUMENTS -->
+        <mxCell id="stem1" value="1. Structural Eng., Earthquakes &amp; Hazards\n(USGS, FEMA, NASA, NPS — ~14 docs)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="785" y="370" width="330" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="stem2" value="2. Space Exploration, Astronomy &amp; Aeronautics\n(NASA — ~14 docs)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="785" y="436" width="330" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="stem3" value="3. Water, Environmental Eng. &amp; Earth Systems\n(EPA, NOAA, Smithsonian — ~14 docs)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="785" y="502" width="330" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="stem4" value="4. Physics, Light, Optics, Sound &amp; Energy\n(Smithsonian, NASA, NREL — ~12 docs)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="785" y="568" width="330" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="stem5" value="5. Ecosystems, Animals, Insects &amp; Adaptation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="785" y="634" width="330" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="stem6" value="6. Paleontology, Geology &amp; Earth History" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="785" y="700" width="330" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="stem7" value="7. Computer Science, AI, Robotics &amp; Comp. Thinking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="785" y="766" width="330" height="56" as="geometry" />
+        </mxCell>
+
+        <!-- COLUMN 4: MA STE STANDARDS -->
+        <mxCell id="std1" value="Framework Objectives\nConceptual Understanding · Core Ideas+Practices ·\nLearning Progressions · Tech/Eng Literacy ·\nCareer Readiness &amp; Civic Engagement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="370" width="330" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="std2" value="Standard Alignment Table\nGrouped by grade band: Preschool · Elementary\n(K–2) · Elementary (3–5) · Middle School (6–8)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="486" width="330" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="std3" value="Exhibit ↔ Standard Crosswalk\nEach exhibit mapped to a primary MA standard\ncode + design alignment rationale" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="602" width="330" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="std4" value="⚠ Curriculum Gaps Flagged\nColossal Fossil, Dinosaurs, Foucault Pendulum,\nLive Animal Care Center (no YES match)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#f0d98a;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="718" width="330" height="104" as="geometry" />
+        </mxCell>
+
+        <!-- COLUMN 5: ABOUT -->
+        <mxCell id="about1" value="Company: Agentic Curriculum Designers, Inc.\nTeam: Choyce (Design), Cole (Programming),\nSobczyk-Moore (Design)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="370" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="about2" value="Persona: Ms. Frizzle\n5th Grade Science Teacher — primary target user\nfor lesson planning &amp; field trip prep" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="472" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="about3" value="Project Timeline\nIA → Wireframe → Moodboard → Build →\nAI-hosted deploy → Video presentation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="574" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="about4" value="Skills Roadmap\nAI integration, semantic/vector search,\nHTML5, Node.js, JavaScript" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=11;arcSize=8;align=left;spacingLeft=8;verticalAlign=top;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="676" width="330" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- CROSS-CUTTING SERVICES -->
+        <mxCell id="search-service" value="🔍 Semantic Search Service\n(Node.js + vector index over Exhibits, YES Units,\nSTEM Docs &amp; Standards)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2b5fd9;strokeColor=none;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="990" width="680" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="chat-service" value="💬 RAG Chatbot Service\n(retrieval over same vector index + LLM generation\n+ citation links back to source pages)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2b5fd9;strokeColor=none;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="970" y="990" width="680" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- EDGES: HOME -> LEVEL 1 -->
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.25;exitY=1;entryX=0.5;entryY=0;strokeColor=#9aa0a6;" edge="1" parent="1" source="home" target="col1-header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.4;exitY=1;entryX=0.5;entryY=0;strokeColor=#9aa0a6;" edge="1" parent="1" source="home" target="col2-header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#9aa0a6;" edge="1" parent="1" source="home" target="col3-header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.6;exitY=1;entryX=0.5;entryY=0;strokeColor=#9aa0a6;" edge="1" parent="1" source="home" target="col4-header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.75;exitY=1;entryX=0.5;entryY=0;strokeColor=#9aa0a6;" edge="1" parent="1" source="home" target="col5-header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- EDGES: Cross-reference alignment between columns -->
+        <mxCell id="xlink1" value="aligned to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#f0d98a;strokeWidth=2;fontColor=#6b5b1f;fontSize=9;dashed=1;" edge="1" parent="1" source="ex7" target="yes3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlink2" value="aligned to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#f0d98a;strokeWidth=2;fontColor=#6b5b1f;fontSize=9;dashed=1;" edge="1" parent="1" source="yes3" target="stem1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlink3" value="mapped to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#f0d98a;strokeWidth=2;fontColor=#6b5b1f;fontSize=9;dashed=1;" edge="1" parent="1" source="stem1" target="std3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- EDGES: Services -> Home + indexes into columns -->
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;entryX=0.3;entryY=1;strokeColor=#2b5fd9;strokeWidth=2;" edge="1" parent="1" source="search-service" target="home">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;entryX=0.7;entryY=1;strokeColor=#2b5fd9;strokeWidth=2;" edge="1" parent="1" source="chat-service" target="home">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="indexes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.2;exitY=0;entryX=0.5;entryY=1;strokeColor=#2b5fd9;dashed=1;fontColor=#2b5fd9;fontSize=9;" edge="1" parent="1" source="search-service" target="col1-header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" value="indexes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.6;exitY=0;entryX=0.5;entryY=1;strokeColor=#2b5fd9;dashed=1;fontColor=#2b5fd9;fontSize=9;" edge="1" parent="1" source="search-service" target="col2-header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" value="indexes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.4;exitY=0;entryX=0.5;entryY=1;strokeColor=#2b5fd9;dashed=1;fontColor=#2b5fd9;fontSize=9;" edge="1" parent="1" source="chat-service" target="col3-header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" value="indexes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.8;exitY=0;entryX=0.5;entryY=1;strokeColor=#2b5fd9;dashed=1;fontColor=#2b5fd9;fontSize=9;" edge="1" parent="1" source="chat-service" target="col4-header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- LEGEND -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d7dde5;arcSize=4;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="990" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=13;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="1636" y="996" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="legend1" value="Primary nav page / section" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a6aa8;strokeColor=none;fontColor=#ffffff;fontSize=10;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1636" y="1024" width="190" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2" value="Detail / leaf page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f8fb;strokeColor=#b9d2e6;fontSize=10;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1636" y="1052" width="190" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="legend3" value="Semantic search / RAG service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2b5fd9;strokeColor=none;fontColor=#ffffff;fontSize=10;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1636" y="1080" width="190" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="legend4" value="Curriculum gap (flagged)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#f0d98a;fontSize=10;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1636" y="1108" width="190" height="22" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
