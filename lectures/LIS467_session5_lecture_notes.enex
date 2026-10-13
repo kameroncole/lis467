@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20261013T002131Z" application="panopto_transcribe.py" version="1.0"><note><title>LIS 467 — Review of Session 4</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Review of Session 4</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> Session 5 preview and recap of Session 4 — use cases and scenarios, information architecture, card sorting, wireframes, test vs. production sites, and CSS3
+<strong>Source:</strong> Panopto lecture transcript — "Review of Session 4"</p>
+<hr />
+<h2>1. Preview of Session 5</h2>
+<p>This week's session covers:</p>
+<ul>
+<li><strong>Usability</strong></li>
+<li><strong>Look and feel</strong> (aesthetics)</li>
+<li><strong>CSS3</strong> — continuing last week's introduction, now with <strong>CSS layout and positioning</strong></li>
+</ul>
+<p>The review recaps the six Session 4 topics below.</p>
+<hr />
+<h2>2. Use Cases and Scenarios</h2>
+<ul>
+<li>A <strong>use case</strong> starts from the <strong>typical users</strong> (user groups/personas) you have identified. For each user, identify the <strong>tasks/goals</strong> they want to accomplish using your website. Each task for each type of user gives rise to a use case.</li>
+<li>A <strong>scenario</strong> is a series of tasks put together as a <strong>narrative or story</strong>. Each step is followed along an overarching framework, and the story includes the <strong>questions that arise</strong> and <strong>ideas for addressing</strong> them.</li>
+<li><em>Example from the lecture:</em> buying flowers online. The story follows the sequence of steps in the buying process; questions arise (e.g., a policy that doesn't allow a certain choice), and the scenario exposes where the site needs a better way of handling them.</li>
+<li>⭐ <strong>Why they matter:</strong> both use cases and scenarios help you <strong>understand the behavior users will exhibit</strong> when using your website.</li>
+</ul>
+<hr />
+<h2>3. Information Architecture (IA)</h2>
+<p>IA is concerned with:</p>
+<ul>
+<li><strong>Labeling</strong> — what <strong>metadata/labels</strong> to use, e.g., the labels for your <strong>menu items</strong></li>
+<li><strong>Classifying</strong> — how to categorize the items on a webpage</li>
+<li><strong>Sequencing/structuring</strong> — arranging items in a <strong>hierarchical</strong> manner</li>
+<li><strong>Navigation</strong> — which <strong>navigation pattern</strong> the website uses</li>
+<li><strong>Social features</strong> — what social features are offered to users</li>
+</ul>
+<hr />
+<h2>4. Card Sorting</h2>
+<p>🔑 <strong>Card sorting</strong> is a technique used both to <strong>design</strong> and to <strong>evaluate</strong> your information architecture.</p>
+<table border="1" cellpadding="6" style="border-collapse: collapse;">
+<thead>
+<tr>
+<th style="background: #e8e8e8; text-align: left;">Type</th>
+<th style="background: #e8e8e8; text-align: left;">How it works</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Open card sort</strong></td>
+<td>No predefined categories — participants <strong>create their own categories</strong></td>
+</tr>
+<tr>
+<td><strong>Closed card sort</strong></td>
+<td>Categories are <strong>predefined</strong>; participants sort cards into them</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Items/parts of the website are written on <strong>index cards</strong>; the people helping you test sort them into categories.</li>
+<li>Result: you can see <strong>whether the items on your webpage are organized in a sensible way</strong> from the users' point of view.</li>
+</ul>
+<hr />
+<h2>5. Wireframes</h2>
+<ul>
+<li>Wireframes <strong>put your information architecture into a design format</strong> you can begin to <strong>visualize</strong>.</li>
+<li>They show <strong>layout and positioning of components</strong> on the site — e.g., where the <strong>logo</strong> goes, where <strong>menu items</strong> go, whether there is a <strong>hero image</strong>, where <strong>social media</strong> links go, and how things are laid out.</li>
+<li>They deliberately <strong>do not include colors or images</strong> yet.</li>
+<li>You can draw them <strong>on paper</strong> or with <strong>wireframing software</strong>.</li>
+</ul>
+<hr />
+<h2>6. Test vs. Production Sites</h2>
+<ul>
+<li>Servers can be <strong>production</strong>, <strong>development</strong>, or <strong>testing</strong> web servers.</li>
+<li>✅ You do <strong>not</strong> want to do development/testing on your <strong>production</strong> web server; keep <strong>testing separate</strong> from production <strong>as far as possible</strong>.</li>
+</ul>
+<hr />
+<h2>7. CSS3</h2>
+<ul>
+<li>CSS3 is <strong>modular</strong>: <strong>some modules are completed while others are still being developed</strong>, so it's a <strong>work in progress</strong> — but it is now <strong>highly usable</strong>, and most of it can be used without major issues.</li>
+<li><strong>Best practice:</strong> keep CSS in a <strong>separate <code>.css</code> file</strong>, separate from the HTML.</li>
+<li>A CSS rule consists of a <strong>selector</strong> (an element/HTML tag to match), <strong>properties</strong>, and the <strong>values</strong> assigned to them:</li>
+</ul>
+<pre>p { color: red; }   /* selector: p | property: color | value: red */
+</pre>
+<hr />
+<h2>8. Quick Review Questions</h2>
+<ol>
+<li>How does a use case differ from a scenario?</li>
+<li>List the components of information architecture covered in Session 4.</li>
+<li>Contrast open and closed card sorts.</li>
+<li>What does a wireframe show, and what does it intentionally leave out?</li>
+<li>Why keep test and production environments separate?</li>
+<li>Why is it best practice to put CSS in a separate file? Identify the selector, property, and value in a rule.</li>
+</ol>
+<blockquote>
+<p>⚠️ <strong>Transcript note:</strong> The auto-captions of this recording are quite garbled; the content above is reconstructed from the recoverable passages and consistent with the Session 4 lecture notes.</p>
+</blockquote></en-note>]]></content><created>20261013T002131Z</created><updated>20261013T002131Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 5, Part 1: Usability</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 5, Part 1: Usability</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> Learning objectives; defining usability; components of usability; common web design mistakes; user interface guidelines; minimalist vs. information-rich design
+<strong>Source:</strong> Panopto lecture transcript — "Session 5 Part 1 - Usability"</p>
+<hr />
+<h2>1. Session 5 Learning Objectives</h2>
+<p>By the end of this lecture and this week's learning you should be able to:</p>
+<ol>
+<li><strong>Describe the importance of usability</strong></li>
+<li><strong>Explain and predict the design aspects</strong> (look and feel) users look for in a website</li>
+<li><strong>Design a mood board</strong> (used in the design/planning process)</li>
+<li><strong>Create stylesheets using CSS3</strong></li>
+<li><strong>Begin learning CSS3 layout and positioning</strong></li>
+</ol>
+<hr />
+<h2>2. Why Usability Matters</h2>
+<ul>
+<li>Usability is a <strong>very important topic</strong> — an entire later week is dedicated to <strong>how to do usability testing</strong>.</li>
+<li>But usability must be considered <strong>at various stages</strong>, so it is important to <strong>start early</strong>.</li>
+</ul>
+<h3>What is usability?</h3>
+<ul>
+<li>Many people associate it with <strong>software systems and websites</strong>, but usability applies to <strong>any product or service</strong>.</li>
+<li><em>Examples from the lecture:</em> a <strong>headset/microphone</strong> for recording (a set-up that produced noise was a usability problem; noise-canceling models are more usable); a <strong>classroom whiteboard</strong>; even <strong>non-technology</strong> things.</li>
+<li>💡 <strong>Exercise:</strong> pause and write down keywords describing what usability means to you.</li>
+</ul>
+<h3>Definitions</h3>
+<table border="1" cellpadding="6" style="border-collapse: collapse;">
+<thead>
+<tr>
+<th style="background: #e8e8e8; text-align: left;">Source</th>
+<th style="background: #e8e8e8; text-align: left;">Definition / idea</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ISO 9241-11</strong> (the "nine two four one" in the captions)</td>
+<td>The <strong>extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction in a specified context of use</strong></td>
+</tr>
+<tr>
+<td><strong>"User-friendliness"</strong></td>
+<td>How <strong>easy</strong> it is for a person to use something — <strong>ease of use</strong></td>
+</tr>
+<tr>
+<td><strong>Convenience &amp; practicality</strong></td>
+<td>The <strong>degree of convenience and practicality in use</strong></td>
+</tr>
+<tr>
+<td><strong>For a website</strong></td>
+<td>The <strong>efficiency</strong> with which a <strong>patron</strong> can accomplish a task and the <strong>overall satisfaction</strong> with the process</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>3. Dimensions (Components) of Usability</h2>
+<p>The lecture's figure places <strong>usability</strong> inside a larger model: <strong>system acceptability</strong> → <em>social acceptability</em> and <em>practical acceptability</em> (cost, etc.) → <strong>usefulness</strong> → <strong>usability</strong>. Usability itself is described by these components:</p>
+<table border="1" cellpadding="6" style="border-collapse: collapse;">
+<thead>
+<tr>
+<th style="background: #e8e8e8; text-align: left;">Component</th>
+<th style="background: #e8e8e8; text-align: left;">Question to ask (applied to a website, e.g., a library or archive site)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Easy to learn</strong> (learnability)</td>
+<td>Is the site usable <strong>by a first-time visitor</strong> on the first visit?</td>
+</tr>
+<tr>
+<td><strong>Efficient to use</strong></td>
+<td>Does it support the user's <strong>productivity</strong>?</td>
+</tr>
+<tr>
+<td><strong>Easy to remember</strong> (memorability)</td>
+<td>Can users <strong>return and remember</strong> how to use it, or is it confusing where to click next time?</td>
+</tr>
+<tr>
+<td><strong>Few errors</strong></td>
+<td>Does it <strong>minimize errors</strong> — e.g., clicking the wrong navigation item — and let users <strong>recover</strong>?</td>
+</tr>
+<tr>
+<td><strong>Pleasing / satisfying</strong></td>
+<td>Is it <strong>pleasant</strong> to use overall?</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Some people count <strong>aesthetics/look and feel</strong> as part of usability; others treat it as <strong>separate</strong> (covered in Part 2).</li>
+<li>Others emphasize <strong>interaction</strong>: minimizing errors and giving <strong>clear feedback</strong> on users' actions.</li>
+<li>Anything that <strong>makes the site easy to use and the experience nice</strong> contributes to usability.</li>
+</ul>
+<h3>Designer's view vs. user's view</h3>
+<p>⭐ The difficulty: designers/developers think from the <strong>design/developer point of view</strong>, while users think from <strong>their own</strong> point of view. It is <strong>hard for developers to think like users</strong> without <strong>training</strong> and a deliberate focus on <strong>users and their needs first</strong>.</p>
+<ul>
+<li>The lecture's <strong>cartoon</strong> frames usability testing as the process of helping the <strong>user get to the information they need, in a timely manner, without frustration</strong>.</li>
+</ul>
+<hr />
+<h2>4. Planning a Usable Site</h2>
+<ul>
+<li><strong>Utility is crucial:</strong> What is the site for? Which users? What are you offering of value to them?</li>
+<li>Develop <strong>user-based scenarios and use cases</strong> (Session 4) and <strong>focus on value to the user</strong>.</li>
+<li>⚠️ <strong>Don't compromise early</strong> based on what you can or cannot implement — first think of everything users need, and <strong>apply constraints later</strong>.</li>
+<li>Build a <strong>simple prototype</strong>, <strong>test it</strong>, and <strong>repeat</strong> the cycle until it works well (iterative design).</li>
+</ul>
+<hr />
+<h2>5. Common Web Design Mistakes</h2>
+<p>The lecture walked through an article on the <strong>"seven most common web design mistakes to avoid"</strong> plus related lists.</p>
+<table border="1" cellpadding="6" style="border-collapse: collapse;">
+<thead>
+<tr>
+<th style="background: #e8e8e8; text-align: left;">Mistake</th>
+<th style="background: #e8e8e8; text-align: left;">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Lack of a call to action (CTA)</strong></td>
+<td>Tell the user <strong>what to do, where to go, how to feel</strong>. A CTA is a <strong>persuasive, clearly worded command attached to a link or button</strong>, using <strong>action verbs</strong>: <em>Get started</em>, <em>Contact us</em>, <em>Sign me up</em>, <em>Buy now</em>. Marketing sites focus heavily on this, but libraries/archives can use CTAs too (e.g., <em>Join</em> / <em>Become a member</em>). Example: the <strong>ASIS&amp;T</strong> website's redesign moved its <strong>Join</strong> button to a more prominent position.</td>
+</tr>
+<tr>
+<td><strong>Failing to measure performance</strong></td>
+<td>Gather data from <strong>user feedback, usage, and traffic</strong> (covered later in the semester).</td>
+</tr>
+<tr>
+<td><strong>Unclear brand messaging</strong></td>
+<td>Know your message and <strong>tell a story</strong>; communicate in a way that is <strong>compelling and connects emotionally</strong>, as if talking to a close friend. Visitors who feel connected <strong>stay longer</strong> and are likelier to use your library/archive or <strong>collaborate</strong> with you.</td>
+</tr>
+<tr>
+<td><strong>Ignoring search engine optimization (SEO)</strong></td>
+<td>Strategies to make the site <strong>rank higher in search</strong>; covered later.</td>
+</tr>
+<tr>
+<td><strong>Hard-to-find contact information</strong></td>
+<td>Must be <strong>early, clear, and easy to find</strong> from any page — users may decide at any point that they want to contact you.</td>
+</tr>
+<tr>
+<td><strong>Slow load times</strong></td>
+<td>Pages shouldn't be too slow.</td>
+</tr>
+<tr>
+<td><strong>Poor mobile experience</strong></td>
+<td>Very important — tie to <strong>responsive design</strong>, <strong>media queries</strong>, <strong>Bootstrap</strong>, etc., since more users are on mobile.</td>
+</tr>
+<tr>
+<td><strong>Non-responsive designs / fixed heights and widths</strong></td>
+<td>Dimensions must be <strong>changeable</strong> for responsiveness; don't assume <strong>one size fits all</strong>.</td>
+</tr>
+<tr>
+<td><strong>Misplaced/misused elements, deprecated web standards, outdated site</strong></td>
+<td>Use current standards; <strong>update periodically</strong>.</td>
+</tr>
+<tr>
+<td><strong>Using Flash</strong></td>
+<td>Obsolete technology.</td>
+</tr>
+<tr>
+<td><strong>Massive images</strong></td>
+<td>Don't force users to download huge images just to view the page. <strong>Flickr</strong> is a good model: it offers <strong>multiple download sizes</strong> (thumbnail first, larger on demand).</td>
+</tr>
+<tr>
+<td><strong>Overuse of animation</strong></td>
+<td>Distracting.</td>
+</tr>
+</tbody>
+</table>
+<h3>Jakob Nielsen's usability points</h3>
+<p><strong>Jakob Nielsen</strong> is a leading usability expert. Items mentioned:</p>
+<ul>
+<li><strong>Bad search</strong> is a poor feature.</li>
+<li><strong>PDFs for online reading</strong> are discouraged — PDFs are mostly for <strong>downloading and printing</strong>. Online-reading text should be <strong>HTML</strong>.</li>
+<li>Nuance from the lecture: newer <strong>ebook formats (ePub, Kindle)</strong> exist; <strong>PDF is fine</strong> when you need <strong>fixed formatting</strong> (e.g., a <strong>CV</strong> or formatted <strong>report</strong>). Many sites offer <strong>both</strong> HTML and PDF.</li>
+<li><strong>Not changing the color of visited links</strong>, and <strong>fixed font sizes</strong> users cannot change.</li>
+</ul>
+<hr />
+<h2>6. User Interface Guidelines</h2>
+<p>Key guidelines (the list corresponds to well-known design principles such as Shneiderman's golden rules and Nielsen's heuristics):</p>
+<ul>
+<li>✅ <strong>Strive for consistency</strong> (consistency and standards)</li>
+<li>✅ Cater to <strong>universal usability</strong></li>
+<li>✅ Provide <strong>informative feedback</strong> to the user</li>
+<li>✅ <strong>Design dialogs that yield closure</strong> — help users complete a task (e.g., on a shopping site, let them finish or abandon a purchase; on a library site, guide users through checking out a book, requesting something, or reaching <strong>online chat</strong> if they need help)</li>
+<li>✅ <strong>Prevent errors</strong></li>
+<li>✅ <strong>Easy reversal of actions</strong></li>
+<li>✅ Make users feel <strong>in control</strong></li>
+<li>✅ <strong>Visibility of system status</strong></li>
+<li>✅ <strong>Recognition rather than recall</strong></li>
+</ul>
+<p>⭐ These guidelines were made <strong>keeping human psychology in mind</strong> — <strong>perceptual and cognitive psychology</strong>: how people <strong>perceive, learn, reason, remember, and convert intentions into action</strong>. They are <strong>old but have stood the test of time</strong>.</p>
+<h3>Aesthetic and minimalist design</h3>
+<ul>
+<li>Minimalist design helps fight <strong>information overload</strong> — giving information in <strong>chunks</strong> helps users.</li>
+<li>But an <strong>advanced user</strong> looking for something specific may prefer <strong>lots of information they can scan quickly</strong>.</li>
+<li><em>Examples:</em> a <strong>minimalist</strong> page (the captions say "good academy"; most likely <strong>Google</strong>) vs. <strong>W3Schools</strong>, which presents <strong>a lot of information at once</strong>.</li>
+<li>💡 Different user bases call for different designs.</li>
+</ul>
+<hr />
+<h2>7. Key Terms</h2>
+<table border="1" cellpadding="6" style="border-collapse: collapse;">
+<thead>
+<tr>
+<th style="background: #e8e8e8; text-align: left;">Term</th>
+<th style="background: #e8e8e8; text-align: left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Usability</strong></td>
+<td>Extent to which users can achieve goals effectively, efficiently, and satisfactorily in a context of use</td>
+</tr>
+<tr>
+<td><strong>Learnability / memorability</strong></td>
+<td>Ease of learning the site; ease of remembering it on return</td>
+</tr>
+<tr>
+<td><strong>Call to action (CTA)</strong></td>
+<td>Persuasive action-verb prompt on a link/button telling the user what to do next</td>
+</tr>
+<tr>
+<td><strong>Universal usability</strong></td>
+<td>Designing for the widest range of users</td>
+</tr>
+<tr>
+<td><strong>Information overload</strong></td>
+<td>Too much information at once; mitigated by chunking and minimalism</td>
+</tr>
+<tr>
+<td><strong>Prototype</strong></td>
+<td>A simple early version used for testing and iteration</td>
+</tr>
+<tr>
+<td><strong>SEO</strong></td>
+<td>Strategies to improve visibility in search results</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>8. Review Questions</h2>
+<ol>
+<li>Give two non-software examples to which usability applies.</li>
+<li>State the ISO 9241-11 definition of usability in your own words.</li>
+<li>List the components of usability and apply each to a library website.</li>
+<li>Why is it hard for designers to think from the user's point of view?</li>
+<li>What is a call to action? Give three examples with action verbs.</li>
+<li>Why are massive images and fixed widths/heights design mistakes? How does Flickr handle image sizes?</li>
+<li>When is PDF appropriate and when is HTML better, according to the lecture?</li>
+<li>Explain how minimalist design and information-rich design each serve different users.</li>
+</ol>
+<blockquote>
+<p>⚠️ <strong>Transcript note:</strong> Captions are auto-generated and contain errors; uncertain terms were interpreted from context (e.g., "good academy" → likely Google; "double three schools" → W3Schools).</p>
+</blockquote></en-note>]]></content><created>20261013T002131Z</created><updated>20261013T002131Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 5, Part 2: Look and Feel</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 5, Part 2: Look and Feel</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> What "look and feel" means; look vs. feel; the State of Michigan web standards as a case study of design standards
+<strong>Source:</strong> Panopto lecture transcript — "Session 5 Part 2 - Look and feel"</p>
+<hr />
+<h2>1. What Do We Mean by "Look and Feel"?</h2>
+<p>The lecture's graphic places the <strong>user at the center</strong> and <strong>separates usability from look and feel</strong>.</p>
+<p>💡 <strong>Exercise:</strong> pause and describe what <em>look and feel</em> means to you and how it differs from <em>usability</em>.</p>
+<table border="1" cellpadding="6" style="border-collapse: collapse;">
+<thead>
+<tr>
+<th style="background: #e8e8e8; text-align: left;">Concept</th>
+<th style="background: #e8e8e8; text-align: left;">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Look and feel</strong></td>
+<td>The <strong>emotional response</strong> and <strong>aesthetic appeal</strong> of a website</td>
+</tr>
+<tr>
+<td><strong>Usability</strong></td>
+<td><strong>Ease of use</strong> — meeting the user's needs</td>
+</tr>
+</tbody>
+</table>
+<p>Together they create an <strong>experience</strong> that is <strong>useful</strong>, <strong>easy to use</strong>, <strong>attractive</strong>, and gives a <strong>good emotional response</strong>.</p>
+<p><strong>Basic definition:</strong> the look and feel of a website is <strong>how the site looks to the user</strong> and <strong>how it feels when they interact with it</strong>.</p>
+<hr />
+<h2>2. The "Look"</h2>
+<p>The <strong>look</strong> is defined by:</p>
+<ul>
+<li><strong>Color palette</strong> — the colors used, how they combine, and the <strong>contrast</strong>. Colors that don't belong together can make a site unattractive.</li>
+<li><strong>Images</strong></li>
+<li><strong>Layout</strong></li>
+<li><strong>Font (typography) choices</strong></li>
+<li><strong>Overall styling</strong></li>
+</ul>
+<hr />
+<h2>3. The "Feel"</h2>
+<p>The <strong>feel</strong> is determined by:</p>
+<ul>
+<li><strong>Movement and response of dynamic components</strong> — <strong>drop-down menus, buttons, forms, galleries</strong>. These interactions provoke a <strong>reaction</strong> in the user.</li>
+<li><strong>Sound effects</strong></li>
+<li><strong>Page-load speed</strong> — how quickly pages load</li>
+</ul>
+<p>⭐ Each of these arouses an <strong>emotional response</strong>. Example: an <strong>annoying pop-up ad</strong> appearing while you're trying to read something — the annoyance is the "feel."</p>
+<hr />
+<h2>4. Case Study: State of Michigan Web Standards</h2>
+<p>The <strong>State of Michigan</strong> publishes standards that guide <strong>state agencies</strong> in determining the look and feel of websites.</p>
+<ul>
+<li><strong>Purpose:</strong> establish <strong>design and development standards</strong> for websites and applications so <strong>all state applications and agency sites provide a similar experience</strong>.</li>
+<li><strong>Scope:</strong> applies to all applications/sites hosted within the <strong>State of Michigan standard web content management system</strong>.</li>
+<li>Agencies <strong>must follow</strong> a defined set of guidelines, including <strong>accessibility</strong> and other resource/flexibility guidelines, and the standards exist as a <strong>formal document</strong>.</li>
+</ul>
+<h3>What the standards specify</h3>
+<table border="1" cellpadding="6" style="border-collapse: collapse;">
+<thead>
+<tr>
+<th style="background: #e8e8e8; text-align: left;">Area</th>
+<th style="background: #e8e8e8; text-align: left;">Details from the lecture</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Header</strong></td>
+<td>Must contain the <strong>official State of Michigan brand logo, title, and tag line</strong></td>
+</tr>
+<tr>
+<td><strong>Footer</strong></td>
+<td>What goes in and what doesn't; technical and accessibility requirements</td>
+</tr>
+<tr>
+<td><strong>Colors</strong></td>
+<td><strong>Primary/accent colors</strong> for links, backgrounds, and buttons; must meet <strong>accessibility compliance</strong> — e.g., for users who are <strong>color-blind</strong> or have visual impairments</td>
+</tr>
+<tr>
+<td><strong>Icons</strong></td>
+<td>Which icons to use on the site</td>
+</tr>
+<tr>
+<td><strong>Typography</strong></td>
+<td>Font standards</td>
+</tr>
+<tr>
+<td><strong>Badges</strong></td>
+<td>Standard badge components</td>
+</tr>
+<tr>
+<td><strong>Breadcrumbs</strong></td>
+<td>Show <strong>which part of the site you're in</strong>; standards say how to insert them</td>
+</tr>
+<tr>
+<td><strong>Code samples</strong></td>
+<td>Reusable HTML/CSS/JS snippets users can <strong>copy and paste</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>The additional guidelines live at <strong>Michigan.gov</strong>, with a <strong>UI components library</strong> (colors, icons, typography, badges, breadcrumbs).</li>
+<li>They embed <strong>CodePen</strong>-style examples (the captions say "codependent page"), an online tool where you <strong>enter HTML/CSS/JavaScript and see the rendered result</strong> — handy for trying out snippets.</li>
+<li>Standards are <strong>updated over time</strong> (the lecture also showed an <strong>older 2016 version</strong>).</li>
+</ul>
+<h3>Takeaway</h3>
+<p>Although these apply specifically to Michigan, they are <strong>good examples of standards to follow in general</strong>. You may use your own color branding, but many <strong>best practices</strong> still apply.</p>
+<hr />
+<h2>5. Key Terms</h2>
+<table border="1" cellpadding="6" style="border-collapse: collapse;">
+<thead>
+<tr>
+<th style="background: #e8e8e8; text-align: left;">Term</th>
+<th style="background: #e8e8e8; text-align: left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Look</strong></td>
+<td>Visual attributes: colors, contrast, images, layout, fonts, styling</td>
+</tr>
+<tr>
+<td><strong>Feel</strong></td>
+<td>Interaction and response: dynamic components, sound, speed</td>
+</tr>
+<tr>
+<td><strong>Aesthetic appeal</strong></td>
+<td>Visual attractiveness and emotional response</td>
+</tr>
+<tr>
+<td><strong>Design standards</strong></td>
+<td>Documented rules ensuring consistent experience across sites</td>
+</tr>
+<tr>
+<td><strong>Breadcrumbs</strong></td>
+<td>Navigation aid showing the user's location in the site</td>
+</tr>
+<tr>
+<td><strong>Accessibility (color compliance)</strong></td>
+<td>Choosing colors usable by people with visual impairments</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>6. Review Questions</h2>
+<ol>
+<li>How do usability and look and feel differ, and how do they combine into an experience?</li>
+<li>List the components that define the "look" and those that define the "feel."</li>
+<li>Give two examples of site behavior that provokes an emotional response.</li>
+<li>Why does the State of Michigan publish web standards? What must the header contain?</li>
+<li>Why must color choices consider accessibility?</li>
+<li>What is the purpose of breadcrumbs?</li>
+<li>How could your own site benefit from adopting a style/standards guide?</li>
+</ol>
+<blockquote>
+<p>⚠️ <strong>Transcript note:</strong> Captions are auto-generated; "codependent page" is interpreted as <strong>CodePen</strong>.</p>
+</blockquote></en-note>]]></content><created>20261013T002131Z</created><updated>20261013T002131Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 5, Part 3: Mood Boards</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 5, Part 3: Mood Boards</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> What a mood board is, how it differs from a wireframe, what goes in one, and how designers use it with clients
+<strong>Source:</strong> Panopto lecture transcript — "Session 5 Part 3 Mood boards"</p>
+<hr />
+<h2>1. What Is a Mood Board?</h2>
+<p>🔑 A <strong>mood board</strong> (also called an <strong>inspiration board</strong>) is a <strong>compilation of inspirational elements</strong> used by designers to <strong>convey the mood</strong> of a website and <strong>express ideas at the beginning of a design project</strong>.</p>
+<ul>
+<li>Mood boards are a very important part of the <strong>design and look and feel</strong> of a website.</li>
+<li>In practice, designers (in physical design fields) may collect <strong>fabric swatches, colors, and objects</strong> to capture the mood. For the web, the equivalent is digital.</li>
+</ul>
+<h3>What goes in a mood board</h3>
+<ul>
+<li><strong>Photography / images</strong></li>
+<li><strong>Color palettes</strong></li>
+<li><strong>Typography / fonts</strong></li>
+<li><strong>Patterns</strong></li>
+<li><strong>Text</strong> samples</li>
+<li>Anything that conveys the <strong>feel</strong> you want</li>
+</ul>
+<hr />
+<h2>2. Mood Board vs. Wireframe</h2>
+<p>⭐ These are different tools for different questions:</p>
+<table border="1" cellpadding="6" style="border-collapse: collapse;">
+<thead>
+<tr>
+<th style="background: #e8e8e8; text-align: left;"></th>
+<th style="background: #e8e8e8; text-align: left;"><strong>Wireframe</strong></th>
+<th style="background: #e8e8e8; text-align: left;"><strong>Mood board</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Focus</strong></td>
+<td><strong>Structure</strong> — laying out <em>where things go</em> on the page</td>
+<td><strong>Mood</strong> — <em>what feeling</em> the site should convey</td>
+</tr>
+<tr>
+<td><strong>Considers color/look and feel?</strong></td>
+<td>No</td>
+<td>Yes (that's the point)</td>
+</tr>
+<tr>
+<td><strong>Considers layout?</strong></td>
+<td>Yes</td>
+<td>Not particularly</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>3. The Question a Mood Board Answers</h2>
+<p>What mood should the site convey? For example:</p>
+<ul>
+<li><strong>Light and uplifting</strong></li>
+<li><strong>Dark/dramatic</strong></li>
+<li><strong>Serene</strong></li>
+<li><strong>Modern, edgy</strong></li>
+<li><strong>Soft, muted</strong></li>
+<li><strong>Colorful</strong></li>
+</ul>
+<p>It is about thinking through <strong>broad strokes</strong> of the design before details.</p>
+<hr />
+<h2>4. Using Mood Boards With Clients</h2>
+<ul>
+<li>Ask: <strong>what mood does the client want</strong> the site to convey? (The client is the person/organization that hired the web design company.)</li>
+<li>Mood boards are a form of <strong>visual prototyping</strong>: present <strong>two or three different mood boards</strong>, and the <strong>client chooses</strong> the one they like.</li>
+<li>They give a <strong>group of ideas related to colors, fonts, and images</strong> and get <strong>feedback early</strong>, before investing in detailed design.</li>
+<li>The visuals needn't be explained at length, but the intended <strong>mood</strong> should be evident from the board.</li>
+</ul>
+<hr />
+<h2>5. Examples and Resources</h2>
+<ul>
+<li>The lecture showed a mood board for an <strong>architectural site</strong>, which feels very different from other boards.</li>
+<li>Searching <strong>Google for "mood board"</strong> returns many examples for different projects.</li>
+<li>Mood boards aren't limited to websites — they're also used for <strong>interior design</strong> and other design work.</li>
+</ul>
+<hr />
+<h2>6. Key Terms</h2>
+<table border="1" cellpadding="6" style="border-collapse: collapse;">
+<thead>
+<tr>
+<th style="background: #e8e8e8; text-align: left;">Term</th>
+<th style="background: #e8e8e8; text-align: left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mood board / inspiration board</strong></td>
+<td>A collage of colors, images, type, patterns, and text conveying a design's intended mood</td>
+</tr>
+<tr>
+<td><strong>Visual prototyping</strong></td>
+<td>Creating visual options early so clients can choose a direction</td>
+</tr>
+<tr>
+<td><strong>Look and feel</strong></td>
+<td>The aesthetic and emotional character of a site (Part 2)</td>
+</tr>
+<tr>
+<td><strong>Wireframe</strong></td>
+<td>Structural layout of a page without color/imagery (Session 4)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>7. Review Questions</h2>
+<ol>
+<li>Define a mood board and give another name for it.</li>
+<li>List five kinds of elements that might appear on a mood board.</li>
+<li>How does a mood board differ from a wireframe?</li>
+<li>Why present a client with several mood boards?</li>
+<li>Describe the mood you'd want a library or archive website to convey, and sketch what would go on its mood board.</li>
+</ol></en-note>]]></content><created>20261013T002131Z</created><updated>20261013T002131Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note><note><title>LIS 467 — Session 5, Part 4: CSS3 Positioning</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h1>LIS 467 — Session 5, Part 4: CSS3 Positioning</h1>
+<p><strong>Course:</strong> LIS 467 — Web Development &amp; Information Architecture
+<strong>Topic:</strong> The CSS <code>position</code> property — static, relative, fixed, absolute, and sticky
+<strong>Source:</strong> Panopto lecture transcript — "Session 5 Part 4 - CSS3 Positioning"</p>
+<hr />
+<h2>1. Why Learn Positioning?</h2>
+<ul>
+<li>CSS <strong>layout</strong> is a big topic; understanding <strong>positioning</strong> is essential.</li>
+<li>Positioning is about the <strong>different ways you can place elements</strong> on your HTML page, specified <strong>in your CSS</strong>.</li>
+<li>Later topics (e.g., <strong>flexbox</strong> and <strong>grid</strong>) provide even more help in making pages <strong>responsive</strong>, but positioning is the <strong>starting point</strong>.</li>
+<li><strong>Resources for learning CSS3:</strong> <strong>W3Schools</strong> (the captions say "double three schools"), other online CSS tutorials and learning platforms, and the course <strong>textbooks</strong>.</li>
+</ul>
+<hr />
+<h2>2. The <code>position</code> Property</h2>
+<p>At <strong>W3Schools → Learn CSS → CSS Layout → Position</strong>: the <code>position</code> property <strong>specifies the type of positioning method used for an element</strong>.</p>
+<p>Values: <strong><code>static</code></strong>, <strong><code>relative</code></strong>, <strong><code>fixed</code></strong>, <strong><code>absolute</code></strong>, <strong><code>sticky</code></strong>
+(<code>sticky</code> is <strong>not supported by some browsers</strong>, e.g., Internet Explorer.)</p>
+<p>The <strong>four commonly used</strong> values are <strong>static, relative, fixed, and absolute</strong>.</p>
+<hr />
+<h2>3. <code>position: static</code> (the default)</h2>
+<ul>
+<li>Elements are <strong>not positioned in any special way</strong>; they appear in the <strong>normal flow</strong> of the page, in the order they occur in the HTML.</li>
+<li>Even if you don't specify a position, the element is <strong><code>static</code></strong>.</li>
+<li><code>top</code>, <code>right</code>, <code>bottom</code>, <code>left</code> have <strong>no effect</strong> on a static element.</li>
+</ul>
+<pre>div.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
+</pre>
+<hr />
+<h2>4. <code>position: relative</code></h2>
+<ul>
+<li>The element is positioned <strong>relative to its normal position</strong>.</li>
+<li>Setting <code>top</code>, <code>right</code>, <code>bottom</code>, or <code>left</code> <strong>moves it away from where it would normally be</strong>.</li>
+<li><strong>Other content is not adjusted</strong> to fill the gap or fit around it.</li>
+</ul>
+<pre>div.relative {
+  position: relative;
+  left: 30px;          /* 30px away from its normal position */
+  border: 3px solid #73AD21;
+}
+</pre>
+<p>💡 Demo from the lecture: changing the value to <code>static</code> moves the element back to its normal position.</p>
+<hr />
+<h2>5. <code>position: fixed</code></h2>
+<ul>
+<li>The element is positioned <strong>relative to the viewport (browser window)</strong>, so it <strong>stays in the same place even when the page is scrolled</strong>.</li>
+<li>Use it for things that should <strong>remain visible while scrolling</strong> — e.g., a <strong>chat button</strong> at the bottom-right corner or a fixed header.</li>
+</ul>
+<pre>div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+</pre>
+<p>💡 Demo: switching to <code>static</code> returns it to its normal place; switching to <code>absolute</code> moves it but it <strong>won't stay put when scrolling</strong> (a fixed element does).</p>
+<hr />
+<h2>6. <code>position: absolute</code></h2>
+<ul>
+<li>Slightly harder to understand, but not difficult.</li>
+<li>An absolutely positioned element is positioned <strong>relative to its nearest <em>positioned</em> ancestor</strong> — an ancestor whose position is <strong>anything other than <code>static</code></strong> (i.e., <code>relative</code>, <code>absolute</code>, <code>fixed</code>, or <code>sticky</code>).</li>
+<li>⚠️ If an absolute element has <strong>no positioned ancestors</strong>, it uses the <strong>document body</strong> and <strong>moves along with page scrolling</strong>.</li>
+</ul>
+<pre>div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+}
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+</pre>
+<p><strong>Rule of thumb:</strong> use <code>absolute</code> when you want to place one element <strong>in relation to another</strong> (positioned) element — the second element's position is <strong>relative to the first</strong>.</p>
+<hr />
+<h2>7. <code>position: sticky</code></h2>
+<ul>
+<li>Toggles between <strong>relative and fixed</strong>, depending on the <strong>scroll position</strong>.</li>
+<li>It is <strong>relative</strong> until a given <strong>offset position</strong> is met in the viewport, then it <strong>"sticks" in place</strong> like <code>fixed</code>.</li>
+<li>Because it is <strong>not supported by all browsers</strong>, the lecturer suggests <strong>not relying on it</strong>.</li>
+</ul>
+<hr />
+<h2>8. Summary Table</h2>
+<table border="1" cellpadding="6" style="border-collapse: collapse;">
+<thead>
+<tr>
+<th style="background: #e8e8e8; text-align: left;">Value</th>
+<th style="background: #e8e8e8; text-align: left;">Positioned relative to</th>
+<th style="background: #e8e8e8; text-align: left;">Moves with scrolling?</th>
+<th style="background: #e8e8e8; text-align: left;">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>static</strong></td>
+<td>Normal flow (default)</td>
+<td>Yes</td>
+<td><code>top/right/bottom/left</code> ignored</td>
+</tr>
+<tr>
+<td><strong>relative</strong></td>
+<td>Its own normal position</td>
+<td>Yes</td>
+<td>Offsets shift it; others aren't adjusted</td>
+</tr>
+<tr>
+<td><strong>fixed</strong></td>
+<td>The viewport</td>
+<td><strong>No</strong> — stays put</td>
+<td>Headers, chat buttons</td>
+</tr>
+<tr>
+<td><strong>absolute</strong></td>
+<td>Nearest positioned ancestor (else <code>body</code>)</td>
+<td>With its ancestor</td>
+<td>Place relative to another element</td>
+</tr>
+<tr>
+<td><strong>sticky</strong></td>
+<td>Relative until a scroll offset, then fixed</td>
+<td>Partly</td>
+<td>Limited browser support</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Practice:</strong> experiment with these in an <strong>online editor</strong> (the W3Schools "Try it" editor or similar); you'll get comfortable as you build your own site.</p>
+<hr />
+<h2>9. Review Questions</h2>
+<ol>
+<li>What does the <code>position</code> property do, and what are its five values?</li>
+<li>What is the default position, and do <code>top/left</code> affect it?</li>
+<li>How does <code>relative</code> differ from <code>static</code>? What happens to surrounding content?</li>
+<li>Give a use case for <code>fixed</code>. What is it positioned relative to?</li>
+<li>What does an <code>absolute</code> element position itself against? What if there is no positioned ancestor?</li>
+<li>Why might you avoid <code>sticky</code>?</li>
+<li>Which later CSS tools help make pages responsive beyond positioning?</li>
+</ol>
+<blockquote>
+<p>⚠️ <strong>Transcript note:</strong> Captions are auto-generated. Code samples above are standard W3Schools-style examples illustrating the behaviors described in the lecture; exact values in the lecture's demo may have differed. The learning-resource names in the transcript were garbled, so they are described generically.</p>
+</blockquote></en-note>]]></content><created>20261013T002131Z</created><updated>20261013T002131Z</updated><tag>LIS467</tag><tag>lecture-notes</tag><note-attributes><author>panopto_transcribe.py</author><source>markdown</source></note-attributes></note></en-export>

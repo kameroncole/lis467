@@ -1,0 +1,357 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+we have a few learning objectives by the time you finish this lecture and this week 's learning they
+
+should be able to describe the importance of usability explain and predict the design aspects
+
+looking for the for website. be able to design and wood board and in the lending process.
+
+be able to create stylesheets using CSS three. and also begin learning see the three layout and
+
+positioning. now when you talk about usability rate usability.
+
+it's something that's a very important topic will have an entire week dedicated to it. how to do usability
+
+testing. but usability has to happen at various stages so it's important to get started on it
+
+earlier on. so the question then comes in as to what is the usability or what do we understand
+
+by usability some people take that ability applies to software systems which is to
+
+be which is most of the case and to also to websites and
+
+weight has been widely used. but usability can be for any for any product or or
+
+any service for instance I'm thinking of this sort of headset and microphone for recording.
+
+I can think of this as as usable or not I was trying to set up this different
+
+set of microphones for recording and the first we do that it caught it it was giving out kind
+
+of a there was the sound throughout. so that was an issue and these uh
+
+noise canceling ones and maybe I look at some of the headset so maybe to
+
+think of how usable IDs. so usability can apply to to pieces
+
+the pieces of hardware are pretty frozen. like these. they could even apply to non- technology
+
+things for instance when you're in a classroom and and you doesn't it to it is
+
+the whiteboard you can look at their usability of that and so. so do anything
+
+usable that could be applied and maybe at this moment pause the video
+
+and thank off. how would you describe usability. and once you're rich and
+
+all in few of the keywords or you can think of. then you can resume that with you. again
+
+so usability has been described by you by different people. other items like either the fuse
+
+some people even think of it as the as soon as but either the fuses is one important aspect of usability and
+
+calling to one definition up on by I so nine two four one. it is the extent
+
+to which a product can be used by thirty five. that's why do you the stretch you've specified goals with
+
+effectiveness efficiency and assign satisfaction in a specified context of use. so to the extent with something
+
+as efficient and effective up. when it comes to it's it's it's using but
+
+and some people call it usaa friend in us. so when you think something
+
+is user-friendly then it is it is usable how easy it is for you for you the computer to also
+
+eat. that means it's it's ease of use becomes definition here. degree of convenience and practicality
+
+and use. so but something is convenient or not. that is one of sort of usability
+
+and efficiency with which you as patron can do once tasked with the website and the overall satisfaction.
+
+the usaa has with the process. so all that come under usability.
+
+so this is one of the figure here which shows that I mentions of usability.
+
+so here you have system acceptability and that social flexibility
+
+back to collect subject except ability it's the things that cost and so on and then you have usefulness
+
+and unity and then comes this idea of usability so according to this usability
+
+has a few things one is it. one is easy to learn. so Lenny ability means that
+
+when you go to a website and let's have you talking with your little detail website which is the most applicable thing in our case in this
+
+course. so when you say easy to learn it is a site
+
+useful for in the for the user on the first site visit. is it is it efficient to use
+
+and it does it in on the usaa productivity in some manner. is it easy to remember I do other things
+
+very confusing you do not know where to click next time or is it into to when you learn on your own. doesn't minimize
+
+the air is in your clicking on for you to arrows in the navigation going through different things then you
+
+and then what you need. or does it date you it where you want to go and is it overall pleasing.
+
+so sometimes some people put Esther Dickson and look and feel that's outside of
+
+usability usability 's. and you can send more in terms of functionality or ease of use in that sense.
+
+but different definitions that there to in the way in which people different people understand usability.
+
+some people think of it does up bucks interactions that's part of minimizing the address
+
+and getting clearer feedback on news interactions. so stuff like that so
+
+anything which makes your site easy to use up and makes experience
+
+really nice for the end user and it sounds like a simple topic but it's it's very big
+
+and a lot of the times the problem stems in is because when we are doing something with
+
+thinking at it from a point of view the design is point if view the developer point of view. and when the
+
+user is using the website the user. just thinking from his her or their point of view.
+
+so when you're looking at the uses up point of view rate that is
+
+that is difficult for for a design a developer to it to up to plan
+
+I think in that matter right away. until then unless we we get training in that and we start thinking
+
+along the lines of the usaa for us and and they needs first. so that is an important part of
+
+feasibility. so here.
+
+this is dick out. one one cartoon here in and and it just shows
+
+that this idea of of usability testing very much sake so here you
+
+have think of this as the user and think of this is what the information that the user needs to get and think of this
+
+as a website and this is like of the usability testing can be thought of as this process
+
+of this use the mouse getting to that user. they use they're getting to the information in
+
+a timely manner without being frustrated. and when you
+
+think else out. when it comes to the planning part great. when you're planning a site which is
+
+designed to be usable. you have to keep think too few things in mind. the utility of the site
+
+is crucial. what is the site to be used for what users. what are you offering that's with you. my
+
+time and develop do do have user base scenarios
+
+and use cases and all that and think for the doing a lot of focus on value to the user
+
+and and and and design. so do not compromise initially based on what you
+
+can or cannot do look first try to think of all the once and they later to think of of
+
+what other constraints but initially don't give the constraints in mind when you're doing the initial design.
+
+do something simple prototypes to a prototype to get it tested and repeat the process until he was
+
+seven sort of sort of set aside. so there are some links on common
+
+web design mistakes these of them different years. let's look at
+
+some of these. so this one says up seven well seven most
+
+so this link here talks about today in the seven most common web design mistakes to avoid
+
+and it has one mistake was to call is is a lack of a call to action. 's a call
+
+to action. basically means that you should tell the user what to do. where to go how
+
+to feel. so it should guide you in a way and should be precise. so. 's a call to a call to action
+
+we get visitors focus and what the next step is it is the prom that's written with a persuasive. command attached a link
+
+or button. so that has to be very clear to you know language so basically what it means is to have action
+
+verbs. so I took to get started to contact us to be signed me up by now. so when you have
+
+these kinds of things and you're talking to the user. so a lot of the marketing oriented websites of the large companies
+
+and all that they pay a lot of attention into these. but even in terms of labor is an archives. we can think
+
+of how can you get the patrons interested in designing the that
+
+is just website which is a cessation for information science and technology design is there. when they did the
+
+redesign today I think this is the third redesign they did one little while ago and
+
+then in the second redesign they had joint buttons now they have moved the joint
+
+button over here it's kind of in between here. I know earlier they had it in
+
+the in the corner and in a specific place. so when you think of
+
+the joy and I'll write it it's kind of a call to action eight eight. it speaks to you in the way
+
+I get started is also I think it's made. if they would extort them or become a member. right subsidies
+
+specific calls to action in designing website.
+
+no and then it takes to measure performance this is the talking on talking about in the later part of the semester when we talk
+
+about. and and it takes as well search engine optimization does a important part of gathering data
+
+from usaa feedback on on how they use the on the usage of the site and
+
+the traffic that you get. brand messaging is again now. you have a tell a story
+
+so the this is the other area is unclear brand messaging.
+
+so basically you need to have you need to know what you what your messaging is what is it that you want
+
+to to tell people. so what it means here is creating communication that is compelling to
+
+audience and connecting with them on an emotional level so you have to talk to people as you're talking
+
+to a close friend and if you look connected to a website they're likely to stay on for longer and and then go
+
+through and use the website didn't get to your library or archive or if you get supposed websites
+
+tend to connect with you for some collaboration or some work. so so there is
+
+that has to be connected through your website and week search engine optimization
+
+this is about how the strategies you can use to get your website to show up higher up on on
+
+search so we'll have this again at the later part of the semester.
+
+and contact information this is very very important to this needs to be early. this needs to be
+
+very clear easy to find from show page of the site to your end. because
+
+different points in time in the on side to use might decide that okay I don't need to know more. and we want to contact
+
+you. so that information must be very easy. load low times are important they shouldn't be
+
+too slow. mobile set experience again. very very important as we were talking about responsive
+
+websites unresponsive. and we are talking about media craze and set up
+
+and and be great. and with use of other
+
+technologies like bootstrap and see this is great and so on because all these to
+
+take the mobile side experience into consideration which is very very important because a lot of the uses are
+
+shifting to mobile and yes
+
+there are other other pages here to talk about like creating designs that aren't responsive.
+
+misplaced head is using deprecated web standards not updating your site periodically
+
+and so on using flash this technology was there like
+
+a long time ago. using massive images which don't. we should record release to Leon from roses.
+
+take what flicker does that when you go to to flicker
+
+.com so yeah I think the Socio four seven five I have friends but it's a research here for
+
+minutes at Boston
+
+so when you go to flicker and and let's say search for for images of Boston over here and then
+
+you click on any image. and when you click on download it gives you the option
+
+to download images in various sizes and that is really nice because
+
+the thumbnail that you the image that your first votes could be of more great sales which goats quickly and
+
+then you can have larger images open. as per your your speed and
+
+and depending on how home on whether you want to download just view it on your browser. so it's a mistake
+
+to have massive images that the usaa has to download just to view the site.
+
+so that's one thing having fixed heights and weights of these must be changeable to make the sites responsive
+
+and assuming that it is nine fits all three and says again you need to design. considering the way to screen size into mind
+
+overuse of animation so all that so there is a quite a bit of recommendations here.
+
+and this is another one bye. by Jakob Nielsen who is one of the big expense
+
+and usability. and again he talked about having bad search as as
+
+not a good feature of the site. and he dislikes the idea of PDF for online
+
+reading it says the PDF so mostly for downloading to print and so
+
+you said that what it needs to be read online they need to be converted into a stem.
+
+so this is an older link of it and now there are lots of other ways
+
+you can you book formats the pub and all that so you can or kindle format so you can
+
+have your text in various formats if it's if it's a small book or something you can have. have it
+
+formatted in different ways to be right online. a PDF 's are nice if you want the formatting to
+
+to Steve. well like for instance if you get if it's a CV or something then PDF is good for that. if it's a
+
+report that you're written and you want to the use user to see the formatting them then it's good. a lot of the other
+
+sites provide both PDF as they should format so that you can choose which was which
+
+way it's better for you. not changing the color of visited links text that you cannot
+
+and then you know it's can fixed font size and so so there's a lot of recommendation out here as
+
+well. so usability is a key part
+
+to consider when you're designing websites
+
+so when you think of user interface guidelines that are a few things to
+
+keep in mind. and one is to strive for consistency.
+
+cater to like universal usability. also feedback which is informative to the user
+
+and design it also which which helps to use a computer tossed salad somebody's on Amazon.
+
+have a server which lets the user to delete to the buying of the product or deciding on
+
+look you with something else. but it should you somewhere safe it's a library website. if you tap
+
+when you're checking out a book it should help you ago. request into elaborate on. let's say then you should
+
+help you lead to that or if you wanna talk to someone. it should be connected with it the contact page or to
+
+the person out an online chat. so prevent error is it easy
+
+reversal factions make users feel that they're in control these are all recommendations which
+
+have been made quite a long time ago but it still was a test of time. and there are some other recommendations
+
+here as well so consistency and standards visibility of system status.
+
+so all of these guidelines which here at prevention recognition rather than recall.
+
+these have been made. keeping human psychology and mine to have on perceptual
+
+and cognitive psychology. so basically how people perceive how people learn how the reason how
+
+they remember and how they convert the intentions into action. so
+
+the aesthetic and minimalist design. this basically helps fight to information overload so when
+
+you get a lot of things that one when one goes it's hard. so if you can give people things in chunk
+
+that helps them in this design helps. but at the same time to an advanced user who does not.
+
+what did he knows a lot and is that look for something specific. then having a lot of the information and to be able to
+
+scan easily. it's helpful. 's for instance. good academy is one example of a minimalist
+
+design. where is double three schools gives a lot of information at one ago. so depending on your
+
+user base again different designs can have different purposes
+

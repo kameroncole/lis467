@@ -1,0 +1,139 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+in this part of the election will look at Expedia can critiquing the design aspect to look and feel of the website
+
+now. one key question is what do they mean by look and feel. so here you see
+
+that there is a user at the center and in the in the same for graphic they have separated
+
+usability from look and feel. so maybe again pause the video here and up.
+
+thank of what you mean by what the left look and feel mean to you. and
+
+what usability meant into and and how these different. again once you're ready then you can resume the video.
+
+so you when we when you think of. look and feel great
+
+there is this idea of this emotional response or the or the aesthetic appeal
+
+for website. and when you think of usability it's it's a ease of use of the other
+
+the other weight which you can eat meat set up. I needs so so in total when
+
+we talk of usability look and feel they all create an experience in which something that is useful
+
+something that's easy to use and something which has as is attractive has an
+
+aesthetic appeal and also also gives a good emotional response.
+
+when we browse the website. so in the most basic terms look and feel of a website is how the
+
+so in the most basic terms of looking feel of a website is how the site looks to the user
+
+and how it feels when they're interacting with it. so the look is defined
+
+by the following components of the website your call a ballot. so you use of the color and
+
+the combination of colors and the contrast that that's all all of that for many
+
+very important part in the way something up to you are our jars division if scholars
+
+do not belong together when they're put together then they can have a very and an attractive feature site
+
+images layout as well as your phone choices up. overall
+
+styling all of that helped was that. look look part of the site
+
+and the feel is determined by the characteristics one is the movement in response of dynamic
+
+components like dropped on menus buttons forms of galleries. so when you have this this Michael
+
+interactions and a little introductions of things moving on your site. Dave the follow
+
+up some sort of a reaction on the user. when you have let's see an annoying ad that shows
+
+up and then I'm using the word annoying but that's a reaction again because it annoys when when
+
+we're trying to just to see something and then something comes up in between sound
+
+effects and the speed by which oh yeah we pages load all of that are examples of things that
+
+arouse an emotional response on the user so
+
+look and feel are very look and feel is very important and these are some
+
+standards by the state of Michigan. and they provided a good child
+
+guidance as to how state agencies is trying to determine
+
+the look and feel of websites created for the state of Michigan. so in this case. this
+
+is sort of Michigan site standards and then the standards of your process. do
+
+the document to ensure the rules does have a similar experience road Allstate applications and agent sites and
+
+then it says that all lips. bye-bye think standard up. they they must follow a certain set of
+
+guidelines and they they're written in terms of guidelines for extra stability guidelines
+
+other resources flexibility out here. and these standards are given at as a formal speedy
+
+document as well. and the purpose to design is to establish
+
+a design and development standards for websites and applications used to contact off we should state of Michigan business
+
+the Senate applies to all applications of sites posted within the of Michigan standard web
+
+content management system so so it's so there's quite a bit
+
+a bit of detail in these but it it'll tell you about a holiday what should be there
+
+in the header there should be it contains officially the state of Michigan brand logo title and tag line.
+
+and it. so what should what goes in there what doesn't go in there all of that there. what goes in the foot.
+
+the technical requirements. exit requirements ability and so on. and
+
+this is the website which is the additional guidelines at Michigan .gov. and when you get started here.
+
+they have quite a few quite a few good. you a components
+
+over here. so let's see when you choose colors right then they'll tell you that primary class commute less
+
+willing colors backgrounds and buttons and remove it for the deck ability gardens but been sure that colors
+
+are eighty compliance so again. you have to take care of that the sudden users
+
+might have got a blind so those up to be important considerations when choosing colors. so
+
+these are different color codes up as well as guidelines that they provided for us support for dean
+
+you're wanting success and so on and how the icons are should
+
+be the various icons to you to use on the website and
+
+typography and badges. bread crumbs of bread crumbs tell you that
+
+which part of the website you're in. so again how to insert those up. all of the of
+
+these out there in the standards and they also have
+
+a codependent page equipment that I always is a website which provides a nice tool
+
+for you to enter a CSS and JavaScript type side and and see the display.
+
+so it's so it's it's a great little children to to see your site. so in this case they have put
+
+in missed a quote for about an outline and I can cut and so on so
+
+many people building sites could just cut and paste these and
+
+this is that same centers but an older one nine seven twenty sixteen. and here
+
+again this these tend to keep updating the standards over time. 's even though these apply to the state of Michigan
+
+but I have but I thought they are good examples of standards to follow even otherwise.
+
+and I mean of course if could change your color branding and all. but but in terms of best practices
+
+in some of those could still apply
+

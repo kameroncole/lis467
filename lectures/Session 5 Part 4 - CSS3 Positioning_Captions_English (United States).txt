@@ -1,0 +1,135 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+so this is a week to also learn CSS positioning because there's quite a bit to
+
+see this is Leo it and understanding positioning. it's very very important that a different ways that you
+
+ways in which you can edit position elements in your esteem page. and you can specify that in your
+
+CSS and then later on there are other other ways so so just
+
+like box in grade which provide even more help to make your pages responsive. so
+
+the very beginning part of this understanding that positioning that comes in here and
+
+there are different resources that you can use those of the three schools quote Academy CSS tutorials Oreos Arlington
+
+learning the textbooks and so on. for learning CSS three. so let's look at
+
+a simple example. so let's see when you go to double three schools. and
+
+double for schools .com. and when you go to learn CSS and
+
+looking for. CSS positioning. so here it has a CSS layout which is a position
+
+property so this position property specifies the type of positioning method that are used
+
+for an element that is static well relative fixed and absolute sticky is not
+
+supported by some browser like Internet explorer and these for more commonly used
+
+and so the first one is static. when you specify the position of an element
+
+of static. you're pretty much saying that that that whenever you put the element that's what
+
+it is. it is not positioned in any special way it is a lawless position according to the number
+
+so the page. so in this case you'll hear you. this is your CSS and you're saying that
+
+this is Dave had the dot static and a position here is static the so that's
+
+his name that you're giving and it say okay that bought it three pixels and also you specified here.
+
+and this is the the US static positioning for the settlement when you run it that's that's where it it will be
+
+and in the relative position. no in this case
+
+setting the top right about bottom enough properties a relatively position element will cause it to be adjusted away from us and on
+
+the position. other content will not be adjusted to fit any of capital after element. so
+
+let's look at an example to understand this better. so in this case. so this is
+
+this has been position relative to us and the positions. so here there is a thirty
+
+pixels away from from the normal position that it's here. if you changed it to a static up
+
+over here. and then you'll see that it it moves away.
+
+so the relative is the one which is making it it's relative to it's in on the position
+
+and then you have fixed fixed is nice because sometimes
+
+up you'll find that out. you and then you scroll a page. some things remain the same.
+
+is the remaining one place despite calling. that is because of the fix position.
+
+so in this case this is the place where they have fixed this this
+
+element here so that Dave here is is fixed and position is fixed and it's a
+
+bottom rate and which is trying to fix it so here. and if we change that to static
+
+then then that would
+
+need to do it move back to its normal position. thank you. and you can move it
+
+to absolute and try as well. so absolute as as mixed mixed moved here for now.
+
+but it would not remain fixed in that place. is if you make it fixed and it despite scrolling it will still remain there.
+
+and then you have a final position which is absolute absolute
+
+slightly harder to understand than the others. but not so difficult. you'll see
+
+that an element with the position after the disposition relative to the nearest position and sister.
+
+just the nearest position at system it means anything but
+
+but static. because static is is not position static is there by default it's like
+
+I mean if you even if you don't specify the position then I need his position static. so anything that is
+
+relative or or fixed or even sticky which is which is end of that. well if when you
+
+have anything that's positioned right. then
+
+an element with for the steps disposition relative to this position.
+
+so if however if an absolute position element has no position ancestors that uses duct and body moves along with Pete
+
+calling. so he doesn't he has an example here in this case.
+
+you have relatives. and this he here you
+
+have an absolute you over here. so this is position.
+
+this but the position of this is in relation to the position tensed over here. so that
+
+is why it it works like a team or what it looks like if something else. already specified the position or something
+
+and then you want to specify the position of something else in relation to that. then you would use absolute
+
+so that's why you have this second one is in relation to this first
+
+the position of the first one and then you also have have sticky
+
+and the sticky works like that like the element sticky element top of the relative and fixed and depending
+
+on the school position. it is position relative until a given offset position imagine if you put
+
+then it sticks in place. so you don't have to worry much about sticky because it's not supported by different browsers
+
+so it's so it made me I mean not be a good idea to use it. but it it it kind of
+
+moves for a while and and then remains in in place like fixed..
+
+the before the more commonly used ones. the absolute fixed relative and
+
+static and in terms of CSS positioning so you can try
+
+out at Oreos and as you're working a website you'll get more comfortable than using these.
+
+so that's all we so today we looked at usability and decorating look and feel adverts and
+
+CSS three. thank you
+

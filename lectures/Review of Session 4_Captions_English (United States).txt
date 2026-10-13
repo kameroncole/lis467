@@ -1,0 +1,117 @@
+[Auto-generated transcript. Edits may have been applied for clarity.]
+hi David talking about usability and grating look and
+
+feel and aesthetics as well as CSS three the last
+
+week we started with CS is three and today will continue that discussion forward in this week you
+
+will be learning CSS layout positioning.
+
+so what did receive the last section we describe. we looked at use cases and scenarios and
+
+look at the importance of information architecture. regarding the process of creating a site information architecture creating
+
+a life frame and how to do sandwich between test and production sites and to begin learning.
+
+see if the three. so when you talk about a use case is enough.
+
+when you have your use of force owners and then you have an if you use of that that you have identified
+
+you need to title. uses it goes when you talk of use case use case is basically one of your typical
+
+users and end up sending to set up to also goes which the person
+
+who went up to accomplish using your website. so each
+
+task as well as a as one of the users that would give rise to your use case.
+
+and when you have a series of these toss and put together
+
+in the form of a narrative or a story that you have when you when each step of the dust
+
+is followed. what is over overarching framework in this case up all once all the flowers
+
+and then when you have. 's up to selected for that deposit flexible tuition 's policy
+
+doesn't allow Sean Paul flexible case to do the sequence of steps in the process of buying flowers
+
+and then you when you have what kinds of questions arise and
+
+how can you address this last person I need you need a better way. so all of this.
+
+the series of stuff with with all these questions as well as ideas and the steps followed
+
+that can be taught off as the scenario. you so use a toss you the scenarios
+
+and use cases both have very helpful in in trying trying to understand
+
+the behavior that to you at your you that will perform using your website
+
+and then we also talked about information architecture. no information architecture has
+
+a few components. it is concerned with the labeling staggering.
+
+so so what metadata that if you have to decide decide site how is one of the labels for your
+
+for your menu items. so how do you classify the items on a webpage
+
+how do you sequence them in an hierarchical manner. and
+
+what is the use of navigation pattern. defined to be three website and what social
+
+features you have for the user. all of that is part of the information tactic show I
+
+and then we also talked about card so I think that is one technique that is used to both design and to evaluate
+
+your information architecture consult them could be open cards for your postcard sorting it open cuts are you
+
+doing you're doing to have predefined categories includes cuts letting you have categories
+
+that are defined in New York. and the people who are helping you test conditions and they will put up.
+
+if you just leave those parts of the website. written on index cards need to do this is
+
+different categories and then you then you can see whether your items on your
+
+webpage or organizing a judgment or not. and then we also talked about the wire
+
+frames. wire frames. helped put your architecture into
+
+some sort of design format that you can then you can all begin to visualize that
+
+way with something good going to go so you had the Leos and the positioning part
+
+of it. we just components on your site and it still doesn't have the color
+
+colors and images and on and all that disappointed but you do have
+
+things like where would you livable they would give me a menu items ago. would that be a hero image would
+
+they be the basis for social media and how would they will lead out. so I can do this either
+
+on paper or using any software table. also talked about. 's tests versus
+
+production sites and we used to be said they could be a production Web server development
+
+website voted testing whatsoever. so typically you are not one to do
+
+your developmental testing part of your production Web server and you would want to have
+
+a interesting that's seven separate as far as possible. and we also talked about.
+
+and we also talked about. the CS is three and how we had been on the development
+
+and there are certain models that are completed and other modules which are still being developed so
+
+it has been a working progress that up see if this tree is now highly usable and you can use the most
+
+part of it. without any major issues and in this in Texas CSS you have
+
+typically a separate fee if the file that's a recommended practice. a separate test this
+
+is file separate from each team and you would have an element are selected
+
+we should match. tag initially and then you have properties and in different values assigned to
+
+them
+
