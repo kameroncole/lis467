@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simmons hosting test: in-browser vector search</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 52rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.45; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: .4rem .6rem; text-align: left; vertical-align: top; }
+    .pass { color: #0a6b2d; font-weight: 600; }
+    .fail { color: #b00020; font-weight: 600; }
+    .wait { color: #666; }
+    #summary { font-size: 1.15rem; margin: 1rem 0; }
+    code { background: #f2f2f2; padding: 0 .25rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Simmons hosting test</h1>
+    <p>Checks whether this web server can run the vector search entirely in the browser:
+       static JSON, ES modules, the Transformers.js library and model from a CDN, and similarity search.
+       Nothing runs on the server. The first run downloads about 25 MB of model files (cached afterwards).</p>
+  </header>
+  <main>
+    <p id="summary" class="wait">Running checks...</p>
+    <table>
+      <thead><tr><th>Check</th><th>Result</th><th>Details</th></tr></thead>
+      <tbody id="checks"></tbody>
+    </table>
+    <h2>Try a search</h2>
+    <form id="search-form">
+      <label for="query">Query</label>
+      <input id="query" type="text" size="45" value="earthquake-proof buildings for kids">
+      <button type="submit" id="go" disabled>Search</button>
+    </form>
+    <ol id="results"></ol>
+  </main>
+  <footer><p><small>Delete this folder from <code>public_html</code> when you are done testing.</small></p></footer>
+  <script type="module" src="test.js"></script>
+</body>
+</html>
