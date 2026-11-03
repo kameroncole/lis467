@@ -1,0 +1,545 @@
+{
+ "https://www.fema.gov/sites/default/files/2020-07/fema_earthquake_p-1002.pdf": {
+  "url": "https://www.fema.gov/sites/default/files/2020-11/fema_protect-your-property_earthquakes.pdf",
+  "title": "Protect Your Property from Earthquakes",
+  "publisher": "FEMA",
+  "kind": "pdf",
+  "notes": "5-page plain-language FEMA guide on securing/retrofitting a home and its contents against earthquake damage (water heaters, anchoring, plan). Closest accessible match for retrofit/building safety at a student/family reading level; FEMA's engineering retrofit manuals (e.g. P-232, P-1000) are far too technical for K-8. Note: fema.gov blocks curl with a 'Mozilla/5.0' user agent (403 Akamai); verified with curl's default user agent (200 application/pdf)."
+ },
+ "https://www.fema.gov/sites/default/files/2020-07/fema_earthquakes_shakeout-schools.pdf": {
+  "url": "https://www.ready.gov/sites/default/files/2020-03/earthquakes_what-child-care-providers-need-to-know.pdf",
+  "title": "Earthquake Preparedness: What Every Child Care Provider Needs to Know (FEMA 240)",
+  "publisher": "FEMA (hosted on Ready.gov)",
+  "kind": "pdf",
+  "notes": "11-page FEMA 240 guide for adults supervising young children in schools/child care; covers conducting earthquake drills and teaching children Drop, Cover, and Hold On (confirmed in PDF text). Pre-K/early-grades audience. FEMA's school design guide P-424 (396 pp, engineer audience) was rejected as unsuitable. Verified with Mozilla UA."
+ },
+ "https://pubs.usgs.gov/gip/earthq/earthq.pdf": {
+  "drop": true,
+  "reason": "Replacement duplicates doc-001 (USGS GIP-21)"
+ },
+ "https://www.fema.gov/sites/default/files/2020-07/fema_earthquakes_fema-p-530.pdf": {
+  "url": "https://www.fema.gov/sites/default/files/2020-08/fema_earthquakes_fema-p-530-earthquake-safety-at-home-march-2020.pdf",
+  "title": "FEMA P-530: Earthquake Safety at Home (March 2020)",
+  "publisher": "FEMA",
+  "kind": "pdf",
+  "notes": "110-page FEMA guide to preparing for, surviving, and recovering from earthquakes at home; URL taken from the Ready.gov earthquakes page and FEMA Building Science library. Homeowner/family audience (not school-specific). fema.gov returns 403 to a 'Mozilla/5.0' UA; verified with curl's default UA (200 application/pdf)."
+ },
+ "https://pubs.usgs.gov/fs/2006/3016/fs2006-3016.pdf": {
+  "url": "https://pubs.usgs.gov/unnumbered/7000032/report.pdf",
+  "title": "The San Andreas Fault (USGS general-interest publication, Schulz & Wallace)",
+  "publisher": "USGS",
+  "kind": "pdf",
+  "notes": "20-page USGS general-audience booklet on the San Andreas Fault (PDF linked from USGS Publications Warehouse record 7000032). The Professional Paper 1515 URL suggested by search returned 404 and was not used."
+ },
+ "https://www.fema.gov/sites/default/files/documents/fema_be-a-hero_youth-emergency-preparedness-curriculum_grades-6-8.pdf": {
+  "url": "https://www.ready.gov/sites/default/files/2020-08/ready_emergency-preparedness-curriculum-grades-6-8.pdf",
+  "title": "FEMA's Be a Hero! Youth Emergency Preparedness Curriculum (Grades 6-8)",
+  "publisher": "FEMA (Ready.gov)",
+  "kind": "pdf",
+  "notes": "35-page PDF; PDF metadata title confirmed; URL scraped from https://www.ready.gov/collection/curriculum (page text is rotated so pdftotext is garbled; grade band confirmed by the Ready.gov link and file name)."
+ },
+ "https://www.fema.gov/sites/default/files/documents/fema_be-a-hero_youth-emergency-preparedness-curriculum_grades-3-5.pdf": {
+  "url": "https://www.ready.gov/sites/default/files/2020-08/ready_emergency-preparedness-curriculum-grades-3-5.pdf",
+  "title": "FEMA's Be a Hero! Youth Emergency Preparedness Curriculum (Grades 3-5)",
+  "publisher": "FEMA (Ready.gov)",
+  "kind": "pdf",
+  "notes": "28-page PDF; PDF metadata title confirmed; text references grade 4/5 standards; URL scraped from https://www.ready.gov/collection/curriculum."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2015/01/rocketry_guide.pdf": {
+  "url": "https://www.nasa.gov/wp-content/uploads/2012/07/rockets-educator-guide-20.pdf",
+  "title": "Rockets Educator Guide (NASA EG-2011-11-223-KSC)",
+  "publisher": "NASA",
+  "kind": "pdf",
+  "notes": "134-page NASA educator guide with student activities on rocket science (Newton's laws, rocket design/stability). URL taken from https://www.nasa.gov/stem-content/rockets-educator-guide/. The Glenn 'Beginner's Guide to Rockets' page links a dead PDF (404), so the HTML site https://www.grc.nasa.gov/WWW/k-12/rocket/ is not needed."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2016/02/mars_rovers_student_guide.pdf": {
+  "url": "https://www.nasa.gov/wp-content/uploads/2013/01/392975main_Rover_Races_Activity.pdf",
+  "title": "Rover Races Activity (NASA Mars Education)",
+  "publisher": "NASA",
+  "kind": "pdf",
+  "notes": "26-page NASA activity guide for grades 5-8 where student teams design and execute command sequences to guide a human 'rover' across a simulated Martian surface; scanned PDF with OCR text layer. Rover-engineering/operations focus rather than building a rover. Page: https://www.nasa.gov/stem-content/rover-races-activity/."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2019/04/lunar_lander_challenge_guide.pdf": {
+  "url": "https://science.nasa.gov/wp-content/uploads/2023/10/On_the_Moon_Engineering_Challenges.pdf",
+  "title": "On the Moon: Engineering Challenges for School and Afterschool Programs (Design Squad Event Guide, grades 3-12, with NASA)",
+  "publisher": "NASA (with WGBH Design Squad)",
+  "kind": "pdf",
+  "notes": "50-page NASA-hosted guide; includes a build-a-lander activity (shock absorbers, tipping, landing) plus other lunar engineering challenges. The JPL 'Touchdown' lesson lives on jpl.nasa.gov, which returns 403 to curl (any UA), so it could not be verified and was not used."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2021/03/artemis_stem_guide_grades_k_5.pdf": {
+  "url": "https://www.nasa.gov/wp-content/uploads/2019/04/forwardmoonexploreractivities-1.pdf",
+  "title": "Forward to the Moon with Artemis Explorer Activities (Ages 5-12)",
+  "publisher": "NASA",
+  "kind": "pdf",
+  "notes": "48-page student activity book (puzzles, math, space science) on Apollo/Artemis, SLS and Orion; NASA page lists grades K-4 and 5-8 (audience: students). Page: https://www.nasa.gov/stem-content/forward-to-the-moon-with-artemis-explorer-activities/."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2021/03/artemis_stem_guide_grades_6_8.pdf": {
+  "url": "https://www.nasa.gov/wp-content/uploads/2023/05/edu-totally-artemis-camp-508-0.pdf",
+  "title": "Artemis Camp Experience: Totally Artemis Camp",
+  "publisher": "NASA",
+  "kind": "pdf",
+  "notes": "14-page NASA educator guide with four hands-on Artemis engineering activities (crew module, stabilizing fins, structure, heat shield); NASA lists grades K-4, 5-8, 9-12 and informal. Chosen to differ from doc-022. Grade band is not 6-8 specific. Page: https://www.nasa.gov/stem-content/artemis-camp-experience/."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2015/03/spacemath_module1.pdf": {
+  "url": "https://science.gsfc.nasa.gov/attic/spacemath.gsfc.nasa.gov/YOSS/YOSS.pdf",
+  "title": "Year of the Solar System: Real-World Math (Space Math @ NASA)",
+  "publisher": "NASA (Goddard Space Flight Center, Space Math @ NASA)",
+  "kind": "pdf",
+  "notes": "360-page (~21 MB) collection of one-page math problems using real planetary/astronomy data for grades 5-12, with answer keys; PDF linked from the Space Math @ NASA archive (planets.html). Large file. HTML grade-band alternative: https://science.nasa.gov/learn/heat/resource/intermediate-space-math-activities-grades-6-8/ (200 text/html)."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2020/05/solar_system_scale_activity.pdf": {
+  "url": "https://solarscience.msfc.nasa.gov/papers/hathadh/SolarSystemModel.pdf",
+  "title": "A Scale Model of the Solar System",
+  "publisher": "NASA (Marshall Space Flight Center, Dr. David Hathaway)",
+  "kind": "pdf",
+  "notes": "Activity guide building a scale model of the solar system; text confirmed."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2018/11/x_planes_aerodynamics_student_guide.pdf": {
+  "url": "https://science.nasa.gov/wp-content/uploads/2023/10/Exploring_the_Extreme_Educators_Guide.pdf",
+  "title": "Exploring the Extreme: High Performance Learning Activities in Mathematics, Science and Technology (EG-2002-10-001-DFRC)",
+  "publisher": "NASA Dryden/Armstrong Flight Research Center",
+  "kind": "pdf",
+  "notes": "Educator guide, grades K-8, on X-planes/flight research and aerodynamics; text confirmed (aerodynamic control surfaces, etc.)."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2017/09/sound_waves_in_space_guide.pdf": {
+  "url": "https://assets.science.nasa.gov/content/dam/science/cds/eclips/assets/documents/nasa-spotlite-interactive-lesson-sound-waves-and-medium-teacher.pdf",
+  "title": "NASA Spotlite Interactive Lesson: Sound Waves and Medium - Teacher Packet (Grades 5-8)",
+  "publisher": "NASA eClips",
+  "kind": "pdf",
+  "notes": "Teacher packet on sound waves traveling through media/energy transfer; large file (~27 MB)."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2016/08/exoplanet_transit_activity.pdf": {
+  "url": "https://www.nasa.gov/wp-content/uploads/2016/09/tt-apr-13-2011.pdf",
+  "title": "Investigation: Transit Tracks",
+  "publisher": "NASA (Kepler mission education)",
+  "kind": "pdf",
+  "notes": "Middle school activity on planetary transits and how planet size/distance affects transit behavior; text confirmed."
+ },
+ "https://www.epa.gov/sites/default/files/2016-03/documents/drinkwater_k-3.pdf": {
+  "url": "https://www.epa.gov/system/files/documents/2022-06/Thirstin%20Wacky%20Water%20Adventure_Updated_0.pdf",
+  "title": "Thirstin's Wacky Water Adventure (EPA 816-K-04-002)",
+  "publisher": "US EPA Office of Water",
+  "kind": "pdf",
+  "notes": "Kid-level drinking water activity book from EPA Drinking Water Activities for Students page; PDF title text is font-garbled in extraction but EPA publication number and linking page confirm identity."
+ },
+ "https://www.epa.gov/sites/default/files/2016-03/documents/drinkwater_4-8.pdf": {
+  "url": "https://www.epa.gov/sites/default/files/2016-03/documents/activity_grades_4-8_waterfiltration.pdf",
+  "title": "Water Filtration (EPA Environmental Education activity, Grades 4-8)",
+  "publisher": "US EPA Office of Water",
+  "kind": "pdf",
+  "notes": "Grades 4-8 water filtration/treatment demonstration activity; text confirmed."
+ },
+ "https://www.noaa.gov/sites/default/files/2021-07/Ocean_Acidification_Student_Activity_Guide.pdf": {
+  "url": "https://sanctuaries.noaa.gov/media/docs/20220308-building-blocks-lesson.pdf",
+  "title": "Ocean Acidification: Building Blocks of the Sea (Grades 4-8)",
+  "publisher": "NOAA Office of National Marine Sanctuaries / Ocean Acidification Program",
+  "kind": "pdf",
+  "notes": "Lesson plan with student activity on ocean acidification effects on shelled animals; URL redirects to nmssanctuaries.blob.core.windows.net (200 pdf). Original noaa.gov and Data in the Classroom PDFs return 403."
+ },
+ "https://www.noaa.gov/sites/default/files/2022-03/Marine_Debris_Trash_Tracker_Student_Workbook.pdf": {
+  "url": "https://marinedebris.noaa.gov/live/s3fs-public/publications-files/MDP_ActivityBook.pdf",
+  "title": "Understanding Marine Debris: Games & Activities for Kids of All Ages",
+  "publisher": "NOAA Marine Debris Program",
+  "kind": "pdf",
+  "notes": "Student activity book on marine debris (trash types, sources, impacts)."
+ },
+ "https://www.epa.gov/sites/default/files/2015-09/documents/recycle_city_challenge.pdf": {
+  "url": "https://www3.epa.gov/recyclecity/",
+  "title": "Recycle City (EPA interactive site)",
+  "publisher": "US EPA",
+  "kind": "html",
+  "notes": "No Recycle City challenge PDF found; official EPA Recycle City interactive site is the original source of the challenge game. HTML page, 200."
+ },
+ "https://www.noaa.gov/sites/default/files/2021-08/Estuary_Ecology_Student_Field_Guide.pdf": {
+  "url": "https://cdn.oceanservice.noaa.gov/oceanserviceprod/education/oysters-in-the-chesapeake-bay/middleschool/ms-lesson3.pdf",
+  "title": "K-12 Oysters in the Chesapeake Bay, Module I (Middle School) - Water, Water lesson",
+  "publisher": "NOAA National Ocean Service",
+  "kind": "pdf",
+  "notes": "Middle school field/data-sheet lesson on estuary water quality (DO, salinity, pH, Secchi) and oyster habitat; text confirmed."
+ },
+ "https://www.epa.gov/sites/default/files/2017-03/documents/vermicomposting_guide_for_schools.pdf": {
+  "url": "https://www.epa.gov/sites/default/files/2015-09/documents/qfl_complete.pdf",
+  "title": "The Quest for Less: Activities and Resources for Teaching K-8 (A Teacher's Guide to Reducing, Reusing, and Recycling)",
+  "publisher": "US EPA",
+  "kind": "pdf",
+  "notes": "K-8 waste reduction curriculum including composting/worm activities (EPA530-R-05-005); no standalone school vermicomposting guide PDF found."
+ },
+ "https://www.noaa.gov/sites/default/files/2022-01/Global_Climate_Change_Student_Guide.pdf": {
+  "url": "https://cdn.oceanservice.noaa.gov/oceanserviceprod/education/discoverclimate/noaa_complete-activity-book.pdf",
+  "title": "Discover Your Changing World with NOAA: An Activity Book",
+  "publisher": "NOAA Ocean Service / Climate Program Office",
+  "kind": "pdf",
+  "notes": "Grades 5-8 climate change and weather vs. climate activities incl. building weather sensors; text confirmed."
+ },
+ "https://www.epa.gov/sites/default/files/2016-01/documents/air_quality_index_guide_for_kids.pdf": {
+  "url": "https://document.airnow.gov/air-strips-lesson-plan.pdf",
+  "title": "Air Strips Lesson Plan (Grades 6-8) - Air Quality Flag Program",
+  "publisher": "US EPA AirNow",
+  "kind": "pdf",
+  "notes": "Grades 6-8 lesson on particulate matter and air quality from EPA AirNow Flag Program curriculum; no AQI-plus-air-filters guide found, this is closest."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2016/09/optics_educator_guide.pdf": {
+  "url": "https://science.nasa.gov/wp-content/uploads/2024/08/ngsttelescope-guide.pdf",
+  "title": "Taking a Closer Look: Examining Light and Telescopes (Northrop Grumman / NASA educator guide, grades 3-9)",
+  "publisher": "NASA",
+  "kind": "pdf",
+  "notes": "Hands-on light, reflection ('Bouncing Light'), refraction and lens activities. The classic NASA 'Optics: Light, Color, and Their Uses' guide (EG-2000-10-64-MSFC) has no working direct PDF on a nasa.gov host (only an NTRS record page: https://ntrs.nasa.gov/citations/20010066721)."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2015/05/electrostatics_guide.pdf": {
+  "url": "https://www.nasa.gov/wp-content/uploads/2023/10/sticky-tape-imaginetic-508.pdf",
+  "title": "Sticky Tape Static Electricity (NASA iMAGINETICspace activity)",
+  "publisher": "NASA",
+  "kind": "pdf",
+  "notes": "Student activity on how electric charges interact (attract/repel) using tape; pdftotext confirmed real text. Short activity rather than a full guide."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2017/02/forces_and_motion_k4_guide.pdf": {
+  "url": "https://www.nasa.gov/wp-content/uploads/2020/06/four_forces_k-4.pdf",
+  "title": "Museum in a Box: Four Forces, Grades K-4 (NASA Aeronautics Research Mission Directorate)",
+  "publisher": "NASA",
+  "kind": "pdf",
+  "notes": "Forces and motion lesson (gravity, thrust, drag, lift) explicitly labeled Grades K-4; pdftotext confirmed."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2017/02/forces_and_motion_58_guide.pdf": {
+  "url": "https://www.nasa.gov/wp-content/uploads/2020/06/four_forces_5_8.pdf",
+  "title": "Museum in a Box: Four Forces, Grades 5-8 (NASA Aeronautics Research Mission Directorate)",
+  "publisher": "NASA",
+  "kind": "pdf",
+  "notes": "Grades 5-8 companion to doc-046; forces of flight / forces and motion; pdftotext confirmed."
+ },
+ "https://www.nrel.gov/docs/fy13osti/55981.pdf": {
+  "url": "https://docs.nlr.gov/docs/gen/fy01/30829.pdf",
+  "title": "Junior Solar Sprint - Teacher and Mentor Guide (NREL/BK-820-30829)",
+  "publisher": "NREL (now National Laboratory of the Rockies, nlr.gov)",
+  "kind": "pdf",
+  "notes": "NREL has been renamed NLR; all www.nrel.gov hosts no longer resolve (DNS failure), which is why the old URL is dead. www.nlr.gov/docs/... 301-redirects to docs.nlr.gov. IMPORTANT: docs.nlr.gov returns a WAF 404/'Request Rejected' to a bare 'Mozilla/5.0' User-Agent; it returns 200 application/pdf with a full browser UA, e.g. 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'. Content: student solar-car (photovoltaic) project guide for middle school; pdftotext confirmed."
+ },
+ "https://www.nrel.gov/docs/fy08osti/42502.pdf": {
+  "url": "https://docs.nlr.gov/docs/gen/fy20/76591.pdf",
+  "title": "NRELEd: The Power of the Wind (NREL/MK-6A42-76591)",
+  "publisher": "NREL (now National Laboratory of the Rockies, nlr.gov)",
+  "kind": "pdf",
+  "notes": "Student wind-energy activity (what creates wind, turbine experiment). Needs a full browser User-Agent (bare 'Mozilla/5.0' gets a WAF 404 from docs.nlr.gov); www.nlr.gov/docs/gen/fy20/76591.pdf redirects here. pdftotext confirmed."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2016/04/sound_and_waves_activity.pdf": {
+  "url": "https://www.nasa.gov/wp-content/uploads/2020/04/good_vibrations.pdf",
+  "title": "Good Vibrations (NASA, suggested grades 3-8)",
+  "publisher": "NASA",
+  "kind": "pdf",
+  "notes": "Student activity observing sound vibrations traveling through different media; pdftotext confirmed. Alternative: NASA eClips Spotlite 'Sound Waves and Medium' (Grades 5-8) teacher packet https://assets.science.nasa.gov/content/dam/science/cds/eclips/assets/documents/nasa-spotlite-interactive-lesson-sound-waves-and-medium-teacher.pdf (also verified 200 pdf)."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2019/10/simple_machines_student_guide.pdf": {
+  "url": "https://www.nasa.gov/wp-content/uploads/2022/06/simple_machines_classroom_connection_508.pdf",
+  "title": "Simple Machines - Educator Notes (NASA STEM Classroom Connection, Grades 3-5)",
+  "publisher": "NASA",
+  "kind": "pdf",
+  "notes": "Six simple machines + compound machine design activity with student worksheet; pdftotext confirmed. Educator notes aimed at grades 3-5."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2018/06/magnetism_and_electromagnets_guide.pdf": {
+  "url": "https://sdo.gsfc.nasa.gov/assets/docs/SDOElectricityandMagnetism.pdf",
+  "title": "Electricity and Magnetism (NASA Solar Dynamics Observatory classroom activity, Grades 5-8)",
+  "publisher": "NASA (SDO)",
+  "kind": "pdf",
+  "notes": "Students build an electromagnet (D batteries, nail, wire, paper clips) and connect to solar magnetism; labeled Grades 5-8; pdftotext confirmed. File is large (~16 MB) and slow to download."
+ },
+ "https://www.nrel.gov/docs/gen/33054.pdf": {
+  "url": "https://docs.nlr.gov/docs/gen/fy22/82713.pdf",
+  "title": "Experiments: Building Series & Parallel Circuits (NREL education experiment)",
+  "publisher": "NREL (now National Laboratory of the Rockies, nlr.gov)",
+  "kind": "pdf",
+  "notes": "Physics of circuits in a renewable-energy context; closest available NREL student activity (no activity-book-style PDF found). Needs a full browser User-Agent (bare 'Mozilla/5.0' gets a WAF 404). www.nlr.gov/docs/gen/fy22/82713.pdf redirects here. Related NREL experiments if preferred: 82717 (Combining Energy Sources), 82716 (Electrons), 82721 (Biomass Battery)."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2021/01/light_spectrum_diffraction_guide.pdf": {
+  "url": "https://imagine.gsfc.nasa.gov/educators/programs/bigexplosions/activities/RainbowAnalysis.pdf",
+  "title": "Rainbow Analysis (NASA Imagine the Universe! 'Big Explosions and Strong Gravity', Grades 5-8)",
+  "publisher": "NASA (GSFC Imagine the Universe)",
+  "kind": "pdf",
+  "notes": "Students build a diffraction-grating spectroscope and examine light spectra; pdftotext confirmed. Large file (~16 MB)."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2017/05/thermal_energy_transfer_guide.pdf": {
+  "url": "https://assets.science.nasa.gov/content/dam/science/cds/eclips/assets/documents/educator-guide-our-world-insulators.pdf",
+  "title": "NASA eClips Educator Guide: NASA's Our World: Insulators (EG-2010-06-008-LaRC, Grades 4-6)",
+  "publisher": "NASA",
+  "kind": "pdf",
+  "notes": "Thermal insulators/conductors and heat transfer experiments for educators and students; pdftotext confirmed."
+ },
+ "https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd583210.pdf": {
+  "url": "https://www.fs.usda.gov/sites/default/files/elp10-wildflower-pollinators.pdf",
+  "title": "Environmental Learning Programs - Celebrate Wildflowers #10: Pollinators (USDA Forest Service, Grades K-6)",
+  "publisher": "USDA Forest Service",
+  "kind": "pdf",
+  "notes": "3-page scanned (image-only, no extractable text) activity; page 1 visually confirmed: K-6, wildflowers/native plant field guides and their pollinators. Not a full activity book. Other Celebrating Wildflowers PDFs: elp11-wildflower-bees.pdf, elp12-wildflower-pollinator-field-guides.pdf under https://www.fs.usda.gov/sites/default/files/."
+ },
+ "https://www.fws.gov/sites/default/files/documents/Monarch_Butterfly_Student_Activity_Guide.pdf": {
+  "url": "https://www.fws.gov/sites/default/files/documents/2nd%20Grade%20Fall%20Monarch%20Tagging.pdf",
+  "title": "2nd Grade Fall Monarch Tagging (lesson plan)",
+  "publisher": "US Fish & Wildlife Service",
+  "kind": "pdf",
+  "notes": "FWS grade 2 lesson on monarch ID, migration, milkweed/nectar and pollinators (text confirmed). A FWS K-2 monarch packet also exists (MNV-Intro-to-Insects-Distance-Lesson-508_0.pdf) if an alternate is wanted."
+ },
+ "https://ssec.si.edu/sites/default/files/Biomimicry_Student_Activity_Sheet.pdf": {
+  "url": "https://gardens.si.edu/wp-content/uploads/2026/09/Exploring-Biomimicry-Worksheet.pdf",
+  "title": "Exploring Biomimicry: Nature-Inspired Solutions (student worksheet)",
+  "publisher": "Smithsonian Gardens (Smithsonian Institution)",
+  "kind": "pdf",
+  "notes": "Student worksheet on biological strategies and biomimetic applications (leaf structure focus rather than animals). SSEC pages return 403 to curl and no SSEC biomimicry PDF was found; this is Smithsonian but not SSEC. Animal-adaptation alternative: naturalhistory.si.edu/sites/default/files/media/file/all-about-animal-adaptations-leveled-readers-11-3-23.pdf (verified 200 pdf)."
+ },
+ "https://www.fws.gov/sites/default/files/documents/Wetland_Ecology_Student_Workbook.pdf": {
+  "url": "https://icrcc.fws.gov/sites/default/files/documents/junior-duck-stamp-curriculum-youth-guide.pdf",
+  "title": "Federal Junior Duck Stamp Program Youth Guide (grades K-12)",
+  "publisher": "US Fish & Wildlife Service",
+  "kind": "pdf",
+  "notes": "Student-facing guide on waterfowl and wetlands (137 mentions of 'wetland'); closest FWS student workbook on wetlands. Companion Educator Guide: fws.gov/sites/default/files/documents/junior-duck-stamp-curriculum-educator-guide.pdf (verified 200 pdf)."
+ },
+ "https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5383211.pdf": {
+  "url": "https://cdn.naturalinquirer.org/wp-content/uploads/2024/02/article-standing_on_the_shoulders_of_giants.pdf",
+  "title": "Standing on the Shoulders of Giants: How Well Do Big-Leaf Mahogany Trees Grow in Different Conditions? (Natural Inquirer)",
+  "publisher": "USDA Forest Service (Natural Inquirer science journal for middle school)",
+  "kind": "pdf",
+  "notes": "Forest Service research article for students on tree growth in forest conditions. Hosted on naturalinquirer.org (Forest Service program CDN), not fs.usda.gov; no fs.usda.gov PDF on this topic was found. Lesson plan and FACTivity for the same article exist on the same CDN."
+ },
+ "https://www.fws.gov/sites/default/files/documents/Migratory_Birds_Student_Activity_Booklet.pdf": {
+  "url": "https://www.fws.gov/sites/default/files/documents/2024-04/1601.pdf",
+  "title": "Shorebirds - Migratory Super Heroes! A Student Activity Guide",
+  "publisher": "US Fish & Wildlife Service",
+  "kind": "pdf",
+  "notes": "Grades 2-6 guide covering shorebird physical/behavioral adaptations and global migration (text confirmed)."
+ },
+ "https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd538902.pdf": {
+  "url": "https://cdn.naturalinquirer.org/wp-content/uploads/2023/12/Are-We-Having-Fungi-Yet.pdf",
+  "title": "Are We Having Fungi Yet? Helping Young Trees Grow (Natural Inquirer)",
+  "publisher": "USDA Forest Service (Natural Inquirer science journal for middle school)",
+  "kind": "pdf",
+  "notes": "Partial match: Forest Service student article on soil fungi (mycorrhiza) and soil biology, not a general decomposers guide. Hosted on naturalinquirer.org CDN. No fs.usda.gov soil-biology/decomposer student PDF found. FWS alternative on decomposers: fws.gov/sites/default/files/documents/2025-03/eng_decomposer-detective-worksheet_1.pdf (verified 200 pdf)."
+ },
+ "https://ssec.si.edu/sites/default/files/Plant_Structure_and_Function_Student_Journal.pdf": {
+  "url": "https://ssec.si.edu/sites/default/files/SF%20Studentsheets-.pdf",
+  "title": "STCMS Structure and Function - Student Sheets",
+  "publisher": "Smithsonian Science Education Center",
+  "kind": "pdf",
+  "notes": "Middle-school SSEC unit student sheets (KWL, observing organisms, exploring plant cells, plant cell model, levels of organization). Plants are one part of the unit, not the sole focus."
+ },
+ "https://www.fws.gov/sites/default/files/documents/Invasive_Species_Student_Activity_Guide.pdf": {
+  "url": "https://www.fs.usda.gov/sites/default/files/meet-the-invaders.pdf",
+  "title": "Non-native Invasive Species Learning Kit: Meet the Invaders!",
+  "publisher": "USDA Forest Service (Eastern Region)",
+  "kind": "pdf",
+  "notes": "Publisher differs from the original FWS: no FWS student invasive-species PDF was found. This is a USFS kit module on invasive species and native communities. Other modules, all verified 200 pdf: get-a-grip-on-biodiversity.pdf, close-the-doors.pdf, do-something.pdf under fs.usda.gov/sites/default/files/."
+ },
+ "https://www.nps.gov/ever/learn/education/upload/Everglades_Ecosystem_Student_Workbook.pdf": {
+  "url": "https://www.nps.gov/ever/learn/kidsyouth/learning-about-the-everglades.htm",
+  "title": "Learning about the Everglades (For Kids hub: wildlife, habitats, seasons, water)",
+  "publisher": "National Park Service - Everglades National Park",
+  "kind": "html",
+  "notes": "HTML kids hub with habitat and wildlife pages. Everglades NPS has temporarily removed its curriculum PDFs and offers them by email request only, so no PDF was available. The hub does not include a food web workbook."
+ },
+ "https://ssec.si.edu/sites/default/files/Human_Body_Systems_Student_Guide.pdf": {
+  "url": "https://ssec.si.edu/sites/default/files/other/wistem2d/Dr.%20Drew,%20Density,%20and%20Diffusion.pdf",
+  "title": "Dr. Drew, Density, & Diffusion: Giving Life Through Blood Research (STEM2D Student Activity Series)",
+  "publisher": "Smithsonian Science Education Center",
+  "kind": "pdf",
+  "notes": "Student activity for ages 8-14 on blood, circulatory and respiratory systems and health (text confirmed). Covers some body systems, not all."
+ },
+ "https://www.fws.gov/sites/default/files/documents/Pond_Ecosystems_Student_Guide.pdf": {
+  "url": "https://www.fws.gov/sites/default/files/documents/MNV-Pond-Science-Distance-Lesson-508_3.pdf",
+  "title": "Pond Science Activity Packet (Minnesota Valley National Wildlife Refuge, grades 4-6)",
+  "publisher": "US Fish & Wildlife Service",
+  "kind": "pdf",
+  "notes": "Activities include Scoop it Up!, Health of the Wetland, Pond Life Nature Journal and a key to pond life (text confirmed)."
+ },
+ "https://pubs.usgs.gov/gip/fossils/rocks-fossils.pdf": {
+  "url": "https://pubs.usgs.gov/gip/7000011/report.pdf",
+  "title": "Fossils, Rocks, and Time (USGS General Interest Publication, Edwards & Pojeta)",
+  "publisher": "US Geological Survey",
+  "kind": "pdf",
+  "notes": "Exact USGS publication named in the title (pubs.usgs.gov/publication/7000011); it is a general-interest booklet, not a K-8 guide. The old gip/fossils/*.pdf paths 404. HTML version is at pubs.usgs.gov/gip/fossils/. The first-page range fetch came back truncated, but a full download extracted text correctly."
+ },
+ "https://www.nps.gov/dino/learn/education/upload/Dinosaur_Fossil_Student_Guide.pdf": {
+  "url": "https://www.nps.gov/dino/learn/education/upload/FDT-Teacher-Book-2019-Accessible.pdf",
+  "title": "Dinosaur National Monument - Fossil Discovery Trail: Teacher Booklet",
+  "publisher": "National Park Service - Dinosaur National Monument",
+  "kind": "pdf",
+  "notes": "Educator booklet for the trail between the visitor center and Quarry Exhibit Hall (fossil/rock-layer focus, 37 fossil/quarry mentions). It is an educator guide rather than a student guide. Student-facing alternative: Dinosaur Junior Ranger Activity Book at nps.gov/dino/learn/kidsyouth/upload/DINO_JR-RANGER_FINAL-Accessible-Reduced-Size.pdf (verified 200 pdf, only light fossil content)."
+ },
+ "https://pubs.usgs.gov/gip/collect1/collect1.pdf": {
+  "url": "https://pubs.usgs.gov/gip/collect1/collectgip.html",
+  "title": "Collecting Rocks (USGS General Interest Publication, R.M. Barker)",
+  "publisher": "USGS",
+  "kind": "html",
+  "notes": "No direct PDF is hosted by USGS (publication record 7000041 only links this index page); this is the official full-text HTML edition."
+ },
+ "https://www.nps.gov/grca/learn/education/upload/Grand_Canyon_Geology_Student_Workbook.pdf": {
+  "url": "https://www.nps.gov/grca/planyourvisit/upload/life_geology.pdf",
+  "title": "Journey Through Time: Grand Canyon Geology and Life Zones brochure",
+  "publisher": "NPS - Grand Canyon National Park",
+  "kind": "pdf",
+  "notes": "Linked from NPS 'Geology for Students' page. Covers rock layers/geology; it is a general brochure, not a workbook. Original student workbook PDF no longer on nps.gov (only a .docx teacher-led workbook exists). HTML alternative: https://www.nps.gov/teachers/classrooms/grca-layers-in-time.htm (grades 3-7)."
+ },
+ "https://pubs.usgs.gov/gip/volc/volcanoes.pdf": {
+  "url": "https://pubs.usgs.gov/gip/7000038/report.pdf",
+  "title": "Volcanoes (USGS General Interest Publication, R.I. Tilling)",
+  "publisher": "USGS",
+  "kind": "pdf",
+  "notes": "Text confirmed ('Volcanoes', USGS)."
+ },
+ "https://pubs.usgs.gov/gip/water/water-cycle.pdf": {
+  "url": "https://pubs.usgs.gov/gip/146/pdf/gip_146_tabloid.pdf",
+  "title": "The Water Cycle (USGS GIP 146, kids poster, tabloid size)",
+  "publisher": "USGS",
+  "kind": "pdf",
+  "notes": "Text confirmed; student-friendly water cycle diagram/explanation."
+ },
+ "https://www.nps.gov/fobu/learn/education/upload/Fossil_Butte_Paleontology_Guide.pdf": {
+  "url": "https://www.nps.gov/teachers/classrooms/make_a_fossil_game.htm",
+  "title": "Making a Fossil Game (Fossil Butte NM lesson plan, Pre-K to Grade 2)",
+  "publisher": "NPS - Fossil Butte National Monument",
+  "kind": "html",
+  "notes": "No working Fossil Butte PDF found on nps.gov (park curriculum PDFs are request-only). HTML lesson plan covers Fossil Lake fossilization."
+ },
+ "https://pubs.usgs.gov/gip/dynamic/dynamic.pdf": {
+  "url": "https://pubs.usgs.gov/gip/dynamic/dynamic.html",
+  "title": "This Dynamic Earth: The Story of Plate Tectonics (USGS, Kious & Tilling)",
+  "publisher": "USGS",
+  "kind": "html",
+  "notes": "USGS no longer hosts dynamic.pdf (404); official HTML edition is live."
+ },
+ "https://www.nps.gov/cave/learn/education/upload/Geology_of_Caves_Student_Guide.pdf": {
+  "url": "https://www.nps.gov/subjects/caves/upload/Junior-Cave-Scientist-Booklet_English508_web-compressed.pdf",
+  "title": "Junior Cave Scientist Activity Book (Ages 5-12+)",
+  "publisher": "NPS - Cave and Karst Program",
+  "kind": "pdf",
+  "notes": "Student activity book on caves and karst landscapes. NPS karst-topography paper model PDFs found are grades 9-12, so not used."
+ },
+ "https://pubs.usgs.gov/gip/earth/earth_structure.pdf": {
+  "url": "https://pubs.usgs.gov/gip/interior/",
+  "title": "The Interior of the Earth (USGS General Interest Publication)",
+  "publisher": "USGS",
+  "kind": "html",
+  "notes": "Official HTML GIP on Earth's layers/structure; no PDF version on USGS. Different from doc-080."
+ },
+ "https://code.org/curriculum/docs/k-5/unplugged/ConditionalsWithCards.pdf": {
+  "url": "https://lesson-plans.code.org/k5-unplugged/20260730013922/teacher-lesson-plans/Conditionals-with-Cards.pdf",
+  "title": "Lesson 18: Conditionals with Cards (Code.org K-5 Unplugged teacher lesson plan, grades 3-4)",
+  "publisher": "Code.org",
+  "kind": "pdf",
+  "notes": "Served as application/octet-stream but is a real PDF (pdftotext confirmed). URL contains a version timestamp."
+ },
+ "https://code.org/curriculum/docs/k-5/unplugged/BinaryBracelets.pdf": {
+  "url": "https://lesson-plans.code.org/k5-unplugged/20260730013922/teacher-lesson-plans/Binary-Bracelets.pdf",
+  "title": "Lesson 15: Binary Bracelets (Code.org K-5 Unplugged lesson plan, grades 2-3)",
+  "publisher": "Code.org",
+  "kind": "pdf",
+  "notes": "Served as application/octet-stream but is a real PDF (pdftotext confirmed). URL contains a version timestamp."
+ },
+ "https://code.org/curriculum/docs/k-5/unplugged/GraphPaperProgramming.pdf": {
+  "url": "https://lesson-plans.code.org/k5-unplugged/20260730013922/teacher-lesson-plans/Graph-Paper-Programming.pdf",
+  "title": "Lesson 4: Graph Paper Programming (Code.org K-5 Unplugged lesson plan, grades 3-4)",
+  "publisher": "Code.org",
+  "kind": "pdf",
+  "notes": "Served as application/octet-stream but is a real PDF (pdftotext confirmed). URL contains a version timestamp."
+ },
+ "https://code.org/curriculum/docs/k-5/unplugged/PaperPlanesAlgorithms.pdf": {
+  "url": "https://docs.google.com/document/d/1itB1zYq87vglQLg6L-Dwu0gX4CRddMwWnqJS4H5aeH8/export?format=pdf",
+  "title": "Real-Life Algorithms: Paper Airplane Worksheet (Code.org CS Fundamentals Course C, Paper Planes lesson)",
+  "publisher": "Code.org",
+  "kind": "pdf",
+  "notes": "Student worksheet linked from curriculum.code.org/csf-18/coursec/4/ (Google Docs PDF export). The lesson-plan PDFs at lesson-plans.code.org for this lesson 404."
+ },
+ "https://code.org/curriculum/docs/k-5/unplugged/MyRoboticFriends.pdf": {
+  "url": "https://lesson-plans.code.org/k5-unplugged/20260730013922/teacher-lesson-plans/My-Robotic-Friends-Jr.pdf",
+  "title": "Lesson 3: My Robotic Friends Jr. (Code.org K-5 Unplugged lesson plan, grades 2-3)",
+  "publisher": "Code.org",
+  "kind": "pdf",
+  "notes": "Jr. version of My Robotic Friends (current Code.org edition). Served as application/octet-stream but real PDF (pdftotext confirmed)."
+ },
+ "https://csunplugged.org/documents/en/unplugged-teachers-v1.0.pdf": {
+  "url": "https://classic.csunplugged.org/documents/books/english/CSUnplugged_OS_2015_v3.1.pdf",
+  "title": "Computer Science Unplugged (2015 edition, v3.1): An enrichment and extension programme for primary-aged students",
+  "publisher": "CS Unplugged (Univ. of Canterbury)",
+  "kind": "pdf",
+  "notes": "Full free book (243 pp, ~10MB) with teacher guidance and student activities; confirmed 200/PDF and text via full download."
+ },
+ "https://code.org/curriculum/docs/k-5/unplugged/SortingNetworks.pdf": {
+  "url": "https://classic.csunplugged.org/documents/activities/sorting-network/unplugged-08-sorting_networks-2010.pdf",
+  "title": "Activity 8: Beat the Clock—Sorting Networks",
+  "publisher": "CS Unplugged (Univ. of Canterbury)",
+  "kind": "pdf",
+  "notes": "Original was Code.org; no current Code.org sorting-networks PDF found, so substituted the CS Unplugged original (parallel processing via sorting networks). Publisher differs."
+ },
+ "https://code.org/curriculum/docs/k-5/unplugged/ForLoopFun.pdf": {
+  "url": "https://lesson-plans.code.org/k5-unplugged/20260730013922/teacher-lesson-plans/Getting-Loopy.pdf",
+  "title": "Lesson 6: Getting Loopy (K-5 Unplugged)",
+  "publisher": "Code.org",
+  "kind": "pdf",
+  "notes": "Unplugged loops lesson plan, grades 1-2 (6 pp); served as octet-stream but valid PDF (pdfinfo/pdftotext OK). Dated URL path may change when Code.org republishes."
+ },
+ "https://code.org/curriculum/docs/k-5/unplugged/Encryption.pdf": {
+  "url": "https://classic.csunplugged.org/documents/activities/public-key-encryption/unplugged-18-public_key_encryption_0.pdf",
+  "title": "Activity 18: Kid Krypto—Public-key encryption",
+  "publisher": "CS Unplugged (Univ. of Canterbury)",
+  "kind": "pdf",
+  "notes": "No K-8 Code.org encryption PDF found (Code.org's cybersecurity lessons are CSP/high school), so substituted CS Unplugged; ages junior high and up. Publisher differs."
+ },
+ "https://code.org/curriculum/docs/k-5/unplugged/DebuggingWithScrat.pdf": {
+  "url": "https://lesson-plans.code.org/coursed-2025/20250904180323/teacher-lesson-plans/Debugging-with-Laurel.pdf",
+  "title": "Lesson 4: Debugging with Laurel (CS Fundamentals Course D)",
+  "publisher": "Code.org",
+  "kind": "pdf",
+  "notes": "Replaces retired 'Debugging with Scrat'; 4-pp lesson plan on debugging; octet-stream but valid PDF. Dated URL path."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2016/07/programming_rover_algorithms_guide.pdf": {
+  "url": "https://www.nasa.gov/wp-content/uploads/2023/05/rover-races-one-pager-september-2021-508.pdf",
+  "title": "Rover Races: Programming with verbal commands",
+  "publisher": "NASA",
+  "kind": "pdf",
+  "notes": "2-page NASA activity: students write command sequences (algorithms) to drive a blindfolded 'rover' through a course; grades 3-5."
+ },
+ "https://code.org/curriculum/docs/k-5/unplugged/AI_for_Oceans_Student_Worksheet.pdf": {
+  "url": "https://lesson-plans.code.org/coursef-2025/20250904181039/teacher-lesson-plans/AI-For-Oceans.pdf",
+  "title": "Lesson 15: AI For Oceans (CS Fundamentals Course F)",
+  "publisher": "Code.org",
+  "kind": "pdf",
+  "notes": "Lesson plan on training a machine learning model to classify fish vs trash (6 pp); octet-stream but valid PDF. Teacher lesson plan rather than student worksheet. Dated URL path."
+ },
+ "https://code.org/curriculum/docs/k-5/unplugged/PixelDataAndImages.pdf": {
+  "url": "https://classic.csunplugged.org/documents/activities/image-representation/unplugged-02-image_representation.pdf",
+  "title": "Activity 2: Colour by Numbers—Image Representation",
+  "publisher": "CS Unplugged (Univ. of Canterbury)",
+  "kind": "pdf",
+  "notes": "Exact topic (pixels/numbers representing images); ages 7+. Original was Code.org; no equivalent Code.org PDF found. Publisher differs."
+ },
+ "https://www.nasa.gov/wp-content/uploads/2018/02/binary_code_space_communications.pdf": {
+  "url": "https://d2pn8kiwq2w21t.cloudfront.net/documents/phases_chart.pdf",
+  "title": "Speaking in Phases – binary code chart (student handout)",
+  "publisher": "NASA JPL Education",
+  "kind": "pdf",
+  "notes": "Binary code chart handout for NASA's 'Speaking in Phases' activity (K-8, binary signals via Deep Space Network). Handout only; full activity page: https://www.nasa.gov/stem-content/speaking-in-phases/ (200 html). jpl.nasa.gov pages return 403 to curl."
+ },
+ "https://code.org/curriculum/docs/k-5/unplugged/LoopsWithScrat.pdf": {
+  "url": "https://lesson-plans.code.org/coursea-2025/20250916165737/teacher-lesson-plans/Loops-with-Scrat.pdf",
+  "title": "Lesson 8: Loops with Scrat (CS Fundamentals Course A)",
+  "publisher": "Code.org",
+  "kind": "pdf",
+  "notes": "Same-named replacement for retired LoopsWithScrat; 6-pp lesson plan; octet-stream but valid PDF. Dated URL path."
+ },
+ "https://code.org/curriculum/docs/k-5/unplugged/FunctionsWithHarvester.pdf": {
+  "url": "https://lesson-plans.code.org/k5-unplugged/20260730013922/teacher-lesson-plans/Songwriting.pdf",
+  "title": "Lesson 19: Songwriting (functions, K-5 Unplugged)",
+  "publisher": "Code.org",
+  "kind": "pdf",
+  "notes": "Unplugged functions/abstraction lesson, grades 4-5 (7 pp); octet-stream but valid PDF. Dated URL path."
+ },
+ "https://csunplugged.org/documents/en/unplugged-binary-numbers.pdf": {
+  "url": "https://classic.csunplugged.org/documents/activities/binary-numbers/unplugged-01-binary_numbers.pdf",
+  "title": "Activity 1: Count the Dots—Binary Numbers",
+  "publisher": "CS Unplugged (Univ. of Canterbury)",
+  "kind": "pdf",
+  "notes": "Direct match; pdftotext confirmed."
+ },
+ "https://csunplugged.org/documents/en/unplugged-error-detection.pdf": {
+  "url": "https://classic.csunplugged.org/documents/activities/error-detection/unplugged-04-error_detection.pdf",
+  "title": "Activity 4: Card Flip Magic—Error Detection & Correction",
+  "publisher": "CS Unplugged (Univ. of Canterbury)",
+  "kind": "pdf",
+  "notes": "Direct match (parity card trick); ages 9+."
+ }
+}
