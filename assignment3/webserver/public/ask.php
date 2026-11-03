@@ -17,7 +17,7 @@ header('Access-Control-Allow-Headers: Content-Type');
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') { http_response_code(204); exit; }
 
 // --- Config -----------------------------------------------------------
-define('KEY_FILE',   $_SERVER['HOME'] . '/.anthropic_key');
+define('KEY_FILE',   '/users/c/colek/.anthropic_key');
 define('INDEX_FILE', __DIR__ . '/data/index.json');
 define('MODEL',      'claude-haiku-4-5-20251001');
 define('TOP_K',      6);
