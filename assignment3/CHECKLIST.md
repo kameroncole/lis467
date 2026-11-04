@@ -11,7 +11,32 @@
 ## Build
 
 ### ✅ Tutorials completed
-*Note for Moodle submission:* Record the specific tutorials you completed on HTML5, CSS3 and responsive design/media queries. Examples: W3Schools, Codecademy, Lynda, textbook chapters.
+The assignment asks for tutorials on HTML5, CSS3, and responsive design/media queries. The tutorials below cover the core technologies used in this project. URLs verified live on 2026-11-04.
+
+**1. Responsive CSS3 — Media Queries (W3Schools)**  
+Topic: CSS `@media` rules, viewport meta tag, breakpoints, fluid layouts.  
+Used for: the two breakpoints in `layout.css` (≤800px tablet, ≤600px mobile) that collapse the two-column results layout, stack the nav, and resize the carousel cards.  
+- Intro: https://www.w3schools.com/css/css_rwd_intro.asp  
+- Media queries detail: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
+**2. PHP file handling and server-side HTTP requests (W3Schools + PHP Manual)**  
+Topic: reading files with `file_get_contents()`, making outbound HTTP POST calls with PHP cURL, returning JSON from a PHP endpoint.  
+Used for: `ask.php` reads `data/index.json`, reads `~/.anthropic_key`, sends a POST request to `api.anthropic.com/v1/messages` via cURL, and returns `{answer, results}` as JSON.  
+- File open/read: https://www.w3schools.com/php/php_file_open.asp  
+- PHP cURL reference: https://www.php.net/manual/en/book.curl.php  
+- PHP + AJAX/JSON pattern: https://www.w3schools.com/php/php_ajax_php.asp
+
+**3. Running an AI model in the browser with Transformers.js (Hugging Face)**  
+Topic: loading a machine learning model in the browser via WebAssembly, keeping it cached across searches, embedding text as vectors, and doing similarity search in JavaScript.  
+Used for: `search.js` loads the `all-MiniLM-L6-v2` sentence-embedding model from the Hugging Face CDN, embeds the user's query as a 384-number vector, and ranks all 206 documents by cosine similarity before passing the top results to `ask.php` for the Claude Haiku answer.  
+- Transformers.js overview: https://huggingface.co/docs/transformers.js/index  
+- Vanilla JS tutorial (browser, no bundler): https://huggingface.co/docs/transformers.js/tutorials/vanilla-js  
+- Fetch API (used to load index.json): https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+**4. Calling Claude from server-side code (Anthropic docs)**  
+Topic: Anthropic Messages API, model selection, system prompts, max tokens.  
+Used for: `ask.php` calls `claude-haiku-4-5-20251001` with the retrieved documents as context and a grounding system prompt, then returns the answer text to the browser.  
+- Anthropic API — calling Claude: https://docs.anthropic.com/en/docs/build-with-claude/calling-claude
 
 ---
 
