@@ -1,0 +1,129 @@
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--gray-dark);
+}
+.site-nav .logo img { height: 48px; display: block; }
+.site-nav a { color: #fff; font-weight: bold; text-decoration: none; }
+.site-nav a:hover { color: var(--gray-light); }
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: var(--gray-light);
+}
+.hero h1 { font-size: 2.5rem; margin: 0 0 1.5rem; }
+
+.btn {
+  display: inline-block;
+  padding: 0.4rem 1.2rem;
+  border-radius: 999px;
+  border: 1px solid var(--gray-dark);
+  background: #fff;
+  color: var(--gray-dark);
+  text-decoration: none;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.btn-dark { background: var(--blue-dark); color: #fff; border-color: var(--blue-dark); }
+
+.ask-llm {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: var(--purple-dark);
+  color: #fff;
+}
+.ask-llm h2 { color: #fff; font-size: 2rem; margin-top: 0; }
+.ask-llm fieldset { border: 0; display: flex; justify-content: center; gap: 1.5rem; padding: 0; margin: 0 0 1rem; }
+.ask-llm input[type="search"] { width: min(24rem, 90%); padding: 0.5rem; }
+
+.exhibits { padding: 1.5rem 1rem; text-align: center; }
+.carousel { display: flex; gap: 1rem; overflow-x: auto; }
+.carousel .card { flex: 0 0 min(300px, 70%); }
+.placeholder-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 160px;
+  background: var(--gray-light);
+  color: var(--gray-mid);
+}
+.dots { display: flex; justify-content: center; gap: 0.5rem; margin-top: 0.75rem; }
+.dots span { width: 8px; height: 8px; border-radius: 50%; background: var(--gray-light); }
+.dots span:first-child { background: var(--purple-mid); }
+
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 1.5rem 1rem 2.5rem;
+}
+.calendar { width: 280px; }
+.calendar h3 { margin: 0; padding: 0.3rem; text-align: center; font-size: 0.85rem; background: var(--purple-dark); color: #fff; }
+.calendar-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; margin-top: 6px; }
+.calendar-grid span { height: 30px; background: var(--gray-light); }
+.event-info { max-width: 28rem; }
+.event-info h2 { font-size: 2rem; margin-top: 0; }
+
+.results-layout {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 0.75rem;
+  padding: 0.75rem;
+}
+.results-main, .results-side { display: flex; flex-direction: column; gap: 0.75rem; }
+.query { padding: 0.5rem 1rem; }
+.query h1 { font-size: 2rem; margin: 0.25rem 0 1rem; }
+.query .label { font-weight: bold; }
+
+.exhibit-result { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+.exhibit-result .info { padding: 0.75rem; background: var(--gray-light); }
+.exhibit-result h3 { margin-top: 0; }
+.standards { font-weight: bold; font-size: 0.8rem; margin: 0.5rem 0; }
+
+.ask-llm.compact { text-align: center; }
+.resource-results { padding: 1rem; background: var(--gray-light); }
+.resource-results h2 { font-size: 2rem; margin-top: 0; }
+.doc { display: flex; gap: 1rem; margin-bottom: 1rem; align-items: flex-start; }
+.doc .icon {
+  flex: 0 0 48px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--blue-dark);
+  border-radius: 4px;
+  background: #fff;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.doc h3 { margin: 0 0 0.25rem; }
+.doc p { margin: 0; font-size: 0.8rem; }
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+  background: var(--gray-dark);
+  color: #fff;
+}
+.site-footer h2, .site-footer h3 { color: #fff; margin: 0 0 0.5rem; }
+.site-footer a { color: #fff; }
+.social { display: flex; gap: 0.5rem; margin: 0.5rem 0; }
+.social span { width: 20px; height: 20px; background: #fff; border-radius: 4px; }
+.social span:nth-child(2) { border-radius: 50%; }
+.map { text-align: center; }
+.map .map-box { width: 260px; height: 80px; background: var(--gray-light); color: var(--gray-dark); display: flex; align-items: center; justify-content: center; }
+
+@media (max-width: 800px) {
+  .results-layout { grid-template-columns: 1fr; }
+  .site-nav { flex-wrap: wrap; gap: 1rem; }
+}

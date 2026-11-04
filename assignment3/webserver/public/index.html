@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Museum of Science Education Portal</title>
+  <link rel="stylesheet" href="css/colors.css">
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+  <header>
+    <nav class="site-nav">
+      <a class="logo" href="index.html"><img src="images/logo.png" alt="ACI Inc. logo - home"></a>
+      <a href="#students">For Students</a>
+      <a href="#parents">For Parents</a>
+      <a href="#educators">For Educators</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Museum of Science</h1>
+      <a class="btn btn-dark" href="#featured-exhibit">Featured Exhibit</a>
+    </section>
+
+    <section class="ask-llm">
+      <h2>Ask LLM</h2>
+      <form action="search-results.html" method="get">
+        <fieldset>
+          <legend class="visually-hidden" hidden>I am a</legend>
+          <label><input type="radio" name="audience" value="students"> Students</label>
+          <label><input type="radio" name="audience" value="parents"> Parents</label>
+          <label><input type="radio" name="audience" value="educators"> Educators</label>
+        </fieldset>
+        <input type="search" name="q" aria-label="Ask a question" placeholder="Search">
+      </form>
+    </section>
+
+    <section class="exhibits">
+      <h2>Upcoming Exhibits</h2>
+      <div class="carousel">
+        <div class="card"><div class="placeholder-img">Exhibit image</div></div>
+        <div class="card"><div class="placeholder-img">Exhibit image</div></div>
+        <div class="card"><div class="placeholder-img">Exhibit image</div></div>
+      </div>
+      <div class="dots" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="events">
+      <div class="calendar">
+        <h3>Calendar Widget</h3>
+        <div class="calendar-grid" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+      <div class="event-info">
+        <h2>Event Info</h2>
+        <p>Information on calendar content XYZ</p>
+        <a class="btn" href="#events">Learn More</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <h2>FAQ</h2>
+      <div class="social" aria-hidden="true"><span></span><span></span><span></span></div>
+      <small>Legal / copyright info</small>
+    </div>
+    <div class="map">
+      <h3>Map</h3>
+      <div class="map-box">Map placeholder</div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Educator Search Results - Museum of Science Education Portal</title>
+  <link rel="stylesheet" href="css/colors.css">
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+  <header>
+    <nav class="site-nav">
+      <a class="logo" href="index.html"><img src="images/logo.png" alt="ACI Inc. logo - back to dashboard"></a>
+      <a href="#students">For Students</a>
+      <a href="#parents">For Parents</a>
+      <a href="#educators">For Educators</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main class="results-layout">
+    <div class="results-main">
+      <section class="query">
+        <p class="label">Search Results</p>
+        <h1>Query Restated</h1>
+        <p>LLM output: lorem ipsum dolor sit amet consectetur adipiscing elit quis laborum cum ipsum dolore excepturi eum vero quo</p>
+      </section>
+
+      <article class="exhibit-result">
+        <div class="info">
+          <h3>Relevant Exhibit</h3>
+          <p>lorem ipsum dolor sit amet consectetur adipiscing elit quis laborum cum ipsum dolore excepturi eum vero quo</p>
+          <p class="standards">MASS STE<br>MASS STE</p>
+          <a class="btn" href="#exhibit-1">More</a>
+        </div>
+        <div class="placeholder-img">Exhibit image</div>
+      </article>
+
+      <article class="exhibit-result">
+        <div class="info">
+          <h3>Relevant Exhibit</h3>
+          <p>lorem ipsum dolor sit amet consectetur adipiscing elit quis laborum cum ipsum dolore excepturi eum vero quo</p>
+          <p class="standards">MASS STE<br>MASS STE</p>
+          <a class="btn" href="#exhibit-2">More</a>
+        </div>
+        <div class="placeholder-img">Exhibit image</div>
+      </article>
+
+      <article class="exhibit-result">
+        <div class="info">
+          <h3>Relevant Exhibit</h3>
+          <p>lorem ipsum dolor sit amet consectetur adipiscing elit quis laborum cum ipsum dolore excepturi eum vero quo</p>
+          <p class="standards">MASS STE<br>MASS STE</p>
+          <a class="btn" href="#exhibit-3">More</a>
+        </div>
+        <div class="placeholder-img">Exhibit image</div>
+      </article>
+    </div>
+
+    <aside class="results-side">
+      <section class="ask-llm compact">
+        <h2>Ask LLM</h2>
+        <form action="search-results.html" method="get">
+          <fieldset>
+            <legend hidden>I am a</legend>
+            <label><input type="radio" name="audience" value="students"> Students</label>
+            <label><input type="radio" name="audience" value="educators" checked> Educators</label>
+            <label><input type="radio" name="audience" value="caretakers"> Caretakers</label>
+          </fieldset>
+          <input type="search" name="q" aria-label="Ask a question" placeholder="Search">
+        </form>
+      </section>
+
+      <section class="resource-results">
+        <h2>Resource Results</h2>
+        <div class="doc">
+          <div class="icon">PDF</div>
+          <div><h3>Document Title</h3><p>LLM output: lorem ipsum dolor sit amet consectetur adipiscing elit quis laborum</p></div>
+        </div>
+        <div class="doc">
+          <div class="icon">PDF</div>
+          <div><h3>Document Title</h3><p>LLM output: lorem ipsum dolor sit amet consectetur adipiscing elit quis laborum</p></div>
+        </div>
+        <div class="doc">
+          <div class="icon">PDF</div>
+          <div><h3>Document Title</h3><p>LLM output: lorem ipsum dolor sit amet consectetur adipiscing elit quis laborum</p></div>
+        </div>
+        <div class="doc">
+          <div class="icon">PDF</div>
+          <div><h3>Document Title</h3><p>LLM output: lorem ipsum dolor sit amet consectetur adipiscing elit quis laborum</p></div>
+        </div>
+        <div class="doc">
+          <div class="icon">PDF</div>
+          <div><h3>Document Title</h3><p>LLM output: lorem ipsum dolor sit amet consectetur adipiscing elit quis laborum</p></div>
+        </div>
+        <div class="doc">
+          <div class="icon">PDF</div>
+          <div><h3>Document Title</h3><p>LLM output: lorem ipsum dolor sit amet consectetur adipiscing elit quis laborum</p></div>
+        </div>
+      </section>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <h2>FAQ</h2>
+      <div class="social" aria-hidden="true"><span></span><span></span><span></span></div>
+      <small>Legal / copyright info</small>
+    </div>
+    <div class="map">
+      <h3>Map</h3>
+      <div class="map-box">Map placeholder</div>
+    </div>
+  </footer>
+</body>
+</html>

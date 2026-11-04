@@ -1,0 +1,56 @@
+/* Mood board palette and fonts (A2 Description) */
+:root {
+  /* Blues */
+  --blue-dark: #00205C;
+  --blue-mid: #00318E;
+  --blue-bright: #0042BC;
+
+  /* Grays */
+  --gray-dark: #575757;
+  --gray-mid: #898989;
+  --gray-light: #BCBCBC;
+
+  /* Purples */
+  --purple-dark: #57007F;
+  --purple-mid: #7900B2;
+  --purple-bright: #9C00E5;
+
+  /* Fonts */
+  --font-heading: "Cascadia Code", monospace;
+  --font-body: Verdana, Geneva, sans-serif;
+}
+
+/* Background utilities */
+.bg-blue-dark { background-color: var(--blue-dark); }
+.bg-blue-mid { background-color: var(--blue-mid); }
+.bg-blue-bright { background-color: var(--blue-bright); }
+.bg-gray-dark { background-color: var(--gray-dark); }
+.bg-gray-mid { background-color: var(--gray-mid); }
+.bg-gray-light { background-color: var(--gray-light); }
+.bg-purple-dark { background-color: var(--purple-dark); }
+.bg-purple-mid { background-color: var(--purple-mid); }
+.bg-purple-bright { background-color: var(--purple-bright); }
+
+/* Text color utilities */
+.text-blue-dark { color: var(--blue-dark); }
+.text-blue-mid { color: var(--blue-mid); }
+.text-blue-bright { color: var(--blue-bright); }
+.text-gray-dark { color: var(--gray-dark); }
+.text-gray-mid { color: var(--gray-mid); }
+.text-gray-light { color: var(--gray-light); }
+.text-purple-dark { color: var(--purple-dark); }
+.text-purple-mid { color: var(--purple-mid); }
+.text-purple-bright { color: var(--purple-bright); }
+
+body {
+  font-family: var(--font-body);
+  color: var(--gray-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--blue-dark);
+}
+
+a { color: var(--blue-bright); }
+a:hover { color: var(--purple-bright); }
