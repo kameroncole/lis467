@@ -492,7 +492,7 @@ The `.bg-*` and `.text-*` utility classes in `colors.css` are available for late
    - `.exhibits` centers the heading and adds padding.
    - `div.carousel` is a horizontal flex row with `overflow-x: auto` and `scroll-snap-type: x mandatory`, so cards scroll sideways and snap into place. It uses native scrolling; there are no arrow buttons yet.
    - It contains 26 `figure.card` elements, one per `exhibit` in `documents.json`, in the same order. Each card is `flex: 0 0 min(300px, 70%)` wide with `scroll-snap-align: start`.
-   - 18 cards have a photo from `images/exhibits/`: an `img` (16:9, `object-fit: cover`, `loading="lazy"`), a `figcaption` with the exhibit name (`.card figcaption`), and a `small.credit` line.
+   - 18 cards have a photo from `images/exhibits/`: an `img` (16:9, `object-fit: cover`), a `figcaption` with the exhibit name (`.card figcaption`), and a `small.credit` line.
    - The other 8 exhibits (Hall of Human Life, Theater of Electricity, Math Moves!, Nanotechnology, A Bird's World, Foucault Pendulum, Soundstair & Kinetic Art, AlegreMENTE) have no usable photo on mos.org. They show a `.placeholder-img` labelled with the exhibit name and have no credit line.
    - `div.dots` is a row of six small circles (`.dots span`) that mimic the wireframe's pagination indicator. The first is `--purple-mid`, the rest `--gray-light`. They are decorative (`aria-hidden`) and do not yet track the scroll position.
 4. **Events** (`section.events`). `.events` is a centered, wrapping flex row.
