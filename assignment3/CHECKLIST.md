@@ -36,7 +36,8 @@ Used for: `search.js` loads the `all-MiniLM-L6-v2` sentence-embedding model from
 **4. Calling Claude from server-side code (Anthropic docs)**  
 Topic: Anthropic Messages API, model selection, system prompts, max tokens.  
 Used for: `ask.php` calls `claude-haiku-4-5-20251001` with the retrieved documents as context and a grounding system prompt, then returns the answer text to the browser.  
-- Anthropic API — calling Claude: https://docs.anthropic.com/en/docs/build-with-claude/calling-claude
+- Using the Messages API (Claude Platform docs): https://platform.claude.com/docs/en/build-with-claude/working-with-messages
+- Messages API reference: https://platform.claude.com/docs/en/api/messages
 
 ---
 
