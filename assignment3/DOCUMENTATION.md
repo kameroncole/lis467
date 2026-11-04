@@ -335,29 +335,103 @@ Notable mappings:
 
 ## `scripts/build_nav.py`
 
-**Input:** `assignment3/Information_Architecture_MOS_Ed_portal.xlsx`  
-**Output:** the navigation `<nav>` block inside `public/index.html` and `public/search-results.html`  
-**Requires:** `pip install openpyxl`
+**Input:** `assignment3/Information_Architecture_MOS_Ed_portal.xlsx`
+**Output:** the navigation block inside `public/index.html` and `public/search-results.html`
+**Requires:** `pip install openpyxl` (Python 3.10+, otherwise standard library only)
 
-The spreadsheet's columns are Level 1 (persona), Level 2 (main nav), Level 3 (dropdown), Level 4 (category or direct link), Level 5 (direct link), and URL Path. The script reads every row below the `Level 1 (Persona Nav)` header, builds a tree from the level columns, and renders it as nested `<ul>` menus. Rows above the header (Global Utilities and Dashboard) are skipped, because those are the search box, chat and the logo link rather than nav entries.
+The spreadsheet is the single source of truth for the site navigation. The script reads it, builds a tree, renders the tree as nested `<ul>` menus, and writes the result into both pages. Nothing is hand-edited in the pages' nav.
 
 ```bash
 cd assignment3/webserver/scripts
-python3 build_nav.py                # update both pages
-python3 build_nav.py --depth 3      # persona > main nav > dropdown only
-python3 build_nav.py --dry-run      # print the HTML without changing any file
+python3 build_nav.py                                  # update both pages (depth 4)
+python3 build_nav.py --depth 3                        # persona > main nav > dropdown only
+python3 build_nav.py --dry-run                        # print the HTML, change nothing
+python3 build_nav.py --xlsx IA.xlsx --pages ../public/index.html
 ```
 
-How the sheet maps to the nav:
+| Flag | Default | Meaning |
+|---|---|---|
+| `--xlsx` | `assignment3/Information_Architecture_MOS_Ed_portal.xlsx` | Spreadsheet to read |
+| `--pages` | `public/index.html` and `public/search-results.html` | Pages to update (one or more) |
+| `--depth` | `4` | Levels to show: 2 = persona and main nav, 3 = plus dropdown, 4 = plus category or link, 5 = everything |
+| `--dry-run` | off | Print the nav HTML instead of writing files |
 
-- **Order and labels:** personas appear in wireframe order, not sheet order, and are labelled "For Students", "For Parents", "For Educators" and "About" via `PERSONA_LABELS` in the script (the sheet uses the bare names).
-- **Depth:** `--depth` is the number of levels shown, default 4. The sheet has about 350 rows, mostly the 100 PDF links under Resources, so level 5 is not shown by default.
-- **Links:** a node with a single URL links to it. A category that groups many URLs (for example the Resources categories) links to `#`. Internal paths such as `/exhibits/#` are made relative (`exhibits/#`) so they work under `~username` on the Simmons server. `http(s)` links open in a new tab with `rel="noopener"`.
-- **Same-named child:** `About > About` collapses into one top-level "About" link to `/about`; the persona's other items (Buy Tickets) stay in its dropdown.
-- **Scrolling:** a menu made only of leaf links (such as the 26 exhibits) gets `.menu-scroll` and scrolls at 70% of the viewport height. Menus that contain flyouts do not, because scrolling would clip the flyouts.
-- **Markers:** the script replaces everything between `<!-- NAV:START -->` and `<!-- NAV:END -->`, and stops with an error if a page has no markers. It is safe to re-run; the output is identical each time.
+### The spreadsheet it expects
 
-After changing the spreadsheet, run `build_nav.py` again and redeploy the two HTML files. The dropdown styling is in `layout.css`.
+One sheet. A header row whose first cell starts with `Level 1`, then one row per nav entry:
+
+| Level 1 (Persona Nav) | Level 2 (Main Nav) | Level 3 (dropdown) | Level 4 (Category/Direct Link) | Level 5 (Direct Link) | URL Path | Page Purpose |
+|---|---|---|---|---|---|---|
+| Educators | Youth Engineering Solutions | Preschool | Wind-Powered Fans | | /yes/preschool/wind-fans | |
+
+Columns A–E hold the path through the menu (a row stops at its first empty level) and column F holds the URL. Rows above the header (Global Utilities and Dashboard) are skipped, since those are the search box, chat and logo link rather than menu items. Rows whose Level 1 is not one of the four personas are ignored.
+
+### Code walkthrough
+
+**Constants.**
+- `PERSONA_ORDER` is `["Students", "Parents", "Educators", "About"]`, the left-to-right order in the wireframe. The sheet lists Educators first, so the script ignores sheet order for the top bar.
+- `PERSONA_LABELS` turns the sheet's bare names into the wireframe labels "For Students", "For Parents" and "For Educators". "About" is left alone.
+- `LOGO_HTML` is the logo link (`images/logo.png`, back to `index.html`), the first item in the bar.
+- `START` and `END` are the `<!-- NAV:START -->` and `<!-- NAV:END -->` markers.
+
+**`Node`** is one menu entry: a `label`, a `children` dict keyed by label, and a list of `urls`.
+- `child(label)` returns the existing child with that label or creates it. This is how rows that share a prefix (every row starting `Educators > Youth Engineering Solutions > Preschool`) merge into one branch.
+- `href` decides the link target. If the node has exactly one distinct URL and no children, it links there. Otherwise (a category that holds other items, or a node with no URL) it returns `#`.
+
+**`clean(value)`** turns a cell into a stripped string, or `None` if it is empty, so blanks and whitespace cells behave the same.
+
+**`read_tree(xlsx_path)`** opens the workbook with openpyxl and finds the header row (first cell starts with `Level 1`; exits with a message if there is none). For each row below it:
+1. Take columns A–E as the path, and column F as the URL.
+2. Skip the row if Level 1 is not a known persona.
+3. Walk from the root, calling `child()` for each non-empty level and stopping at the first empty one.
+4. Append the URL to the node where the walk ended.
+
+It returns the root `Node`.
+
+**`make_href(url)`** leaves `http(s)` and `#` links alone and strips the leading `/` from internal paths, so `/exhibits/#` becomes `exhibits/#`. This keeps links relative so they resolve under `~colek/` on the Simmons server.
+
+**`render_item(node, depth, max_depth)`** renders one `<li>`. External links get `target="_blank" rel="noopener"`. If the node has children and `depth < max_depth`, the `<li>` gets class `has-sub` and a nested list from `render_list`. Labels and URLs are passed through `html.escape`.
+
+**`render_list(nodes, depth, max_depth)`** renders a `<ul class="sub">`. If every item in it is a leaf (such as the 26 exhibits), it also gets `menu-scroll` so the CSS can cap its height and scroll. Lists that contain flyouts must not scroll, because `overflow` would clip the flyouts.
+
+**`render_nav(root, max_depth)`** builds the whole bar. For each persona in `PERSONA_ORDER` it:
+- collapses a same-named leaf child (`About > About`) into the persona link itself, so "About" links straight to `/about`;
+- applies `PERSONA_LABELS` to the visible text;
+- adds a dropdown from `render_list` when the persona has children and `max_depth > 1`.
+
+It returns the logo plus the persona list wrapped in `<nav class="site-nav">`, with the markers included.
+
+**`inject(page, nav_html)`** reads a page, replaces everything from `START` to `END` with the new markup (a regex with `re.S`, using a lambda replacement so backslashes in the HTML are not treated as escapes), and writes it back. A page without both markers makes the script exit with an error rather than guess where the nav goes.
+
+**`main()`** parses the flags, builds the tree, renders it, and either prints it (`--dry-run`) or injects it into each page. Running it twice produces identical files.
+
+### Generated markup
+
+```html
+<!-- NAV:START -->
+<nav class="site-nav" aria-label="Main">
+<a class="logo" href="index.html"><img src="images/logo.png" alt="ACI Inc. logo - back to dashboard"></a>
+<ul class="nav-list">
+<li class="has-sub"><a href="#">For Educators</a><ul class="sub">
+<li class="has-sub"><a href="#">Exhibits</a><ul class="sub menu-scroll">
+<li><a href="exhibits/#">Gaia Globe</a></li>
+...
+</ul></li>
+...
+</ul></li>
+</ul>
+</nav>
+<!-- NAV:END -->
+```
+
+The classes are styled in `public/css/layout.css`: `.site-nav` is the bar, `.nav-list` the top-level items, `.sub` the dropdown panels (hidden until hover or keyboard focus), `.has-sub` marks items with a ▸ flyout, and `.menu-scroll` limits long lists to 70% of the viewport height.
+
+### Known limits
+
+- Many nav targets are still placeholders (`#` or `exhibits/#`) because those pages do not exist yet.
+- Level 5 is hidden by default: it is mostly 100 PDF links under Resources, which would make an unusable menu.
+- If the sheet gains a fifth persona, add it to `PERSONA_ORDER` (and `PERSONA_LABELS` if it needs a "For ..." label), or its rows are ignored.
+- After changing the spreadsheet, re-run the script and redeploy both HTML files.
 
 ---
 
@@ -399,7 +473,7 @@ The `.bg-*` and `.text-*` utility classes in `colors.css` are available for late
 
 | Element | Markup | Styling and notes |
 |---|---|---|
-| Navigation bar | `<header>` containing `nav.site-nav` | **Generated by `scripts/build_nav.py` from the IA spreadsheet** (see below); do not edit between the `<!-- NAV:START -->` and `<!-- NAV:END -->` markers. `layout.css` `.site-nav`: flex row, `--gray-dark` background, white bold links. Its dropdown rules (`.nav-list`, `.sub`, `.has-sub`, `.menu-scroll`) show submenus on hover or keyboard focus, using `--gray-dark` panels with a `--purple-mid` accent and `--purple-dark` item highlight. At 800 px or narrower the bar wraps. |
+| Navigation bar | `<header>` containing `nav.site-nav` | **Generated by `scripts/build_nav.py` from the IA spreadsheet** (see the `build_nav.py` section above); do not edit between the `<!-- NAV:START -->` and `<!-- NAV:END -->` markers. `layout.css` `.site-nav`: flex row, `--gray-dark` background, white bold links. Its dropdown rules (`.nav-list`, `.sub`, `.has-sub`, `.menu-scroll`) show submenus on hover or keyboard focus, using `--gray-dark` panels with a `--purple-mid` accent and `--purple-dark` item highlight. At 800 px or narrower the bar wraps. |
 | Logo link | `a.logo > img` (`images/logo.png`) | `.site-nav .logo img` sets the height to 48 px. It links to `index.html`; on the results page this is the wireframe's "Link to Dashboard". The logo was extracted from the A1 PDF. |
 | Nav links | Students, Parents, Educators, About (in wireframe order) | The persona dropdowns, with items and flyouts taken from the IA spreadsheet. Internal URLs are placeholders (`exhibits/#`, `#`) until those pages exist. |
 | Ask LLM panel | `section.ask-llm` containing a `form` | `.ask-llm`: `--purple-dark` background, white centered text, white `h2`. `fieldset` becomes a centered flex row of radio buttons; the search input is up to 24 rem wide. The form uses `action="search-results.html" method="get"`, so submitting sends `audience` and `q` in the URL. The legend is `hidden` and exists for screen readers. |
@@ -486,6 +560,11 @@ python3 scripts/fetch_site_pages.py
 python3 scripts/build_documents.py
 # → updates data/documents.json
 # → then re-run npm run build-index to update the vector index
+
+# 6. (Optional) Regenerate the site navigation after editing the IA spreadsheet
+python3 -m pip install openpyxl
+python3 scripts/build_nav.py
+# → rewrites the NAV block in public/index.html and public/search-results.html
 ```
 
 `data/index.json` is gitignored. Always run `npm run build-index` after pulling.
