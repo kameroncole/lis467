@@ -85,6 +85,7 @@ body { margin: 0; }
 .dots { display: flex; justify-content: center; gap: 0.5rem; margin-top: 0.75rem; }
 .dots span { width: 8px; height: 8px; border-radius: 50%; background: var(--gray-light); }
 .dots span:first-child { background: var(--purple-mid); }
+.dots span.active { background: var(--purple-mid); }
 
 .events {
   display: flex;
