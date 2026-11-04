@@ -68,20 +68,28 @@ function exhibitImgSrc(title) {
 }
 
 function buildExhibitCard(r) {
-  const imgSrc = exhibitImgSrc(r.title);
+  const isExhibit = r.type === "exhibit";
+  const imgSrc    = exhibitImgSrc(r.title);
+  const btnLabel  = isExhibit ? "More" : "View Unit";
+  const media     = isExhibit
+    ? `<figure>
+        <img src="${esc(imgSrc)}" alt="${esc(r.title)}"
+             onerror="this.closest('figure').innerHTML='<div class=placeholder-img>${esc(r.title)}</div>'">
+        <small class="credit">Photo: Museum of Science</small>
+       </figure>`
+    : `<div class="yes-media">
+        <div class="yes-badge">${r.type === "yes-overview" ? "YES Overview" : "YES Unit"}</div>
+        <div class="yes-category">${esc(r.category)}</div>
+       </div>`;
   return `
-    <article class="exhibit-result">
+    <article class="exhibit-result${isExhibit ? "" : " yes-card"}">
       <div class="info">
         <h3><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></h3>
         <p>${esc(r.snippet)}</p>
         <p class="standards">${esc(r.category)}</p>
-        <a class="btn" href="${esc(r.url)}" target="_blank" rel="noopener">More</a>
+        <a class="btn" href="${esc(r.url)}" target="_blank" rel="noopener">${btnLabel}</a>
       </div>
-      <figure>
-        <img src="${esc(imgSrc)}" alt="${esc(r.title)}" loading="lazy"
-             onerror="this.closest('figure').innerHTML='<div class=placeholder-img>${esc(r.title)}</div>'">
-        <small class="credit">Photo: Museum of Science</small>
-      </figure>
+      ${media}
     </article>`;
 }
 
@@ -97,13 +105,20 @@ function buildDocCard(r) {
     </div>`;
 }
 
+// Convert minimal markdown to safe HTML (only **bold** and *italic*)
+function mdToHtml(text) {
+  return esc(text)
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*([^*]+)\*/g,     "<em>$1</em>");
+}
+
 // --- Render results ------------------------------------------------------
 function render(data) {
   const { answer, results } = data;
 
-  // LLM answer
+  // LLM answer (render markdown bold/italic; esc() already ran inside mdToHtml)
   if (queryLabel) queryLabel.textContent = query;
-  if (llmPara)    llmPara.textContent = answer;
+  if (llmPara)    llmPara.innerHTML = mdToHtml(answer);
 
   // Split results: exhibits get the main column, everything else the sidebar
   const exhibits = results.filter((r) => r.type === "exhibit" || r.type === "yes-unit");
@@ -227,8 +242,7 @@ async function runSearch() {
   } catch (err) {
     // Server call failed — render vector results without an LLM answer
     if (queryLabel) queryLabel.textContent = query;
-    setStatus("(AI answer unavailable — showing search results only)");
-    render({ answer: "(AI answer unavailable)", results: ranked.map((r) => ({
+    render({ answer: "(AI answer unavailable — showing search results only)", results: ranked.map((r) => ({
       id: r.doc.id, title: r.doc.title, category: r.doc.category,
       type: r.doc.type, url: r.doc.url, score: r.score,
       snippet: r.doc.text.slice(0, 200),

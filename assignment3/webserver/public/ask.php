@@ -113,6 +113,8 @@ and curated STEM research documents). Answer the user's question in 2-4 sentence
 citing only the provided resources by their title. Be specific and practical.
 End with a one-sentence suggestion for how to explore further on the portal.
 Do not invent resources not listed below.
+Write in plain prose only. Do not use markdown formatting, asterisks, or any
+special characters for emphasis.
 SYSTEM;
 
 $user_msg = "Persona: $persona\nQuery: $query\n\nRelevant resources:\n$context";
