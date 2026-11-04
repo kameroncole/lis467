@@ -21,11 +21,17 @@ assignment3/
 │   │   ├── buildIndex.js         ← generates index.json from documents.json
 │   │   ├── fetch_extracts.py     ← downloads text from linked PDFs/pages
 │   │   ├── fetch_site_pages.py   ← fetches official descriptions from mos.org/yes.mos.org
+│   │   ├── build_nav.py          ← builds the site navigation from the IA spreadsheet
 │   │   └── (source files used at build time only)
 │   ├── src/
 │   │   └── embeddings.js         ← shared embedding logic (Node build; browser uses CDN)
 │   ├── public/
-│   │   └── ask.php               ← RAG API endpoint (runs on Simmons PHP)
+│   │   ├── ask.php               ← RAG API endpoint (runs on Simmons PHP)
+│   │   ├── index.html            ← Dashboard / home page
+│   │   ├── search-results.html   ← Educator search results page
+│   │   ├── css/                  ← colors.css (mood board), layout.css (structure)
+│   │   ├── images/               ← logo.png and exhibits/ photos
+│   │   └── js/                   ← empty, reserved for search scripts
 │   ├── simmons-test/
 │   │   ├── test.html             ← browser-side vector search test harness
 │   │   ├── test.js               ← test logic (ES module)
@@ -327,6 +333,133 @@ Notable mappings:
 
 ---
 
+## `scripts/build_nav.py`
+
+**Input:** `assignment3/Information_Architecture_MOS_Ed_portal.xlsx`  
+**Output:** the navigation `<nav>` block inside `public/index.html` and `public/search-results.html`  
+**Requires:** `pip install openpyxl`
+
+The spreadsheet's columns are Level 1 (persona), Level 2 (main nav), Level 3 (dropdown), Level 4 (category or direct link), Level 5 (direct link), and URL Path. The script reads every row below the `Level 1 (Persona Nav)` header, builds a tree from the level columns, and renders it as nested `<ul>` menus. Rows above the header (Global Utilities and Dashboard) are skipped, because those are the search box, chat and the logo link rather than nav entries.
+
+```bash
+cd assignment3/webserver/scripts
+python3 build_nav.py                # update both pages
+python3 build_nav.py --depth 3      # persona > main nav > dropdown only
+python3 build_nav.py --dry-run      # print the HTML without changing any file
+```
+
+How the sheet maps to the nav:
+
+- **Order and labels:** personas appear in wireframe order, not sheet order, and are labelled "For Students", "For Parents", "For Educators" and "About" via `PERSONA_LABELS` in the script (the sheet uses the bare names).
+- **Depth:** `--depth` is the number of levels shown, default 4. The sheet has about 350 rows, mostly the 100 PDF links under Resources, so level 5 is not shown by default.
+- **Links:** a node with a single URL links to it. A category that groups many URLs (for example the Resources categories) links to `#`. Internal paths such as `/exhibits/#` are made relative (`exhibits/#`) so they work under `~username` on the Simmons server. `http(s)` links open in a new tab with `rel="noopener"`.
+- **Same-named child:** `About > About` collapses into one top-level "About" link to `/about`; the persona's other items (Buy Tickets) stay in its dropdown.
+- **Scrolling:** a menu made only of leaf links (such as the 26 exhibits) gets `.menu-scroll` and scrolls at 70% of the viewport height. Menus that contain flyouts do not, because scrolling would clip the flyouts.
+- **Markers:** the script replaces everything between `<!-- NAV:START -->` and `<!-- NAV:END -->`, and stops with an error if a page has no markers. It is safe to re-run; the output is identical each time.
+
+After changing the spreadsheet, run `build_nav.py` again and redeploy the two HTML files. The dropdown styling is in `layout.css`.
+
+---
+
+## Front-end pages: `public/index.html` and `public/search-results.html`
+
+Both pages implement the wireframes in item 7 of the A2 deliverable (Dashboard / Home Page and Educator Search Result Page). They are plain static HTML with no JavaScript yet; the search form is wired to `search-results.html` by a normal GET request, and the dynamic content is still placeholder text (see "Not yet wired" below).
+
+Both pages load the same two stylesheets, in this order:
+
+```html
+<link rel="stylesheet" href="css/colors.css">
+<link rel="stylesheet" href="css/layout.css">
+```
+
+### The two stylesheets
+
+| File | Role |
+|---|---|
+| `public/css/colors.css` | The mood board. Defines the nine palette colors and two fonts as CSS custom properties on `:root`, utility classes (`.bg-*`, `.text-*`), and the global base styles for `body`, headings and links. |
+| `public/css/layout.css` | Page structure. Every component on the two pages is styled here, and it reads the palette through `var(--...)` rather than hard-coded hex values. It must load second because it depends on the variables. |
+
+**Palette variables** (from the A2 mood board):
+
+| Variable | Hex | Variable | Hex | Variable | Hex |
+|---|---|---|---|---|---|
+| `--blue-dark` | `#00205C` | `--gray-dark` | `#575757` | `--purple-dark` | `#57007F` |
+| `--blue-mid` | `#00318E` | `--gray-mid` | `#898989` | `--purple-mid` | `#7900B2` |
+| `--blue-bright` | `#0042BC` | `--gray-light` | `#BCBCBC` | `--purple-bright` | `#9C00E5` |
+
+**Font variables:** `--font-heading` is Cascadia Code (monospace fallback) and `--font-body` is Verdana (Geneva / sans-serif fallback).
+
+**Global rules in `colors.css`** that apply to every page without any class: `body` uses `--font-body` in `--gray-dark`; `h1`–`h6` use `--font-heading` in `--blue-dark`; links are `--blue-bright` and turn `--purple-bright` on hover. This is why headings and paragraph text look correct even where `layout.css` sets no color.
+
+The `.bg-*` and `.text-*` utility classes in `colors.css` are available for later pages but are not currently used by either page.
+
+`layout.css` also sets `box-sizing: border-box` and `margin: 0` on `body` for the whole site.
+
+### Elements shared by both pages
+
+| Element | Markup | Styling and notes |
+|---|---|---|
+| Navigation bar | `<header>` containing `nav.site-nav` | **Generated by `scripts/build_nav.py` from the IA spreadsheet** (see below); do not edit between the `<!-- NAV:START -->` and `<!-- NAV:END -->` markers. `layout.css` `.site-nav`: flex row, `--gray-dark` background, white bold links. Its dropdown rules (`.nav-list`, `.sub`, `.has-sub`, `.menu-scroll`) show submenus on hover or keyboard focus, using `--gray-dark` panels with a `--purple-mid` accent and `--purple-dark` item highlight. At 800 px or narrower the bar wraps. |
+| Logo link | `a.logo > img` (`images/logo.png`) | `.site-nav .logo img` sets the height to 48 px. It links to `index.html`; on the results page this is the wireframe's "Link to Dashboard". The logo was extracted from the A1 PDF. |
+| Nav links | Students, Parents, Educators, About (in wireframe order) | The persona dropdowns, with items and flyouts taken from the IA spreadsheet. Internal URLs are placeholders (`exhibits/#`, `#`) until those pages exist. |
+| Ask LLM panel | `section.ask-llm` containing a `form` | `.ask-llm`: `--purple-dark` background, white centered text, white `h2`. `fieldset` becomes a centered flex row of radio buttons; the search input is up to 24 rem wide. The form uses `action="search-results.html" method="get"`, so submitting sends `audience` and `q` in the URL. The legend is `hidden` and exists for screen readers. |
+| Footer | `footer.site-footer` | `.site-footer`: flex row, `--gray-dark` background, white text. Left side: FAQ heading, three placeholder social icons (`.social`, white squares and a circle), and legal/copyright text. Right side: `.map` with a grey `.map-box` placeholder for a real map. |
+| Buttons | `.btn`, `.btn-dark` | `.btn`: white pill with a `--gray-dark` border. `.btn-dark` swaps to a `--blue-dark` fill with white text. |
+| Image placeholder | `.placeholder-img` | Grey (`--gray-light`) box with centered `--gray-mid` text, used wherever a photo is not available. |
+| Photo credit | `small.credit` | `.credit`: small `--gray-mid` text, shown as "Photo: Museum of Science" under each mos.org photo. |
+
+### `index.html` (Dashboard / Home Page)
+
+`<main>` has four sections, top to bottom:
+
+1. **Hero** (`section.hero`). `.hero` gives a `--gray-light` background with centered text. The `h1` "Museum of Science" is sized in `.hero h1` and picks up Cascadia Code and `--blue-dark` from `colors.css`. Below it is a "Featured Exhibit" link styled `.btn.btn-dark`.
+2. **Ask LLM** (`section.ask-llm`). Described above. Radio options are Students, Parents and Educators, with none selected, as drawn in the wireframe.
+3. **Upcoming Exhibits** (`section.exhibits`).
+   - `.exhibits` centers the heading and adds padding.
+   - `div.carousel` is a horizontal flex row with `overflow-x: auto` and `scroll-snap-type: x mandatory`, so cards scroll sideways and snap into place. It uses native scrolling; there are no arrow buttons yet.
+   - It contains 26 `figure.card` elements, one per `exhibit` in `documents.json`, in the same order. Each card is `flex: 0 0 min(300px, 70%)` wide with `scroll-snap-align: start`.
+   - 18 cards have a photo from `images/exhibits/`: an `img` (16:9, `object-fit: cover`, `loading="lazy"`), a `figcaption` with the exhibit name (`.card figcaption`), and a `small.credit` line.
+   - The other 8 exhibits (Hall of Human Life, Theater of Electricity, Math Moves!, Nanotechnology, A Bird's World, Foucault Pendulum, Soundstair & Kinetic Art, AlegreMENTE) have no usable photo on mos.org. They show a `.placeholder-img` labelled with the exhibit name and have no credit line.
+   - `div.dots` is a row of six small circles (`.dots span`) that mimic the wireframe's pagination indicator. The first is `--purple-mid`, the rest `--gray-light`. They are decorative (`aria-hidden`) and do not yet track the scroll position.
+4. **Events** (`section.events`). `.events` is a centered, wrapping flex row.
+   - `.calendar` is a 280 px column. Its `h3` "Calendar Widget" is a `--purple-dark` bar. `.calendar-grid` is a 6-column CSS grid of 30 `--gray-light` squares (`span`), a placeholder for a real calendar.
+   - `.event-info` holds the "Event Info" `h2`, placeholder text, and a "Learn More" `.btn`.
+
+### `search-results.html` (Educator Search Result Page)
+
+`<main class="results-layout">` is a two-column CSS grid (`3fr 2fr`) that collapses to one column at 800 px or narrower.
+
+**Left column** (`div.results-main`, a vertical flex stack):
+
+- `section.query`: a bold "Search Results" label (`.query .label`), the "Query Restated" `h1` (`.query h1`), and a paragraph of placeholder LLM output. This is where the user's restated question and the LLM summary will go.
+- Three `article.exhibit-result` cards. `.exhibit-result` is a two-column grid: a `.info` panel on the left (`--gray-light` background) and a `figure` on the right.
+  - The `.info` panel holds the exhibit name (`h3`), a short description taken from `documents.json`, a `.standards` paragraph (bold, small) listing "MASS STE" and the primary MA STE standard, and a `.btn` "More" link to the exhibit's mos.org page.
+  - The `figure` holds the photo (`.exhibit-result img`, 16:9) and a `.credit` line. If an exhibit has no photo, the page should use `.placeholder-img` instead, which `.exhibit-result .placeholder-img` stretches to the card height.
+  - The three exhibits shown are examples: Exploring AI (MS-CS-1), Engineering Design Workshop (MS-ETS1-2) and Mathematica (MS-CS-2).
+
+**Right column** (`aside.results-side`, a vertical flex stack):
+
+- `section.ask-llm.compact`: the same panel as the home page, but with the options Students, Educators (pre-selected, since this is the educator page) and Caretakers, as labelled in the wireframe.
+- `section.resource-results`: `.resource-results` gives a `--gray-light` panel with a large `h2` "Resource Results". It contains six `.doc` rows. Each row is a flex row with a `.icon` (a 48 × 56 px white box with a `--blue-dark` border and the text "PDF", standing in for the document icon) and a text block with the document title (`h3`) and a one-line summary (`p`).
+
+### Images
+
+| Path | Contents |
+|---|---|
+| `public/images/logo.png` | The ACI Inc. logo, with a transparent background, extracted from the A1 PDF. |
+| `public/images/exhibits/` | 18 exhibit photos (1200 × 675), named after the last part of each exhibit's mos.org URL (for example `art-illusion.jpg`). They were taken from the `og:image` of each exhibit page. |
+
+The exhibit photos are Museum of Science property and are credited on the page. They are suitable for the class prototype but should be replaced or licensed before any public launch.
+
+### Not yet wired
+
+- The Ask LLM form submits to `search-results.html`, but that page ignores the query. It still shows fixed example content. Connecting it to `ask.php` and the vector search is the next step.
+- The carousel dots, calendar grid, social icons and map are visual placeholders.
+- Nav links and the "Featured Exhibit" and "Learn More" buttons point to `#` anchors.
+- `public/js/` is empty and is ready for the script that will call the search.
+
+---
+
 ## Rebuild instructions (for the Linux machine)
 
 After `git pull`:
@@ -376,6 +509,6 @@ Files that must exist on the server:
 | `public_html/ask.php` | `assignment3/webserver/public/ask.php` | The RAG endpoint |
 | `public_html/data/index.json` | `assignment3/webserver/data/index.json` | Built locally, not in git |
 | `/users/c/colek/.anthropic_key` | Created via SSH | `chmod 604`; never in git |
-| `public_html/index.html` | Linux machine (pending) | Main page |
-| `public_html/search-results.html` | Linux machine (pending) | Results page |
-| CSS, JS, images | Linux machine (pending) | Supporting files |
+| `public_html/index.html` | `assignment3/webserver/public/index.html` | Main page |
+| `public_html/search-results.html` | `assignment3/webserver/public/search-results.html` | Results page |
+| `public_html/css/`, `public_html/images/`, `public_html/js/` | `assignment3/webserver/public/css`, `images`, `js` | Supporting files; keep the folder names so the relative links work |
