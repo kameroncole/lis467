@@ -184,9 +184,10 @@ All 22 warnings are identical: *"Due to their dynamic nature, CSS variables are 
 
 ---
 
-### ⬜ Tested in Chrome and Firefox
+### ✅ Tested in Chrome and Firefox
 - Chrome: tested via local server and `web.simmons.edu` ✓
-- Firefox: **to be confirmed**
+- Firefox: verified on `http://web.simmons.edu/~colek/index.html` 2026-11-04 ✓  
+  Layout, typography, hero `<em>` tagline, Ask LLM panel, carousel and nav all render correctly.
 
 ---
 
