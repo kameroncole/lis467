@@ -54,31 +54,45 @@ if ($key === '' || !str_starts_with($key, 'sk-')) json_error(500, 'API key appea
 if (!file_exists(INDEX_FILE)) json_error(500, 'Vector index not found — run npm run build-index first');
 $docs = json_decode(file_get_contents(INDEX_FILE), true);
 
-// --- Keyword retrieval (PHP, no external embedding needed) ------------
-// The index.json vectors were built with Node/MiniLM. PHP can't run
-// the same model, so we use TF keyword matching as the retrieval step
-// and let Claude handle the semantic understanding in the answer.
+// --- Retrieval: hybrid (browser vector IDs) or keyword fallback -------
+$doc_ids = $req['doc_ids'] ?? null;
 $allowed = PERSONA_TYPES[$persona];
-$terms   = array_filter(preg_split('/\W+/u', strtolower($query)));
-$scored  = [];
-foreach ($docs as $doc) {
-    if ($allowed !== null && !in_array($doc['type'], $allowed, true)) continue;
-    $hay  = strtolower($doc['title'] . ' ' . $doc['category'] . ' ' . $doc['text']);
-    $hits = 0;
-    foreach ($terms as $t) {
-        if (strlen($t) > 2 && str_contains($hay, $t)) $hits++;
-    }
-    if ($hits > 0) $scored[] = ['doc' => $doc, 'score' => $hits / count($terms)];
-}
-usort($scored, fn($a, $b) => $b['score'] <=> $a['score']);
-$top = array_slice($scored, 0, TOP_K);
 
-// Fallback: if no keyword hits, return first TOP_K allowed docs
-if (empty($top)) {
+if (!empty($doc_ids) && is_array($doc_ids)) {
+    // Hybrid mode: browser did vector ranking, trust that order.
+    // Validate IDs: must match pattern and belong to allowed types.
+    $id_map = [];
+    foreach ($docs as $doc) { $id_map[$doc['id']] = $doc; }
+    $top = [];
+    foreach (array_slice($doc_ids, 0, TOP_K * 2) as $id) {
+        if (!preg_match('/^(yes|exh|ste|doc)-\d{3}$/', $id)) continue;
+        if (!isset($id_map[$id])) continue;
+        $doc = $id_map[$id];
+        if ($allowed !== null && !in_array($doc['type'], $allowed, true)) continue;
+        $top[] = ['doc' => $doc, 'score' => 1.0];
+        if (count($top) >= TOP_K) break;
+    }
+} else {
+    // Keyword fallback: PHP can't run the MiniLM model, so use TF matching.
+    $terms  = array_filter(preg_split('/\W+/u', strtolower($query)));
+    $scored = [];
     foreach ($docs as $doc) {
         if ($allowed !== null && !in_array($doc['type'], $allowed, true)) continue;
-        $top[] = ['doc' => $doc, 'score' => 0];
-        if (count($top) >= TOP_K) break;
+        $hay  = strtolower($doc['title'] . ' ' . $doc['category'] . ' ' . $doc['text']);
+        $hits = 0;
+        foreach ($terms as $t) {
+            if (strlen($t) > 2 && str_contains($hay, $t)) $hits++;
+        }
+        if ($hits > 0) $scored[] = ['doc' => $doc, 'score' => $hits / count($terms)];
+    }
+    usort($scored, fn($a, $b) => $b['score'] <=> $a['score']);
+    $top = array_slice($scored, 0, TOP_K);
+    if (empty($top)) {
+        foreach ($docs as $doc) {
+            if ($allowed !== null && !in_array($doc['type'], $allowed, true)) continue;
+            $top[] = ['doc' => $doc, 'score' => 0];
+            if (count($top) >= TOP_K) break;
+        }
     }
 }
 
