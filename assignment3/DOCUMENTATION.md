@@ -513,7 +513,7 @@ The `.bg-*` and `.text-*` utility classes in `colors.css` are available for late
 
 **Right column** (`aside.results-side`, a vertical flex stack):
 
-- `section.ask-llm.compact`: the same panel as the home page, but with the options Students, Educators (pre-selected, since this is the educator page) and Caretakers, as labelled in the wireframe.
+- `section.ask-llm.compact`: the same panel as the home page, with the options Students, Parents and Educators (the home-page wireframe is the reference; the results-page wireframe's "Caretakers" label was normalized to "Parents").
 - `section.resource-results`: `.resource-results` gives a `--gray-light` panel with a large `h2` "Resource Results". It contains six `.doc` rows. Each row is a flex row with a `.icon` (a 48 × 56 px white box with a `--blue-dark` border and the text "PDF", standing in for the document icon) and a text block with the document title (`h3`) and a one-line summary (`p`).
 
 ### Images
