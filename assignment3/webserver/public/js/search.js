@@ -59,17 +59,15 @@ function typeIcon(type) {
   return icons[type] || "🔗";
 }
 
-function exhibitImgSrc(title) {
-  // Map exhibit title to local image if we have one
-  const slug = title.toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
+function exhibitImgSrc(url) {
+  // Photos are named after the last segment of the exhibit's mos.org URL
+  const slug = url.replace(/[?#].*$/, "").replace(/\/+$/, "").split("/").pop();
   return `images/exhibits/${slug}.jpg`;
 }
 
 function buildExhibitCard(r) {
   const isExhibit = r.type === "exhibit";
-  const imgSrc    = exhibitImgSrc(r.title);
+  const imgSrc    = exhibitImgSrc(r.url);
   const btnLabel  = isExhibit ? "More" : "View Unit";
   const media     = isExhibit
     ? `<figure>
