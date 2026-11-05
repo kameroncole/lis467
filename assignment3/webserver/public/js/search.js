@@ -20,10 +20,15 @@ const TOP_K            = 6;
 
 // Persona → allowed document types (null = all)
 const PERSONA_TYPES = {
-  students:  ["exhibit", "yes-unit", "yes-overview"],
+  students:  ["exhibit", "yes-unit", "yes-overview", "research-document"],
   parents:   ["exhibit"],
   educators: null,
 };
+
+// Students are writing a paper on an exhibit, so they need both the exhibit
+// and sources to cite. Reserve slots for each instead of letting one dominate.
+const STUDENT_EXHIBIT_SLOTS = 3;
+const STUDENT_PAPER_SLOTS   = TOP_K - STUDENT_EXHIBIT_SLOTS;
 
 // --- Read URL params -----------------------------------------------------
 const params   = new URLSearchParams(location.search);
@@ -170,11 +175,19 @@ function dot(a, b) {
 
 function vectorSearch(queryVec, docs, persona) {
   const allowed = PERSONA_TYPES[persona] || null;
-  return docs
+  const ranked = docs
     .filter((d) => allowed === null || allowed.includes(d.type))
     .map((d) => ({ doc: d, score: dot(queryVec, d.embedding) }))
-    .sort((a, b) => b.score - a.score)
-    .slice(0, TOP_K);
+    .sort((a, b) => b.score - a.score);
+
+  if (persona !== "students") return ranked.slice(0, TOP_K);
+
+  const papers = ranked.filter((r) => r.doc.type === "research-document");
+  const exhibits = ranked.filter((r) => r.doc.type !== "research-document");
+  return [
+    ...exhibits.slice(0, STUDENT_EXHIBIT_SLOTS),
+    ...papers.slice(0, STUDENT_PAPER_SLOTS),
+  ].sort((a, b) => b.score - a.score);
 }
 
 // --- Main search flow ----------------------------------------------------

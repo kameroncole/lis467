@@ -25,7 +25,7 @@ define('MAX_TOKENS', 350);
 
 // --- Persona filter: which document types each persona sees -----------
 const PERSONA_TYPES = [
-    'students'  => ['exhibit', 'yes-unit', 'yes-overview'],
+    'students'  => ['exhibit', 'yes-unit', 'yes-overview', 'research-document'],
     'parents'   => ['exhibit'],
     'educators' => null,   // null = all types
 ];
@@ -86,7 +86,15 @@ if (!empty($doc_ids) && is_array($doc_ids)) {
         if ($hits > 0) $scored[] = ['doc' => $doc, 'score' => $hits / count($terms)];
     }
     usort($scored, fn($a, $b) => $b['score'] <=> $a['score']);
-    $top = array_slice($scored, 0, TOP_K);
+    if ($persona === 'students') {
+        // Mirror search.js: reserve slots for exhibits and for research papers
+        $papers   = array_filter($scored, fn($s) => $s['doc']['type'] === 'research-document');
+        $exhibits = array_filter($scored, fn($s) => $s['doc']['type'] !== 'research-document');
+        $top = array_merge(array_slice($exhibits, 0, 3), array_slice($papers, 0, TOP_K - 3));
+        usort($top, fn($a, $b) => $b['score'] <=> $a['score']);
+    } else {
+        $top = array_slice($scored, 0, TOP_K);
+    }
     if (empty($top)) {
         foreach ($docs as $doc) {
             if ($allowed !== null && !in_array($doc['type'], $allowed, true)) continue;
@@ -113,6 +121,8 @@ and curated STEM research documents). Answer the user's question in 2-4 sentence
 citing only the provided resources by their title. Be specific and practical.
 End with a one-sentence suggestion for how to explore further on the portal.
 Do not invent resources not listed below.
+If the persona is students, assume they are writing a research paper on a museum
+exhibit: name the relevant exhibit, then point to the listed research documents they can cite.
 Write in plain prose only. Do not use markdown formatting, asterisks, or any
 special characters for emphasis.
 SYSTEM;

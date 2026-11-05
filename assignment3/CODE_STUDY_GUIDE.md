@@ -463,13 +463,16 @@ const audience = params.get("audience") || localStorage.getItem("mos-audience") 
 
 ```js
 const PERSONA_TYPES = {
-  students:  ["exhibit", "yes-unit", "yes-overview"],
+  students:  ["exhibit", "yes-unit", "yes-overview", "research-document"],
   parents:   ["exhibit"],
   educators: null,
 };
+
+const STUDENT_EXHIBIT_SLOTS = 3;
+const STUDENT_PAPER_SLOTS   = TOP_K - STUDENT_EXHIBIT_SLOTS;
 ```
 
-The persona filter: students never see standards or research PDFs; parents see only exhibits; `null` means no filter. PHP has the same table (enforced a second time on the server).
+The persona filter: students see exhibits, YES units and research PDFs but not standards; parents see only exhibits; `null` means no filter. The **student use case** is "I have to write a paper on one of the exhibits", so a query like "I need to write a paper on AI" must return the exhibit *and* sources to cite. If students were ranked in one pool, the top 6 could be all exhibits or all PDFs, so `STUDENT_EXHIBIT_SLOTS` reserves 3 slots for exhibits/YES material and the other 3 for research documents. PHP has the same table and the same 3 + 3 split in its keyword fallback (the type table is enforced a second time on the server).
 
 ### Safety helpers
 
@@ -525,15 +528,23 @@ Each text is turned into a point in 384-dimensional space, and texts with simila
 ```js
 function vectorSearch(queryVec, docs, persona) {
   const allowed = PERSONA_TYPES[persona] || null;
-  return docs
+  const ranked = docs
     .filter((d) => allowed === null || allowed.includes(d.type))
     .map((d) => ({ doc: d, score: dot(queryVec, d.embedding) }))
-    .sort((a, b) => b.score - a.score)
-    .slice(0, TOP_K);
+    .sort((a, b) => b.score - a.score);
+
+  if (persona !== "students") return ranked.slice(0, TOP_K);
+
+  const papers   = ranked.filter((r) => r.doc.type === "research-document");
+  const exhibits = ranked.filter((r) => r.doc.type !== "research-document");
+  return [
+    ...exhibits.slice(0, STUDENT_EXHIBIT_SLOTS),
+    ...papers.slice(0, STUDENT_PAPER_SLOTS),
+  ].sort((a, b) => b.score - a.score);
 }
 ```
 
-A four-step pipeline: **filter** by audience → **map** each document to a score → **sort** highest first → **slice** the top 6. 206 documents × 384 numbers is about 80,000 multiplications, which is trivial for a browser.
+A pipeline: **filter** by audience → **map** each document to a score → **sort** highest first → **slice** the top 6. Students get a variation: split the ranked list into exhibits and research papers, take the best 3 of each, then re-sort by score. 206 documents × 384 numbers is about 80,000 multiplications, which is trivial for a browser.
 
 **Why this beats keyword search:** a search for "earthquake proof buildings for kids" returns "Engineering Earthquake-Resistant Buildings" even though "proof" and "resistant" are different words. The model learned during training that they mean similar things. That is what "semantic" means.
 
@@ -660,7 +671,7 @@ Query: **"earthquake proof buildings for kids"**, audience **students**.
 2. `search-results.html` loads, carousel.js restores the radio, and search.js runs. `query` and `audience` come from the URL. Both text inputs are filled with the query.
 3. The status line reads "⏳ Loading search index…". `Promise.all` fetches `index.json` and imports Transformers.js in parallel.
 4. The model loads, with progress shown. The query is embedded to 384 numbers.
-5. `vectorSearch` keeps only `exhibit`, `yes-unit` and `yes-overview` documents (students), scores them, and keeps the top 6. The first is "Engineering Earthquake-Resistant Buildings".
+5. `vectorSearch` keeps only `exhibit`, `yes-unit`, `yes-overview` and `research-document` documents (students), scores them, and keeps the best 3 exhibit/YES items plus the best 3 research papers. The first is "Engineering Earthquake-Resistant Buildings".
 6. The six IDs go to `ask.php`. PHP validates them, builds the context text, and calls Claude with the persona "students".
 7. Claude returns 2–4 sentences. PHP returns JSON.
 8. `render()` removes the placeholders, shows the answer, builds the cards (blue YES cards for units, photo cards for exhibits) and the sidebar.
