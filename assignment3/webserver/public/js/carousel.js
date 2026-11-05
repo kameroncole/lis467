@@ -50,7 +50,15 @@
   }
 
   document.querySelectorAll('input[name="audience"]').forEach((radio) => {
-    radio.addEventListener("change", () => localStorage.setItem(KEY, radio.value));
+    radio.addEventListener("change", () => {
+      localStorage.setItem(KEY, radio.value);
+      // On the results page, switching audience re-runs the current question
+      const form = radio.form;
+      const q = form && form.querySelector('input[name="q"]');
+      if (form && q && q.value.trim() && location.pathname.endsWith("search-results.html")) {
+        form.requestSubmit();
+      }
+    });
   });
 
   // Require a non-empty query before submitting

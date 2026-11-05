@@ -428,10 +428,14 @@ const KEY = "mos-audience";
 const saved = localStorage.getItem(KEY);
 if (saved) document.querySelectorAll(`input[name="audience"][value="${saved}"]`)
                     .forEach((r) => { r.checked = true; });
-radio.addEventListener("change", () => localStorage.setItem(KEY, radio.value));
+radio.addEventListener("change", () => {
+  localStorage.setItem(KEY, radio.value);
+  // On the results page, switching audience re-runs the current question
+  if (form && q.value.trim() && location.pathname.endsWith("search-results.html")) form.requestSubmit();
+});
 ```
 
-`localStorage` stores small strings in the browser, per site, forever. When the visitor picks "Educators" on the home page, it is saved; any page that loads later pre-selects it. The template literal `` `...${saved}...` `` builds a CSS attribute selector.
+`localStorage` stores small strings in the browser, per site, forever. When the visitor picks "Educators" on the home page, it is saved; any page that loads later pre-selects it. The template literal `` `...${saved}...` `` builds a CSS attribute selector. On the results page, clicking a different audience also **re-submits the form** (`requestSubmit()`), so the same question is searched again for the new audience.
 
 ### Part C — form validation
 
@@ -456,10 +460,14 @@ form.addEventListener("submit", (e) => {
 ```js
 const params   = new URLSearchParams(location.search);
 const query    = (params.get("q") || "").trim();
-const audience = params.get("audience") || localStorage.getItem("mos-audience") || "educators";
+const KNOWN_AUDIENCES = Object.keys(PERSONA_TYPES);
+const urlAudience   = (params.get("audience") || "").toLowerCase();
+const savedAudience = localStorage.getItem("mos-audience");
+const audience = [urlAudience, savedAudience, "educators"].find((a) => KNOWN_AUDIENCES.includes(a));
+localStorage.setItem("mos-audience", audience);
 ```
 
-`URLSearchParams` parses `?audience=...&q=...` for you. The audience falls back from the URL, to localStorage, to "educators". The `||` operator returns the first non-empty value.
+`URLSearchParams` parses `?audience=...&q=...` for you. The audience comes from the URL first, then the saved localStorage value, then "educators", and it must be one of the three known personas (`.find()` returns the first candidate that passes `includes`). The chosen audience is saved back to localStorage, so the URL always wins over a stale memory. *(Earlier versions used `||` and accepted any string; combined with a results-page radio list that had no "Parents" button, an old "parents" choice silently stuck to new searches.)*
 
 ```js
 const PERSONA_TYPES = {
@@ -695,7 +703,7 @@ Query: **"earthquake proof buildings for kids"**, audience **students**.
 I found these while reading the code for this guide. None stops the site from working, but you should know about them before you are asked about them.
 
 1. **CSS selector typo.** In the 600 px block, `.ask-llm.compact .fieldset { flex-direction: column; }` targets a class named `fieldset`, but the element is a `<fieldset>` tag. It should be `.ask-llm.compact fieldset`. The radios on the results page still stack because the earlier rule `.ask-llm fieldset` already does it, so you do not see the effect.
-2. **"Caretakers" does not match a persona.** The results-page form has a third radio with value `caretakers`, from the wireframe label. The code only knows `students`, `parents` and `educators`. Choosing Caretakers searches *all* document types (JavaScript falls back to no filter; PHP falls back to educators). The home page says "Parents" and the results page says "Caretakers"; they should match.
+2. **~~"Caretakers" does not match a persona~~ (fixed).** The results-page form used to have a third radio with value `caretakers` and no Parents radio, so a `?audience=parents` URL left every radio unchecked, and the next search sent no audience and silently reused the saved "parents". Now the results page offers Students / Parents / Educators like the home page, the URL audience wins over the saved one, unknown values become educators, and clicking a radio re-runs the search.
 3. **First carousel dot is always purple.** The rule `.dots span:first-child` colours it unconditionally, so after scrolling it stays purple alongside the active dot.
 4. **YES cards on a phone.** `figure { order: -1 }` puts photos above text, but YES cards use a `div`, not a `figure`, so their blue panel stays below the text. It still looks acceptable.
 5. **Stale comments in `ask.php`.** The header says the key is in `~/.anthropic_key` and the index in `../data/index.json`, and that it accepts only `query` and `persona`. In reality the key is at `/users/c/colek/.anthropic_key`, the index is `data/index.json`, and it also accepts `doc_ids`.

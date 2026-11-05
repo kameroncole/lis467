@@ -33,7 +33,12 @@ const STUDENT_PAPER_SLOTS   = TOP_K - STUDENT_EXHIBIT_SLOTS;
 // --- Read URL params -----------------------------------------------------
 const params   = new URLSearchParams(location.search);
 const query    = (params.get("q") || "").trim();
-const audience = params.get("audience") || localStorage.getItem("mos-audience") || "educators";
+const KNOWN_AUDIENCES = Object.keys(PERSONA_TYPES);
+const urlAudience = (params.get("audience") || "").toLowerCase();
+const savedAudience = localStorage.getItem("mos-audience");
+// The URL wins; the saved choice is only a fallback; anything unknown becomes educators
+const audience = [urlAudience, savedAudience, "educators"].find((a) => KNOWN_AUDIENCES.includes(a));
+localStorage.setItem("mos-audience", audience);
 
 // --- DOM refs ------------------------------------------------------------
 const queryLabel   = document.querySelector(".query h1");
