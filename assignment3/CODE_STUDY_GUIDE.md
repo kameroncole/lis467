@@ -628,8 +628,8 @@ POST ask.php   { "query": "...", "persona": "educators", "doc_ids": ["exh-004", 
 | **Load key** | Reads `/users/c/colek/.anthropic_key` (one level *above* the web folder, so it cannot be downloaded by URL), trims it, and checks that it starts with `sk-`. |
 | **Load index** | `json_decode(..., true)` turns the JSON file into PHP arrays. |
 | **Retrieval** | Two modes (below). |
-| **Context** | Builds a numbered text block: type, title, category, the first 400 characters of text, and the link. |
-| **System prompt** | A PHP heredoc (`<<<SYSTEM ... SYSTEM`), which is a multi-line string. It tells Claude to answer in 2–4 sentences, cite only the given titles, end with one suggestion, never invent resources, and use plain prose with no markdown. |
+| **Context** | Builds a numbered text block: type, title, category, the first 400 characters of text (700 for exhibits, so their closing "Matched YES learning activity" line is never cut off), and the link. |
+| **System prompt** | A PHP heredoc (`<<<SYSTEM ... SYSTEM`), which is a multi-line string. It tells Claude to answer in 2–4 sentences, cite only the given titles, end with one suggestion, never invent resources, and use plain prose with no markdown. It also says that an exhibit's "Matched YES learning activity" is a direct curriculum link, so a Parents search for earthquakes recommends Engineering Design Workshop (matched to *Engineering Earthquake-Resistant Buildings*) instead of answering "no match". |
 | **Claude call** | cURL: POST JSON to `https://api.anthropic.com/v1/messages` with headers `x-api-key` and `anthropic-version`. SSL verification is on. 30-second timeout. |
 | **Response** | If cURL or HTTP failed, a readable placeholder answer is used. Otherwise it reads `content[0].text`. The results array is rebuilt with only the fields the browser needs, plus a 200-character `snippet`. |
 

@@ -109,7 +109,8 @@ $context = '';
 foreach ($top as $i => $item) {
     $d = $item['doc'];
     $context .= ($i + 1) . ". [{$d['type']}] {$d['title']} ({$d['category']})\n";
-    $context .= "   " . substr($d['text'], 0, 400) . "\n";
+    // Exhibit records are short and end with the "Matched YES learning activity" line, so send them whole
+    $context .= "   " . substr($d['text'], 0, $d['type'] === 'exhibit' ? 700 : 400) . "\n";
     $context .= "   Link: {$d['url']}\n\n";
 }
 
@@ -123,6 +124,10 @@ End with a one-sentence suggestion for how to explore further on the portal.
 Do not invent resources not listed below.
 If the persona is students, assume they are writing a research paper on a museum
 exhibit: name the relevant exhibit, then point to the listed research documents they can cite.
+An exhibit's "Matched YES learning activity" line is a direct curriculum link: if that
+activity covers the user's topic, treat the exhibit as a direct match and say so.
+If the persona is parents, only exhibits are listed: recommend the exhibit whose matched
+activity or description best fits the topic, and describe what a family can do there.
 Write in plain prose only. Do not use markdown formatting, asterisks, or any
 special characters for emphasis.
 SYSTEM;
