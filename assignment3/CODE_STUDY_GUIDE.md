@@ -5,7 +5,7 @@ title: "Museum of Science Educator Portal — Code and Design Study Guide"
 **Project:** Museum of Science (MOS) Boston educator portal — LIS 467 Assignment 3
 **Company:** Agentic Curriculum Designers, Inc.
 **Live site:** http://web.simmons.edu/~colek/
-**Written:** 2026-11-04, from the code as it exists in `assignment3/webserver/`
+**Written:** 2026-11-04; **last updated:** 2026-11-06, from the code as it exists in `assignment3/webserver/`
 
 This guide explains every piece of code in the site, why it is written the way it is, and what each language feature does, so you can study it and answer questions about it. Where I found a bug or weak spot while reading, it is listed honestly in Part 9.
 
